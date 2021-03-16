@@ -1,0 +1,9 @@
+.sass-cache/*
+
+#Idea
+*.iml
+*.iws
+*.ipr
+*.idea
+
+todos.txt

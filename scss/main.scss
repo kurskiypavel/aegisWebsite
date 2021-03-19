@@ -15,6 +15,11 @@
   src: url("../static/fonts/Roobert-woff/Roobert-Bold.woff");
 }
 
+@font-face {
+  font-family: Roobert-Regular;
+  src: url("../static/fonts/Roobert-woff/Roobert-Regular.woff");
+}
+
 /*---------+---------+---------+---------*/
 /*          |GENERAL STYLES|             */
 /*---------+---------+---------+---------*/
@@ -33,6 +38,7 @@ u {
 
 * {
   outline: unset;
+
 }
 
 
@@ -41,17 +47,178 @@ u {
 /*---------+---------+---------+---------*/
 
 
-
 /*---------+---------+---------+---------*/
 /*          |HOME PAGE STYLES|           */
 /*---------+---------+---------+---------*/
 
+body {
+  color: #F00;
+}
+
+.mobile-content {
+
+
+  .containery {
+    overflow-x: hidden;
+
+    padding: 0 10px;
+
+    header {
+      .logo {
+        margin-top: 10px;
+
+        img {
+          max-width: 60px;
+        }
+      }
+    }
+
+    .body {
+      .img-block {
+        position: relative;
+        float: right;
+        right: 50%;
+        margin-right: 10px;
+
+        img {
+          position: relative;
+          right: -50%;
+        }
+      }
+
+      .main-statement {
+        font-size: 32px;
+        line-height: 32px;
+        font-family: GT-Alpina-Standard-Light, sans-serif;
+      }
+
+      .body-block {
+        margin-top: 96px;
+
+        .body-block-section {
+          margin-top: 96px;
+        }
+
+        .text {
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+          font-size: 21px;
+          line-height: 25px;
+        }
+
+        h1 {
+          margin-bottom: 45px;
+          font-family: Roobert-Bold, sans-serif;
+          font-size: 24px;
+          line-height: 24px;
+        }
+
+        .block-copy {
+          &:not(.team-item) {
+            margin-top: 23px;
+          }
+
+          i {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif
+          }
+
+          &.team-item {
+            margin-top: 107px;
+          }
+        }
+
+        .refs-block {
+          margin-top: 100px;
+          border-top: 1px solid;
+          padding-top: 100px;
+
+          &:last-child {
+            border-bottom: 1px solid;
+            padding-bottom: 126px;
+          }
+
+          h2 {
+            margin-top: 30px;
+            font-family: Roobert-Bold, sans-serif;
+            line-height: 23px;
+            font-size: 21px;
+          }
+
+          .ref-item {
+            margin-top: 25px;
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+
+            &.space-between {
+              display: flex;
+              justify-content: space-between;
+            }
+
+            &.fake-input {
+              border-bottom-width: 1px;
+              border-bottom-style: solid;
+              padding-bottom: 15px;
+            }
+
+            i {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif
+            }
+          }
+
+          p {
+            margin-top: 25px;
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+
+            &.fake-input__label {
+              margin-top: 15px;
+            }
+          }
+        }
+
+        &.clients-block {
+          margin-bottom: 60px;
+          img:first-child {
+            max-width: 323px;
+            margin: 0 auto;
+            display: block;
+          }
+
+          h1 {
+            margin-top: 107px;
+          }
+        }
+      }
+    }
+
+  }
+
+  .navigation {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    padding: 0 10px;
+    width: calc(100vw - 20px);
+    font-size: 16px;
+    line-height: 42px;
+
+    .text-menu {
+      font-family: Roobert-Bold, sans-serif;
+
+    }
+
+    .arrow-menu {
+      font-family: Roobert-Regular, sans-serif;
+      font-size: 19px;
+    }
+  }
+}
 
 
 /*---------+---------+---------+---------+---------+---------*/
 /*          |RESPONSIVE FONTS AND SIZES DESKTOP|             */
 /*---------+---------+---------+---------+---------+---------*/
-
 
 
 /*---------+---------+---------+---------+---------+--------*/

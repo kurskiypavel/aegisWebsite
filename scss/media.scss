@@ -6,13 +6,215 @@
 /*---------+---------+---------+---------*/
 
 
+@media only screen and (max-width: 767px) {
+  .desktop-content {
+    display: none;
+  }
+}
 
+@media only screen and (min-width: 768px) {
+  .mobile-content {
+    display: none;
+  }
+  .desktop-content {
+    .containery {
+      overflow-x: hidden;
+      padding: 0 10px;
+
+
+      .body {
+        .img-block {
+          display: flex;
+          justify-content: center;
+        }
+
+        .main-statement {
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+          letter-spacing: -1px;
+        }
+
+        .body-block {
+          h1 {
+            font-family: Roobert-Bold, sans-serif;
+          }
+
+          .block-copy {
+            i {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif
+            }
+          }
+
+          .text {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .desktop-content {
+    .containery {
+      .body {
+        .main-statement {
+          font-size: 53px;
+          line-height: 60px;
+        }
+
+        #practicesD {
+          margin-top: 410px;
+        }
+
+        #designing-communications {
+          margin-top: 140px;
+        }
+
+        #cross-block {
+          position: relative;
+          margin-top: 157px;
+        }
+
+        #the-teamD {
+          margin-top: 200px;
+        }
+
+        .body-block {
+          h1 {
+            font-size: 24px;
+            line-height: 24px;
+          }
+
+
+          .text {
+            font-size: 26px;
+            line-height: 30px;
+
+            &:not(:first-child) {
+              margin-top: 35px;
+            }
+          }
+
+          .row {
+            display: flex;
+            max-width: 100%;
+            padding: 0 130px;
+
+            .col-3 {
+              max-width: 31%;
+              width: 100%;
+            }
+
+            .col-7 {
+              max-width: 69%;
+              width: 100%;
+            }
+          }
+
+          .refs-block {
+            width: 250px;
+
+            h2 {
+              margin-top: 30px;
+              font-family: Roobert-Bold, sans-serif;
+              line-height: 20px;
+              font-size: 16px;
+            }
+
+            .ref-item {
+              margin-top: 25px;
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+              margin-bottom: 15px;
+
+              &.space-between {
+                display: flex;
+                justify-content: space-between;
+              }
+
+              &.fake-input {
+                padding-bottom: 15px;
+                border-bottom: 1px solid;
+              }
+
+
+            }
+
+            i {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif
+            }
+
+            p {
+              margin-top: 25px;
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+              font-size: 16px;
+              line-height: 20px;
+
+              &.fake-input__label {
+                margin-top: 15px;
+              }
+            }
+
+          }
+
+          .team-item {
+            margin-top: 115px !important;
+          }
+
+          .dogImage {
+            margin: 75px 0;
+          }
+
+          #footer {
+            line-height: 20px;
+            margin-top: 245px;
+            margin-bottom: 100px;
+
+            .footerImg {
+              width: 156px;
+            }
+
+            .innerRow {
+              padding: 0;
+              position: relative;
+              top: 50%;
+              transform: translateY(-50%);
+              justify-content: space-between;
+            }
+
+            h2 {
+              font-family: Roobert-Bold, sans-serif;
+            }
+
+            a, p {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+            }
+
+            .dBlock * {
+              display: block;
+            }
+          }
+
+        }
+
+        .circle-img-block-fullscreen {
+          margin: 75px 0;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1769px) {
+
+}
+
+@media only screen and (min-width: 1770px) {
+
+}
 
 /*---------+---------+---------+---------+---------+--------*/
 /*          |RESPONSIVE FONTS AND SIZES MOBILE|             */
 /*---------+---------+---------+---------+---------+--------*/
-
-
 
 
 /*---------+---------+---------+---------+---------+---------*/

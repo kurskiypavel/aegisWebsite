@@ -19,7 +19,6 @@
   .desktop-content {
     .containery {
       overflow-x: hidden;
-      padding: 0 10px;
 
 
       .body {
@@ -47,22 +46,91 @@
           .text {
             font-family: GT-Alpina-Standard-Light, sans-serif;
           }
+
+          .refs-block {
+
+            h2 {
+              font-family: Roobert-Bold, sans-serif;
+            }
+
+            .ref-item {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+
+              &.space-between {
+                display: flex;
+                justify-content: space-between;
+              }
+            }
+
+            i {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif
+            }
+
+            p {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+            }
+
+          }
+
+          #footer {
+
+
+            .inner-row {
+              position: relative;
+              justify-content: space-between;
+            }
+
+            h2 {
+              font-family: Roobert-Bold, sans-serif;
+            }
+
+            a, p {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+            }
+
+            .d-block * {
+              display: block;
+            }
+          }
+
+
         }
       }
     }
+    .menu{
+      height: 100vh;position: fixed;top: 0;right: 0;
+      .menu-block{
+        height: 100%;position: relative;
+        .sideways{
+          writing-mode: sideways-lr;text-orientation: mixed;
+          .menu-btn{
+            font-family: Roobert-Bold,sans-serif;
+          }
+          .contact-btn{
+            position: absolute;
+            font-family: Roobert-Bold,sans-serif;
+          }
+          .menu-arrow-up{
+            font-family: GT-Alpina-Standard-Light,sans-serif;
+          }
+        }
+      }
+    }
+
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
   .desktop-content {
     .containery {
+      padding: 0 10px;
       .body {
         .main-statement {
           font-size: 53px;
           line-height: 60px;
         }
 
-        #practicesD {
+        #practices-d {
           margin-top: 410px;
         }
 
@@ -73,9 +141,21 @@
         #cross-block {
           position: relative;
           margin-top: 157px;
+          .cross{
+            position: relative;height: 617px;
+            .cross-line{
+              position: absolute;top: 0;z-index: 0;height: 617px;
+            }
+            .cross-body{
+              position: absolute;top: 0;z-index: 1;height: 100%;width: 100%;
+              .refs-corner{
+                position: absolute;bottom: 0;right: 0;
+              }
+            }
+          }
         }
 
-        #the-teamD {
+        #the-team-d {
           margin-top: 200px;
         }
 
@@ -85,6 +165,9 @@
             line-height: 24px;
           }
 
+          .first-image{
+            width: 720px;
+          }
 
           .text {
             font-size: 26px;
@@ -116,36 +199,27 @@
 
             h2 {
               margin-top: 30px;
-              font-family: Roobert-Bold, sans-serif;
               line-height: 20px;
               font-size: 16px;
             }
 
             .ref-item {
               margin-top: 25px;
-              font-family: GT-Alpina-Standard-Light, sans-serif;
               margin-bottom: 15px;
-
-              &.space-between {
-                display: flex;
-                justify-content: space-between;
-              }
 
               &.fake-input {
                 padding-bottom: 15px;
                 border-bottom: 1px solid;
+                .enterIcon{
+                  padding-right: 45px;
+                }
               }
 
 
             }
 
-            i {
-              font-family: GT-Alpina-Standard-Light-Italic, sans-serif
-            }
-
             p {
               margin-top: 25px;
-              font-family: GT-Alpina-Standard-Light, sans-serif;
               font-size: 16px;
               line-height: 20px;
 
@@ -160,7 +234,7 @@
             margin-top: 115px !important;
           }
 
-          .dogImage {
+          .dog-image {
             margin: 75px 0;
           }
 
@@ -169,28 +243,14 @@
             margin-top: 245px;
             margin-bottom: 100px;
 
-            .footerImg {
+            .footer-img {
               width: 156px;
             }
 
-            .innerRow {
+            .inner-row {
               padding: 0;
-              position: relative;
               top: 50%;
               transform: translateY(-50%);
-              justify-content: space-between;
-            }
-
-            h2 {
-              font-family: Roobert-Bold, sans-serif;
-            }
-
-            a, p {
-              font-family: GT-Alpina-Standard-Light, sans-serif;
-            }
-
-            .dBlock * {
-              display: block;
             }
           }
 
@@ -198,6 +258,25 @@
 
         .circle-img-block-fullscreen {
           margin: 75px 0;
+        }
+      }
+    }
+    .menu{
+      width: 30px;
+      .menu-block{
+        .sideways{
+          margin-top: 10px;
+          font-size: 10px;
+          line-height: 20px;
+          .menu-btn{
+            margin-top: 10px;
+          }
+          .contact-btn{
+            bottom: 20px;
+          }
+          .menu-arrow-up{
+            margin-left: 7px;
+          }
         }
       }
     }

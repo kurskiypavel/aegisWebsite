@@ -120,32 +120,30 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1439px) {
+@media only screen and (min-width: 768px) and (max-width: 1179px) {
   .desktop-content {
     .containery {
       padding: 0 10px;
       .body {
         .main-statement {
-          font-size: 53px;
-          line-height: 60px;
+          font-size: 4.583vw;
+          line-height: 4.861vw;
         }
 
         #practices-d {
-          margin-top: 410px;
+          margin-top: 34.746vw;
         }
 
         #designing-communications {
-          margin-top: 140px;
+          margin-top: 11.864vw;
         }
 
         #cross-block {
           position: relative;
-          margin-top: 157px;
+          margin-top: 13.305vw;
           .cross{
-            position: relative;height: 617px;
-            .cross-line{
-              position: absolute;top: 0;z-index: 0;height: 617px;
-            }
+            position: relative;height: 62.712vw;
+
             .cross-body{
               position: absolute;top: 0;z-index: 1;height: 100%;width: 100%;
               .refs-corner{
@@ -156,32 +154,32 @@
         }
 
         #the-team-d {
-          margin-top: 200px;
+          margin-top: 16.949vw;
         }
 
         .body-block {
           h1 {
-            font-size: 24px;
-            line-height: 24px;
+            font-size: 2.083vw;
+            line-height: 2.083vw;
           }
 
           .first-image{
-            width: 720px;
+            width: 61.017vw;
           }
 
           .text {
-            font-size: 26px;
-            line-height: 30px;
+            font-size: 2.222vw;
+            line-height: 2.500vw;
 
             &:not(:first-child) {
-              margin-top: 35px;
+              margin-top: 2.966vw;
             }
           }
 
           .row {
             display: flex;
             max-width: 100%;
-            padding: 0 130px;
+            padding: 0 9.028vw;
 
             .col-3 {
               max-width: 31%;
@@ -195,23 +193,32 @@
           }
 
           .refs-block {
-            width: 250px;
-
-            h2 {
-              margin-top: 30px;
-              line-height: 20px;
-              font-size: 16px;
+            width: 25.424vw;
+            img{
+              width: 10.847vw;
             }
 
+            h2 {
+              margin-top: 15px;
+              line-height: 18px;
+              font-size: 15px;
+            }
+            i{
+              line-height: 18px;
+              font-size: 14px;
+            }
             .ref-item {
-              margin-top: 25px;
-              margin-bottom: 15px;
+              margin-top: 19px;
+              margin-bottom: 8px;
+              line-height: 18px;
+              font-size: 15px;
+
 
               &.fake-input {
-                padding-bottom: 15px;
+                padding-bottom: 4px;
                 border-bottom: 1px solid;
                 .enterIcon{
-                  padding-right: 45px;
+                  padding-right: 6px;
                 }
               }
 
@@ -220,11 +227,11 @@
 
             p {
               margin-top: 25px;
-              font-size: 16px;
-              line-height: 20px;
+              font-size: 13px;
+              line-height: 15px;
 
               &.fake-input__label {
-                margin-top: 15px;
+                margin-top: 0px;
               }
             }
 
@@ -240,17 +247,21 @@
 
           #footer {
             line-height: 20px;
-            margin-top: 245px;
-            margin-bottom: 100px;
+            margin-top: 20.763vw;
+            margin-bottom: 8.475vw;
 
             .footer-img {
-              width: 156px;
+              width: 13.220vw;
             }
 
             .inner-row {
               padding: 0;
               top: 50%;
               transform: translateY(-50%);
+              h2,a,p{
+                line-height: 16px;
+                font-size: 13px;
+              }
             }
           }
 
@@ -258,6 +269,9 @@
 
         .circle-img-block-fullscreen {
           margin: 75px 0;
+          img{
+            max-width: 100%;
+          }
         }
       }
     }
@@ -266,13 +280,13 @@
       .menu-block{
         .sideways{
           margin-top: 10px;
-          font-size: 10px;
-          line-height: 20px;
+          font-size: 0.833vw;
+          line-height: 1.389vw;
           .menu-btn{
             margin-top: 10px;
           }
           .contact-btn{
-            bottom: 20px;
+            bottom: 50%;
           }
           .menu-arrow-up{
             margin-left: 7px;
@@ -283,8 +297,179 @@
   }
 }
 
-@media only screen and (min-width: 1440px) and (max-width: 1769px) {
+//@media only screen and (min-width: 1440px) and (max-width: 1769px) {
+@media only screen and (min-width: 1180px){
+  .desktop-content {
+    .containery {
+      padding: 0 10px;
+      .body {
+        .main-statement {
+          font-size: 4.583vw;
+          line-height: 4.861vw;
+        }
 
+        #practices-d {
+          margin-top: 34.746vw;
+        }
+
+        #designing-communications {
+          margin-top: 11.864vw;
+        }
+
+        #cross-block {
+          position: relative;
+          margin-top: 13.305vw;
+          .cross{
+            position: relative;height: 62.712vw;
+
+            .cross-body{
+              position: absolute;top: 0;z-index: 1;height: 100%;width: 100%;
+              .refs-corner{
+                position: absolute;bottom: 0;right: 0;
+              }
+            }
+          }
+        }
+
+        #the-team-d {
+          margin-top: 16.949vw;
+        }
+
+        .body-block {
+          h1 {
+            font-size: 2.083vw;
+            line-height: 2.083vw;
+          }
+
+          .first-image{
+            width: 61.017vw;
+          }
+
+          .text {
+            font-size: 2.222vw;
+            line-height: 2.500vw;
+
+            &:not(:first-child) {
+              margin-top: 2.966vw;
+            }
+          }
+
+          .row {
+            display: flex;
+            max-width: 100%;
+            padding: 0 9.028vw;
+
+            .col-3 {
+              max-width: 31%;
+              width: 100%;
+            }
+
+            .col-7 {
+              max-width: 69%;
+              width: 100%;
+            }
+          }
+
+          .refs-block {
+            width: 25.424vw;
+
+            h2 {
+              margin-top: 2.542vw;
+              line-height: 1.667vw;
+              font-size: 1.333vw;
+            }
+            i{
+              line-height: 1.667vw;
+              font-size: 1.333vw;
+            }
+            .ref-item {
+              margin-top: 2.119vw;
+              margin-bottom: 15px;
+              line-height: 1.667vw;
+              font-size: 1.333vw;
+
+
+              &.fake-input {
+                padding-bottom: 15px;
+                border-bottom: 1px solid;
+                .enterIcon{
+                  padding-right: 3.814vw;
+                }
+              }
+
+
+            }
+
+            p {
+              margin-top: 2.119vw;
+              font-size: 1.111vw;
+              line-height: 1.389vw;
+
+              &.fake-input__label {
+                margin-top: 15px;
+              }
+            }
+
+          }
+
+          .team-item {
+            margin-top: 9.746vw !important;
+          }
+
+          .dog-image {
+            margin: 6.356vw 0;
+          }
+
+          #footer {
+            line-height: 20px;
+            margin-top: 20.763vw;
+            margin-bottom: 8.475vw;
+
+            .footer-img {
+              width: 13.220vw;
+            }
+
+            .inner-row {
+              padding: 0;
+              top: 50%;
+              transform: translateY(-50%);
+              h2,a,p{
+                line-height: 1.667vw;
+                font-size: 1.333vw;
+              }
+            }
+          }
+
+        }
+
+        .circle-img-block-fullscreen {
+          margin: 75px 0;
+          img{
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .menu{
+      width: 30px;
+      .menu-block{
+        .sideways{
+          margin-top: 10px;
+          font-size: 0.833vw;
+          line-height: 1.389vw;
+          .menu-btn{
+            margin-top: 10px;
+          }
+          .contact-btn{
+            bottom: 50%;
+          }
+          .menu-arrow-up{
+            margin-left: 7px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 1770px) {

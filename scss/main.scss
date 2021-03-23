@@ -36,7 +36,8 @@ u {
     opacity: .5;
   }
 }
-.clear-underline{
+
+.clear-underline {
   text-decoration: unset;
 }
 
@@ -76,7 +77,6 @@ header {
     overflow-x: hidden;
 
     padding: 0 10px;
-
 
 
     .body {
@@ -160,6 +160,7 @@ header {
 
 
           }
+
           i {
             font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
             font-size: 16px;
@@ -180,6 +181,7 @@ header {
 
         &.clients-block {
           margin-bottom: 60px;
+
           img:first-child {
             max-width: 323px;
             margin: 0 auto;
@@ -197,14 +199,53 @@ header {
 
   .navigation {
     background: white;
-    display: flex;
-    justify-content: space-between;
     position: fixed;
     bottom: 0;
     padding: 0 10px;
     width: calc(100vw - 20px);
-    font-size: 16px;
-    line-height: 42px;
+
+    &.nav-opened{
+      .mobile-menu {
+        height: 114px;
+      }
+      .arrow-menu{
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+      }
+    }
+
+    .navigation-content {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 16px;
+      line-height: 42px;
+    }
+
+    .mobile-menu {
+      transition: .3s;
+      height: 0;
+      width: 100%;
+
+      .row {
+        height: 30px;
+        border-top: 1px solid;
+
+        .flex-navigation-items {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          font-size: 15px;
+          line-height: 29px;
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+
+          .text-nav {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
 
     .text-menu {
       font-family: Roobert-Bold, sans-serif;
@@ -212,8 +253,11 @@ header {
     }
 
     .arrow-menu {
-      font-family: Roobert-Regular, sans-serif;
-      font-size: 19px;
+      display: inline-block;
+      transition: 0.3s;
+      font-family: GT-Alpina-Standard-Light, sans-serif;
+      font-size: 17px;
+      margin-left: 6px;
     }
   }
 }

@@ -50,7 +50,71 @@ u {
 /*---------+---------+---------+---------*/
 /*          |MENU STYLES|                */
 /*---------+---------+---------+---------*/
+.mobile-content {
+  .navigation {
+    background: white;
+    position: fixed;
+    bottom: 0;
+    padding: 0 10px;
+    width: calc(100vw - 20px);
 
+    &.nav-opened{
+      .mobile-menu {
+        max-height: 100vh;
+      }
+      .arrow-menu{
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+      }
+    }
+
+    .navigation-content {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 16px;
+      line-height: 42px;
+    }
+
+    .mobile-menu {
+      transition: .5s;
+      max-height: 0;
+      width: 100%;
+
+      .row {
+        height: 30px;
+        border-top: 1px solid;
+
+        .flex-navigation-items {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          font-size: 15px;
+          line-height: 29px;
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+
+          .text-nav {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+
+    .text-menu {
+      font-family: Roobert-Bold, sans-serif;
+
+    }
+
+    .arrow-menu {
+      display: inline-block;
+      transition: 0.3s;
+      font-family: GT-Alpina-Standard-Light, sans-serif;
+      font-size: 17px;
+      margin-left: 6px;
+    }
+  }
+}
 
 /*---------+---------+---------+---------*/
 /*          |HOME PAGE STYLES|           */
@@ -197,69 +261,6 @@ header {
 
   }
 
-  .navigation {
-    background: white;
-    position: fixed;
-    bottom: 0;
-    padding: 0 10px;
-    width: calc(100vw - 20px);
-
-    &.nav-opened{
-      .mobile-menu {
-        height: 114px;
-      }
-      .arrow-menu{
-        transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        -webkit-transform: rotate(180deg);
-      }
-    }
-
-    .navigation-content {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      font-size: 16px;
-      line-height: 42px;
-    }
-
-    .mobile-menu {
-      transition: .3s;
-      height: 0;
-      width: 100%;
-
-      .row {
-        height: 30px;
-        border-top: 1px solid;
-
-        .flex-navigation-items {
-          display: flex;
-          justify-content: space-between;
-          width: 100%;
-          font-size: 15px;
-          line-height: 29px;
-          font-family: GT-Alpina-Standard-Light, sans-serif;
-
-          .text-nav {
-            margin-right: 8px;
-          }
-        }
-      }
-    }
-
-    .text-menu {
-      font-family: Roobert-Bold, sans-serif;
-
-    }
-
-    .arrow-menu {
-      display: inline-block;
-      transition: 0.3s;
-      font-family: GT-Alpina-Standard-Light, sans-serif;
-      font-size: 17px;
-      margin-left: 6px;
-    }
-  }
 }
 
 .desktop-content {

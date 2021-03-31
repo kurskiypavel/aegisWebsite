@@ -97,20 +97,20 @@
         }
       }
     }
-    .menu{
+    .navigation-content{
       height: 100vh;position: fixed;top: 0;right: 0;
-      .menu-block{
+      .navigation-content-block{
         height: 100%;position: relative;
         .sideways{
           writing-mode: sideways-lr;text-orientation: mixed;
-          .menu-btn{
+          .navigation-content-btn{
             font-family: Roobert-Bold,sans-serif;
           }
           .contact-btn{
             position: absolute;
             font-family: Roobert-Bold,sans-serif;
           }
-          .menu-arrow-up{
+          .navigation-content-arrow-up{
             font-family: GT-Alpina-Standard-Light,sans-serif;
           }
         }
@@ -275,20 +275,20 @@
         }
       }
     }
-    .menu{
+    .navigation-content{
       width: 30px;
-      .menu-block{
+      .navigation-content-block{
         .sideways{
           margin-top: 10px;
-          font-size: 0.833vw;
-          line-height: 1.389vw;
-          .menu-btn{
+          font-size: 10px;
+          line-height: 20px;
+          .navigation-content-btn{
             margin-top: 10px;
           }
           .contact-btn{
             bottom: 50%;
           }
-          .menu-arrow-up{
+          .navigation-content-arrow-up{
             margin-left: 7px;
           }
         }
@@ -450,20 +450,20 @@
         }
       }
     }
-    .menu{
+    .navigation-content{
       width: 30px;
-      .menu-block{
+      .navigation-content-block{
         .sideways{
           margin-top: 10px;
-          font-size: 0.833vw;
-          line-height: 1.389vw;
-          .menu-btn{
+          font-size: 10px;
+          line-height: 20px;
+          .navigation-content-btn{
             margin-top: 10px;
           }
           .contact-btn{
             bottom: 50%;
           }
-          .menu-arrow-up{
+          .navigation-content-arrow-up{
             margin-left: 7px;
           }
         }

@@ -1,9 +1,18 @@
 /*---------+---------+---------+---------*/
 /*             |MOBILE MENU|             */
+
 /*---------+---------+---------+---------*/
 
 function processMenu() {
     $('.navigation').toggleClass('nav-opened');
+    setTimeout(() => {
+        if (!$('.nav-opened').length) {
+            $('.mobile-menu').hide()
+        } else {
+            $('.mobile-menu').show();
+        }
+    }, 500);
+
 }
 
 function initEvents() {
@@ -12,7 +21,7 @@ function initEvents() {
     $('#menu-js').click(processMenu);
 }
 
-function readyDOMStyle(){
+function readyDOMStyle() {
     console.log("Init initEvents")
 
     initEvents();

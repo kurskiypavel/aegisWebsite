@@ -18,7 +18,7 @@ function processMenu() {
 function initEvents() {
 
     /*             |MOBILE MENU|             */
-    $('#menu-js').click(processMenu);
+    $('#mobile-menu-js').click(processMenu);
 }
 
 function readyDOMStyle() {

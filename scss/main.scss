@@ -60,7 +60,7 @@ u {
 
     &.nav-opened{
       .mobile-menu {
-        max-height: 100vh;
+        max-height: 50vh;
       }
       .arrow-menu{
         transform: rotate(180deg);
@@ -108,10 +108,13 @@ u {
 
     .arrow-menu {
       display: inline-block;
-      transition: 0.3s;
+      transition: .1s;
       font-family: GT-Alpina-Standard-Light, sans-serif;
       font-size: 17px;
       margin-left: 6px;
+      transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
     }
   }
 }
@@ -121,7 +124,7 @@ u {
 /*---------+---------+---------+---------*/
 
 body {
-  color: #F00;
+  color: #FF3300;
 }
 
 header {

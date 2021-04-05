@@ -99,9 +99,14 @@
     }
     .navigation{
       height: 100vh;position: fixed;top: 0;right: 0;
+      &.nav-opened{
+        .desktop-menu {
+          width: calc(var(--menu-items-length)*40px);
+        }
+      }
       .navigation-content{
         height: 100%;position: relative;display: inline-block;
-        width: 40px;
+        width: 25px;
         .sideways{
           writing-mode: sideways-lr;text-orientation: mixed;
           .navigation-btn{
@@ -118,7 +123,8 @@
       }
       .desktop-menu{
         height: 100%;position: relative;display: inline-block;
-        width: calc(var(--i)*40px);
+        width: 0;
+        transition: 0.3s;
         .sections{
           position: absolute;background: red;height: 100%;display: inline-block;
           white-space: nowrap;width: 100%;
@@ -131,8 +137,8 @@
             pointer-events: auto;
             position: absolute;
             width: calc(100vw - 180px); // TODO HARDCODED
-            left: calc(var(--i)*40px);
-            z-index: var(--i);
+            left: calc(var(--menu-item-index)*40px);
+            z-index: var(--menu-item-index);
           }
         }
       }

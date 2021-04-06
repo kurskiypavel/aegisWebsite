@@ -22,20 +22,21 @@ function toggleMobileMenu() {
 
 
 function restoreDefaultMenu() {
+    //perhaps dont need this method hierarchy
     hideMenuItemContent();
 }
 
 function toggleDesktopMenu() {
-    $('.desktop-content .navigation').toggleClass('nav-opened');
-    restoreDefaultMenu();
+    const desktopContentNavigation = $('.desktop-content .navigation');
+
+    desktopContentNavigation.toggleClass('nav-opened');
+    if (desktopContentNavigation.hasClass('nav-opened')) {
+        restoreDefaultMenu();
+    }
 }
 
 function hideMenuItemContent() {
-    //TODO write some code here
-    /*
-    * remove sections appended
-    *
-    * */
+    //TODO optimize for multiple contents in menu later
     $('.desktop-menu').css('--menu-items-length', 3);//TODO HARDCODED
     $('#htmlLoadZeroMenuItemContent').remove();
     $('#menu-item-0-js').removeClass('touched');
@@ -55,59 +56,30 @@ function showMenuItemContent(menuElementId) {
         const menuItem0Js = $('#menu-item-0-js');
         if (!menuItem0Js.hasClass('touched')) {
             menuItem0Js.addClass('touched');
-            //replace all menu items with case-studies;
             $('.desktop-menu')
-                .append(
-                    $('<div id="htmlLoadZeroMenuItemContent">')
-                        .load('htmlLoad/zeroMenuItemContent.html #zeroMenuItemContentTarget'))
-                .css('--menu-items-length', 6);//TODO HARDCODED
+                .append(htmlLoadZeroMenuItemContent)
+                .css('--menu-items-length', menuItemsLength);
         }
     }
 
-    function showOneMenuItemContent() {
+    function toggleOneMenuItemContent() {
         //TBD
     }
 
-    function showTwoMenuItemContent() {
+    function toggleTwoMenuItemContent() {
         //TBD
     }
 
 
 }
 
-function initEvents() {
-
-    /*
-    * MOBILE EVENTS
-    * */
-    $('#mobile-menu-js').on('click', () => {
-        toggleMobileMenu()
-    });
-
-    /*
-    * DESKTOP EVENTS
-    * */
-
-    /*  MENU EVENTS */
-    $('#desktop-menu-js').on('click', () => {
-        toggleDesktopMenu()
-    });
-    $('#menu-item-0-js').on('click', () => showMenuItemContent('menu-item-0-js'));
-    $(document).on("click", (e) => {
-        const navigation = $('.navigation');
-        if ($('.desktop-content .navigation').hasClass('nav-opened')
-            && !navigation.is(e.target)
-            && navigation.has(e.target).length === 0) {
-            toggleDesktopMenu();
-        }
-    });
-}
 
 function readyDOMStyle() {
-    console.log("Init initEvents")
-    initEvents();
+    console.log("Style setups")
+
 }
 
 $(function () {
+    console.log("style.js Init")
     readyDOMStyle();
 });

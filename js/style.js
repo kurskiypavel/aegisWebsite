@@ -1,23 +1,24 @@
 /*---------+---------+---------+---------*/
 /*             |MOBILE MENU|             */
+
 /*---------+---------+---------+---------*/
 
 function toggleMobileMenu() {
     $('.mobile-content .navigation').toggleClass('nav-opened');
-    setTimeout(() => {
+    /*setTimeout(() => {
         if (!$('.mobile-content .nav-opened').length) {
             $('.mobile-menu').hide();
         } else {
             $('.mobile-menu').show();
         }
-    }, 1000);
+    }, 500);*/
 
 }
 
 /*---------+---------+---------+---------*/
-/*             |DESKTOP MENU|             */
-/*---------+---------+---------+---------*/
+/*             |DESKTOP MENU|            */
 
+/*---------+---------+---------+---------*/
 
 
 function restoreDefaultMenu() {
@@ -35,14 +36,15 @@ function hideMenuItemContent() {
     * remove sections appended
     *
     * */
-    $('.desktop-menu').css('--menu-items-length',3);//TODO HARDCODED
+    $('.desktop-menu').css('--menu-items-length', 3);//TODO HARDCODED
     $('#htmlLoadZeroMenuItemContent').remove();
     $('#menu-item-0-js').removeClass('touched');
 }
 
 function showMenuItemContent(menuElementId) {
     switch (menuElementId) {
-        case 'menu-item-0-js': toggleZeroMenuItemContent()
+        case 'menu-item-0-js':
+            toggleZeroMenuItemContent()
             break;
         default:
             console.log('menuElementId not found!');
@@ -50,14 +52,15 @@ function showMenuItemContent(menuElementId) {
     }
 
     function toggleZeroMenuItemContent() {
-        if (!$('#menu-item-0-js').hasClass('touched')) {
-            $('#menu-item-0-js').addClass('touched');
+        const menuItem0Js = $('#menu-item-0-js');
+        if (!menuItem0Js.hasClass('touched')) {
+            menuItem0Js.addClass('touched');
             //replace all menu items with case-studies;
             $('.desktop-menu')
                 .append(
                     $('<div id="htmlLoadZeroMenuItemContent">')
                         .load('htmlLoad/zeroMenuItemContent.html #zeroMenuItemContentTarget'))
-                .css('--menu-items-length',6);//TODO HARDCODED
+                .css('--menu-items-length', 6);//TODO HARDCODED
         }
     }
 
@@ -70,7 +73,6 @@ function showMenuItemContent(menuElementId) {
     }
 
 
-
 }
 
 function initEvents() {
@@ -78,13 +80,27 @@ function initEvents() {
     /*
     * MOBILE EVENTS
     * */
-    $('#mobile-menu-js').click(toggleMobileMenu);
+    $('#mobile-menu-js').on('click', () => {
+        toggleMobileMenu()
+    });
 
     /*
     * DESKTOP EVENTS
     * */
-    $('#desktop-menu-js').click(toggleDesktopMenu);
-    $('#menu-item-0-js').click(()=>showMenuItemContent('menu-item-0-js'));
+
+    /*  MENU EVENTS */
+    $('#desktop-menu-js').on('click', () => {
+        toggleDesktopMenu()
+    });
+    $('#menu-item-0-js').on('click', () => showMenuItemContent('menu-item-0-js'));
+    $(document).on("click", (e) => {
+        const navigation = $('.navigation');
+        if ($('.desktop-content .navigation').hasClass('nav-opened')
+            && !navigation.is(e.target)
+            && navigation.has(e.target).length === 0) {
+            toggleDesktopMenu();
+        }
+    });
 }
 
 function readyDOMStyle() {
@@ -92,6 +108,6 @@ function readyDOMStyle() {
     initEvents();
 }
 
-$(function() {
+$(function () {
     readyDOMStyle();
 });

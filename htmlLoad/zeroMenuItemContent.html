@@ -8,16 +8,22 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="zeroMenuItemContentTarget" class="sections zeroMenuItemContent" style="
+<div id="zeroMenuItemContentTarget" class="sections zeroMenuItemContent" style="
                             /*! transform: translateX(100%); */
                             transition: .5s;
                             z-index: 999;">
-        <div style="--menu-item-index: 0;" class="section">1</div>
-        <div class="section" style="--menu-item-index: 1;">2</div>
-        <div class="section" style="--menu-item-index: 2;">3</div>
-        <div class="section" style="--menu-item-index: 3;">4</div>
-        <div class="section" style="--menu-item-index: 4;">5</div>
-        <div class="section" style="--menu-item-index: 5;">6</div>
+    <div style="--menu-item-index: 0;transition: .5s"
+         id="case-study-0-js"
+         class="section case-study-0-panel__inner"
+        onclick="caseStudy0Js()">
+        <div class="case-study-panel__header">1</div>
+        <section>SOME CONTENT</section>
     </div>
+    <div class="section" style="--menu-item-index: 1;">2</div>
+    <div class="section" style="--menu-item-index: 2;">3</div>
+    <div class="section" style="--menu-item-index: 3;">4</div>
+    <div class="section" style="--menu-item-index: 4;">5</div>
+    <div class="section" style="--menu-item-index: 5;">6</div>
+</div>
 </body>
 </html>

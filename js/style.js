@@ -59,6 +59,10 @@ function showMenuItemContent(menuElementId) {
             $('.desktop-menu')
                 .append(htmlLoadZeroMenuItemContent)
                 .css('--menu-items-length', menuItemsLength);
+/*            var script = document.createElement('script');
+            script.src = 'htmlLoad/js/zeroMenuItemScript.js';
+            script.type = 'text/javascript';
+            document.body.parentNode.appendChild(script);*/
         }
     }
 
@@ -83,3 +87,16 @@ $(function () {
     console.log("style.js Init")
     readyDOMStyle();
 });
+
+
+/*
+*
+*TODO HARDCODE JS - replace to normal exec function and loading after content is loaded
+*
+* */
+
+function caseStudy0Js() {
+    $('.desktop-content .navigation-content')
+        .css({'transform': 'translate(-906px)', 'background': 'white'});
+    $('.case-study-0-panel__inner').css('transform','translate(-910px)')
+}

@@ -58,11 +58,7 @@ function showMenuItemContent(menuElementId) {
             menuItem0Js.addClass('touched');
             $('.desktop-menu')
                 .append(htmlLoadZeroMenuItemContent)
-                .css('--menu-items-length', menuItemsLength);
-/*            var script = document.createElement('script');
-            script.src = 'htmlLoad/js/zeroMenuItemScript.js';
-            script.type = 'text/javascript';
-            document.body.parentNode.appendChild(script);*/
+                .css('--menu-items-length', caseStudyItems);
         }
     }
 
@@ -96,7 +92,7 @@ $(function () {
 * */
 
 function caseStudy0Js() {
-    $('.desktop-content .navigation-content')
-        .css({'transform': 'translate(-906px)', 'background': 'white'});
-    $('.case-study-0-panel__inner').css('transform','translate(-910px)')
+    $('.desktop-content .navigation-content').addClass('menu-content-opened');
+    $('.nav-opened').css('--case-study-items',caseStudyItems);
+    $('.case-study-0-panel__inner').addClass('opened')
 }

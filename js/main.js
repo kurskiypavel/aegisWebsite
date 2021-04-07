@@ -1,7 +1,7 @@
 /*
 * VAR SETTERS
 * */
-const menuItemsLength = 6; //TODO HARDCODED
+const caseStudyItems = 6; //TODO HARDCODED
 const htmlLoadPath = "htmlLoad";
 const htmlLoadZeroMenuItemContent = $('<div id="htmlLoadZeroMenuItemContent">')
     .load(`${htmlLoadPath}/zeroMenuItemContent.html #zeroMenuItemContentTarget`);

@@ -1,0 +1,6 @@
+//sass --watch htmlLoad/scss/zero-menu-item.scss htmlLoad/css/zero-menu-item.css --style compressed
+.case-study-0-panel__inner {
+  &.opened {
+    transform: translateX(calc(-100vw + 30px + calc(var(--case-study-items) * 40px)));
+  }
+}

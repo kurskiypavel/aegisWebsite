@@ -6,6 +6,26 @@ const htmlLoadPath = "htmlLoad";
 const htmlLoadZeroMenuItemContent = $('<div id="htmlLoadZeroMenuItemContent">')
     .load(`${htmlLoadPath}/zeroMenuItemContent.html #zeroMenuItemContentTarget`);
 
+
+/*
+* FUNCTION HELPERS
+* */
+
+function getPreviousSiblings(elem) {
+    let siblings = [];
+    while (elem = elem.previousElementSibling) {
+        siblings.push(elem);
+    }
+    return siblings;
+}
+function getNextSiblings(elem) {
+    let siblings = [];
+    while (elem = elem.nextElementSibling) {
+        siblings.push(elem);
+    }
+    return siblings;
+}
+
 /*
 * METHOD REALIZATION
 * */
@@ -27,7 +47,7 @@ function initEvents() {
         toggleDesktopMenu();
     });
     $('#menu-item-0-js').on('click', () => {
-        showMenuItemContent('menu-item-0-js');
+        showCaseStudyContent('menu-item-0-js');
     });
     $(document).on("click", (e) => {
         const navigation = $('.navigation');

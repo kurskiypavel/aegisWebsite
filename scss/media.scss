@@ -153,23 +153,41 @@
 
         .sections {
           position: absolute;
-          background: red;
+          background: white;
           height: 100%;
           display: inline-block;
           white-space: nowrap;
           width: 100%;
 
+          .sideways {
+            writing-mode: sideways-lr;
+            text-orientation: mixed;
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+            font-size: 20px;
+            .menu-item-text{
+              position: absolute;top: 0;left: 8px;
+              .menu-item-title{
+                margin-top: 62px;
+              }
+            }
+            .menu-item-arrow-bottom{
+              position: absolute;bottom: 0;left: 8px;
+            }
+          }
+
           .section {
-            background: #d4d4d4;
-            border-left: 1px solid #000;
+            background: white;
+            border-left: 1px solid #f30;
             display: inline-block;
             height: 100%;
             overflow: hidden;
             pointer-events: auto;
             position: absolute;
-            width: calc(100vw - calc( var(--menu-items-length) - var(--menu-item-index))*40px + 10px - calc(var(--menu-item-index)*40px)); // TODO HARDCODED 40*5
+            width: calc(100vw - calc(var(--menu-items-length) - var(--menu-item-index)) * 40px + 10px - calc(var(--menu-item-index) * 40px)); // TODO HARDCODED 40*5
             left: calc(var(--menu-item-index) * 40px);
             z-index: var(--menu-item-index);
+            margin: 10px 0;
+            max-height: calc(100% - 20px);
           }
         }
       }

@@ -10,7 +10,7 @@
 .case-study-panel__header {
   .case-study-text {
     position: absolute;
-    top: 0;
+    //top: 10px;
     left: 8px;
     writing-mode: sideways-lr;
     text-orientation: mixed;
@@ -35,9 +35,63 @@
 
   .case-study-index {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     font-family: Roobert-Regular, sans-serif;
     font-size: 30px;
     padding-left: 13px;
+  }
+}
+
+.case-study-panel__body {
+  height: 100%;
+  margin-left: 40px;
+  position: relative;
+
+  .top-left {
+    font-size: 70px;
+    white-space: initial;
+    width: 500px;
+    position: absolute;
+    top: 145px;
+    left: 85px;
+
+    .main-statement {
+      font-family: GT-Alpina-Standard-Light, sans-serif;
+    }
+
+    .main-statement-italic {
+      font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+    }
+  }
+
+  .top-right {
+    position: absolute;
+    top: 145px;
+    right: 50px;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 140px;
+    left: 85px;
+
+    img {
+      width: 15px;
+      height: auto;
+    }
+
+    .case-study-tags {
+      font-family: GT-Alpina-Standard-Light, sans-serif;
+      font-size: 10px;
+      line-height: 15px;
+    }
+  }
+
+  .bottom-right {
+    font-size: 300px;
+    font-family: Roobert-Light, sans-serif;
+    position: absolute;
+    bottom: 120px;
+    right: 28px;
   }
 }

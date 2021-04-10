@@ -171,7 +171,7 @@
               }
             }
             .menu-item-arrow-bottom{
-              position: absolute;bottom: 0;left: 8px;
+              position: absolute;bottom: 10px;left: 8px;
             }
           }
 
@@ -179,15 +179,16 @@
             background: white;
             border-left: 1px solid #f30;
             display: inline-block;
-            height: 100%;
+            height: calc(100% - 20px);
             overflow: hidden;
             pointer-events: auto;
             position: absolute;
             width: calc(100vw - calc(var(--menu-items-length) - var(--menu-item-index)) * 40px + 10px - calc(var(--menu-item-index) * 40px)); // TODO HARDCODED 40*5
             left: calc(var(--menu-item-index) * 40px);
             z-index: var(--menu-item-index);
-            margin: 10px 0;
-            max-height: calc(100% - 20px);
+            top: 10px;
+            //margin: 10px 0;
+            //max-height: calc(100% - 20px);
           }
         }
       }

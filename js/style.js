@@ -22,16 +22,6 @@ function toggleMobileMenu() {
 
 
 function restoreDefaultMenu() {
-    //perhaps dont need this method hierarchy
-
-    /*
-    * remove menu-content-opened
-    * remove opened from zeroMenuItemContentTarget section
-    * change desktop-menu back to --menu-items-length: 3;
-    * remove htmlLoadZeroMenuItemContent content
-    * if zero content opened call     closeCaseStudyMenuJs();
-    * then replace headings of menu items back to
-    * */
     if ($('.menu-content-opened').length>0) {
         closeCaseStudyMenuJs();
         hideMenuItemContent();
@@ -109,23 +99,20 @@ $(function () {
     readyDOMStyle();
 });
 
-
-/*
-*
-*TODO HARDCODE JS - replace to normal exec function and loading after content is loaded
-*
-* */
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP CASE STUDY MENU|            */
+/*---------+---------+---------+--------+-----------*/
 
 function caseStudyMenuJs(caseStudyMenuItem) {
     if (!$('.menu-content-opened').length) {
         $('.desktop-content .navigation-content').addClass('menu-content-opened');
         $('.nav-opened').css('--case-study-items', caseStudyItems);
     }
-    if (!caseStudyMenuItem.classList.contains('opened')) caseStudyMenuItem.classList.add('opened');
-    const previousSiblings = getPreviousSiblings(caseStudyMenuItem);
+    if (!caseStudyMenuItem.parentElement.classList.contains('opened')) caseStudyMenuItem.parentElement.classList.add('opened');
+    const previousSiblings = getPreviousSiblings(caseStudyMenuItem.parentElement);
     previousSiblings.forEach(div => div.classList.add('opened'));
 
-    const nextSiblings = getNextSiblings(caseStudyMenuItem);
+    const nextSiblings = getNextSiblings(caseStudyMenuItem.parentElement);
     nextSiblings.forEach(div => div.classList.remove('opened'));
 
 }

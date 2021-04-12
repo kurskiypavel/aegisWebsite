@@ -126,8 +126,27 @@
         }
 
         .sideways {
-          writing-mode: sideways-lr;
-          text-orientation: mixed;
+          -webkit-transform: rotate(-90deg);
+          -moz-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+          position: absolute;
+
+          #desktop-menu-js {
+            display: flex;
+          }
+
+          &.menu-sideway {
+            top: 15px;
+            right: 0;
+            left: 0;
+          }
+
+          &.contact-sideway {
+            top: 50%;
+            right: 0;
+          }
 
           .navigation-btn {
             font-family: Roobert-Bold, sans-serif;
@@ -160,18 +179,43 @@
           width: 100%;
 
           .sideways {
-            writing-mode: sideways-lr;
-            text-orientation: mixed;
             font-family: GT-Alpina-Standard-Light, sans-serif;
             font-size: 20px;
-            .menu-item-text{
-              position: absolute;top: 0;left: 8px;
-              .menu-item-title{
-                margin-top: 62px;
+
+            #menu-item-0-js .menu-item-text{
+              top: 180px;
+            }
+            #menu-item-1-js .menu-item-text{
+              top: 145px;
+            }
+            #menu-item-2-js .menu-item-text{
+              top: 140px;
+            }
+            .menu-item-text {
+              position: absolute;
+              left: 18px;
+              -webkit-transform: rotate(-90deg);
+              -moz-transform: rotate(-90deg);
+              -ms-transform: rotate(-90deg);
+              -o-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+              right: 100%;
+
+              .menu-item-arrow{
+                padding-left: 62px;
               }
             }
-            .menu-item-arrow-bottom{
-              position: absolute;bottom: 10px;left: 8px;
+
+            .menu-item-arrow-bottom {
+              position: absolute;
+              bottom: 10px;
+              left: 13px;
+              -webkit-transform: rotate(-90deg);
+              -moz-transform: rotate(-90deg);
+              -ms-transform: rotate(-90deg);
+              -o-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+
             }
           }
 
@@ -379,7 +423,7 @@
           line-height: 20px;
 
           .navigation-btn {
-            margin-top: 10px;
+            //margin-top: 10px;
           }
 
           .contact-btn {
@@ -572,7 +616,7 @@
           line-height: 20px;
 
           .navigation-btn {
-            margin-top: 10px;
+            //margin-top: 10px;
           }
 
           .contact-btn {

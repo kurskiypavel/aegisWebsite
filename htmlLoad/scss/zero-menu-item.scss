@@ -10,15 +10,36 @@
 .case-study-panel__header {
   .case-study-text {
     position: absolute;
-    //top: 10px;
-    left: 8px;
-    writing-mode: sideways-lr;
-    text-orientation: mixed;
     font-family: GT-Alpina-Standard-Light, sans-serif;
     font-size: 20px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    right: calc(100% - 8px);
+    left: 17px;
 
-    .case-study-title {
-      margin-top: 62px;
+    &.case-study-text-one{
+      top: 273px;
+    }
+    &.case-study-text-two{
+      top: 111px;
+    }
+    &.case-study-text-three{
+      top: 207px;
+    }
+    &.case-study-text-four{
+      top: 208px;
+    }
+    &.case-study-text-five{
+      top: 209px;
+    }
+    &.case-study-text-six{
+      top: 213px;
+    }
+    .case-study-arrow{
+      padding-left: 62px;
     }
   }
 
@@ -26,11 +47,15 @@
     position: absolute;
     bottom: 82px;
     left: 8px;
-    writing-mode: sideways-lr;
-    text-orientation: mixed;
     font-family: Roobert-Bold, sans-serif;
     font-size: 10px;
     line-height: 20px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    right: calc(100% - 27px);
   }
 
   .case-study-index {

@@ -26,6 +26,11 @@
         .img-block {
           display: flex;
           justify-content: center;
+
+          img {
+            max-width: calc(100% - 13.559vw);
+            margin: 8.051vw auto 0 auto;
+          }
         }
 
         .main-statement {
@@ -46,6 +51,10 @@
 
           .text {
             font-family: GT-Alpina-Standard-Light, sans-serif;
+
+            i {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif
+            }
           }
 
           .refs-block {
@@ -182,15 +191,18 @@
             font-family: GT-Alpina-Standard-Light, sans-serif;
             font-size: 20px;
 
-            #menu-item-0-js .menu-item-text{
+            #menu-item-0-js .menu-item-text {
               top: 180px;
             }
-            #menu-item-1-js .menu-item-text{
+
+            #menu-item-1-js .menu-item-text {
               top: 145px;
             }
-            #menu-item-2-js .menu-item-text{
+
+            #menu-item-2-js .menu-item-text {
               top: 140px;
             }
+
             .menu-item-text {
               position: absolute;
               left: 18px;
@@ -201,7 +213,7 @@
               transform: rotate(-90deg);
               right: 100%;
 
-              .menu-item-arrow{
+              .menu-item-arrow {
                 padding-left: 62px;
               }
             }
@@ -248,16 +260,21 @@
 
       .body {
         .main-statement {
-          font-size: 4.583vw;
-          line-height: 4.861vw;
+          font-size: 4.48vw;
+          line-height: 5.09vw;
+          margin-top: 7.051vw;
         }
 
         #practices-d {
-          margin-top: 34.746vw;
+          margin-top: 33.746vw;
+
+          .limited-width-image {
+            margin: 8.051vw auto 0 auto;
+          }
         }
 
-        #designing-communications {
-          margin-top: 11.864vw;
+        #designing-communications, #designing-strategy {
+          margin-top: 8.051vw;
         }
 
         #cross-block {
@@ -279,13 +296,14 @@
                 position: absolute;
                 bottom: 0;
                 right: 0;
+                max-width: 18vw;
               }
             }
           }
         }
 
         #the-team-d {
-          margin-top: 16.949vw;
+          margin-top: 11.6vw;
         }
 
         .body-block {
@@ -295,7 +313,8 @@
           }
 
           .first-image {
-            width: 61.017vw;
+            width: 59.017vw;
+            margin: 0 auto;
           }
 
           .text {
@@ -324,7 +343,7 @@
           }
 
           .refs-block {
-            width: 25.424vw;
+            width: 22.424vw;
 
             img {
               width: 10.847vw;
@@ -341,6 +360,11 @@
               font-size: 14px;
             }
 
+            img {
+              max-width: 22.034vw;
+              max-height: 16.949vw;
+            }
+
             .ref-item {
               margin-top: 19px;
               margin-bottom: 8px;
@@ -349,12 +373,7 @@
 
 
               &.fake-input {
-                padding-bottom: 4px;
                 border-bottom: 1px solid;
-
-                .enterIcon {
-                  padding-right: 6px;
-                }
               }
 
 
@@ -373,16 +392,21 @@
           }
 
           .team-item {
-            margin-top: 115px !important;
+            margin-top: 8.5vw !important;
           }
 
           .dog-image {
-            margin: 75px 0;
+            margin: 8.051vw 0;
+
+            img {
+              max-width: 36.017vw;
+              margin: 0 auto;
+            }
           }
 
           #footer {
             line-height: 20px;
-            margin-top: 20.763vw;
+            margin-top: 12.763vw;
             margin-bottom: 8.475vw;
 
             .footer-img {
@@ -403,13 +427,6 @@
 
         }
 
-        .circle-img-block-fullscreen {
-          margin: 75px 0;
-
-          img {
-            max-width: 100%;
-          }
-        }
       }
     }
 
@@ -439,7 +456,6 @@
   }
 }
 
-//@media only screen and (min-width: 1440px) and (max-width: 1769px) {
 @media only screen and (min-width: 1180px) {
   .desktop-content {
     .containery {
@@ -447,16 +463,21 @@
 
       .body {
         .main-statement {
-          font-size: 4.583vw;
-          line-height: 4.861vw;
+          font-size: 4.48vw;
+          line-height: 5.09vw;
+          margin-top: 7.051vw;
         }
 
         #practices-d {
-          margin-top: 34.746vw;
+          margin-top: 33.746vw;
+
+          .limited-width-image {
+            margin: 8.051vw auto 0 auto;
+          }
         }
 
-        #designing-communications {
-          margin-top: 11.864vw;
+        #designing-communications, #designing-strategy {
+          margin-top: 8.051vw;
         }
 
         #cross-block {
@@ -478,13 +499,14 @@
                 position: absolute;
                 bottom: 0;
                 right: 0;
+                max-width: 18vw;
               }
             }
           }
         }
 
         #the-team-d {
-          margin-top: 16.949vw;
+          margin-top: 11.6vw;
         }
 
         .body-block {
@@ -494,7 +516,8 @@
           }
 
           .first-image {
-            width: 61.017vw;
+            width: 59.017vw;
+            margin: 0 auto;
           }
 
           .text {
@@ -523,7 +546,7 @@
           }
 
           .refs-block {
-            width: 25.424vw;
+            width: 22.424vw;
 
             h2 {
               margin-top: 2.542vw;
@@ -536,6 +559,11 @@
               font-size: 1.333vw;
             }
 
+            img {
+              max-width: 22.034vw;
+              max-height: 16.949vw;
+            }
+
             .ref-item {
               margin-top: 2.119vw;
               margin-bottom: 15px;
@@ -544,12 +572,7 @@
 
 
               &.fake-input {
-                padding-bottom: 15px;
                 border-bottom: 1px solid;
-
-                .enterIcon {
-                  padding-right: 3.814vw;
-                }
               }
 
 
@@ -568,16 +591,21 @@
           }
 
           .team-item {
-            margin-top: 9.746vw !important;
+            margin-top: 8.5vw !important;
           }
 
           .dog-image {
-            margin: 6.356vw 0;
+            margin: 8.051vw 0;
+
+            img {
+              max-width: 36.017vw;
+              margin: 0 auto;
+            }
           }
 
           #footer {
             line-height: 20px;
-            margin-top: 20.763vw;
+            margin-top: 12.763vw;
             margin-bottom: 8.475vw;
 
             .footer-img {
@@ -598,13 +626,6 @@
 
         }
 
-        .circle-img-block-fullscreen {
-          margin: 75px 0;
-
-          img {
-            max-width: 100%;
-          }
-        }
       }
     }
 
@@ -632,9 +653,6 @@
   }
 }
 
-@media only screen and (min-width: 1770px) {
-
-}
 
 /*---------+---------+---------+---------+---------+--------*/
 /*          |RESPONSIVE FONTS AND SIZES MOBILE|             */

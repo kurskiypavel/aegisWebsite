@@ -22,26 +22,37 @@ function toggleMobileMenu() {
 
 
 function restoreDefaultMenu() {
-    if ($('.menu-content-opened').length>0) {
+    if ($('.menu-content-opened').length > 0) {
         closeCaseStudyMenuJs();
         hideMenuItemContent();
-    } else{
+    } else {
         hideMenuItemContent();
     }
 }
 
 function toggleDesktopMenu() {
-    console.log('toggleDesktopMenu');
     const desktopContentNavigation = $('.desktop-content .navigation');
 
-    if(!desktopContentNavigation.hasClass('nav-opened')){
+    /*
+    * Load
+    * */
+    if (!desktopContentNavigation.hasClass('nav-opened')) {
+        console.log('Open 3 menu items')
         desktopContentNavigation.addClass('nav-opened');
+        $('.navigation-arrow-up').addClass('rotated');
         showMenuItemContent();
-    }
-    else {
-        desktopContentNavigation.removeClass('nav-opened');
+    } else {
+        console.log('Close 3 menu items')
+        if ($('.touched').length > 0) {
+            $('.zeroMenuItemContent').addClass('closed');
+            restoreDefaultMenu();
+        } else {
+            desktopContentNavigation.removeClass('nav-opened');
+            $('.navigation-arrow-up').removeClass('rotated');
+            restoreDefaultMenu();
+        }
 
-        restoreDefaultMenu();
+
     }
 }
 
@@ -51,9 +62,9 @@ function showMenuItemContent() {
 
 function hideMenuItemContent() {
     $('.desktop-menu').css('--menu-items-length', 3);//TODO HARDCODED
-    setTimeout(()=>{
-        $('#htmlLoadZeroMenuItemContent').remove();
-    },500)
+    setTimeout(() => {
+        // $('#htmlLoadZeroMenuItemContent').remove();
+    }, 500)
     $('#menu-item-0-js').removeClass('touched');
 }
 
@@ -68,12 +79,15 @@ function showCaseStudyContent(menuElementId) {
     }
 
     function toggleZeroMenuItemContent() {
+        console.log('Open 6 items')
         const menuItem0Js = $('#menu-item-0-js');
         if (!menuItem0Js.hasClass('touched')) {
             menuItem0Js.addClass('touched');
+
             $('.desktop-menu')
-                .append(htmlLoadZeroMenuItemContent)
-                .css('--menu-items-length', caseStudyItems);
+                .append(htmlLoadZeroMenuItemContent);
+            $('.zeroMenuItemContent.closed').removeClass('closed');
+            $('.desktop-menu').css('--menu-items-length', caseStudyItems);
         }
     }
 
@@ -101,6 +115,7 @@ $(function () {
 
 /*---------+---------+---------+--------+-----------*/
 /*             |DESKTOP CASE STUDY MENU|            */
+
 /*---------+---------+---------+--------+-----------*/
 
 function caseStudyMenuJs(caseStudyMenuItem) {
@@ -108,6 +123,7 @@ function caseStudyMenuJs(caseStudyMenuItem) {
         $('.desktop-content .navigation-content').addClass('menu-content-opened');
         $('.nav-opened').css('--case-study-items', caseStudyItems);
     }
+    caseStudyMenuItem.children[0].children[1].innerText = '↓';
     if (!caseStudyMenuItem.parentElement.classList.contains('opened')) caseStudyMenuItem.parentElement.classList.add('opened');
     const previousSiblings = getPreviousSiblings(caseStudyMenuItem.parentElement);
     previousSiblings.forEach(div => div.classList.add('opened'));
@@ -119,6 +135,13 @@ function caseStudyMenuJs(caseStudyMenuItem) {
 
 function closeCaseStudyMenuJs() {
     $('.menu-content-opened').removeClass('menu-content-opened');
-    document.querySelectorAll('#zeroMenuItemContentTarget .section')
-        .forEach(section => section.classList.remove('opened'));
+    $('#zeroMenuItemContentTarget .section').removeClass('opened');
+    $('.case-study-arrow').text('↑');
+}
+
+function closeMenuTitlePage() {
+    $('.case-study-panel__inner').removeClass('opened');
+    $('.menu-content-opened').removeClass('menu-content-opened');
+    $('.case-study-arrow').text('↑');
+
 }

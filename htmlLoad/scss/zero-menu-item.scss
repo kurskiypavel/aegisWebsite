@@ -21,22 +21,22 @@
     left: 17px;
 
     &.case-study-text-one{
-      top: 273px;
+      top: 312px;
     }
     &.case-study-text-two{
-      top: 111px;
+      top: 214px;
     }
     &.case-study-text-three{
-      top: 207px;
-    }
-    &.case-study-text-four{
-      top: 208px;
-    }
-    &.case-study-text-five{
       top: 209px;
     }
+    &.case-study-text-four{
+      top: 170px;
+    }
+    &.case-study-text-five{
+      top: 210px;
+    }
     &.case-study-text-six{
-      top: 213px;
+      top: 208px;
     }
     .case-study-arrow{
       padding-left: 62px;
@@ -63,7 +63,7 @@
     bottom: 10px;
     font-family: Roobert-Regular, sans-serif;
     font-size: 30px;
-    padding-left: 13px;
+    padding-left: 10px;
   }
 }
 
@@ -118,5 +118,30 @@
     position: absolute;
     bottom: 120px;
     right: 28px;
+  }
+}
+#htmlLoadZeroMenuItemContent{
+  float: right;
+}
+.zeroMenuItemContent{
+  transform: translateX(-100%);
+  opacity: 1;
+  &.closed{
+    opacity: 0;
+    transform: translateX(0%);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1179px) {
+  .case-study-panel__body .top-left{
+    font-size: 5.932vw;
+    width: 42.373vw;
+    left: 7.203vw;
+  }
+  .case-study-panel__body .bottom-left{
+    left: 7.203vw;
+  }
+  .case-study-panel__body .bottom-right{
+    font-size: 25.424vw;
   }
 }

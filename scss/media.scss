@@ -112,7 +112,7 @@
       height: 100vh;
       position: fixed;
       top: 0;
-      right: 0;
+      right: -4px;
 
       &.nav-opened {
         .desktop-menu {
@@ -142,7 +142,7 @@
           transform: rotate(-90deg);
           position: absolute;
 
-          #desktop-menu-js {
+          #desktop-menu-js,#desktop-contact-js {
             display: flex;
           }
 
@@ -179,7 +179,7 @@
         }
       }
 
-      .desktop-menu {
+      .desktop-menu,.contact-menu {
         height: 100%;
         position: relative;
         display: inline-block;
@@ -210,7 +210,7 @@
               top: 140px;
             }
 
-            .menu-item-text {
+            .menu-item-text,.contact-item-text {
               position: absolute;
               left: 18px;
               -webkit-transform: rotate(-90deg);
@@ -220,7 +220,7 @@
               transform: rotate(-90deg);
               right: 100%;
 
-              .menu-item-arrow {
+              .menu-item-arrow,.contact-item-arrow {
                 padding-left: 62px;
               }
             }
@@ -250,10 +250,25 @@
             left: calc(var(--menu-item-index) * 40px);
             z-index: var(--menu-item-index);
             top: 10px;
-            //margin: 10px 0;
-            //max-height: calc(100% - 20px);
+            &.contact-section{
+              width: 500px; // TODO HARDCODED 40*5
+              left: 0;
+              z-index: 3;
+            }
           }
         }
+      }
+      .contact-menu{
+        width: 0;
+        transition: 0.5s;
+        left: -4px;
+        &.opened{
+          width: 500px;
+        }
+        .contact-item-text{
+          top: 138px;
+        }
+
       }
     }
 

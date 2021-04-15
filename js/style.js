@@ -33,9 +33,6 @@ function restoreDefaultMenu() {
 function toggleDesktopMenu() {
     const desktopContentNavigation = $('.desktop-content .navigation');
 
-    /*
-    * Load
-    * */
     if (!desktopContentNavigation.hasClass('nav-opened')) {
         console.log('Open 3 menu items')
         desktopContentNavigation.addClass('nav-opened');
@@ -144,4 +141,21 @@ function closeMenuTitlePage() {
     $('.menu-content-opened').removeClass('menu-content-opened');
     $('.case-study-arrow').text('↑');
 
+}
+
+
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP CONTACT MENU|               */
+/*---------+---------+---------+--------+-----------*/
+
+function toggleDesktopContact() {
+    console.log(333);
+    const contactMenu = $('.contact-menu');
+    contactMenu.toggleClass('opened');
+
+    if (contactMenu.hasClass('opened')){
+        $('.contact-item-arrow').text('↓');
+    } else {
+        $('.contact-item-arrow').text('↑');
+    }
 }

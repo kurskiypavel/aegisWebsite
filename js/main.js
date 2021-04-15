@@ -46,6 +46,10 @@ function initEvents() {
     $('#desktop-menu-js').on('click', () => {
         toggleDesktopMenu();
     });
+
+    $('#desktop-contact-js').on('click', () => {
+        toggleDesktopContact();
+    });
     $('#menu-item-0-js').on('click', () => {
         showCaseStudyContent('menu-item-0-js');
     });
@@ -55,6 +59,11 @@ function initEvents() {
             && !navigation.is(e.target)
             && navigation.has(e.target).length === 0) {
             toggleDesktopMenu();
+        }
+        if ($('.contact-menu').hasClass('opened')
+            && !navigation.is(e.target)
+            && navigation.has(e.target).length === 0) {
+            toggleDesktopContact();
         }
     });
 }

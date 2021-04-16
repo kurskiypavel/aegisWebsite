@@ -5,14 +5,6 @@
 
 function toggleMobileMenu() {
     $('.mobile-content .navigation').toggleClass('nav-opened');
-    /*setTimeout(() => {
-        if (!$('.mobile-content .nav-opened').length) {
-            $('.mobile-menu').hide();
-        } else {
-            $('.mobile-menu').show();
-        }
-    }, 500);*/
-
 }
 
 /*---------+---------+---------+---------*/
@@ -32,6 +24,7 @@ function restoreDefaultMenu() {
 
 function toggleDesktopMenu() {
     const desktopContentNavigation = $('.desktop-content .navigation');
+    closeContactFromMenu();
 
     if (!desktopContentNavigation.hasClass('nav-opened')) {
         console.log('Open 3 menu items')
@@ -149,7 +142,10 @@ function closeMenuTitlePage() {
 /*---------+---------+---------+--------+-----------*/
 
 function toggleDesktopContact() {
-    console.log(333);
+    //menu opened - close
+    // menu closed - skip
+    //opened case study - close cases + close menu
+    console.log('toggleDesktopContact');
     const contactMenu = $('.contact-menu');
     contactMenu.toggleClass('opened');
 
@@ -158,4 +154,13 @@ function toggleDesktopContact() {
     } else {
         $('.contact-item-arrow').text('↑');
     }
+    $('.desktop-content .navigation').removeClass('nav-opened');
+    $('.navigation-arrow-up').removeClass('rotated');
+    $('.zeroMenuItemContent').addClass('closed');
+    restoreDefaultMenu();
+}
+
+function closeContactFromMenu() {
+    $('.contact-menu').removeClass('opened');
+    $('.contact-item-arrow').text('↑');
 }

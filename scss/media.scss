@@ -132,6 +132,7 @@
                           calc(-100vw + #{$menuPanelWidth} +
                           calc(var(--case-study-items) * #{$menuItemWidth}))); //6
           background-color: white;
+          left: -5px;
         }
 
         .sideways {
@@ -251,7 +252,7 @@
             z-index: var(--menu-item-index);
             top: 10px;
             &.contact-section{
-              width: 500px; // TODO HARDCODED 40*5
+              width: 40px;
               left: 0;
               z-index: 3;
             }
@@ -262,13 +263,49 @@
         width: 0;
         transition: 0.5s;
         left: -4px;
+        z-index: 999;
+
         &.opened{
-          width: 500px;
+          width: 390px;
         }
         .contact-item-text{
           top: 138px;
         }
+        .contact-line-bottom{
+          position: absolute;
+          bottom: 10px;
+          left: 13px;
+        }
 
+        .contact-content{
+          a,p{
+            font-family: GT-Alpina-Standard-Light,sans-serif;font-size: 16px;line-height: 20px;
+          }
+          .inner-row{
+            position: relative;padding-left: 76px;
+            .contactImg{
+              max-width: 155px;margin-top: 160px;
+            }
+            .contact-heading{
+              margin-top: 25px;
+              h2{
+                font-family: Roobert-Bold,sans-serif;font-size: 20px;line-height: 30px;
+              }
+            }
+            .col-3.d-block{
+              margin-top: 58px;
+            }
+            .col-2.d-block{
+              margin-top: 28px;
+              a{
+                display: block;
+              }
+            }
+            .top-right{
+              position: absolute;right: 0;top: 20px;left: 300px;
+            }
+          }
+        }
       }
     }
 

@@ -3,7 +3,7 @@
 * */
 const caseStudyItems = 6; //TODO HARDCODED
 const htmlLoadPath = "htmlLoad";
-const htmlLoadZeroMenuItemContent = $('<div id="htmlLoadZeroMenuItemContent">')
+const htmlLoadZeroMenuItemContent = $('<div style="float: right" id="htmlLoadZeroMenuItemContent">')
     .load(`${htmlLoadPath}/zeroMenuItemContent.html #zeroMenuItemContentTarget`);
 
 

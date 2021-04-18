@@ -164,3 +164,37 @@ function closeContactFromMenu() {
     $('.contact-menu').removeClass('opened');
     $('.contact-item-arrow').text('↑');
 }
+
+
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP INSIGHTS MENU|            */
+
+/*---------+---------+---------+--------+-----------*/
+
+function showInsightsContent(){
+    console.log('showInsightsContent');
+    $('.desktop-menu').addClass('opened');
+    $('.navigation-content').addClass('white-back');
+    $('#menu-item-2-js .menu-item-arrow').text('↓');
+    $('#menu-item-2-js .menu-item-arrow-bottom').text('↓');
+    $('.containery').addClass('height-0');
+
+}
+function closeInsightsContent(e){
+    console.log('closeInsightsContent');
+    $('.desktop-menu').removeClass('opened');
+    $('.navigation-content').removeClass('white-back');
+    $('#menu-item-2-js .menu-item-arrow').text('↑');
+    $('#menu-item-2-js .menu-item-arrow-bottom').text('↑');
+    $('.containery').removeClass('height-0');
+    e.stopPropagation();
+}
+
+function slideFilterTags() {
+    const tagList = $('.tag-list');
+    if (tagList.hasClass('slided')){
+        tagList.slideDown().toggleClass('slided');
+    } else{
+        tagList.slideUp().toggleClass('slided');
+    }
+}

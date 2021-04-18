@@ -52,7 +52,14 @@ function initEvents() {
     });
     $('#menu-item-0-js').on('click', () => {
         showCaseStudyContent('menu-item-0-js');
+        closeInsightsContent();
     });
+    $('#menu-item-2-js').on('click', () => {
+        showInsightsContent('menu-item-2-js');
+    });
+    $('#filter-insights-js').on('click',()=>{
+        slideFilterTags();
+    })
     $(document).on("click", (e) => {
         const navigation = $('.navigation');
         if ($('.desktop-content .navigation').hasClass('nav-opened')

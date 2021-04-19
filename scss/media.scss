@@ -344,10 +344,15 @@
         }
       }
 
+      .insights-wrap{
+        height: inherit;
+        overflow-y: auto;
+      }
       .insights-content {
         margin-left: 85px;margin-top: 145px;position: relative;
         .insights-content-wrap{
           width: 66.102vw;
+          position: relative;
         }
         .main-title {
           font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -384,7 +389,7 @@
 
         .top-right {
           position: absolute;
-          right: 210px;
+          right: 7px;
         }
 
         .insights-block {

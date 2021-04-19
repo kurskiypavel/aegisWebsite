@@ -1,6 +1,10 @@
 //sass --watch scss/main.scss css/main.css --style compressed
 
 @font-face {
+  font-family: GT-Alpina-Standard-Regular;
+  src: url("../static/fonts/GT Alpina-woff/GT-Alpina-Standard-Regular.woff");
+}
+@font-face {
   font-family: GT-Alpina-Standard-Light;
   src: url("../static/fonts/GT Alpina-woff/GT-Alpina-Standard-Light.woff");
 }
@@ -39,13 +43,25 @@
 /*          |GENERAL STYLES|             */
 /*---------+---------+---------+---------*/
 
+u{
+  text-decoration: underline;
+  color: inherit;
+}
 
-a,
-u {
+a{
   text-decoration: underline;
   cursor: pointer;
   transition: .3s;
   color: inherit;
+
+  &:hover {
+    opacity: .5;
+  }
+}
+
+.active-element{
+  transition: .3s;
+  cursor: pointer;
 
   &:hover {
     opacity: .5;
@@ -156,7 +172,7 @@ header {
 
 
   .containery {
-    overflow-x: hidden;
+    //overflow-x: hidden;
 
     padding: 0 10px;
 
@@ -165,29 +181,48 @@ header {
       .img-block {
         display: flex;
         justify-content: center;
+        margin-top: 104px;
+        img{
+          max-width: 100%;
+        }
       }
 
       .main-statement {
-        font-size: 32px;
-        line-height: 32px;
-        font-family: GT-Alpina-Standard-Light, sans-serif;
+        font-size: 31px;
+        line-height: 31px;
+        font-family: GT-Alpina-Standard-Light,sans-serif;
+        margin-top: 44px;
       }
 
       .body-block {
-        margin-top: 96px;
+        &#practices{
+          margin-top:143px;
+        }
+        &#the-team{
+          margin-top:33px;
+        }
 
         .body-block-section {
-          margin-top: 96px;
+          margin-top: 52px;
         }
 
         .text {
           font-family: GT-Alpina-Standard-Light, sans-serif;
           font-size: 21px;
-          line-height: 25px;
+          line-height: 22px;
+          p{
+            margin-top: 6px;
+          }
+          &.practices-title{
+            margin-top: 57px;
+          }
+          i{
+            font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+          }
         }
 
         h1 {
-          margin-bottom: 45px;
+          margin-bottom: 38px;
           font-family: Roobert-Bold, sans-serif;
           font-size: 24px;
           line-height: 24px;
@@ -203,18 +238,21 @@ header {
           }
 
           &.team-item {
-            margin-top: 107px;
+            margin-top: 80px;
           }
         }
 
         .refs-block {
-          margin-top: 100px;
-          border-top: 1px solid;
-          padding-top: 100px;
+          .DRUNK-images-1{
+            margin-top: 85px;
+          }
+          img{
+            max-width: 100%;
+          }
 
           &:last-child {
-            border-bottom: 1px solid;
-            padding-bottom: 126px;
+            margin-top: 30px;
+
           }
 
           h2 {
@@ -237,7 +275,7 @@ header {
             &.fake-input {
               border-bottom-width: 1px;
               border-bottom-style: solid;
-              padding-bottom: 15px;
+              padding-bottom: 4px;
             }
 
 
@@ -257,11 +295,13 @@ header {
 
             &.fake-input__label {
               margin-top: 15px;
+              margin-bottom: 35px;
             }
           }
         }
 
         &.clients-block {
+          margin-top: 80px;
           margin-bottom: 60px;
 
           img:first-child {
@@ -271,9 +311,14 @@ header {
           }
 
           h1 {
-            margin-top: 107px;
+            margin-top: 80px;
+            margin-bottom: 23px;
           }
         }
+      }
+      .dog{
+        max-width: 100%;
+        margin-bottom: 122px;
       }
     }
 

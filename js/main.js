@@ -37,6 +37,10 @@ function initEvents() {
     $('#mobile-menu-js').on('click', () => {
         toggleMobileMenu()
     });
+    $('#menu-item-0-mobile-js').on('click', () => {
+        showCaseStudyMobileContent('menu-item-0-mobile-js');
+        // closeInsightsMobileContent();//TODO
+    });
 
     /*
     * DESKTOP EVENTS

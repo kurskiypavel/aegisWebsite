@@ -4,7 +4,54 @@
 /*---------+---------+---------+---------*/
 
 function toggleMobileMenu() {
-    $('.mobile-content .navigation').toggleClass('nav-opened');
+    const mobileContentNavigation = $('.mobile-content .navigation');
+    if (!mobileContentNavigation.hasClass('nav-opened')) {
+        console.log('Open 3 menu mobile items')
+        mobileContentNavigation.addClass('nav-opened');
+    } else {
+        console.log('Close 3 menu mobile items')
+        //restore default menu
+        mobileContentNavigation.removeClass('nav-opened');
+    }
+}
+
+function showCaseStudyMobileContent(menuElementId) {
+    switch (menuElementId) {
+        case 'menu-item-0-mobile-js':
+            toggleZeroMenuItemMobileContent()
+            break;
+        default:
+            console.log('mobile menuElementId not found!');
+            break;
+    }
+
+    function toggleZeroMenuItemMobileContent() {
+        console.log('Open 6 mobile items')
+        const menuItem0MobileJs = $('#menu-item-0-mobile-js');
+        if (!menuItem0MobileJs.hasClass('touched')) {
+            menuItem0MobileJs.addClass('touched');
+            $('#caseStudyMobileContent')
+                .css('--menu-items-length', caseStudyItems)
+                .addClass('opened');
+            $('.nav-opened').addClass('nav-opened-cases');
+            $('.case-study-panel__inner').addClass('preopened');
+        } else {
+            menuItem0MobileJs.removeClass('touched');
+            $('#caseStudyMobileContent')
+                .removeClass('opened');
+            $('.nav-opened').removeClass('nav-opened-top');
+        }
+    }
+
+    function toggleOneMenuItemMobileContent() {
+        //TBD
+    }
+
+    function toggleTwoMenuItemMobileContent() {
+        //TBD
+    }
+
+
 }
 
 /*---------+---------+---------+---------*/
@@ -93,14 +140,8 @@ function showCaseStudyContent(menuElementId) {
 }
 
 
-function readyDOMStyle() {
-    console.log("Style setups")
-
-}
-
 $(function () {
     console.log("style.js Init")
-    readyDOMStyle();
 });
 
 /*---------+---------+---------+--------+-----------*/

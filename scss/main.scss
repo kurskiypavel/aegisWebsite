@@ -4,6 +4,7 @@
   font-family: GT-Alpina-Standard-Regular;
   src: url("../static/fonts/GT Alpina-woff/GT-Alpina-Standard-Regular.woff");
 }
+
 @font-face {
   font-family: GT-Alpina-Standard-Light;
   src: url("../static/fonts/GT Alpina-woff/GT-Alpina-Standard-Light.woff");
@@ -43,12 +44,12 @@
 /*          |GENERAL STYLES|             */
 /*---------+---------+---------+---------*/
 
-u{
+u {
   text-decoration: underline;
   color: inherit;
 }
 
-a{
+a {
   text-decoration: underline;
   cursor: pointer;
   transition: .3s;
@@ -59,7 +60,7 @@ a{
   }
 }
 
-.active-element{
+.active-element {
   transition: .3s;
   cursor: pointer;
 
@@ -89,11 +90,21 @@ a{
     padding: 0 10px;
     width: calc(100vw - 20px);
 
-    &.nav-opened{
+    &.nav-opened-top{
+      top: 0;
+    }
+    &.nav-opened-cases{
+      bottom: calc(30px * 6);//TODO 6 HARDCODED
+      .mobile-menu{
+        display: none;
+      }
+    }
+    &.nav-opened {
       .mobile-menu {
         max-height: 50vh;
       }
-      .arrow-menu{
+
+      .arrow-menu {
         transform: rotate(180deg);
         -ms-transform: rotate(180deg);
         -webkit-transform: rotate(180deg);
@@ -148,6 +159,82 @@ a{
       -webkit-transform: rotate(0deg);
     }
   }
+
+  #caseStudyMobileContent {
+    position: fixed;
+    display: none;
+    &.opened{
+      height: calc(30px * 6);//TODO 6 HARDCODED
+      position: fixed;
+      display: block;
+      top: calc(100% - 30px * 6);//TODO 6 HARDCODED
+    }
+    top: 100vh;
+    background: yellow;
+    left: 10px;
+    right: 10px;
+    bottom: 0;
+    transition: .5s;
+    .section.case-study-panel__inner{
+      position: absolute;
+      background: white;overflow: hidden;width: 100%;
+      .opened{
+        height: calc(100vh - 40px - 30px * 5); //TODO HARDCODED 5
+      }
+      height: 30px;
+      .case-study-panel__header{
+        height: 29px;position: absolute;border-top: 1px solid;width: 100%;
+        background: white;
+        z-index: 1;
+        .case-study-text{
+          font-size: 15px;position: relative;top: 50%;transform: translateY(-50%);height: 16px;
+          .case-study-index{
+            font-family: Roobert-Regular,sans-serif;font-size: 16px;position: absolute;
+          }
+          .case-study-text-wrap{
+            font-family: GT-Alpina-Standard-Light,sans-serif;position: absolute;right: 0;
+            .case-study-arrow{
+              margin-left: 28px;
+            }
+
+          }
+        }
+      }
+      .case-study-panel__body{
+        position: absolute;height: 100%;
+        .case-study-panel__text{
+          font-size: 45px;padding-top: 83px;
+          .main-statement{
+            font-family: GT-Alpina-Standard-Light,sans-serif;
+          }
+          .main-statement-italic{
+            font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+          }
+        }
+        .case-study-panel__tags{
+          position: absolute;bottom: 20px;
+          .folder-icon{
+            width: 15px;height: auto;
+          }
+          .case-study-tags{
+            font-family: GT-Alpina-Standard-Light,sans-serif;font-size: 11px;line-height: 15px;margin-top: 15px;
+          }
+        }
+      }
+      .top-right{
+        position: absolute;top: 93px;right: 0;
+      }
+      .case-study-number{
+        font-family: Roobert-Light,sans-serif;font-size: 300px;position: absolute;bottom: 20px;right: -23px;
+      }
+      &.with-calc-top{
+        top: calc(100vh - 40px - 30px * calc(var(--menu-items-length) - var(--item-index)));
+      }
+      &.preopened{
+        top: calc(100% - calc(30px * calc(var(--menu-items-length) - var(--item-index))));
+      }
+    }
+  }
 }
 
 /*---------+---------+---------+---------*/
@@ -182,7 +269,8 @@ header {
         display: flex;
         justify-content: center;
         margin-top: 104px;
-        img{
+
+        img {
           max-width: 100%;
         }
       }
@@ -190,16 +278,17 @@ header {
       .main-statement {
         font-size: 31px;
         line-height: 31px;
-        font-family: GT-Alpina-Standard-Light,sans-serif;
+        font-family: GT-Alpina-Standard-Light, sans-serif;
         margin-top: 44px;
       }
 
       .body-block {
-        &#practices{
-          margin-top:143px;
+        &#practices {
+          margin-top: 143px;
         }
-        &#the-team{
-          margin-top:33px;
+
+        &#the-team {
+          margin-top: 33px;
         }
 
         .body-block-section {
@@ -210,14 +299,17 @@ header {
           font-family: GT-Alpina-Standard-Light, sans-serif;
           font-size: 21px;
           line-height: 22px;
-          p{
+
+          p {
             margin-top: 6px;
           }
-          &.practices-title{
+
+          &.practices-title {
             margin-top: 57px;
           }
-          i{
-            font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+
+          i {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
           }
         }
 
@@ -243,10 +335,11 @@ header {
         }
 
         .refs-block {
-          .DRUNK-images-1{
+          .DRUNK-images-1 {
             margin-top: 85px;
           }
-          img{
+
+          img {
             max-width: 100%;
           }
 
@@ -316,7 +409,8 @@ header {
           }
         }
       }
-      .dog{
+
+      .dog {
         max-width: 100%;
         margin-bottom: 122px;
       }

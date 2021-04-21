@@ -66,6 +66,7 @@ function initEvents() {
     })
     $(document).on("click", (e) => {
         const navigation = $('.navigation');
+        const caseStudyMobileContent = $('#caseStudyMobileContent');
         if ($('.desktop-content .navigation').hasClass('nav-opened')
             && !navigation.is(e.target)
             && navigation.has(e.target).length === 0) {
@@ -75,6 +76,13 @@ function initEvents() {
             && !navigation.is(e.target)
             && navigation.has(e.target).length === 0) {
             toggleDesktopContact();
+        }
+        if ($('.mobile-content .navigation').hasClass('nav-opened')
+            && !navigation.is(e.target)
+            && navigation.has(e.target).length === 0
+            && !caseStudyMobileContent.is(e.target)
+            && caseStudyMobileContent.has(e.target).length === 0) {
+            toggleMobileMenu();
         }
     });
 }

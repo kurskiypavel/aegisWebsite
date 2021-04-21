@@ -5,13 +5,24 @@
 
 function toggleMobileMenu() {
     const mobileContentNavigation = $('.mobile-content .navigation');
+
+    //close contact from menu code
+
     if (!mobileContentNavigation.hasClass('nav-opened')) {
         console.log('Open 3 menu mobile items')
         mobileContentNavigation.addClass('nav-opened');
     } else {
-        console.log('Close 3 menu mobile items')
         //restore default menu
-        mobileContentNavigation.removeClass('nav-opened');
+        if ($('.nav-opened-cases').length > 0) {
+            //close nav-opened-cases
+            toggleZeroMenuItemMobileContent();
+        } else if ($('.nav-opened-by-content').length > 0) {
+            restoreDefaultMobileMenu();
+        } else {
+            console.log('Close 3 menu mobile items')
+            //close 3 menu items
+            mobileContentNavigation.removeClass('nav-opened');
+        }
     }
 }
 
@@ -25,32 +36,74 @@ function showCaseStudyMobileContent(menuElementId) {
             break;
     }
 
-    function toggleZeroMenuItemMobileContent() {
+}
+
+function restoreDefaultMobileMenu() {
+    //add preopened to all
+    //put navigation back to normal
+    //close 6 elements
+    closeMobileMenuTitlePage();
+
+}
+
+function toggleZeroMenuItemMobileContent() {
+    const menuItem0MobileJs = $('#menu-item-0-mobile-js');
+    if (!menuItem0MobileJs.hasClass('touched')) {
         console.log('Open 6 mobile items')
-        const menuItem0MobileJs = $('#menu-item-0-mobile-js');
-        if (!menuItem0MobileJs.hasClass('touched')) {
-            menuItem0MobileJs.addClass('touched');
-            $('#caseStudyMobileContent')
-                .css('--menu-items-length', caseStudyItems)
-                .addClass('opened');
-            $('.nav-opened').addClass('nav-opened-cases');
-            $('.case-study-panel__inner').addClass('preopened');
-        } else {
-            menuItem0MobileJs.removeClass('touched');
-            $('#caseStudyMobileContent')
-                .removeClass('opened');
-            $('.nav-opened').removeClass('nav-opened-top');
-        }
-    }
 
-    function toggleOneMenuItemMobileContent() {
-        //TBD
-    }
+        menuItem0MobileJs.addClass('touched');
+        $('#caseStudyMobileContent')
+            .css('--menu-items-length', caseStudyItems)
+            .addClass('opened');
+        $('.nav-opened').addClass('nav-opened-cases');
+        $('.case-study-panel__inner').addClass('preopened');
+    } else {
+        console.log('Close 6 mobile items')
 
-    function toggleTwoMenuItemMobileContent() {
-        //TBD
+        menuItem0MobileJs.removeClass('touched');
+        $('#caseStudyMobileContent')
+            .removeClass('opened');
+        $('.nav-opened').removeClass('nav-opened-cases');
+        $('.case-study-panel__inner').removeClass('preopened');
     }
+}
 
+/*---------+---------+---------+--------+-----------*/
+/*             |MOBILE CASE STUDY MENU|            */
+
+/*---------+---------+---------+--------+-----------*/
+function caseStudyMobileMenuJs(caseStudyMobileMenuItem) {
+
+    $('.mobile-content .navigation')
+        .removeClass('nav-opened-cases')
+        .addClass('nav-opened-by-content');
+
+    caseStudyMobileMenuItem.parentElement.classList.remove('preopened');
+    caseStudyMobileMenuItem.parentElement.classList.add('opened');
+    // caseStudyMobileMenuItem.children[0].children[1].children[1].innerText = '↓';
+    $('#caseStudyMobileContent .case-study-panel__inner.opened .case-study-arrow').text('↓')
+    $('#caseStudyMobileContent .case-study-panel__inner.preopened .case-study-arrow').text('↑');
+    const previousSiblings = getPreviousSiblings(caseStudyMobileMenuItem.parentElement);
+    previousSiblings.forEach(div => {
+        div.classList.remove('preopened');
+        div.classList.add('opened');
+    });
+
+    const nextSiblings = getNextSiblings(caseStudyMobileMenuItem.parentElement);
+    nextSiblings.forEach(div => {
+        div.classList.remove('opened');
+        div.classList.add('preopened');
+    });
+}
+
+function closeMobileMenuTitlePage() {
+    $('.case-study-panel__inner')
+        .removeClass('opened')
+        .addClass('preopened');
+    $('.nav-opened-by-content')
+        .removeClass('nav-opened-by-content')
+        .addClass('nav-opened-cases');
+    $('.case-study-arrow').text('↑');
 
 }
 
@@ -128,15 +181,6 @@ function showCaseStudyContent(menuElementId) {
         }
     }
 
-    function toggleOneMenuItemContent() {
-        //TBD
-    }
-
-    function toggleTwoMenuItemContent() {
-        //TBD
-    }
-
-
 }
 
 
@@ -180,6 +224,7 @@ function closeMenuTitlePage() {
 
 /*---------+---------+---------+--------+-----------*/
 /*             |DESKTOP CONTACT MENU|               */
+
 /*---------+---------+---------+--------+-----------*/
 
 function toggleDesktopContact() {
@@ -190,7 +235,7 @@ function toggleDesktopContact() {
     const contactMenu = $('.contact-menu');
     contactMenu.toggleClass('opened');
 
-    if (contactMenu.hasClass('opened')){
+    if (contactMenu.hasClass('opened')) {
         $('.contact-item-arrow').text('↓');
     } else {
         $('.contact-item-arrow').text('↑');
@@ -212,7 +257,7 @@ function closeContactFromMenu() {
 
 /*---------+---------+---------+--------+-----------*/
 
-function showInsightsContent(){
+function showInsightsContent() {
     console.log('showInsightsContent');
     $('.desktop-menu').addClass('opened');
     $('.navigation-content').addClass('white-back');
@@ -221,7 +266,8 @@ function showInsightsContent(){
     $('.containery').addClass('height-0');
 
 }
-function closeInsightsContent(e){
+
+function closeInsightsContent(e) {
     console.log('closeInsightsContent');
     $('.desktop-menu').removeClass('opened');
     $('.navigation-content').removeClass('white-back');
@@ -233,9 +279,9 @@ function closeInsightsContent(e){
 
 function slideFilterTags() {
     const tagList = $('.tag-list');
-    if (tagList.hasClass('slided')){
+    if (tagList.hasClass('slided')) {
         tagList.slideDown().toggleClass('slided');
-    } else{
+    } else {
         tagList.slideUp().toggleClass('slided');
     }
 }

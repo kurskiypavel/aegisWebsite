@@ -99,6 +99,13 @@ a {
         display: none;
       }
     }
+    &.nav-opened-by-content{
+      top: 0;
+      bottom: auto;
+      .mobile-menu{
+        display: none;
+      }
+    }
     &.nav-opened {
       .mobile-menu {
         max-height: 50vh;
@@ -137,7 +144,7 @@ a {
           font-family: GT-Alpina-Standard-Light, sans-serif;
 
           .text-nav {
-            margin-right: 8px;
+            margin-right: 10px;
           }
         }
       }
@@ -178,10 +185,6 @@ a {
     .section.case-study-panel__inner{
       position: absolute;
       background: white;overflow: hidden;width: 100%;
-      .opened{
-        height: calc(100vh - 40px - 30px * 5); //TODO HARDCODED 5
-      }
-      height: 30px;
       .case-study-panel__header{
         height: 29px;position: absolute;border-top: 1px solid;width: 100%;
         background: white;
@@ -194,7 +197,7 @@ a {
           .case-study-text-wrap{
             font-family: GT-Alpina-Standard-Light,sans-serif;position: absolute;right: 0;
             .case-study-arrow{
-              margin-left: 28px;
+              margin-left: 10px;
             }
 
           }
@@ -225,8 +228,13 @@ a {
         position: absolute;top: 93px;right: 0;
       }
       .case-study-number{
-        font-family: Roobert-Light,sans-serif;font-size: 300px;position: absolute;bottom: 20px;right: -23px;
+        font-family: Roobert-Light,sans-serif;font-size: 280px;position: absolute;bottom: 20px;right: -10px;
       }
+      &.opened{
+        height: calc(100vh - 40px - 30px * 5); //TODO HARDCODED 5
+        bottom: calc(30px * calc(5 - var(--item-index)));//TODO HARDCODED 5 dep on index
+      }
+      height: 30px;
       &.with-calc-top{
         top: calc(100vh - 40px - 30px * calc(var(--menu-items-length) - var(--item-index)));
       }

@@ -11,6 +11,15 @@
   .desktop-content {
     display: none;
   }
+  header {
+    .logo {
+      margin-top: 10px;
+
+      img {
+        max-width: 60px;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -286,7 +295,7 @@
         z-index: 999;
 
         &.opened {
-          width: 390px;
+          width: 33.051vw;
         }
 
         .contact-item-text {
@@ -302,35 +311,35 @@
         .contact-content {
           a, p {
             font-family: GT-Alpina-Standard-Light, sans-serif;
-            font-size: 16px;
-            line-height: 20px;
+            font-size: 1.356vw;
+            line-height: 1.695vw;
           }
 
           .inner-row {
             position: relative;
-            padding-left: 76px;
+            padding-left: 6.441vw;
 
             .contactImg {
-              max-width: 155px;
-              margin-top: 160px;
+              max-width: 13.136vw;
+              margin-top: 13.559vw;
             }
 
             .contact-heading {
-              margin-top: 25px;
+              margin-top: 2.119vw;
 
               h2 {
                 font-family: Roobert-Bold, sans-serif;
-                font-size: 20px;
-                line-height: 30px;
+                font-size: 1.695vw;
+                line-height: 2.542vw;
               }
             }
 
             .col-3.d-block {
-              margin-top: 58px;
+              margin-top: 4.915vw;
             }
 
             .col-2.d-block {
-              margin-top: 28px;
+              margin-top: 2.373vw;
 
               a {
                 display: block;
@@ -341,7 +350,7 @@
               position: absolute;
               right: 0;
               top: 20px;
-              left: 300px;
+              left: 25.424vw;
             }
           }
         }
@@ -353,53 +362,57 @@
       }
 
       .insights-content {
-        margin-left: 85px;
-        margin-top: 145px;
+        margin-left: 10.763vw;
+        margin-top: 71px;
         position: relative;
 
         .insights-content-wrap {
-          width: calc((0.593vw + 21.186vw) * 3);
+          width: calc((0.593vw + 21.186vw + 1vw) * 3);
           position: relative;
         }
 
         .main-title {
           font-family: GT-Alpina-Standard-Light, sans-serif;
-          font-size: 70px;
+          font-size: 5.932vw;
+          line-height: 5.5vw;
           white-space: initial;
         }
 
         .filter-insights {
-          margin-top: 60px;
+          margin-top: 3.390vw;
         }
 
         .folder-icon {
-          width: 15px;
+          width: 1.271vw;
           height: auto;
         }
 
         .filter-span {
           font-family: Roobert-Medium, sans-serif;
-          font-size: 15px;
-          line-height: 15px;
+          font-size: 1.271vw;
+          line-height: 1.271vw;
         }
 
         .tag-list {
           font-family: Roobert-Medium, sans-serif;
-          font-size: 14px;
-          line-height: 24px;
+          font-size: 1.186vw;
+          line-height: 2.034vw;
           white-space: initial;
-          margin-top: 30px;
-          margin-bottom: 40px;
+          margin-top: 2.542vw;
+          margin-bottom: 3.390vw;
 
           li {
             display: inline-block;
-            width: 130px;
+            width: 10.5vw;
           }
         }
 
         .top-right {
           position: absolute;
-          right: .593vw;
+          right: 3.593vw;
+          top: 6px;
+          width: 2.542vw;
+          height: 2.542vw;
         }
 
         .insights-block {
@@ -431,39 +444,39 @@
               line-height: 2.203vw;
               position: absolute;
               bottom: 17px;
+              letter-spacing: -1px;
             }
           }
         }
       }
 
       .projects-content {
-        margin-left: 85px;
-        margin-top: 145px;
+        margin-left: 10.763vw;
+        margin-top: 71px;
         position: relative;
 
         .projects-content-wrap {
-          width: calc((0.593vw + 21.186vw) * 3);
+          width: calc((0.593vw + 21.186vw + 1vw) * 3);
           position: relative;
         }
 
         .main-title {
           font-family: GT-Alpina-Standard-Light, sans-serif;
-          font-size: 70px;
+          font-size: 5.932vw;
+          line-height: 5.5vw;
           white-space: initial;
-        }
-
-        .folder-icon {
-          width: 15px;
-          height: auto;
         }
 
         .top-right {
           position: absolute;
-          right: .593vw;
+          right: 3.593vw;
+          top: 6px;
+          width: 2.542vw;
+          height: 2.542vw;
         }
 
         .projects-block {
-          margin-top: 80px;
+          margin-top: 3.39vw;
 
           .row {
             white-space: initial;
@@ -491,12 +504,22 @@
               line-height: 2.203vw;
               position: absolute;
               bottom: 17px;
+              letter-spacing: -1px;
             }
           }
         }
       }
     }
 
+  }
+  header {
+    .logo {
+      margin-top: 10px;
+
+      img {
+        max-width: 5.085vw;
+      }
+    }
   }
 }
 

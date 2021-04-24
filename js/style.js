@@ -258,6 +258,9 @@ function caseStudyMenuJs(caseStudyMenuItem) {
 
     const nextSiblings = getNextSiblings(caseStudyMenuItem.parentElement);
     nextSiblings.forEach(div => div.classList.remove('opened'));
+    setTimeout(()=>{
+        $('.containery').addClass('height-0');
+    },500)
 
 }
 
@@ -268,6 +271,7 @@ function closeCaseStudyMenuJs() {
 }
 
 function closeMenuTitlePage() {
+    $('.containery').removeClass('height-0');
     $('.case-study-panel__inner').removeClass('opened');
     $('.menu-content-opened').removeClass('menu-content-opened');
     $('.case-study-arrow').text('↑');

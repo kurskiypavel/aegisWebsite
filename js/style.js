@@ -107,6 +107,57 @@ function closeMobileMenuTitlePage() {
 
 }
 
+/*---------+---------+---------+--------+-----------*/
+/*             |MOBILE CONTACT MENU|               */
+
+/*---------+---------+---------+--------+-----------*/
+
+function toggleMobileContact() {
+    const mobileContent = $('.mobile-content .contact-menu');
+    if (!mobileContent.hasClass('opened')) {
+
+        if($('#caseStudyMobileContent').hasClass('opened')){
+            toggleZeroMenuItemMobileContent();
+        }
+
+        console.log('Open menu contact');
+        $('.mobile-content .navigation')
+            .addClass('nav-opened')
+            .addClass('nav-opened-by-content');
+        mobileContent.addClass('opened');
+        $('body').css({'overflow':'hidden','height':'0'});
+    } else {
+        console.log('Close menu contact');
+        $('.mobile-content .navigation')
+            .removeClass('nav-opened')
+            .removeClass('nav-opened-by-content');
+        mobileContent.removeClass('opened');
+        $('body').css({'overflow':'unset','height':'initial'});
+
+
+    }
+}
+
+/*---------+---------+---------+--------+-----------*/
+/*             |MOBILE INSIGHTS MENU|            */
+
+/*---------+---------+---------+--------+-----------*/
+function showMobileInsightsContent() {
+    console.log('showMobileInsightsContent');
+    $('.navigation').addClass('nav-opened-by-insights');
+
+}
+
+function closeMobileInsightsContent(e) {
+    console.log('closeMobileInsightsContent');
+
+}
+
+function slideMobileFilterTags() {
+
+}
+
+
 /*---------+---------+---------+---------*/
 /*             |DESKTOP MENU|            */
 
@@ -124,6 +175,8 @@ function restoreDefaultMenu() {
 
 function toggleDesktopMenu() {
     const desktopContentNavigation = $('.desktop-content .navigation');
+    closeInsightsContent();
+    closeProjectsContent();
     closeContactFromMenu();
 
     if (!desktopContentNavigation.hasClass('nav-opened')) {
@@ -259,6 +312,7 @@ function closeContactFromMenu() {
 
 function showInsightsContent() {
     console.log('showInsightsContent');
+    $('#menu-item-2-js').removeClass('closed');
     $('.desktop-menu').addClass('opened');
     $('.navigation-content').addClass('white-back');
     $('#menu-item-2-js .menu-item-arrow').text('↓');
@@ -274,7 +328,8 @@ function closeInsightsContent(e) {
     $('#menu-item-2-js .menu-item-arrow').text('↑');
     $('#menu-item-2-js .menu-item-arrow-bottom').text('↑');
     $('.containery').removeClass('height-0');
-    e.stopPropagation();
+    if (e)     e.stopPropagation();
+
 }
 
 function slideFilterTags() {
@@ -284,4 +339,32 @@ function slideFilterTags() {
     } else {
         tagList.slideUp().toggleClass('slided');
     }
+}
+
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP INSIGHTS MENU|            */
+
+/*---------+---------+---------+--------+-----------*/
+
+function showProjectsContent() {
+    console.log('showProjectsContent');
+    $('#menu-item-2-js').addClass('closed');
+    $('.desktop-menu').addClass('opened');
+    $('.navigation-content').addClass('white-back');
+    $('#menu-item-1-js .menu-item-arrow').text('↓');
+    $('#menu-item-1-js .menu-item-arrow-bottom').text('↓');
+    $('.containery').addClass('height-0');
+
+}
+
+function closeProjectsContent(e) {
+    console.log('closeProjectsContent');
+    $('.desktop-menu').removeClass('opened');
+    $('.navigation-content').removeClass('white-back');
+    $('#menu-item-1-js .menu-item-arrow').text('↑');
+    $('#menu-item-1-js .menu-item-arrow-bottom').text('↑');
+    $('.containery').removeClass('height-0');
+    $('#menu-item-2-js').removeClass('closed');
+    if (e)     e.stopPropagation();
+
 }

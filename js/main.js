@@ -34,12 +34,22 @@ function initEvents() {
     /*
     * MOBILE EVENTS
     * */
+
+    /*  MENU EVENTS */
     $('#mobile-menu-js').on('click', () => {
         toggleMobileMenu()
     });
     $('#menu-item-0-mobile-js').on('click', () => {
         showCaseStudyMobileContent('menu-item-0-mobile-js');
         // closeInsightsMobileContent();//TODO
+    });
+
+    $('#mobile-contact-menu-js').on('click', () => {
+        toggleMobileContact();
+    });
+
+    $('#menu-item-2-mobile-js').on('click', () => {
+        showMobileInsightsContent();
     });
 
     /*
@@ -58,8 +68,11 @@ function initEvents() {
         showCaseStudyContent('menu-item-0-js');
         closeInsightsContent();
     });
+    $('#menu-item-1-js').on('click', () => {
+        showProjectsContent();
+    });
     $('#menu-item-2-js').on('click', () => {
-        showInsightsContent('menu-item-2-js');
+        showInsightsContent();
     });
     $('#filter-insights-js').on('click',()=>{
         slideFilterTags();

@@ -21,7 +21,7 @@
     .containery {
       overflow-x: hidden;
 
-      &.height-0{
+      &.height-0 {
         height: 0;
       }
 
@@ -219,7 +219,7 @@
             }
 
             #menu-item-1-js .menu-item-text {
-              top: 145px;
+              top: 140px;
             }
 
             #menu-item-2-js .menu-item-text {
@@ -255,6 +255,9 @@
           }
 
           .section {
+            &.closed{
+              left: calc(100% - 40px);
+            }
             background: white;
             border-left: 1px solid #f30;
             display: inline-block;
@@ -344,22 +347,28 @@
         }
       }
 
-      .insights-wrap{
+      .insights-wrap,.projects-wrap {
         height: inherit;
         overflow-y: auto;
       }
+
       .insights-content {
-        margin-left: 85px;margin-top: 145px;position: relative;
-        .insights-content-wrap{
-          width: 66.102vw;
+        margin-left: 85px;
+        margin-top: 145px;
+        position: relative;
+
+        .insights-content-wrap {
+          width: calc((0.593vw + 21.186vw) * 3);
           position: relative;
         }
+
         .main-title {
           font-family: GT-Alpina-Standard-Light, sans-serif;
           font-size: 70px;
           white-space: initial;
         }
-        .filter-insights{
+
+        .filter-insights {
           margin-top: 60px;
         }
 
@@ -381,7 +390,8 @@
           white-space: initial;
           margin-top: 30px;
           margin-bottom: 40px;
-          li{
+
+          li {
             display: inline-block;
             width: 130px;
           }
@@ -389,35 +399,98 @@
 
         .top-right {
           position: absolute;
-          right: 7px;
+          right: .593vw;
         }
 
         .insights-block {
           margin-top: 10px;
-          .row{
+
+          .row {
             white-space: initial;
           }
+
           .red-square {
-            width: 214px;
-            height: 214px;
+            width: 18.136vw;
+            height: 18.136vw;
             white-space: initial;
             border: 1px solid #f30;
-            padding: 17px;
+            padding: 1.441vw;
             position: relative;
             display: inline-block;
-            margin-right: 7px;
-            margin-top: 10px;
+            margin-right: 0.593vw;
+            margin-top: 0.847vw;
 
             .title {
-              font-family: Roobert-Medium, sans-serif;
-              font-size: 12px;
-              line-height: 16px;
+              font-family: Roobert-Bold, sans-serif;
+              font-size: 1.017vw;
+              line-height: 1.356vw;
             }
 
             p {
-              font-size: 26px;
-              line-height: 26px;
-              position: absolute;bottom: 17px;
+              font-size: 2.203vw;
+              line-height: 2.203vw;
+              position: absolute;
+              bottom: 17px;
+            }
+          }
+        }
+      }
+
+      .projects-content {
+        margin-left: 85px;
+        margin-top: 145px;
+        position: relative;
+
+        .projects-content-wrap {
+          width: calc((0.593vw + 21.186vw) * 3);
+          position: relative;
+        }
+
+        .main-title {
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+          font-size: 70px;
+          white-space: initial;
+        }
+
+        .folder-icon {
+          width: 15px;
+          height: auto;
+        }
+
+        .top-right {
+          position: absolute;
+          right: .593vw;
+        }
+
+        .projects-block {
+          margin-top: 80px;
+
+          .row {
+            white-space: initial;
+          }
+
+          .red-square {
+            width: 18.136vw;
+            height: 18.136vw;
+            white-space: initial;
+            border: 1px solid #f30;
+            padding: 1.441vw;
+            position: relative;
+            display: inline-block;
+            margin-right: 0.593vw;
+            margin-top: 0.847vw;
+
+            .title {
+              font-family: Roobert-Bold, sans-serif;
+              font-size: 1.017vw;
+              line-height: 1.356vw;
+            }
+
+            p {
+              font-size: 2.203vw;
+              line-height: 2.203vw;
+              position: absolute;
+              bottom: 17px;
             }
           }
         }

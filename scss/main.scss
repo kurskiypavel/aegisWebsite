@@ -1,6 +1,11 @@
 //sass --watch scss/main.scss css/main.css --style compressed
 
 @font-face {
+  font-family: GT-Alpina-Standard-Regular;
+  src: url("../static/fonts/GT Alpina-woff/GT-Alpina-Standard-Regular.woff");
+}
+
+@font-face {
   font-family: GT-Alpina-Standard-Light;
   src: url("../static/fonts/GT Alpina-woff/GT-Alpina-Standard-Light.woff");
 }
@@ -20,13 +25,34 @@
   src: url("../static/fonts/Roobert-woff/Roobert-Regular.woff");
 }
 
+@font-face {
+  font-family: Roobert-Medium;
+  src: url("../static/fonts/Roobert-woff/Roobert-Medium.woff");
+}
+
+@font-face {
+  font-family: Roobert-Bold;
+  src: url("../static/fonts/Roobert-woff/Roobert-Bold.woff");
+}
+
+@font-face {
+  font-family: Roobert-Light;
+  src: url("../static/fonts/Roobert-woff/Roobert-Light.woff");
+}
+
 /*---------+---------+---------+---------*/
 /*          |GENERAL STYLES|             */
 /*---------+---------+---------+---------*/
 
-
-a,
 u {
+  text-decoration: underline;
+  color: inherit;
+  letter-spacing: -1px;
+  text-decoration: underline red 1px;
+  text-underline-offset: 3px;
+}
+
+a {
   text-decoration: underline;
   cursor: pointer;
   transition: .3s;
@@ -36,7 +62,17 @@ u {
     opacity: .5;
   }
 }
-.clear-underline{
+
+.active-element {
+  transition: .3s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .5;
+  }
+}
+
+.clear-underline {
   text-decoration: unset;
 }
 
@@ -49,63 +85,324 @@ u {
 /*---------+---------+---------+---------*/
 /*          |MENU STYLES|                */
 /*---------+---------+---------+---------*/
+.mobile-content {
+  .navigation {
+    background: white;
+    position: fixed;
+    bottom: 0;
+    padding: 0 10px;
+    width: calc(100vw - 20px);
 
+    &.nav-opened-top {
+      top: 0;
+    }
+
+    &.nav-opened-cases {
+      bottom: calc(30px * 6); //TODO 6 HARDCODED
+      .mobile-menu {
+        display: none;
+      }
+    }
+
+    &.nav-opened-by-content {
+      top: 0;
+      bottom: auto;
+
+      .mobile-menu {
+        display: none;
+      }
+    }
+
+    &.nav-opened {
+      .mobile-menu {
+        max-height: 50vh;
+      }
+
+      .arrow-menu {
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+      }
+    }
+    &.nav-opened-by-insights{
+      bottom: auto;
+      top: 0;
+    }
+
+    .navigation-content {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 16px;
+      line-height: 42px;
+    }
+
+    .mobile-menu {
+      transition: .5s;
+      max-height: 0;
+      width: 100%;
+
+      .row {
+        height: 30px;
+        border-top: 1px solid;
+
+        .flex-navigation-items {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          font-size: 15px;
+          line-height: 29px;
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+
+          .text-nav {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    .text-menu {
+      font-family: Roobert-Bold, sans-serif;
+
+    }
+
+    .arrow-menu {
+      display: inline-block;
+      transition: .1s;
+      font-family: GT-Alpina-Standard-Light, sans-serif;
+      font-size: 17px;
+      margin-left: 6px;
+      transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+    }
+
+    .contact-menu {
+      display: none;
+      .contact-wrap{
+        position: relative;
+        top: calc(50% - 42.5px);
+        transform: translateY(calc(20px - 50%));
+      }
+      &.opened{
+        height: calc(100vh - 42.5px);
+        position: fixed;
+        display: block;
+        overflow: auto;
+      }
+
+      background: white;
+      top: 42.5px;
+      bottom: 0;
+      width: calc(100% - 20px);
+      left: 0;
+      padding: 0 10px;
+      .contactImg{
+        max-width: 43.478vw;
+      }
+      .contact-heading{
+        margin-top: 7.246vw;
+        h2{
+          font-family: Roobert-Bold,sans-serif;font-size: 5.333vw;line-height: 5.333vw;
+        }
+        a{
+          font-family: GT-Alpina-Standard-Light,sans-serif;font-size: 4.267vw;
+          line-height: 5.333vw;
+        }
+      }
+      .d-block{
+        font-family: GT-Alpina-Standard-Light,sans-serif;font-size: 3.865vw;
+        line-height: 4.831vw;
+      }
+      .col-3{
+        margin-top: 14.493vw;
+      }
+      .col-2{
+        margin-top: 6.039vw;
+        .clear-underline{
+          display: block;
+        }
+      }
+      .top-right{
+        position: absolute;right: 4.831vw;
+        top: 4.831vw;
+        width: 7.246vw;
+        height: 7.246vw;
+      }
+    }
+  }
+
+  #caseStudyMobileContent {
+    position: fixed;
+    display: none;
+
+    &.opened {
+      height: calc(30px * 6); //TODO 6 HARDCODED
+      position: fixed;
+      display: block;
+      top: calc(100% - 30px * 6); //TODO 6 HARDCODED
+      width: 100vw;
+      background: white;
+    }
+
+    top: 100vh;
+    bottom: 0;
+    transition: .5s;
+
+
+    .section.case-study-panel__inner {
+      position: absolute;
+      background: white;
+      overflow: hidden;
+      width: calc(100% - 20px);
+      padding: 0 10px;
+
+      .case-study-panel__header {
+        height: 29px;
+        position: absolute;
+        border-top: 1px solid;
+        width: calc(100% - 20px);
+        background: white;
+        z-index: 1;
+
+        .case-study-text {
+          font-size: 15px;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          height: 16px;
+
+          .case-study-index {
+            font-family: Roobert-Regular, sans-serif;
+            font-size: 16px;
+            position: absolute;
+          }
+
+          .case-study-text-wrap {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+            position: absolute;
+            right: 0;
+
+            .case-study-arrow {
+              margin-left: 10px;
+            }
+
+          }
+        }
+      }
+
+      .case-study-panel__body {
+        position: absolute;
+        height: 100%;
+
+        .case-study-panel__text {
+          font-size: 10.870vw;
+          padding-top: 15.048vw;
+
+          .main-statement {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+          }
+
+          .main-statement-italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
+        }
+      }
+
+      .top-right {
+        position: absolute;
+        top: 16.464vw;
+        right: 10px;
+        width: 7.246vw;
+        height: 7.246vw;
+      }
+
+      &.opened {
+        height: calc(100vh - 40px - 30px * 5); //TODO HARDCODED 5
+        bottom: calc(30px * calc(5 - var(--item-index))); //TODO HARDCODED 5 dep on index
+      }
+
+      height: 30px;
+
+      &.with-calc-top {
+        top: calc(100vh - 40px - 30px * calc(var(--menu-items-length) - var(--item-index)));
+      }
+
+      &.preopened {
+        top: calc(100% - calc(30px * calc(var(--menu-items-length) - var(--item-index))));
+      }
+    }
+  }
+}
 
 /*---------+---------+---------+---------*/
 /*          |HOME PAGE STYLES|           */
 /*---------+---------+---------+---------*/
 
 body {
-  color: #F00;
+  color: #FF3300;
 }
 
-header {
-  .logo {
-    margin-top: 10px;
 
-    img {
-      max-width: 60px;
-    }
-  }
-}
 
 .mobile-content {
 
 
   .containery {
-    overflow-x: hidden;
+    //overflow-x: hidden;
 
     padding: 0 10px;
-
 
 
     .body {
       .img-block {
         display: flex;
         justify-content: center;
+        margin-top: 104px;
+
+        img {
+          max-width: 100%;
+          height: 100%;
+          width: 100%;
+        }
       }
 
       .main-statement {
-        font-size: 32px;
-        line-height: 32px;
+        font-size: 31px;
+        line-height: 31px;
         font-family: GT-Alpina-Standard-Light, sans-serif;
+        margin-top: 44px;
       }
 
       .body-block {
-        margin-top: 96px;
+        &#practices {
+          margin-top: 143px;
+        }
+
+        &#the-team {
+          margin-top: 33px;
+        }
 
         .body-block-section {
-          margin-top: 96px;
+          margin-top: 52px;
         }
 
         .text {
           font-family: GT-Alpina-Standard-Light, sans-serif;
           font-size: 21px;
-          line-height: 25px;
+          line-height: 22px;
+
+          &.practices-title {
+            margin-top: 57px;
+          }
+
+          i {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
         }
 
         h1 {
-          margin-bottom: 45px;
+          margin-bottom: 38px;
           font-family: Roobert-Bold, sans-serif;
           font-size: 24px;
           line-height: 24px;
@@ -121,18 +418,22 @@ header {
           }
 
           &.team-item {
-            margin-top: 107px;
+            margin-top: 80px;
           }
         }
 
         .refs-block {
-          margin-top: 100px;
-          border-top: 1px solid;
-          padding-top: 100px;
+          .DRUNK-images-1 {
+            margin-top: 85px;
+          }
+
+          img {
+            max-width: 100%;
+          }
 
           &:last-child {
-            border-bottom: 1px solid;
-            padding-bottom: 126px;
+            margin-top: 30px;
+
           }
 
           h2 {
@@ -155,11 +456,12 @@ header {
             &.fake-input {
               border-bottom-width: 1px;
               border-bottom-style: solid;
-              padding-bottom: 15px;
+              padding-bottom: 4px;
             }
 
 
           }
+
           i {
             font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
             font-size: 16px;
@@ -174,12 +476,15 @@ header {
 
             &.fake-input__label {
               margin-top: 15px;
+              margin-bottom: 35px;
             }
           }
         }
 
         &.clients-block {
+          margin-top: 80px;
           margin-bottom: 60px;
+
           img:first-child {
             max-width: 323px;
             margin: 0 auto;
@@ -187,47 +492,18 @@ header {
           }
 
           h1 {
-            margin-top: 107px;
+            margin-top: 80px;
+            margin-bottom: 23px;
           }
         }
+      }
+
+      .dog {
+        max-width: 100%;
+        margin-bottom: 122px;
       }
     }
 
   }
 
-  .navigation {
-    background: white;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    bottom: 0;
-    padding: 0 10px;
-    width: calc(100vw - 20px);
-    font-size: 16px;
-    line-height: 42px;
-
-    .text-menu {
-      font-family: Roobert-Bold, sans-serif;
-
-    }
-
-    .arrow-menu {
-      font-family: Roobert-Regular, sans-serif;
-      font-size: 19px;
-    }
-  }
 }
-
-.desktop-content {
-
-}
-
-
-/*---------+---------+---------+---------+---------+---------*/
-/*          |RESPONSIVE FONTS AND SIZES DESKTOP|             */
-/*---------+---------+---------+---------+---------+---------*/
-
-
-/*---------+---------+---------+---------+---------+--------*/
-/*          |RESPONSIVE FONTS AND SIZES MOBILE|             */
-/*---------+---------+---------+---------+---------+--------*/

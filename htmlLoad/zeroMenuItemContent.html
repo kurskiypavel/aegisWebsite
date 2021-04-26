@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="zeroMenuItemContentTarget" class="sections zeroMenuItemContent closed"
+     style="transition: .5s;
+            z-index: 999;">
+    <div style="--menu-item-index: 0;"
+         class="section case-study-panel__inner">
+        <div style="width: calc(100% - 30px);height: 100vh;background: white;position: absolute;top: -10px;z-index: 0;left: 0px;"></div>
+        <div onclick="caseStudyMenuJs(this)" class="case-study-panel__header default active-element">
+            <div class="case-study-text case-study-text-one">
+                <span class="case-study-title">The Bishop Strachan School</span>
+                <span class="case-study-arrow">↑</span>
+            </div>
+            <span class="case-study-tag">Case Study</span>
+            <span class="case-study-index">1</span>
+        </div>
+        <section class="case-study-panel__body">
+            <div class="top-left">
+                <span class="main-statement">Text is coming</span>
+            </div>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMenuTitlePage()" class="top-right active-element"
+                 width="30" height="30">
+            <div class="bottom-left">
+                <img alt="folder icon" src="htmlLoad/static/images/arrow-down-case-study.svg">
+            </div>
+            <div class="bottom-right">
+                <img alt="cs-num-svg" src="htmlLoad/static/images/cs-1-num.svg">
+            </div>
+        </section>
+    </div>
+    <div class="section case-study-panel__inner" style="--menu-item-index: 1;">
+        <div onclick="caseStudyMenuJs(this)" class="case-study-panel__header  active-element">
+            <div class="case-study-text case-study-text-two">
+                <span class="case-study-title">Camp Kandalore</span>
+                <span class="case-study-arrow">↑</span>
+            </div>
+            <span class="case-study-tag">Case Study</span>
+            <span class="case-study-index">2</span>
+        </div>
+        <section class="case-study-panel__body">
+            <div class="top-left">
+                <span class="main-statement">At its heart, the new website was driven by a need to meaningfully define what was special about Kandalore.</span>
+            </div>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMenuTitlePage()" class="top-right active-element"
+                 width="30" height="30">
+            <div class="bottom-left">
+                <img alt="folder icon" src="htmlLoad/static/images/arrow-down-case-study.svg">
+            </div>
+            <div class="bottom-right">
+                <img alt="cs-num-svg" src="htmlLoad/static/images/cs-2-num.svg">
+
+            </div>
+        </section>
+    </div>
+    <div class="section case-study-panel__inner" style="--menu-item-index: 2;">
+        <div onclick="caseStudyMenuJs(this)" class="case-study-panel__header active-element">
+            <div class="case-study-text case-study-text-three">
+                <span class="case-study-title">Crescent School</span>
+                <span class="case-study-arrow">↑</span>
+            </div>
+            <span class="case-study-tag">Case Study</span>
+            <span class="case-study-index">3</span>
+        </div>
+        <section class="case-study-panel__body">
+            <div class="top-left">
+                <span class="main-statement">More than a magazine redesign, the school needed<br> to restore its connection with<br> its alumni.</span>
+            </div>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMenuTitlePage()" class="top-right active-element"
+                 width="30" height="30">
+            <div class="bottom-left">
+                <img alt="folder icon" src="htmlLoad/static/images/arrow-down-case-study.svg">
+            </div>
+            <div class="bottom-right">
+                <img alt="cs-num-svg" src="htmlLoad/static/images/cs-3-num.svg">
+
+            </div>
+        </section>
+    </div>
+    <div class="section case-study-panel__inner" style="--menu-item-index: 3;">
+        <div onclick="caseStudyMenuJs(this)" class="case-study-panel__header active-element">
+            <div class="case-study-text case-study-text-four">
+                <span class="case-study-title">United Way</span>
+                <span class="case-study-arrow">↑</span>
+            </div>
+            <span class="case-study-tag">Case Study</span>
+            <span class="case-study-index">4</span>
+        </div>
+        <section class="case-study-panel__body">
+            <div class="top-left">
+                <span class="main-statement"><span class="main-statement-italic">Up</span> is more than a fundraising campaign, it is a rallying cry. It’s about the power of personal scale.</span>
+            </div>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMenuTitlePage()" class="top-right active-element"
+                 width="30" height="30">
+            <div class="bottom-left">
+                <img alt="folder icon" src="htmlLoad/static/images/arrow-down-case-study.svg">
+            </div>
+            <div class="bottom-right">
+                <img alt="cs-num-svg" src="htmlLoad/static/images/cs-4-num.svg">
+
+            </div>
+        </section>
+    </div>
+    <div class="section case-study-panel__inner" style="--menu-item-index: 4;">
+        <div onclick="caseStudyMenuJs(this)" class="case-study-panel__header active-element">
+            <div class="case-study-text case-study-text-five">
+                <span class="case-study-title">The York School</span>
+                <span class="case-study-arrow">↑</span>
+            </div>
+            <span class="case-study-tag">Case Study</span>
+            <span class="case-study-index">5</span>
+        </div>
+        <section class="case-study-panel__body">
+            <div class="top-left">
+                <span class="main-statement">Text is coming</span>
+            </div>
+            <img id="thisshit" src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMenuTitlePage()"
+                 class="top-right active-element" width="30" height="30">
+            <div class="bottom-left">
+                <img alt="folder icon" src="htmlLoad/static/images/arrow-down-case-study.svg">
+            </div>
+            <div class="bottom-right">
+                <img alt="cs-num-svg" src="htmlLoad/static/images/cs-5-num.svg">
+
+            </div>
+        </section>
+    </div>
+    <div class="section case-study-panel__inner" style="--menu-item-index: 5;">
+        <div onclick="caseStudyMenuJs(this)" class="case-study-panel__header active-element">
+            <div class="case-study-text case-study-text-six">
+                <span class="case-study-title">Peeps Magazine</span>
+                <span class="case-study-arrow">↑</span>
+            </div>
+            <span class="case-study-tag">Case Study</span>
+            <span class="case-study-index">6</span>
+        </div>
+        <section class="case-study-panel__body">
+            <div class="top-left">
+                <span class="main-statement">Text is coming</span>
+            </div>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMenuTitlePage()" class="top-right active-element"
+                 width="30" height="30">
+            <div class="bottom-left">
+                <img alt="folder icon" src="htmlLoad/static/images/arrow-down-case-study.svg">
+            </div>
+            <div class="bottom-right">
+                <img alt="cs-num-svg" src="htmlLoad/static/images/cs-6-num.svg">
+
+            </div>
+        </section>
+    </div>
+    <link rel="stylesheet" type="text/css" href="htmlLoad/css/zero-menu-item.css">
+</div>
+</body>
+</html>

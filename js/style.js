@@ -1,5 +1,376 @@
-function readyDOMStyle(){
-    console.log("hello1")
+/*---------+---------+---------+---------*/
+/*             |MOBILE MENU|             */
+
+/*---------+---------+---------+---------*/
+
+function toggleMobileMenu() {
+    const mobileContentNavigation = $('.mobile-content .navigation');
+
+    //close contact from menu code
+
+    if (!mobileContentNavigation.hasClass('nav-opened')) {
+        console.log('Open 3 menu mobile items')
+        mobileContentNavigation.addClass('nav-opened');
+    } else {
+        //restore default menu
+        if ($('.nav-opened-cases').length > 0) {
+            //close nav-opened-cases
+            toggleZeroMenuItemMobileContent();
+        } else if ($('.nav-opened-by-content').length > 0) {
+            restoreDefaultMobileMenu();
+        } else {
+            console.log('Close 3 menu mobile items')
+            //close 3 menu items
+            mobileContentNavigation.removeClass('nav-opened');
+        }
+    }
 }
 
-$(document).ready(readyDOMStyle);
+function showCaseStudyMobileContent(menuElementId) {
+    switch (menuElementId) {
+        case 'menu-item-0-mobile-js':
+            toggleZeroMenuItemMobileContent()
+            break;
+        default:
+            console.log('mobile menuElementId not found!');
+            break;
+    }
+
+}
+
+function restoreDefaultMobileMenu() {
+    //add preopened to all
+    //put navigation back to normal
+    //close 6 elements
+    closeMobileMenuTitlePage();
+
+}
+
+function toggleZeroMenuItemMobileContent() {
+    const menuItem0MobileJs = $('#menu-item-0-mobile-js');
+    if (!menuItem0MobileJs.hasClass('touched')) {
+        console.log('Open 6 mobile items')
+
+        menuItem0MobileJs.addClass('touched');
+        $('#caseStudyMobileContent')
+            .css('--menu-items-length', caseStudyItems)
+            .addClass('opened');
+        $('.nav-opened').addClass('nav-opened-cases');
+        $('.case-study-panel__inner').addClass('preopened');
+        caseStudyMobileMenuJs(document.querySelector('.case-study-panel__header.default'));
+    } else {
+        console.log('Close 6 mobile items')
+
+        menuItem0MobileJs.removeClass('touched');
+        $('#caseStudyMobileContent')
+            .removeClass('opened');
+        $('.nav-opened').removeClass('nav-opened-cases');
+        $('.case-study-panel__inner').removeClass('preopened');
+    }
+}
+
+/*---------+---------+---------+--------+-----------*/
+/*             |MOBILE CASE STUDY MENU|            */
+
+/*---------+---------+---------+--------+-----------*/
+function caseStudyMobileMenuJs(caseStudyMobileMenuItem) {
+
+    $('.mobile-content .navigation')
+        .removeClass('nav-opened-cases')
+        .addClass('nav-opened-by-content');
+
+    caseStudyMobileMenuItem.parentElement.classList.remove('preopened');
+    caseStudyMobileMenuItem.parentElement.classList.add('opened');
+    // caseStudyMobileMenuItem.children[0].children[1].children[1].innerText = '↓';
+    $('#caseStudyMobileContent .case-study-panel__inner.opened .case-study-arrow').text('↓')
+    $('#caseStudyMobileContent .case-study-panel__inner.preopened .case-study-arrow').text('↑');
+    const previousSiblings = getPreviousSiblings(caseStudyMobileMenuItem.parentElement);
+    previousSiblings.forEach(div => {
+        div.classList.remove('preopened');
+        div.classList.add('opened');
+    });
+
+    const nextSiblings = getNextSiblings(caseStudyMobileMenuItem.parentElement);
+    nextSiblings.forEach(div => {
+        div.classList.remove('opened');
+        div.classList.add('preopened');
+    });
+}
+
+function closeMobileMenuTitlePage() {
+    $('.case-study-panel__inner')
+        .removeClass('opened')
+        .addClass('preopened');
+    $('.nav-opened-by-content')
+        .removeClass('nav-opened-by-content')
+        .addClass('nav-opened-cases');
+    $('.case-study-arrow').text('↑');
+
+}
+
+/*---------+---------+---------+--------+-----------*/
+/*             |MOBILE CONTACT MENU|               */
+
+/*---------+---------+---------+--------+-----------*/
+
+function toggleMobileContact() {
+    const mobileContent = $('.mobile-content .contact-menu');
+    if (!mobileContent.hasClass('opened')) {
+
+        if($('#caseStudyMobileContent').hasClass('opened')){
+            toggleZeroMenuItemMobileContent();
+        }
+
+        console.log('Open menu contact');
+        $('.mobile-content .navigation')
+            .addClass('nav-opened')
+            .addClass('nav-opened-by-content');
+        mobileContent.addClass('opened');
+        $('body').css({'overflow':'hidden','height':'0'});
+    } else {
+        console.log('Close menu contact');
+        $('.mobile-content .navigation')
+            .removeClass('nav-opened')
+            .removeClass('nav-opened-by-content');
+        mobileContent.removeClass('opened');
+        $('body').css({'overflow':'unset','height':'initial'});
+
+
+    }
+}
+
+/*---------+---------+---------+--------+-----------*/
+/*             |MOBILE INSIGHTS MENU|            */
+
+/*---------+---------+---------+--------+-----------*/
+function showMobileInsightsContent() {
+    console.log('showMobileInsightsContent');
+    $('.navigation').addClass('nav-opened-by-insights');
+
+}
+
+function closeMobileInsightsContent(e) {
+    console.log('closeMobileInsightsContent');
+
+}
+
+function slideMobileFilterTags() {
+
+}
+
+
+/*---------+---------+---------+---------*/
+/*             |DESKTOP MENU|            */
+
+/*---------+---------+---------+---------*/
+
+
+function restoreDefaultMenu() {
+    if ($('.menu-content-opened').length > 0) {
+        closeCaseStudyMenuJs();
+        hideMenuItemContent();
+    } else {
+        hideMenuItemContent();
+    }
+}
+
+function toggleDesktopMenu() {
+    const desktopContentNavigation = $('.desktop-content .navigation');
+    closeInsightsContent();
+    closeProjectsContent();
+    closeContactFromMenu();
+
+    if (!desktopContentNavigation.hasClass('nav-opened')) {
+        console.log('Open 3 menu items')
+        desktopContentNavigation.addClass('nav-opened');
+        $('.navigation-arrow-up').addClass('rotated');
+        showMenuItemContent();
+    } else {
+        console.log('Close 3 menu items')
+        if ($('.touched').length > 0) {
+            $('.zeroMenuItemContent').addClass('closed');
+            restoreDefaultMenu();
+        } else {
+            desktopContentNavigation.removeClass('nav-opened');
+            $('.navigation-arrow-up').removeClass('rotated');
+            restoreDefaultMenu();
+        }
+
+
+    }
+}
+
+function showMenuItemContent() {
+    $('.desktop-menu').css('--menu-items-length', 3);//TODO HARDCODED
+}
+
+function hideMenuItemContent() {
+    $('.desktop-menu').css('--menu-items-length', 3);//TODO HARDCODED
+    setTimeout(() => {
+        // $('#htmlLoadZeroMenuItemContent').remove();
+    }, 500)
+    $('#menu-item-0-js').removeClass('touched');
+}
+
+function showCaseStudyContent(menuElementId) {
+    switch (menuElementId) {
+        case 'menu-item-0-js':
+            toggleZeroMenuItemContent()
+            break;
+        default:
+            console.log('menuElementId not found!');
+            break;
+    }
+
+    function toggleZeroMenuItemContent() {
+        console.log('Open 6 items')
+        const menuItem0Js = $('#menu-item-0-js');
+        if (!menuItem0Js.hasClass('touched')) {
+            menuItem0Js.addClass('touched');
+
+            $('.desktop-menu')
+                .append(htmlLoadZeroMenuItemContent);
+            $('.zeroMenuItemContent.closed').removeClass('closed');
+            $('.desktop-menu').css('--menu-items-length', caseStudyItems);
+            caseStudyMenuJs(document.querySelector('.case-study-panel__header.default'));
+        }
+    }
+
+}
+
+
+$(function () {
+    console.log("style.js Init")
+});
+
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP CASE STUDY MENU|            */
+
+/*---------+---------+---------+--------+-----------*/
+
+function caseStudyMenuJs(caseStudyMenuItem) {
+    if (!$('.menu-content-opened').length) {
+        $('.desktop-content .navigation-content').addClass('menu-content-opened');
+        $('.nav-opened').css('--case-study-items', caseStudyItems);
+    }
+    caseStudyMenuItem.children[0].children[1].innerText = '↓';
+    if (!caseStudyMenuItem.parentElement.classList.contains('opened')) caseStudyMenuItem.parentElement.classList.add('opened');
+    const previousSiblings = getPreviousSiblings(caseStudyMenuItem.parentElement);
+    previousSiblings.forEach(div => div.classList.add('opened'));
+
+    const nextSiblings = getNextSiblings(caseStudyMenuItem.parentElement);
+    nextSiblings.forEach(div => div.classList.remove('opened'));
+    setTimeout(()=>{
+        $('.containery').addClass('height-0');
+    },500)
+
+}
+
+function closeCaseStudyMenuJs() {
+    $('.menu-content-opened').removeClass('menu-content-opened');
+    $('#zeroMenuItemContentTarget .section').removeClass('opened');
+    $('.case-study-arrow').text('↑');
+}
+
+function closeMenuTitlePage() {
+    $('.containery').removeClass('height-0');
+    $('.case-study-panel__inner').removeClass('opened');
+    $('.menu-content-opened').removeClass('menu-content-opened');
+    $('.case-study-arrow').text('↑');
+
+}
+
+
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP CONTACT MENU|               */
+
+/*---------+---------+---------+--------+-----------*/
+
+function toggleDesktopContact() {
+    //menu opened - close
+    // menu closed - skip
+    //opened case study - close cases + close menu
+    console.log('toggleDesktopContact');
+    const contactMenu = $('.contact-menu');
+    contactMenu.toggleClass('opened');
+
+    if (contactMenu.hasClass('opened')) {
+        $('.contact-item-arrow').text('↓');
+    } else {
+        $('.contact-item-arrow').text('↑');
+    }
+    $('.desktop-content .navigation').removeClass('nav-opened');
+    $('.navigation-arrow-up').removeClass('rotated');
+    $('.zeroMenuItemContent').addClass('closed');
+    restoreDefaultMenu();
+}
+
+function closeContactFromMenu() {
+    $('.contact-menu').removeClass('opened');
+    $('.contact-item-arrow').text('↑');
+}
+
+
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP INSIGHTS MENU|            */
+
+/*---------+---------+---------+--------+-----------*/
+
+function showInsightsContent() {
+    console.log('showInsightsContent');
+    $('#menu-item-2-js').removeClass('closed');
+    $('.desktop-menu').addClass('opened');
+    $('.navigation-content').addClass('white-back');
+    $('#menu-item-2-js .menu-item-arrow').text('↓');
+    $('#menu-item-2-js .menu-item-arrow-bottom').text('↓');
+    $('.containery').addClass('height-0');
+
+}
+
+function closeInsightsContent(e) {
+    console.log('closeInsightsContent');
+    $('.desktop-menu').removeClass('opened');
+    $('.navigation-content').removeClass('white-back');
+    $('#menu-item-2-js .menu-item-arrow').text('↑');
+    $('#menu-item-2-js .menu-item-arrow-bottom').text('↑');
+    $('.containery').removeClass('height-0');
+    if (e)     e.stopPropagation();
+
+}
+
+function slideFilterTags() {
+    const tagList = $('.tag-list');
+    if (tagList.hasClass('slided')) {
+        tagList.slideDown().toggleClass('slided');
+    } else {
+        tagList.slideUp().toggleClass('slided');
+    }
+}
+
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP INSIGHTS MENU|            */
+
+/*---------+---------+---------+--------+-----------*/
+
+function showProjectsContent() {
+    console.log('showProjectsContent');
+    $('#menu-item-2-js').addClass('closed');
+    $('.desktop-menu').addClass('opened');
+    $('.navigation-content').addClass('white-back');
+    $('#menu-item-1-js .menu-item-arrow').text('↓');
+    $('#menu-item-1-js .menu-item-arrow-bottom').text('↓');
+    $('.containery').addClass('height-0');
+
+}
+
+function closeProjectsContent(e) {
+    console.log('closeProjectsContent');
+    $('.desktop-menu').removeClass('opened');
+    $('.navigation-content').removeClass('white-back');
+    $('#menu-item-1-js .menu-item-arrow').text('↑');
+    $('#menu-item-1-js .menu-item-arrow-bottom').text('↑');
+    $('.containery').removeClass('height-0');
+    $('#menu-item-2-js').removeClass('closed');
+    if (e)     e.stopPropagation();
+
+}

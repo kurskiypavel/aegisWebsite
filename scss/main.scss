@@ -47,8 +47,9 @@
 u {
   text-decoration: underline;
   color: inherit;
-  text-decoration-thickness: 1px;
   letter-spacing: -1px;
+  text-decoration: underline red 1px;
+  text-underline-offset: 3px;
 }
 
 a {
@@ -198,15 +199,15 @@ a {
       padding: 0 10px;
       .contactImg{
         max-width: 43.478vw;
-        margin-top: 25.333vw;
       }
       .contact-heading{
         margin-top: 7.246vw;
         h2{
-          font-family: Roobert-Bold,sans-serif;font-size: 20px;line-height: 20px;
+          font-family: Roobert-Bold,sans-serif;font-size: 5.333vw;line-height: 5.333vw;
         }
         a{
-          font-family: GT-Alpina-Standard-Light,sans-serif;font-size: 16px;line-height: 20px;
+          font-family: GT-Alpina-Standard-Light,sans-serif;font-size: 4.267vw;
+          line-height: 5.333vw;
         }
       }
       .d-block{

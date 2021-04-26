@@ -8,6 +8,11 @@
     &.opened {
       transform: translateX(calc(-100vw + 30px + calc(var(--case-study-items) * 40px)));
     }
+    &:not(.opened){
+      .main-statement{
+        display: none;
+      }
+    }
   }
 
   .case-study-panel__header {
@@ -21,7 +26,12 @@
       -o-transform: rotate(-90deg);
       transform: rotate(-90deg);
       right: calc(100% - 8px);
-      left: 17px;
+      left: 0px;
+
+      .case-study-title, .case-study-arrow{
+        position: relative;
+        top: 15px;
+      }
 
       &.case-study-text-one {
         top: 312px;
@@ -89,6 +99,7 @@
       top: 71px;
       left: 3.390vw;
       line-height: 5.5vw;
+      letter-spacing: -0.169vw;
 
       .main-statement {
         font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -123,8 +134,7 @@
       bottom: 80px;
       right: 28px;
       img{
-        width: 11.695vw;
-        height: auto;
+        height: 17.797vw;
       }
     }
   }

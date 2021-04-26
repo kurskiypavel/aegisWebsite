@@ -57,6 +57,7 @@ function toggleZeroMenuItemMobileContent() {
             .addClass('opened');
         $('.nav-opened').addClass('nav-opened-cases');
         $('.case-study-panel__inner').addClass('preopened');
+        caseStudyMobileMenuJs(document.querySelector('.case-study-panel__header.default'));
     } else {
         console.log('Close 6 mobile items')
 
@@ -231,6 +232,7 @@ function showCaseStudyContent(menuElementId) {
                 .append(htmlLoadZeroMenuItemContent);
             $('.zeroMenuItemContent.closed').removeClass('closed');
             $('.desktop-menu').css('--menu-items-length', caseStudyItems);
+            caseStudyMenuJs(document.querySelector('.case-study-panel__header.default'));
         }
     }
 

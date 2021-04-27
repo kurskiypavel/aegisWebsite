@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/insights/media.css?v=1">
     <link rel="stylesheet" href="css/media.css?v=1">
+    <link rel="stylesheet" href="css/main.css?v=1">
     <link rel="stylesheet" href="css/common-media.css?v=1">
 
 </head>
@@ -327,6 +328,203 @@ Airports Authority</span><p>Design elevates<br>
         </div>
     </div>
 
+</div>
+<div class="mobile-content">
+    <div class="navigation">
+        <div class="navigation-content">
+            <div id="mobile-menu-js">
+                <span class="text-menu">Menu</span>
+                <span class="arrow-menu">↑</span>
+            </div>
+            <div id="mobile-contact-menu-js" class="text-menu">
+                <span>Contact</span>
+            </div>
+        </div>
+        <div class="mobile-menu">
+
+            <div id="menu-item-0-mobile-js" class="row">
+                <div class="col-12">
+                    <div class="flex-navigation-items">
+                        <div>—</div>
+                        <div>
+                            <span class="text-nav">Case Studies</span>
+                            <span>↑</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="flex-navigation-items">
+                        <div>—</div>
+                        <div>
+                            <span class="text-nav">Projects</span>
+                            <span>↑</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-item-2-mobile-js"  class="row" style="position: relative;">
+                <div class="col-12" style="position: relative;z-index: 1;background: white;">
+                    <div class="flex-navigation-items">
+                        <div>—</div>
+                        <div>
+                            <span class="text-nav">Insights</span>
+                            <span>↑</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="position: absolute;top: 0;height: calc(100vh - 40px - 30px * 2);width: 100%;">
+                    <div>SOME CONTENT</div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-menu">
+            <div class="contact-wrap" style="position: relative;top: calc(50% - 40px);
+                                                transform: translate(-50%,calc(20px - 50%));
+                                                left: 50%;
+                                                width: 64vw;">
+                <img class="contactImg" src="static/images/mobile/homepage/footerImg.PNG" alt="">
+                <div class="contact-heading">
+                    <div>
+                        <h2>
+                            Let’s have coffee
+                            and talk.
+                        </h2>
+                        <a class="clear-underline" href="mailto:people@aegisbrand.com">people@aegisbrand.com</a>
+                    </div>
+                </div>
+                <div class="col-3 d-block">
+                    <p>181 Carlaw Ave., Suite 206</p>
+                    <p>Toronto, Ontario</p>
+                    <p><a  style="text-decoration: none" href="tel:16473482788">1-647-348 2788 ext. 30</a></p>
+                </div>
+                <div class="col-2 d-block">
+                    <a class="clear-underline" target="_blank" href="https://www.linkedin.com/company/aegisdesign">LinkedIn</a>
+                    <a class="clear-underline" target="_blank" href="https://twitter.com/aegisbrand">Twitter</a>
+                    <a class="clear-underline" target="_blank" href="https://www.instagram.com/aegis_brand/">Instagram</a>
+                </div>
+            </div>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="toggleMobileContact()" class="top-right active-element" width="30" height="30">
+        </div>
+    </div>
+    <div id="caseStudyMobileContent">
+        <div class="section case-study-panel__inner" style="--item-index: 0;">
+            <div onclick="caseStudyMobileMenuJs(this)" class="case-study-panel__header default">
+                <div class="case-study-text">
+                    <span class="case-study-index">1</span>
+                    <div class="case-study-text-wrap">
+                        <span class="case-study-title">The Bishop Strachan School</span>
+                        <span class="case-study-arrow">↑</span>
+                    </div>
+                </div>
+
+            </div>
+            <section class="case-study-panel__body">
+                <div class="case-study-panel__text">
+                    <span class="main-statement">Text is coming</span>
+                </div>
+            </section>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"
+                 class="top-right active-element" width="30" height="30">
+        </div>
+        <div class="section case-study-panel__inner" style="--item-index: 1;">
+            <div  onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
+                <div class="case-study-text">
+                    <span class="case-study-index">2</span>
+                    <div class="case-study-text-wrap">
+                        <span class="case-study-title">Camp Kandalore</span>
+                        <span class="case-study-arrow">↑</span>
+                    </div>
+                </div>
+
+            </div>
+            <section class="case-study-panel__body">
+                <div class="case-study-panel__text">
+                    <span class="main-statement">At its heart, the<br> new website was<br> driven by a need<br> to meaningfully<br> define what was<br> special about<br> Kandalore.</span>
+                </div>
+            </section>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"
+                 class="top-right active-element" width="30" height="30">
+        </div>
+        <div class="section case-study-panel__inner" style="--item-index: 2;">
+            <div  onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
+                <div class="case-study-text">
+                    <span class="case-study-index">3</span>
+                    <div class="case-study-text-wrap">
+                        <span class="case-study-title">Crescent School</span>
+                        <span class="case-study-arrow">↑</span>
+                    </div>
+                </div>
+
+            </div>
+            <section class="case-study-panel__body">
+                <div class="case-study-panel__text">
+                    <span class="main-statement">More than a<br> magazine<br> redesign, the<br> school needed to<br> restore its<br> connection with<br> its alumni.</span>
+                </div>
+            </section>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"
+                 class="top-right active-element" width="30" height="30">
+        </div>
+        <div class="section case-study-panel__inner" style="--item-index: 3;">
+            <div onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
+                <div class="case-study-text">
+                    <span class="case-study-index">4</span>
+                    <div class="case-study-text-wrap">
+                        <span class="case-study-title">United Way</span>
+                        <span class="case-study-arrow">↑</span>
+                    </div>
+                </div>
+
+            </div>
+            <section class="case-study-panel__body">
+                <div class="case-study-panel__text">
+                    <span class="main-statement"><span class="main-statement-italic">Up</span> is more than<br> a fundraising<br> campaign, it is a<br> rallying cry. It’s<br> about the power<br> of personal scale.</span>
+                </div>
+            </section>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"
+                 class="top-right active-element" width="30" height="30">
+        </div>
+        <div class="section case-study-panel__inner" style="--item-index: 4;">
+            <div onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
+                <div class="case-study-text">
+                    <span class="case-study-index">5</span>
+                    <div class="case-study-text-wrap">
+                        <span class="case-study-title">The York School</span>
+                        <span class="case-study-arrow">↑</span>
+                    </div>
+                </div>
+
+            </div>
+            <section class="case-study-panel__body">
+                <div class="case-study-panel__text">
+                    <span class="main-statement">Text is coming</span>
+                </div>
+            </section>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"
+                 class="top-right active-element" width="30" height="30">
+        </div>
+        <div class="section case-study-panel__inner" style="--item-index: 5;">
+            <div onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
+                <div class="case-study-text">
+                    <span class="case-study-index">6</span>
+                    <div class="case-study-text-wrap">
+                        <span class="case-study-title">Peeps Magazine</span>
+                        <span class="case-study-arrow">↑</span>
+                    </div>
+                </div>
+
+            </div>
+            <section class="case-study-panel__body">
+                <div class="case-study-panel__text">
+                    <span class="main-statement">Text is coming</span>
+                </div>
+            </section>
+            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"
+                 class="top-right active-element" width="30" height="30">
+        </div>
+
+    </div>
 </div>
 </body>
 </html>

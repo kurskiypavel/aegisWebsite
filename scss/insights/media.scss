@@ -1,0 +1,112 @@
+//sass --watch scss/insights/media.scss css/insights/media.css --style compressed
+.containery {
+  padding: 0 0.847vw;
+  .body{
+    padding-left: 11.017vw;
+    padding-right: 11.017vw;
+    padding-top: 8.051vw;
+  }
+
+  .main-statement-wrap{
+    position: relative;height: 34.746vw;
+    .main-statement {
+      font-size: 5.932vw;
+      line-height: 5.932vw;
+      letter-spacing: -0.169vw;
+      position: absolute;top: 50%;transform: translateY(-50%);z-index: 1;width: 54.492vw;
+
+      .simple {
+        font-family: GT-Alpina-Standard-Light, sans-serif;
+      }
+
+      .italic {
+        font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+      }
+    }
+    img{
+      position: absolute;top: 0;right: 0;
+      height: 34.746vw;
+    }
+  }
+
+  .tag-list {
+    margin-top: 5.085vw;
+    li {
+      display: inline-block;
+      font-family: Roobert-Medium, sans-serif;
+      font-size: 1.186vw;
+      margin-right: 1.017vw;
+      line-height: 1.695vw;
+    }
+  }
+
+  .insight-by {
+    font-family: Roobert-Medium, sans-serif;
+    font-size: 1.186vw;
+    margin-right: 1.017vw;
+    line-height: 1.695vw;
+    margin-top: 2.119vw;
+  }
+  .main-content{
+    margin-top: 8.475vw;
+    .row{
+      display: flex;
+      max-width: 100%;
+      .col-3{
+        max-width: 22.034vw;
+        width: 100%;
+      }
+      .col-7{
+        max-width: 54.237vw;
+        width: 100%;
+      }
+    }
+    p{
+      font-size: 2.203vw;
+      line-height: 2.542vw;
+      font-family: GT-Alpina-Standard-Light,sans-serif;
+      margin-bottom: 2.119vw;
+      .italic{
+        font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+
+      }
+    }
+    .share{
+      margin-top: 15.508vw;
+      li {
+        display: inline-block;
+        font-family: Roobert-Medium, sans-serif;
+        font-size: 1.356vw;
+        margin-right: 1.017vw;
+        line-height: 2.542vw;
+      }
+    }
+  }
+  .next-insight{
+    margin-top: 16.949vw;border-top: 1px solid;padding-top: 4.237vw;
+    .ref{
+      font-family: Roobert-Medium, sans-serif;
+      font-size: 1.356vw;
+      line-height: 1.695vw;
+    }
+    .next-title{
+      margin-top: 5.424vw;
+      margin-bottom: 16.949vw;
+      span{
+        font-size: 5.932vw;
+        line-height: 5.932vw;
+        letter-spacing: -0.169vw;
+        display: block;
+      }
+      .simple {
+        font-family: GT-Alpina-Standard-Light, sans-serif;
+      }
+
+      .italic {
+        font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+      }
+    }
+  }
+}
+
+

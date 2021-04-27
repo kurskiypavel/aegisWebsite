@@ -1,90 +1,4 @@
 //sass --watch scss/main.scss css/main.css --style compressed
-
-@font-face {
-  font-family: GT-Alpina-Standard-Regular;
-  src: url("../static/fonts/GT Alpina-woff/GT-Alpina-Standard-Regular.woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Standard-Light;
-  src: url("../static/fonts/GT Alpina-woff/GT-Alpina-Standard-Light.woff");
-}
-
-@font-face {
-  font-family: GT-Alpina-Standard-Light-Italic;
-  src: url("../static/fonts/GT Alpina-woff/GT-Alpina-Standard-Light-Italic.woff");
-}
-
-@font-face {
-  font-family: Roobert-Bold;
-  src: url("../static/fonts/Roobert-woff/Roobert-Bold.woff");
-}
-
-@font-face {
-  font-family: Roobert-Regular;
-  src: url("../static/fonts/Roobert-woff/Roobert-Regular.woff");
-}
-
-@font-face {
-  font-family: Roobert-Medium;
-  src: url("../static/fonts/Roobert-woff/Roobert-Medium.woff");
-}
-
-@font-face {
-  font-family: Roobert-Bold;
-  src: url("../static/fonts/Roobert-woff/Roobert-Bold.woff");
-}
-
-@font-face {
-  font-family: Roobert-Light;
-  src: url("../static/fonts/Roobert-woff/Roobert-Light.woff");
-}
-
-/*---------+---------+---------+---------*/
-/*          |GENERAL STYLES|             */
-/*---------+---------+---------+---------*/
-
-u {
-  text-decoration: underline;
-  color: inherit;
-  letter-spacing: -1px;
-  text-decoration: underline red 1px;
-  text-underline-offset: 3px;
-}
-
-a {
-  text-decoration: underline;
-  cursor: pointer;
-  transition: .3s;
-  color: inherit;
-
-  &:hover {
-    opacity: .5;
-  }
-}
-
-.active-element {
-  transition: .3s;
-  cursor: pointer;
-
-  &:hover {
-    opacity: .5;
-  }
-}
-
-.clear-underline {
-  text-decoration: unset;
-}
-
-* {
-  outline: unset;
-
-}
-
-
-/*---------+---------+---------+---------*/
-/*          |MENU STYLES|                */
-/*---------+---------+---------+---------*/
 .mobile-content {
   .navigation {
     background: white;
@@ -334,16 +248,6 @@ a {
     }
   }
 }
-
-/*---------+---------+---------+---------*/
-/*          |HOME PAGE STYLES|           */
-/*---------+---------+---------+---------*/
-
-body {
-  color: #FF3300;
-}
-
-
 
 .mobile-content {
 

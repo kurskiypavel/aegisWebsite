@@ -109,3 +109,26 @@ $(function () {
     console.log("main.js Init")
     readyDOMMain();
 });
+
+function loadInsight(insightToLoad) {
+    console.log(insightToLoad);
+    $('.next-title').addClass('preventClick');
+    $('body').addClass('js-page-loading');
+    $(".desktop-content .containery").append('<div class="new-html unactive"></div>');
+    $(".desktop-content .containery .new-html").load(`./insights/${insightToLoad}.html .insight-html`, function (responseText, textStatus, XMLHttpRequest) {
+        if (textStatus === "success") {
+            $('title').load(`./insights/${insightToLoad}.html title`, '', function (data) {
+                document.title = $(this).text().toUpperCase();
+            });
+            history.pushState({pageID: insightToLoad}, insightToLoad, `./insights/${insightToLoad}.html`);
+            // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
+            // readyDOMStyle();
+            // readyDOMMain();
+            //init events and etc. if required
+            // window.scrollTo(0, 1);
+
+        } else {
+            console.log('error  $("body").load');
+        }
+    });
+}

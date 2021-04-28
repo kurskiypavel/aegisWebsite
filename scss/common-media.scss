@@ -94,6 +94,277 @@ a {
   pointer-events: none;
 }
 
+.mobile-content {
+  .navigation {
+    background: white;
+    position: fixed;
+    bottom: 0;
+    padding: 0 10px;
+    width: calc(100vw - 20px);
+
+    &.nav-opened-top {
+      top: 0;
+    }
+
+    &.nav-opened-cases {
+      bottom: calc(30px * 6); //TODO 6 HARDCODED
+      .mobile-menu {
+        display: none;
+      }
+    }
+
+    &.nav-opened-by-content {
+      top: 0;
+      bottom: auto;
+
+      .mobile-menu {
+        display: none;
+      }
+    }
+
+    &.nav-opened {
+      .mobile-menu {
+        max-height: 50vh;
+      }
+
+      .arrow-menu {
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+      }
+    }
+
+    &.nav-opened-by-insights {
+      bottom: auto;
+      top: 0;
+    }
+
+    .navigation-content {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-size: 16px;
+      line-height: 42px;
+    }
+
+    .mobile-menu {
+      transition: .5s;
+      max-height: 0;
+      width: 100%;
+
+      .row {
+        height: 30px;
+        border-top: 1px solid;
+
+        .flex-navigation-items {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          font-size: 15px;
+          line-height: 29px;
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+
+          .text-nav {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+
+    .text-menu {
+      font-family: Roobert-Bold, sans-serif;
+
+    }
+
+    .arrow-menu {
+      display: inline-block;
+      transition: .1s;
+      font-family: GT-Alpina-Standard-Light, sans-serif;
+      font-size: 17px;
+      margin-left: 6px;
+      transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+    }
+
+    .contact-menu {
+      display: none;
+
+      .contact-wrap {
+        position: relative;
+        top: calc(50% - 42.5px);
+        transform: translateY(calc(20px - 50%));
+      }
+
+      &.opened {
+        height: calc(100vh - 42.5px);
+        position: fixed;
+        display: block;
+        overflow: auto;
+      }
+
+      background: white;
+      top: 42.5px;
+      bottom: 0;
+      width: calc(100% - 20px);
+      left: 0;
+      padding: 0 10px;
+
+      .contactImg {
+        max-width: 43.478vw;
+      }
+
+      .contact-heading {
+        margin-top: 7.246vw;
+
+        h2 {
+          font-family: Roobert-Bold, sans-serif;
+          font-size: 5.333vw;
+          line-height: 5.333vw;
+        }
+
+        a {
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+          font-size: 4.267vw;
+          line-height: 5.333vw;
+        }
+      }
+
+      .d-block {
+        font-family: GT-Alpina-Standard-Light, sans-serif;
+        font-size: 3.865vw;
+        line-height: 4.831vw;
+      }
+
+      .col-3 {
+        margin-top: 14.493vw;
+      }
+
+      .col-2 {
+        margin-top: 6.039vw;
+
+        .clear-underline {
+          display: block;
+        }
+      }
+
+      .top-right {
+        position: absolute;
+        right: 4.831vw;
+        top: 4.831vw;
+        width: 7.246vw;
+        height: 7.246vw;
+      }
+    }
+  }
+  #caseStudyMobileContent {
+    position: fixed;
+    display: none;
+
+    &.opened {
+      height: calc(30px * 6); //TODO 6 HARDCODED
+      position: fixed;
+      display: block;
+      top: calc(100% - 30px * 6); //TODO 6 HARDCODED
+      width: 100vw;
+      background: white;
+    }
+
+    top: 100vh;
+    bottom: 0;
+    transition: .5s;
+
+
+    .section.case-study-panel__inner {
+      position: absolute;
+      background: white;
+      overflow: hidden;
+      width: calc(100% - 20px);
+      padding: 0 10px;
+
+      .case-study-panel__header {
+        height: 29px;
+        position: absolute;
+        border-top: 1px solid;
+        width: calc(100% - 20px);
+        background: white;
+        z-index: 1;
+
+        .case-study-text {
+          font-size: 15px;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          height: 16px;
+
+          .case-study-index {
+            font-family: Roobert-Regular, sans-serif;
+            font-size: 16px;
+            position: absolute;
+          }
+
+          .case-study-text-wrap {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+            position: absolute;
+            right: 0;
+
+            .case-study-arrow {
+              margin-left: 10px;
+            }
+
+          }
+        }
+      }
+
+      .case-study-panel__body {
+        position: absolute;
+        height: 100%;
+
+        .case-study-panel__text {
+          font-size: 10.870vw;
+          padding-top: 15.048vw;
+          max-width: 84vw;
+          letter-spacing: -2px;
+
+          .main-statement {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+          }
+
+          .main-statement-italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
+        }
+      }
+
+      .case-number{
+        font-family: Roobert-Regular,sans-serif;position: absolute;bottom: 0;right: 10px;font-size: 120px;
+      }
+
+      .top-right {
+        position: absolute;
+        top: 16.464vw;
+        right: 10px;
+        width: 7.246vw;
+        height: 7.246vw;
+      }
+
+      &.opened {
+        height: calc(100vh - 40px - 30px * 5); //TODO HARDCODED 5
+        bottom: calc(30px * calc(5 - var(--item-index))); //TODO HARDCODED 5 dep on index
+      }
+
+      height: 30px;
+
+      &.with-calc-top {
+        top: calc(100vh - 40px - 30px * calc(var(--menu-items-length) - var(--item-index)));
+      }
+
+      &.preopened {
+        top: calc(100% - calc(30px * calc(var(--menu-items-length) - var(--item-index))));
+      }
+    }
+  }
+}
 @media only screen and (max-width: 767px) {
   header {
     .logo {
@@ -158,7 +429,7 @@ a {
           }
 
           &.menu-sideway {
-            top: 15px;
+            top: 30px;
             right: 0;
             left: 0;
           }
@@ -363,9 +634,10 @@ a {
 
         .main-title {
           font-family: GT-Alpina-Standard-Light, sans-serif;
-          font-size: 5.932vw;
-          line-height: 5.5vw;
+          font-size: 5.508vw;
+          line-height: 5.508vw;
           white-space: initial;
+          letter-spacing: -0.169vw;
         }
 
         .filter-insights {
@@ -373,23 +645,23 @@ a {
         }
 
         .folder-icon {
-          width: 1.271vw;
+          width: 15px;
           height: auto;
         }
 
         .filter-span {
           font-family: Roobert-Medium, sans-serif;
-          font-size: 1.271vw;
-          line-height: 1.271vw;
+          font-size: 15px;
+          line-height: 15px;
         }
 
         .tag-list {
           font-family: Roobert-Medium, sans-serif;
-          font-size: 1.186vw;
-          line-height: 2.034vw;
+          font-size: 14px;
+          line-height: 24px;
           white-space: initial;
-          margin-top: 2.542vw;
-          margin-bottom: 3.390vw;
+          margin-top: 30px;
+          margin-bottom: 40px;
 
           li {
             display: inline-block;
@@ -406,7 +678,7 @@ a {
         }
 
         .insights-block {
-          margin-top: 10px;
+          margin-top: 50px;
 
           .row {
             white-space: initial;
@@ -452,9 +724,10 @@ a {
 
         .main-title {
           font-family: GT-Alpina-Standard-Light, sans-serif;
-          font-size: 5.932vw;
-          line-height: 5.5vw;
+          font-size: 5.508vw;
+          line-height: 5.508vw;
           white-space: initial;
+          letter-spacing: -0.169vw;
         }
 
         .top-right {
@@ -518,7 +791,7 @@ a {
       .navigation-content {
         .sideways {
           margin-top: 10px;
-          font-size: 10px;
+          font-size: 14px;
           line-height: 20px;
 
           .contact-btn {
@@ -540,7 +813,7 @@ a {
       .navigation-content {
         .sideways {
           margin-top: 10px;
-          font-size: 10px;
+          font-size: 14px;
           line-height: 20px;
 
           .contact-btn {

@@ -37,7 +37,6 @@
 
           .main-statement {
             font-family: GT-Alpina-Standard-Light, sans-serif;
-            letter-spacing: -1px;
           }
 
           .body-block {
@@ -124,6 +123,7 @@
             font-size: 4.48vw;
             line-height: 5.09vw;
             margin-top: 7.051vw;
+            letter-spacing: -0.169vw;
           }
 
           #practices-d {
@@ -136,11 +136,11 @@
 
           #cross-block {
             position: relative;
-            margin-top: 13.305vw;
+            margin-top: 7.627vw;
 
             .cross {
               position: relative;
-              height: 62.712vw;
+              height: 48.305vw;
 
               .cross-body {
                 position: absolute;
@@ -160,27 +160,32 @@
           }
 
           #the-team-d {
-            margin-top: 11.6vw;
+            margin-top: 10.763vw;
           }
 
           .body-block {
             h1 {
-              font-size: 2.083vw;
-              line-height: 2.083vw;
+              font-size: 2.542vw;
+              line-height: 2.542vw;
             }
 
             .first-image {
-              margin: 5.085vw 0 auto;
+              margin: 7.085vw 0 auto;
               max-width: 100%;
               height: auto;
+              max-height: 50.424vw;
             }
 
             .text {
               font-size: 2.222vw;
               line-height: 2.500vw;
+              letter-spacing: -0.085vw;
+              .job-title{
+                font-size: 1.695vw;
+              }
 
               &:not(:first-child) {
-                margin-top: 2.966vw;
+                margin-top: 3.119vw;
               }
             }
 
@@ -190,44 +195,45 @@
               padding: 0 9.028vw;
 
               .col-3 {
-                max-width: 31%;
+                max-width: 22.034vw;
                 width: 100%;
               }
 
               .col-7 {
-                max-width: 69%;
+                max-width: 54.237vw;
                 width: 100%;
               }
             }
 
             .refs-block {
-              width: 22.424vw;
-
-              img {
-                width: 10.847vw;
-              }
+              width: 21.186vw;
 
               h2 {
-                margin-top: 15px;
-                line-height: 18px;
-                font-size: 15px;
+                margin-top: 1.542vw;
+                line-height: 1.667vw;
+                font-size: 1.356vw;
+                margin-bottom: 1.119vw;
               }
 
               i {
-                line-height: 18px;
-                font-size: 14px;
+                line-height: 1.667vw;
+                font-size: 1.356vw;
               }
 
-              img {
-                max-width: 22.034vw;
-                max-height: 16.949vw;
+              .drunk-1{
+                max-height: 15.000vw;
               }
+              .drunk-2{
+                max-height: 16.949vw;
+                max-width: 8.814vw;
+              }
+
 
               .ref-item {
-                margin-top: 19px;
-                margin-bottom: 8px;
-                line-height: 18px;
-                font-size: 15px;
+                margin-top: 2.119vw;
+                margin-bottom: 15px;
+                line-height: 1.667vw;
+                font-size: 1.356vw;
 
 
                 &.fake-input {
@@ -238,12 +244,12 @@
               }
 
               p {
-                margin-top: 25px;
-                font-size: 13px;
-                line-height: 15px;
+                margin-top: 2.119vw;
+                font-size: 1.111vw;
+                line-height: 1.389vw;
 
                 &.fake-input__label {
-                  margin-top: 0px;
+                  margin-top: 15px;
                 }
               }
 
@@ -277,8 +283,8 @@
                 transform: translateY(-50%);
 
                 h2, a, p {
-                  line-height: 16px;
-                  font-size: 13px;
+                  line-height: 1.667vw;
+                  font-size: 1.356vw;
                 }
               }
             }
@@ -302,6 +308,7 @@
             font-size: 4.48vw;
             line-height: 5.09vw;
             margin-top: 7.051vw;
+            letter-spacing: -0.169vw;
           }
 
           #practices-d {
@@ -314,11 +321,11 @@
 
           #cross-block {
             position: relative;
-            margin-top: 13.305vw;
+            margin-top: 7.627vw;
 
             .cross {
               position: relative;
-              height: 46.712vw;
+              height: 48.305vw;
 
               .cross-body {
                 position: absolute;
@@ -338,28 +345,32 @@
           }
 
           #the-team-d {
-            margin-top: 11.6vw;
+            margin-top: 10.763vw;
           }
 
           .body-block {
             h1 {
-              font-size: 2.083vw;
-              line-height: 2.083vw;
+              font-size: 2.542vw;
+              line-height: 2.542vw;
             }
 
             .first-image {
-              margin: 5.085vw 0 auto;
+              margin: 7.085vw 0 auto;
               max-width: 100%;
               height: auto;
-              max-height: 63.559vw;
+              max-height: 50.424vw;
             }
 
             .text {
               font-size: 2.222vw;
               line-height: 2.500vw;
+              letter-spacing: -0.085vw;
+              .job-title{
+                font-size: 1.695vw;
+              }
 
               &:not(:first-child) {
-                margin-top: 2.966vw;
+                margin-top: 3.119vw;
               }
             }
 
@@ -369,40 +380,45 @@
               padding: 0 9.028vw;
 
               .col-3 {
-                max-width: 31%;
+                max-width: 22.034vw;
                 width: 100%;
               }
 
               .col-7 {
-                max-width: 69%;
+                max-width: 54.237vw;
                 width: 100%;
               }
             }
 
             .refs-block {
-              width: 22.424vw;
+              width: 21.186vw;
 
               h2 {
-                margin-top: 2.542vw;
+                margin-top: 1.542vw;
                 line-height: 1.667vw;
-                font-size: 1.333vw;
+                font-size: 1.356vw;
+                margin-bottom: 1.119vw;
               }
 
               i {
                 line-height: 1.667vw;
-                font-size: 1.333vw;
+                font-size: 1.356vw;
               }
 
-              img {
-                max-width: 22.034vw;
-                max-height: 16.949vw;
+              .drunk-1{
+                max-height: 15.000vw;
               }
+              .drunk-2{
+                max-height: 16.949vw;
+                max-width: 8.814vw;
+              }
+
 
               .ref-item {
                 margin-top: 2.119vw;
                 margin-bottom: 15px;
                 line-height: 1.667vw;
-                font-size: 1.333vw;
+                font-size: 1.356vw;
 
 
                 &.fake-input {
@@ -453,7 +469,7 @@
 
                 h2, a, p {
                   line-height: 1.667vw;
-                  font-size: 1.333vw;
+                  font-size: 1.356vw;
                 }
               }
             }

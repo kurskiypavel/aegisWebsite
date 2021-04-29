@@ -8,8 +8,9 @@
     &.opened {
       transform: translateX(calc(-100vw + 30px + calc(var(--case-study-items) * 40px)));
     }
-    &:not(.opened){
-      .main-statement{
+
+    &:not(.opened) {
+      .main-statement {
         display: none;
       }
     }
@@ -28,7 +29,7 @@
       right: calc(100% - 8px);
       left: 0px;
 
-      .case-study-title, .case-study-arrow{
+      .case-study-title, .case-study-arrow {
         position: relative;
         top: 15px;
       }
@@ -92,14 +93,10 @@
     position: relative;
 
     .top-left {
-      font-size: 5.508vw;
       white-space: initial;
-      width: 53vw;
       position: absolute;
       top: 71px;
       left: 3.390vw;
-      line-height: 5.508vw;
-      letter-spacing: -0.169vw;
 
       .main-statement {
         font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -114,28 +111,18 @@
       position: absolute;
       top: 77px;
       right: 50px;
-      width: 2.542vw;
-      height: 2.542vw;
     }
 
     .bottom-left {
       position: absolute;
       bottom: 80px;
       left: 3.390vw;
-
-      img {
-        width: 2.822vw;
-        height: 4.146vw;
-      }
     }
 
     .bottom-right {
       position: absolute;
       bottom: 80px;
       right: 28px;
-      img{
-        height: 17.797vw;
-      }
     }
   }
 
@@ -166,6 +153,71 @@
 
     .case-study-panel__body .bottom-right {
       font-size: 25.424vw;
+    }
+  }
+}
+
+//Scaling content
+@media only screen and (max-width: 1899px) {
+  #htmlLoadZeroMenuItemContent {
+    .case-study-panel__body {
+      .top-left {
+        font-size: 5.508vw;
+        width: 53vw;
+        line-height: 5.508vw;
+        letter-spacing: -0.169vw;
+      }
+
+      .top-right {
+        width: 2.542vw;
+        height: 2.542vw;
+      }
+
+      .bottom-left {
+        img {
+          width: 2.822vw;
+          height: 4.146vw;
+        }
+      }
+
+      .bottom-right {
+        img {
+          height: 17.797vw;
+        }
+      }
+    }
+  }
+
+}
+
+//Static content
+@media only screen and (min-width: 1900px) {
+  #htmlLoadZeroMenuItemContent {
+    .case-study-panel__body {
+      .top-left {
+        font-size: 104.65px;
+        width: 1007px;
+        line-height: 104.65px;
+        letter-spacing: -3.2px;
+      }
+
+      .top-right {
+        width: 48.2833px;
+        height: 48.2833px;
+      }
+
+      .bottom-left {
+        img {
+          width: 53.6167px;
+          height: 78.7667px;
+        }
+      }
+
+      .bottom-right {
+        img {
+          height: 338.133px;
+        }
+      }
     }
   }
 }

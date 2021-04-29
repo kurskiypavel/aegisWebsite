@@ -90,7 +90,7 @@ a {
 
 }
 
-.preventClick{
+.preventClick {
   pointer-events: none;
 }
 
@@ -257,6 +257,7 @@ a {
       }
     }
   }
+
   #caseStudyMobileContent {
     position: fixed;
     display: none;
@@ -336,8 +337,12 @@ a {
         }
       }
 
-      .case-number{
-        font-family: Roobert-Regular,sans-serif;position: absolute;bottom: 0;right: 10px;font-size: 120px;
+      .case-number {
+        font-family: Roobert-Regular, sans-serif;
+        position: absolute;
+        bottom: 0;
+        right: 10px;
+        font-size: 120px;
       }
 
       .top-right {
@@ -365,6 +370,7 @@ a {
     }
   }
 }
+
 @media only screen and (max-width: 767px) {
   header {
     .logo {
@@ -502,7 +508,8 @@ a {
               -o-transform: rotate(-90deg);
               transform: rotate(-90deg);
               right: 100%;
-              .menu-item-title,.menu-item-arrow,.contact-item-title,.contact-item-arrow{
+
+              .menu-item-title, .menu-item-arrow, .contact-item-title, .contact-item-arrow {
                 position: relative;
                 top: 18px;
               }
@@ -526,9 +533,10 @@ a {
           }
 
           .section {
-            &.closed{
+            &.closed {
               left: calc(100% - 40px);
             }
+
             background: white;
             border-left: 1px solid #f30;
             display: inline-block;
@@ -617,7 +625,7 @@ a {
         }
       }
 
-      .insights-wrap,.projects-wrap {
+      .insights-wrap, .projects-wrap {
         height: inherit;
         overflow-y: auto;
       }

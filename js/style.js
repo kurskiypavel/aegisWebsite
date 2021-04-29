@@ -144,12 +144,12 @@ function toggleMobileContact() {
 function showMobileInsightsContent() {
     console.log('showMobileInsightsContent');
     $('.navigation').addClass('nav-opened-by-insights');
-
+    $('.containery').css('display','none');
 }
 
 function closeMobileInsightsContent(e) {
     console.log('closeMobileInsightsContent');
-
+    $('.containery').css('display','initial');
 }
 
 function slideMobileFilterTags() {

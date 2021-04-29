@@ -256,6 +256,45 @@ a {
         height: 7.246vw;
       }
     }
+
+    .insights-content-wrap-parent{
+      position: absolute;top: 29px;width: 100%;background: white;max-height: calc(100vh - 93px - 42.5px);overflow: scroll;
+      .insights-content-wrap{
+        padding-top: 45px;
+        .top-right{
+          position: absolute;right: 10px;width: 7.246vw;height: 7.246vw;
+        }
+        .main-title{
+          font-size: 12vw;letter-spacing: -2px;font-family: GT-Alpina-Standard-Light,sans-serif;
+        }
+        .filter-insights{
+          margin-top: 44px;margin-bottom: 32px;
+          .folder-icon{
+            width: 15px;height: auto;
+          }
+          .filter-span{
+            font-family: Roobert-Medium,sans-serif;font-size: 15px;line-height: 15px;
+          }
+          .tag-list{
+            display: none;font-family: Roobert-Medium,sans-serif;font-size: 14px;line-height: 24px;white-space: initial;margin-top: 30px;margin-bottom: 40px;
+            li{
+              display: inline-block;
+            }
+          }
+        }
+        .insights-block{
+          .red-square{
+            width: 82.400vw;height: 82.400vw;white-space: initial;border: 1px solid #f30;padding: 22px;position: relative;display: block;margin-top: .847vw;
+            .title{
+              font-family: Roobert-Medium,sans-serif;font-size: 12px;line-height: 16px;
+            }
+            p{
+              font-size: 25.9833px;line-height: 25.9833px;position: absolute;bottom: 22px;font-family: GT-Alpina-Standard-Light, sans-serif;
+            }
+          }
+        }
+      }
+    }
   }
 
   #caseStudyMobileContent {

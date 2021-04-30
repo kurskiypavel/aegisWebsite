@@ -45,10 +45,13 @@ function restoreDefaultMobileMenu() {
 
 function toggleZeroMenuItemMobileContent() {
     const menuItem0MobileJs = $('#menu-item-0-mobile-js');
+    closeMobileInsightsContent();
+    closeMobileProjectsContent();
     if (!menuItem0MobileJs.hasClass('touched')) {
         console.log('Open 6 mobile items')
 
         menuItem0MobileJs.addClass('touched');
+        $('.containery').addClass('displayNone');
         $('#caseStudyMobileContent')
             .css('--menu-items-length', caseStudyItems)
             .addClass('opened');
@@ -57,6 +60,7 @@ function toggleZeroMenuItemMobileContent() {
         caseStudyMobileMenuJs(document.querySelector('.case-study-panel__header.default'));
     } else {
         console.log('Close 6 mobile items')
+        $('.containery').removeClass('displayNone');
 
         menuItem0MobileJs.removeClass('touched');
         $('#caseStudyMobileContent')
@@ -115,7 +119,7 @@ function toggleMobileContact() {
     const mobileContent = $('.mobile-content .contact-menu');
     if (!mobileContent.hasClass('opened')) {
 
-        if($('#caseStudyMobileContent').hasClass('opened')){
+        if ($('#caseStudyMobileContent').hasClass('opened')) {
             toggleZeroMenuItemMobileContent();
         }
 
@@ -124,14 +128,14 @@ function toggleMobileContact() {
             .addClass('nav-opened')
             .addClass('nav-opened-by-content');
         mobileContent.addClass('opened');
-        $('body').css({'overflow':'hidden','height':'0'});
+        $('body').css({'overflow': 'hidden', 'height': '0'});
     } else {
         console.log('Close menu contact');
         $('.mobile-content .navigation')
             .removeClass('nav-opened')
             .removeClass('nav-opened-by-content');
         mobileContent.removeClass('opened');
-        $('body').css({'overflow':'unset','height':'initial'});
+        $('body').css({'overflow': 'unset', 'height': 'initial'});
 
 
     }
@@ -141,19 +145,66 @@ function toggleMobileContact() {
 /*             |MOBILE INSIGHTS MENU|            */
 
 /*---------+---------+---------+--------+-----------*/
+
+function showInsightsMobileContentFromHomepage(e) {
+    e.stopPropagation();
+    toggleMobileMenu();
+    showMobileInsightsContent();
+}
+
 function showMobileInsightsContent() {
+    closeMobileProjectsContent();
     console.log('showMobileInsightsContent');
     $('.navigation').addClass('nav-opened-by-insights');
-    $('.containery').css('display','none');
+    $('.containery').addClass('displayNone');
 }
 
 function closeMobileInsightsContent(e) {
+    if (e) e.stopPropagation();
     console.log('closeMobileInsightsContent');
-    $('.containery').css('display','initial');
+    $('.containery').removeClass('displayNone');
+    $('.navigation').removeClass('nav-opened-by-insights');
+
 }
 
 function slideMobileFilterTags() {
+    const tagList = $('.tag-list');
+    if (tagList.hasClass('slided')) {
+        tagList.slideDown().toggleClass('slided');
+    } else {
+        tagList.slideUp().toggleClass('slided');
+    }
+}
 
+
+/*---------+---------+---------+--------+-----------*/
+/*             |MOBILE PROJECTS MENU|               */
+
+/*---------+---------+---------+--------+-----------*/
+function showMobileProjectsContent() {
+    console.log('showMobileProjectsContent');
+    closeMobileInsightsContent();
+    $('.navigation').addClass('nav-opened-by-projects');
+    $('.containery').addClass('displayNone');
+    $('#menu-item-2-mobile-js').addClass('preopened');
+}
+
+function closeMobileProjectsContent(e) {
+    if (e) e.stopPropagation();
+    console.log('closeMobileProjectsContent');
+    $('.containery').removeClass('displayNone');
+    $('.navigation').removeClass('nav-opened-by-projects');
+    $('#menu-item-2-mobile-js').removeClass('preopened');
+
+}
+
+function slideMobileFilterTags() {
+    const tagList = $('.tag-list');
+    if (tagList.hasClass('slided')) {
+        tagList.slideDown().toggleClass('slided');
+    } else {
+        tagList.slideUp().toggleClass('slided');
+    }
 }
 
 
@@ -259,9 +310,9 @@ function caseStudyMenuJs(caseStudyMenuItem) {
 
     const nextSiblings = getNextSiblings(caseStudyMenuItem.parentElement);
     nextSiblings.forEach(div => div.classList.remove('opened'));
-    setTimeout(()=>{
+    setTimeout(() => {
         $('.containery').addClass('height-0');
-    },500)
+    }, 500)
 
 }
 
@@ -318,6 +369,12 @@ function closeContactFromMenu() {
 
 /*---------+---------+---------+--------+-----------*/
 
+function showInsightsContentFromHomepage(e) {
+    e.stopPropagation();
+    toggleDesktopMenu();
+    showInsightsContent();
+}
+
 function showInsightsContent() {
     console.log('showInsightsContent');
     $('#menu-item-2-js').removeClass('closed');
@@ -336,7 +393,7 @@ function closeInsightsContent(e) {
     $('#menu-item-2-js .menu-item-arrow').text('↑');
     $('#menu-item-2-js .menu-item-arrow-bottom').text('↑');
     $('.containery').removeClass('height-0');
-    if (e)     e.stopPropagation();
+    if (e) e.stopPropagation();
 
 }
 
@@ -373,6 +430,6 @@ function closeProjectsContent(e) {
     $('#menu-item-1-js .menu-item-arrow-bottom').text('↑');
     $('.containery').removeClass('height-0');
     $('#menu-item-2-js').removeClass('closed');
-    if (e)     e.stopPropagation();
+    if (e) e.stopPropagation();
 
 }

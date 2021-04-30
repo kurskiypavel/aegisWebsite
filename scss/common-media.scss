@@ -71,7 +71,15 @@ a {
     opacity: .5;
   }
 }
+.see-all-insights{
+  cursor: pointer;
+  transition: .3s;
+  color: inherit;
 
+  &:hover {
+    opacity: .5;
+  }
+}
 .active-element {
   transition: .3s;
   cursor: pointer;
@@ -139,6 +147,11 @@ a {
       top: 0;
     }
 
+    &.nav-opened-by-projects {
+      bottom: auto;
+      top: 0;
+    }
+
     .navigation-content {
       display: flex;
       justify-content: space-between;
@@ -155,6 +168,9 @@ a {
       .row {
         height: 30px;
         border-top: 1px solid;
+        &.preopened{
+          top: calc(100vh - 31px * 3 - 42.5px);
+        }
 
         .flex-navigation-items {
           display: flex;
@@ -257,39 +273,139 @@ a {
       }
     }
 
-    .insights-content-wrap-parent{
-      position: absolute;top: 29px;width: 100%;background: white;max-height: calc(100vh - 93px - 42.5px);overflow: scroll;
-      .insights-content-wrap{
+    .insights-content-wrap-parent {
+      position: absolute;
+      top: 29px;
+      width: 100%;
+      background: white;
+      max-height: calc(100vh - 93px - 42.5px);
+      overflow: scroll;
+
+      .insights-content-wrap {
         padding-top: 45px;
-        .top-right{
-          position: absolute;right: 10px;width: 7.246vw;height: 7.246vw;
+
+        .top-right {
+          position: absolute;
+          right: 10px;
+          width: 7.246vw;
+          height: 7.246vw;
         }
-        .main-title{
-          font-size: 12vw;letter-spacing: -2px;font-family: GT-Alpina-Standard-Light,sans-serif;
+
+        .main-title {
+          font-size: 12vw;
+          letter-spacing: -2px;
+          font-family: GT-Alpina-Standard-Light, sans-serif;
         }
-        .filter-insights{
-          margin-top: 44px;margin-bottom: 32px;
-          .folder-icon{
-            width: 15px;height: auto;
+
+        .filter-insights {
+          margin-top: 44px;
+          margin-bottom: 32px;
+
+          .folder-icon {
+            width: 15px;
+            height: auto;
           }
-          .filter-span{
-            font-family: Roobert-Medium,sans-serif;font-size: 15px;line-height: 15px;
+
+          .filter-span {
+            font-family: Roobert-Medium, sans-serif;
+            font-size: 15px;
+            line-height: 15px;
           }
-          .tag-list{
-            display: none;font-family: Roobert-Medium,sans-serif;font-size: 14px;line-height: 24px;white-space: initial;margin-top: 30px;margin-bottom: 40px;
-            li{
+
+          .tag-list {
+            display: none;
+            font-family: Roobert-Medium, sans-serif;
+            font-size: 14px;
+            line-height: 24px;
+            white-space: initial;
+            margin-top: 30px;
+            margin-bottom: 40px;
+
+            li {
               display: inline-block;
+              margin-right: 10px;
+              margin-top: 10px;
             }
           }
         }
-        .insights-block{
-          .red-square{
-            width: 82.400vw;height: 82.400vw;white-space: initial;border: 1px solid #f30;padding: 22px;position: relative;display: block;margin-top: .847vw;
-            .title{
-              font-family: Roobert-Medium,sans-serif;font-size: 12px;line-height: 16px;
+
+        .insights-block {
+          .red-square {
+            width: 82.400vw;
+            height: 82.400vw;
+            white-space: initial;
+            border: 1px solid #f30;
+            padding: 22px;
+            position: relative;
+            display: block;
+            margin-top: .847vw;
+
+            .title {
+              font-family: Roobert-Medium, sans-serif;
+              font-size: 12px;
+              line-height: 16px;
             }
-            p{
-              font-size: 25.9833px;line-height: 25.9833px;position: absolute;bottom: 22px;font-family: GT-Alpina-Standard-Light, sans-serif;
+
+            p {
+              font-size: 25.9833px;
+              line-height: 25.9833px;
+              position: absolute;
+              bottom: 22px;
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+            }
+          }
+        }
+      }
+    }
+
+    .projects-content-wrap-parent {
+      position: absolute;
+      top: 29px;
+      width: 100%;
+      background: white;
+      max-height: calc(100vh - 31px * 3 - 42.5px);
+      overflow: scroll;
+
+      .projects-content-wrap {
+        padding-top: 45px;
+
+        .top-right {
+          position: absolute;
+          right: 10px;
+          width: 7.246vw;
+          height: 7.246vw;
+        }
+
+        .main-title {
+          font-size: 12vw;
+          letter-spacing: -2px;
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+        }
+
+        .projects-block {
+          margin-top: 40px;
+          .red-square {
+            width: 82.400vw;
+            height: 82.400vw;
+            white-space: initial;
+            border: 1px solid #f30;
+            padding: 22px;
+            position: relative;
+            display: block;
+            margin-top: .847vw;
+
+            .title {
+              font-family: Roobert-Medium, sans-serif;
+              font-size: 12px;
+              line-height: 16px;
+            }
+
+            p {
+              font-size: 25.9833px;
+              line-height: 25.9833px;
+              position: absolute;
+              bottom: 22px;
+              font-family: GT-Alpina-Standard-Light, sans-serif;
             }
           }
         }
@@ -407,6 +523,12 @@ a {
         top: calc(100% - calc(30px * calc(var(--menu-items-length) - var(--item-index))));
       }
     }
+  }
+}
+
+.containery{
+  &.displayNone{
+    display: none;
   }
 }
 

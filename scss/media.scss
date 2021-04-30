@@ -166,8 +166,8 @@
 
           .body-block {
             h1 {
-              font-size: 2.542vw;
-              line-height: 2.542vw;
+              font-size: max(2.542vw, 22px);
+              line-height: max(2.542vw, 26px);
             }
 
             .first-image {
@@ -178,11 +178,11 @@
             }
 
             .text {
-              font-size: 2.222vw;
-              line-height: 2.500vw;
+              font-size: max(2.222vw, 22px);
+              line-height: max(2.5vw, 26px);
               letter-spacing: -0.042vw;
               .job-title{
-                font-size: 1.695vw;
+                font-size: max(1.695vw,16px);
               }
 
               &:not(:first-child) {

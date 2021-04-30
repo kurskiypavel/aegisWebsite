@@ -65,7 +65,8 @@
 
             <div class="body">
                 <div class="img-block">
-                    <img src="static/images/desktop/homepage/hero.jpg" alt="">
+<!--                    <img src="static/images/desktop/homepage/hero.jpg" alt="">-->
+                    <img src="static/images/desktop/homepage/Aegis_2700_GIF_small.gif" alt="">
                 </div>
                 <p class="main-statement ">Aegis is a boutique design agency that builds deeper relationships between organizations and people.
 Experience has taught us that the best design comes from the bottom up. ⬤ As anthropologists, we start on the ground, ask a lot of questions and observe carefully. As designers, we collectively draw on expertise in social science, culture, journalism and story-telling. ⬤ No two projects are the same but our conviction remains: the real answers are more likely to be found in the field than in the boardroom. </p>
@@ -139,7 +140,7 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                                             <h2>Insights are our thoughts on design, anthropology, strategy, branding to our work. </h2>
                                             <i>Our newest insight:<br>
                                                 Expanding qualitative research<br> beyond usability and use</i>
-                                            <div class="ref-item" >
+                                            <div onclick="showInsightsContentFromHomepage(event)" class="ref-item see-all-insights" >
                                                 <span><u>See all Insights</u></span>
                                                 <span>→</span>
                                             </div>
@@ -527,7 +528,7 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                             <div style="display: flex;justify-content: center;">
                                 <img style="max-width: 100%;  width: 100%; height: 100%" src="static/images/mobile/homepage/1.jpg" alt="">
                             </div>
-                            <p class="text practices-title"><u>Designing Communications</u></p>
+                            <p class="text practices-title">Designing Communications</p>
                             <p class="block-copy text">The best communications succeed not just because they’re clever or beautiful, but because they make a genuine connection with their audience. Our social science expertise enables us to bring underlying values to light, connecting organizations and their audiences.</p>
                             <div>
                                 <div class="block-copy text" >
@@ -569,7 +570,7 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                             <h2 >Insights are our thoughts on design, anthropology, strategy, branding to our work. </h2>
                             <i>Our newest insight:
                                 Expanding qualitative research beyond usability and use</i>
-                            <div class="ref-item" >
+                            <div onclick="showInsightsMobileContentFromHomepage(event)" class="ref-item see-all-insights" >
                                 <span><u>See all Insights</u></span>
                                 <span>→</span>
                             </div>
@@ -594,27 +595,27 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                     <h1>The Team</h1>
                     <div class="block-copy text">
                         <p>Greg Salmela</p>
-                        <p><i>Partner, Creative Director</i></p>
+                        <span class="job-title"><i>Partner, Creative Director</i></span>
                         <p class="block-copy text">Greg believes design is an effective communication tool only when practiced within cultural context. That’s why, beyond being his clients’ trusted resource and someone they’ll tell you is a genuinely nice guy, he focuses on integrating the social sciences with the discipline of design. Over his 25-year career he has won dozens of national and international awards, bringing success to organizations in finance, education, media and the public sector, among others. Somehow remains humble about it.</p>
                     </div>
                     <div class="block-copy text team-item">
                         <p>Alex Dawson</p>
-                        <p><i>Brand Culture Strategist, Anthropologist</i></p>
+                        <span class="job-title"><i>Brand Culture Strategist, Anthropologist</i></span>
                         <p class="block-copy text">Alex likes to people-watch. A design researcher and anthropologist, he’s fascinated by the way people live, work, disagree, and play together: it’s how he learns the meanings and systems that shape people’s actions and experiences. Equipped with a Master of Arts in Sociocultural Anthropology, Alex has firsthand experience leading research projects, from documentary films to evocative written and oral narratives. As the eyes and ears of Aegis, he’s always learning new skills and techniques to contribute compelling research insights to any design problem.</p>
                     </div>
                     <div class="block-copy text team-item">
                         <p>Sabrina Xiang</p>
-                        <p><i>Senior Designer</i></p>
+                        <span class="job-title"><i>Senior Designer</i></span>
                         <p class="block-copy text">Sabrina Xiang is a senior art director and designer with over 20 years’ experience. She has held senior positions in the international offices of two multinational advertising agencies, Bates Worldwide and TBWA Worldwide. We consider ourselves lucky she has chosen Toronto as a home for her talent. As well as brightening our office with her personality, she has been responsible for art directing and managing projects from inception to final execution for a range of international blue-chip clients including: GM China, Chevrolet, Virgin Atlantic and Roche.</p>
                     </div>
                     <div class="block-copy text team-item">
                         <p>Pat Morden</p>
-                        <p><i>Senior Writer</i></p>
+                        <span class="job-title"><i>Senior Writer</i></span>
                         <p class="block-copy text">A triple-threat, Pat is a writer, editor and communications consultant. Her experience covers a wide range of writing, editing and consulting services, primarily to the university and health care sector. She has worked with major institutions across Canada including: The Ivey Business School, the University of Toronto Faculty of Medicine, London Health Sciences Centre, the South West CCAC, and Women’s College Hospital. She has written multi-syllabic success stories that have been recognized with 35 local, national and international awards.</p>
                     </div>
                     <div class="block-copy text team-item">
                         <p>Paul Kurskii</p>
-                        <p><i>Full Stack Developer</i></p>
+                        <span class="job-title"><i>Full Stack Developer</i></span>
                         <p class="block-copy text">Paul has a beautiful mind. Given his experience as a full stack engineer specializing in complex and complicated websites and his abstruse expertise in software development, plumbing its depths can be dizzying. He uses it to determine the best-fit stacks to develop seamless, elegant solutions based on leading-edge technologies. He’s been a front and back-end developer and acquired a Master’s degree in Computer Science. Not to mention finish three marathons over the past four years.</p>
                     </div>
                 </div>
@@ -675,13 +676,42 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
+                <div id="menu-item-1-mobile-js"  class="row" style="position: relative;">
+                    <div class="col-12" style="position: relative;z-index: 1;background: white;">
                         <div class="flex-navigation-items">
                             <div>—</div>
                             <div>
                                 <span class="text-nav">Projects</span>
                                 <span>↑</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects-content-wrap-parent">
+                        <div class="projects-content-wrap">
+                            <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileProjectsContent(event)" class="top-right active-element" width="30" height="30">
+                            <span class="main-title">Projects</span>
+                            <div class="projects-block">
+                                <div class="">
+                                    <div class="col-3 red-square">
+                                        <span class="title">User Experience, Practices, Research</span>
+                                        <p>Expanding  qualitative research  beyond ‘usability’ and ‘use’</p>
+                                    </div><div class="col-3 red-square">
+                                        <span class="title">User Experience, Practices, Research</span>
+                                        <p>Expanding  qualitative research  beyond ‘usability’ and ‘use’</p>
+                                    </div><div class="col-3 red-square">
+                                        <span class="title">User Experience, Practices, Research</span>
+                                        <p>Expanding  qualitative research  beyond ‘usability’ and ‘use’</p>
+                                    </div><div class="col-3 red-square">
+                                        <span class="title">User Experience, Practices, Research</span>
+                                        <p>Expanding  qualitative research  beyond ‘usability’ and ‘use’</p>
+                                    </div><div class="col-3 red-square">
+                                        <span class="title">User Experience, Practices, Research</span>
+                                        <p>Expanding  qualitative research  beyond ‘usability’ and ‘use’</p>
+                                    </div><div class="col-3 red-square">
+                                        <span class="title">User Experience, Practices, Research</span>
+                                        <p>Expanding  qualitative research  beyond ‘usability’ and ‘use’</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

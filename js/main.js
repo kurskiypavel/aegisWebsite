@@ -48,8 +48,16 @@ function initEvents() {
         toggleMobileContact();
     });
 
+    $('#menu-item-1-mobile-js').on('click', () => {
+        showMobileProjectsContent();
+    });
+
     $('#menu-item-2-mobile-js').on('click', () => {
         showMobileInsightsContent();
+    });
+
+    $('#filter-insights-mobile-js').on('click',()=>{
+        slideMobileFilterTags();
     });
 
     /*
@@ -76,7 +84,7 @@ function initEvents() {
     });
     $('#filter-insights-js').on('click',()=>{
         slideFilterTags();
-    })
+    });
     $(document).on("click", (e) => {
         const navigation = $('.navigation');
         const caseStudyMobileContent = $('#caseStudyMobileContent');

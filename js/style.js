@@ -83,8 +83,8 @@ function caseStudyMobileMenuJs(caseStudyMobileMenuItem) {
     caseStudyMobileMenuItem.parentElement.classList.remove('preopened');
     caseStudyMobileMenuItem.parentElement.classList.add('opened');
     // caseStudyMobileMenuItem.children[0].children[1].children[1].innerText = '↓';
-    $('#caseStudyMobileContent .case-study-panel__inner.opened .case-study-arrow').text('↓')
-    $('#caseStudyMobileContent .case-study-panel__inner.preopened .case-study-arrow').text('↑');
+    // $('#caseStudyMobileContent .case-study-panel__inner.opened .case-study-arrow').text('↓')
+    // $('#caseStudyMobileContent .case-study-panel__inner.preopened .case-study-arrow').text('↑');
     const previousSiblings = getPreviousSiblings(caseStudyMobileMenuItem.parentElement);
     previousSiblings.forEach(div => {
         div.classList.remove('preopened');
@@ -105,7 +105,7 @@ function closeMobileMenuTitlePage() {
     $('.nav-opened-by-content')
         .removeClass('nav-opened-by-content')
         .addClass('nav-opened-cases');
-    $('.case-study-arrow').text('↑');
+    // $('.case-study-arrow').text('↑');
     toggleMobileMenu();
 
 }
@@ -319,14 +319,14 @@ function caseStudyMenuJs(caseStudyMenuItem) {
 function closeCaseStudyMenuJs() {
     $('.menu-content-opened').removeClass('menu-content-opened');
     $('#zeroMenuItemContentTarget .section').removeClass('opened');
-    $('.case-study-arrow').text('↑');
+    // $('.case-study-arrow').text('↑');
 }
 
 function closeMenuTitlePage() { //todo here 1st
     $('.containery').removeClass('height-0');
     $('.case-study-panel__inner').removeClass('opened');
     $('.menu-content-opened').removeClass('menu-content-opened');
-    $('.case-study-arrow').text('↑');
+    // $('.case-study-arrow').text('↑');
     // hideMenuItemContent();
     // restoreDefaultMenu();
     toggleDesktopMenu();

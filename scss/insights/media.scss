@@ -8,7 +8,7 @@
     .body {
       padding-left: 11.017vw;
       padding-right: 11.017vw;
-      padding-top: 8.051vw;
+      padding-top: 61.8167px;
     }
 
     .main-statement-wrap {
@@ -41,23 +41,29 @@
     }
 
     .tag-list {
-      margin-top: 5.085vw;
 
       li {
-        display: inline-block;
-        font-family: Roobert-Medium, sans-serif;
-        font-size: 1.186vw;
-        margin-right: 1.017vw;
-        line-height: 1.695vw;
+        display: block;
+        font-family: Roobert-Medium,sans-serif;
+        font-size: max(1.186vw, 14px);
+        line-height: max(1.695vw, 20px);
+        margin-top: 0.5vw;
       }
     }
 
     .insight-by {
       font-family: Roobert-Medium, sans-serif;
-      font-size: 1.186vw;
-      margin-right: 1.017vw;
-      line-height: 1.695vw;
+      font-size: max(1.186vw, 14px);
+      line-height: max(1.695vw, 20px);
       margin-top: 2.119vw;
+    }
+
+    .job-title{
+      font-family: Roobert-Medium,sans-serif;
+      font-size: max(1.186vw, 14px);
+      line-height: max(1.695vw, 20px);
+      padding-right: 7vw;
+      margin-top: 1.119vw;
     }
 
     .main-content {
@@ -96,9 +102,9 @@
         li {
           display: inline-block;
           font-family: Roobert-Regular,sans-serif;
-          font-size: 1.186vw;
+          font-size: max(1.186vw,14px);
           margin-right: 1.017vw;
-          line-height: 2.542vw;
+          line-height: max(2.542vw,30px);
         }
       }
     }
@@ -142,7 +148,7 @@
     padding: 0 16px;
 
     .body {
-      padding-top: 152.883px;
+      padding-top: 61.8167px;
       width: 1450px;
       margin: 0 auto;
     }
@@ -177,10 +183,9 @@
     }
 
     .tag-list {
-      margin-top: 96.6px;
 
       li {
-        display: inline-block;
+        display: block;
         font-family: Roobert-Medium, sans-serif;
         font-size: 22.5333px;
         margin-right: 19.3167px;
@@ -196,16 +201,20 @@
       margin-top: 40.25px;
     }
 
+    .job-title{
+      font-family: Roobert-Medium, sans-serif;
+      font-size: 22.5333px;
+      margin-right: 19.3167px;
+      line-height: 32.2px;
+      margin-top: 40.25px;
+    }
+
     .main-content {
       margin-top: 161.017px;
 
       .row {
         display: flex;
         max-width: 100%;
-
-        .col-3 {
-          width: 0;
-        }
 
         .col-7 {
           width: 100%;
@@ -282,14 +291,15 @@
     padding: 0 10px;
 
     .body {
-      padding-top: 135px;
+      padding-top: 61.8167px;
     }
 
     .main-statement-wrap {
       .main-statement {
-        font-size: 45px;
-        line-height: 45px;
-        letter-spacing: -2px;
+        font-size: 42.3px;
+        line-height: 42.3px;
+        letter-spacing: -0.5px;
+        padding-right: 11vw;
 
         .simple {
           font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -301,8 +311,8 @@
       }
 
       img {
-        height: 280px;
-        margin-top: 40px;
+        margin-top: 45px;
+        height: 266.833px;
       }
     }
 
@@ -325,17 +335,19 @@
       line-height: 20px;
       margin-top: 26px;
     }
+    .job-title{
+      font-family: Roobert-Medium, sans-serif;
+      font-size: 14px;
+      margin-right: 1.017vw;
+      line-height: 20px;
+      margin-bottom: 26px;
+    }
 
     .main-content {
       margin-top: 60px;
 
       .row {
-        display: flex;
         max-width: 100%;
-
-        .col-3 {
-          display: none;
-        }
 
         .col-7 {
           width: 100%;
@@ -344,9 +356,10 @@
 
       p {
         font-size: 22px;
-        line-height: 25px;
+        line-height: 26px;
         font-family: GT-Alpina-Standard-Light, sans-serif;
         margin-bottom: 25px;
+        letter-spacing: -0.5px;
 
         .italic {
           font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
@@ -360,9 +373,9 @@
         li {
           display: inline-block;
           font-family: Roobert-Medium, sans-serif;
-          font-size: 16px;
+          font-size: 14px;
           margin-right: 12px;
-          line-height: 25px;
+          line-height: 30px;
         }
       }
     }
@@ -406,5 +419,28 @@
   }
 }
 
+//Main statement - img inline
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .containery {
 
+    .main-statement-wrap {
+    position: relative;
+    height: 277.967px;
+    .main-statement {
+      position: absolute;
+      z-index: 1;
+      width: 61.492vw;
+      padding-right: 0vw;
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 0;
+      height: 266.833px;
+    }
+  }
+  }
+}
 

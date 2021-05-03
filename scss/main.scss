@@ -35,7 +35,7 @@
         }
 
         &#the-team {
-          margin-top: 33px;
+          margin-top: 180px;
         }
 
         .body-block-section {
@@ -44,8 +44,8 @@
 
         .text {
           font-family: GT-Alpina-Standard-Light, sans-serif;
-          font-size: 21px;
-          line-height: 22px;
+          font-size: 22px;
+          line-height: 26px;
 
           &.practices-title {
             margin-top: 57px;
@@ -77,64 +77,6 @@
           }
         }
 
-        .refs-block {
-          .DRUNK-images-1 {
-            margin-top: 85px;
-          }
-
-          img {
-            max-width: 100%;
-          }
-
-          &:last-child {
-            margin-top: 30px;
-
-          }
-
-          h2 {
-            margin-top: 30px;
-            font-family: Roobert-Bold, sans-serif;
-            line-height: 23px;
-            font-size: 21px;
-          }
-
-          .ref-item {
-            margin-top: 25px;
-            font-family: GT-Alpina-Standard-Light, sans-serif;
-            margin-bottom: 15px;
-
-            &.space-between {
-              display: flex;
-              justify-content: space-between;
-            }
-
-            &.fake-input {
-              border-bottom-width: 1px;
-              border-bottom-style: solid;
-              padding-bottom: 4px;
-            }
-
-
-          }
-
-          i {
-            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
-            font-size: 16px;
-            line-height: 20px;
-          }
-
-          p {
-            margin-top: 25px;
-            font-family: GT-Alpina-Standard-Light, sans-serif;
-            font-size: 16px;
-            line-height: 20px;
-
-            &.fake-input__label {
-              margin-top: 15px;
-              margin-bottom: 35px;
-            }
-          }
-        }
 
         &.clients-block {
           margin-top: 80px;
@@ -157,6 +99,73 @@
         max-width: 100%;
         margin-bottom: 122px;
       }
+      .mobile-only{
+        .refs-block {
+          .DRUNK-images-1 {
+            margin-top: 85px;
+          }
+
+          img {
+            max-width: 300px;
+          }
+
+          &:last-child {
+            margin-top: 30px;
+
+          }
+
+          h2 {
+            margin-top: 30px;
+            margin-bottom: 25px;
+            font-family: Roobert-Bold, sans-serif;
+            line-height: 26px;
+            font-size: 22px;
+          }
+
+          .ref-item {
+            margin-top: 25px;
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+            margin-bottom: 15px;
+            font-size: 22px;
+            line-height: 26px;
+
+            &.space-between {
+              display: flex;
+              justify-content: space-between;
+            }
+
+            &.fake-input {
+              border-bottom-width: 1px;
+              border-bottom-style: solid;
+              padding-bottom: 4px;
+            }
+
+
+          }
+
+          i {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+            font-size: 22px;
+            line-height: 26px;
+          }
+
+          p {
+            margin-top: 25px;
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+
+            &.fake-input__label {
+              margin-top: 15px;
+              margin-bottom: 35px;
+            }
+          }
+        }
+
+      }
+      .ipad-only{
+        display: none;
+      }
     }
 
   }
@@ -175,6 +184,7 @@
         .main-statement {
           font-size: 34.4px;
           line-height: 39.0833px;
+          letter-spacing: -0.8px;
         }
 
         .body-block {
@@ -191,23 +201,6 @@
 
           .job-title {
             font-size: max(1.695vw, 16px);
-          }
-
-          .refs-block { // all
-            h2 {
-              line-height: 23px;
-              font-size: 21px;
-            }
-
-            i {
-              font-size: 16px;
-              line-height: 20px;
-            }
-
-            p {
-              font-size: 16px;
-              line-height: 20px;
-            }
           }
         }
       }
@@ -230,6 +223,86 @@
     width: 600px;
     margin: 0 auto;
     display: block;
+  }
+  .mobile-content  .mobile-only {
+    display: none;
+  }
+  .mobile-content .ipad-only {
+    display: block !important;
+    position: relative;
+    margin-top: 7.627vw;
+    .cross {
+      position: relative;
+      height: 427px;
+
+      .cross-body {
+        position: absolute;
+        top: 0;
+        //z-index: 1;
+        height: 100%;
+        width: 100%;
+
+        .refs-corner {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          max-width: 159.117px;
+        }
+      }
+      .refs-block {
+        width: 187.283px;
+
+        h2 {
+          margin-top: 1.542vw;
+          line-height: 14.7333px;
+          font-size: 11.9833px;
+          margin-bottom: 1.119vw;
+          font-family: Roobert-Bold,sans-serif;
+        }
+
+        i {
+          line-height: 14.7333px;
+          font-size: 11.9833px;
+          font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+        }
+
+        .drunk-1{
+          max-height: 132.6px;
+        }
+        .drunk-2{
+          max-height: 149.817px;
+          max-width: 77.9px;
+        }
+
+
+        .ref-item {
+          margin-top: 2.119vw;
+          margin-bottom: 15px;
+          line-height: 1.667vw;
+          font-size: 11.9833px;
+          font-family: GT-Alpina-Standard-Light,sans-serif;
+
+
+          &.fake-input {
+            border-bottom: 1px solid;
+          }
+
+
+        }
+
+        p {
+          margin-top: 2.119vw;
+          font-size: 1.111vw;
+          line-height: 1.389vw;
+
+          &.fake-input__label {
+            margin-top: 15px;
+          }
+        }
+
+      }
+
+    }
   }
 }
 

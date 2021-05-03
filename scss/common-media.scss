@@ -71,7 +71,8 @@ a {
     opacity: .5;
   }
 }
-.see-all-insights{
+
+.see-all-insights {
   cursor: pointer;
   transition: .3s;
   color: inherit;
@@ -80,6 +81,7 @@ a {
     opacity: .5;
   }
 }
+
 .active-element {
   transition: .3s;
   cursor: pointer;
@@ -168,7 +170,8 @@ a {
       .row {
         height: 30px;
         border-top: 1px solid;
-        &.preopened{
+
+        &.preopened {
           top: calc(100vh - 31px * 3 - 42.5px);
         }
 
@@ -210,6 +213,7 @@ a {
         position: relative;
         top: calc(50% - 42.5px);
         transform: translateY(calc(20px - 50%));
+        width: 64vw;
       }
 
       &.opened {
@@ -384,6 +388,7 @@ a {
 
         .projects-block {
           margin-top: 40px;
+
           .red-square {
             width: 82.400vw;
             height: 82.400vw;
@@ -457,12 +462,12 @@ a {
             font-family: Roobert-Regular, sans-serif;
             font-size: 16px;
             position: absolute;
+            right: 0;
           }
 
           .case-study-text-wrap {
             font-family: GT-Alpina-Standard-Light, sans-serif;
             position: absolute;
-            right: 0;
 
             .case-study-arrow {
               margin-left: 10px;
@@ -526,8 +531,8 @@ a {
   }
 }
 
-.containery{
-  &.displayNone{
+.containery {
+  &.displayNone {
     display: none;
   }
 }
@@ -801,6 +806,7 @@ a {
       img {
         width: 5.085vw;
         max-width: 81.35px;
+        min-width: 60px;
       }
     }
   }
@@ -1157,6 +1163,100 @@ a {
 
 }
 
+//Contact mobile menu stop scale from 600px and higher to 767 - static
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  //static
+  .mobile-content {
+    .navigation {
+      .contact-menu {
+
+        &.opened {
+          height: calc(100vh - 42.5px);
+        }
+
+        .contact-wrap {
+          width: 384px;
+        }
+
+        .contactImg {
+          max-width: 260.417px;
+        }
+
+        .contact-heading {
+          margin-top: 43.4px;
+
+          h2 {
+            font-size: 31.9333px;
+            line-height: 31.9333px;
+          }
+
+          a {
+            font-size: 25.55px;
+            line-height: 31.9333px;
+          }
+        }
+
+        .d-block {
+          font-size: 23.15px;
+          line-height: 28.9333px;
+        }
+
+        .col-3 {
+          margin-top: 86.8px;
+        }
+
+        .col-2 {
+          margin-top: 36.1667px;
+        }
+
+        .top-right {
+          width: 43.4px;
+          height: 43.4px;
+        }
+      }
+    }
+  }
 
 
+}
 
+//Contact desktop menu stop scale from 600px and higher to 767 - static
+
+@media only screen and (min-width: 1600px) {
+  .desktop-content {
+    .navigation {
+      .contact-menu {
+        &.opened {
+          width: 528.8px;
+        }
+
+        .contact-content {
+          a, p {
+            font-size: 21.6833px;
+            line-height: 27.1167px;
+          }
+
+          .inner-row {
+            padding-left: 103.05px;
+
+            .contactImg {
+              max-width: 210.167px;
+            }
+
+            .contact-heading {
+              h2 {
+                font-size: 27.1167px;
+                line-height: 40.6667px;
+              }
+            }
+
+            .top-right {
+              left: 406.783px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

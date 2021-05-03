@@ -514,7 +514,7 @@ Airports Authority</span><p>Design elevates<br>
             <div class="body">
                 <div class="img-block">
                     <img
-                         src="static/images/mobile/homepage/hero.jpg"
+                         src="static/images/mobile/homepage/aegis_tablet_mobile_animation.gif"
                          alt="">
                 </div>
                 <p class="main-statement ">Aegis is a boutique design agency that builds deeper relationships between organizations and people.
@@ -564,9 +564,9 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="mobile-only">
                         <div class="refs-block">
-                            <img class="DRUNK-images-1" src="static/images/mobile/homepage/DRUNK-images-1.jpg" alt="">
+                            <img class="DRUNK-images-1" src="static/images/mobile/homepage/DRUNK-images-1-mobile-only.png" alt="">
                             <h2 >Insights are our thoughts on design, anthropology, strategy, branding to our work. </h2>
                             <i>Our newest insight:
                                 Expanding qualitative research beyond usability and use</i>
@@ -576,17 +576,49 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                             </div>
                         </div>
                         <div class="refs-block">
-                            <img src="static/images/mobile/homepage/DRUNK-images-2.jpg" alt="">
+                            <img style="margin-top: 80px" class="DRUNK-images-2" src="static/images/mobile/homepage/DRUNK-images-2-mobile-only.png" alt="">
                             <h2>Want to hear more from us?</h2>
                             <div class="ref-item space-between fake-input">
                                 <span><i>Email Address</i></span>
-                                <span style="padding-right: 45px;">↩</span>
+                                <span>↩</span>
                             </div>
                             <p class="fake-input__label"><i>Enter your email for updates on<br>
                                 our thoughts and projects</i>
                             </p>
-                            <img class="homepage-35" src="static/images/mobile/homepage/35.jpg" alt="">
 
+                        </div>
+                    </div>
+                    <div class="ipad-only">
+                        <div class="col-7 cross" style="max-width: 479.45px;width: 100%;margin: 0 auto;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="640.322" height="540.382" viewBox="0 0 640.322 540.382" style="width: 100%;height: 100%;">
+                                <path id="Path_168" data-name="Path 168" d="M0,540,640,0" transform="translate(0.161 0.191)" fill="none" stroke="red" stroke-width="0.5"></path>
+                            </svg>
+                            <div class="cross-body">
+                                <div>
+                                    <div class="refs-block">
+                                        <img class="drunk-1" src="static/images/desktop/homepage/DRUNK-images-1.jpg" alt="">
+                                        <h2>Insights are our thoughts on design, anthropology, strategy, branding to our work. </h2>
+                                        <p style="font-family: GT-Alpina-Standard-Light-Italic,sans-serif;line-height: 14.7333px;font-size: 11.9833px;">Our newest insight:<br>
+                                            Expanding qualitative research<br> beyond usability and use</p>
+                                        <div onclick="showInsightsContentFromHomepage(event)" class="ref-item see-all-insights" style="">
+                                            <span><u>See all Insights</u></span>
+                                            <span>→</span>
+                                        </div>
+                                    </div>
+                                    <div class="refs-block refs-corner">
+                                        <img class="drunk-2" src="static/images/desktop/homepage/DRUNK-images-2.jpg" alt="">
+                                        <h2>Want to hear more from us?</h2>
+                                        <div class="ref-item space-between fake-input">
+                                            <span><i style="">Email Address</i></span>
+                                            <span class="enterIcon">↩</span>
+                                        </div>
+                                        <p class="fake-input__label"><i>Enter your email for updates on
+                                            our thoughts and projects</i>
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
 
@@ -668,9 +700,8 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                 <div id="menu-item-0-mobile-js" class="row">
                     <div class="col-12">
                         <div class="flex-navigation-items">
-                            <div>—</div>
+                            <span class="text-nav">Case Studies</span>
                             <div>
-                                <span class="text-nav">Case Studies</span>
                                 <span>↑</span>
                             </div>
                         </div>
@@ -679,9 +710,8 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                 <div id="menu-item-1-mobile-js"  class="row" style="position: relative;">
                     <div class="col-12" style="position: relative;z-index: 1;background: white;">
                         <div class="flex-navigation-items">
-                            <div>—</div>
+                            <span class="text-nav">Projects</span>
                             <div>
-                                <span class="text-nav">Projects</span>
                                 <span>↑</span>
                             </div>
                         </div>
@@ -719,9 +749,8 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                 <div id="menu-item-2-mobile-js"  class="row" style="position: relative;">
                     <div class="col-12" style="position: relative;z-index: 1;background: white;">
                         <div class="flex-navigation-items">
-                            <div>—</div>
+                            <span class="text-nav">Insights</span>
                             <div>
-                                <span class="text-nav">Insights</span>
                                 <span>↑</span>
                             </div>
                         </div>
@@ -783,7 +812,7 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                 <div class="contact-wrap" style="position: relative;top: calc(50% - 40px);
                                                 transform: translate(-50%,calc(20px - 50%));
                                                 left: 50%;
-                                                width: 64vw;">
+                                                ">
                     <img class="contactImg" src="static/images/mobile/homepage/footerImg.PNG" alt="">
                     <div class="contact-heading">
                         <div>
@@ -812,13 +841,11 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
             <div class="section case-study-panel__inner" style="--item-index: 0;">
                 <div onclick="caseStudyMobileMenuJs(this)" class="case-study-panel__header default">
                     <div class="case-study-text">
-                        <span class="case-study-index">1</span>
                         <div class="case-study-text-wrap">
                             <span class="case-study-title">The Bishop Strachan School</span>
-                            <span class="case-study-arrow">↑</span>
                         </div>
+                        <span class="case-study-index">1</span>
                     </div>
-
                 </div>
                 <section class="case-study-panel__body">
                     <div class="case-study-panel__text">
@@ -832,11 +859,11 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
             <div class="section case-study-panel__inner" style="--item-index: 1;">
                 <div  onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
                     <div class="case-study-text">
-                        <span class="case-study-index">2</span>
                         <div class="case-study-text-wrap">
                             <span class="case-study-title">Camp Kandalore</span>
-                            <span class="case-study-arrow">↑</span>
                         </div>
+                        <span class="case-study-index">2</span>
+
                     </div>
 
                 </div>
@@ -852,11 +879,11 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
             <div class="section case-study-panel__inner" style="--item-index: 2;">
                 <div  onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
                     <div class="case-study-text">
-                        <span class="case-study-index">3</span>
                         <div class="case-study-text-wrap">
                             <span class="case-study-title">Crescent School</span>
-                            <span class="case-study-arrow">↑</span>
                         </div>
+                        <span class="case-study-index">3</span>
+
                     </div>
 
                 </div>
@@ -872,11 +899,11 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
             <div class="section case-study-panel__inner" style="--item-index: 3;">
                 <div onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
                     <div class="case-study-text">
-                        <span class="case-study-index">4</span>
                         <div class="case-study-text-wrap">
                             <span class="case-study-title">United Way</span>
-                            <span class="case-study-arrow">↑</span>
                         </div>
+                        <span class="case-study-index">4</span>
+
                     </div>
 
                 </div>
@@ -892,11 +919,11 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
             <div class="section case-study-panel__inner" style="--item-index: 4;">
                 <div onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
                     <div class="case-study-text">
-                        <span class="case-study-index">5</span>
                         <div class="case-study-text-wrap">
                             <span class="case-study-title">The York School</span>
-                            <span class="case-study-arrow">↑</span>
                         </div>
+                        <span class="case-study-index">5</span>
+
                     </div>
 
                 </div>
@@ -912,11 +939,11 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
             <div class="section case-study-panel__inner" style="--item-index: 5;">
                 <div onclick="caseStudyMobileMenuJs(this)"  class="case-study-panel__header">
                     <div class="case-study-text">
-                        <span class="case-study-index">6</span>
                         <div class="case-study-text-wrap">
                             <span class="case-study-title">Peeps Magazine</span>
-                            <span class="case-study-arrow">↑</span>
                         </div>
+                        <span class="case-study-index">6</span>
+
                     </div>
 
                 </div>

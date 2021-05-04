@@ -21,7 +21,7 @@
         letter-spacing: -0.169vw;
         position: absolute;
         z-index: 1;
-        width: 54.492vw;
+        width: 38.492vw;
 
         .simple {
           font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -36,7 +36,8 @@
         position: absolute;
         top: 0;
         right: 0;
-        height: 34.746vw;
+        max-height: 34.746vw;
+        max-width: 34.746vw;
       }
     }
 
@@ -96,6 +97,13 @@
         }
       }
 
+      .italic-notes{
+        font-size: 1.695vw;
+        line-height: 2.542vw;
+        font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+        margin-bottom: 2.119vw;
+      }
+
       .share {
         margin-top: 7.754vw;
 
@@ -123,6 +131,9 @@
       .next-title {
         margin-top: 5.424vw;
         margin-bottom: 16.949vw;
+        &:hover{
+          text-decoration: underline;
+        }
 
         span {
           font-size: 5.508vw;
@@ -230,6 +241,13 @@
         .italic {
           font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
         }
+      }
+
+      .italic-notes{
+        font-size: 39px;
+        line-height: 48.2833px;
+        font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+        margin-bottom: 40.25px;
       }
 
       .share {
@@ -367,6 +385,14 @@
         }
       }
 
+      .italic-notes{
+        font-size: 20px;
+        line-height: 24px;
+        font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+        margin-bottom: 25px;
+        letter-spacing: -0.5px;
+      }
+
       .share {
         margin-top: 160px;
 
@@ -420,7 +446,7 @@
 }
 
 //Main statement - img inline
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 500px) and (max-width: 767px) {
   .containery {
 
     .main-statement-wrap {
@@ -429,7 +455,8 @@
     .main-statement {
       position: absolute;
       z-index: 1;
-      width: 61.492vw;
+      //width: 61.492vw;
+      width: 51.492vw;
       padding-right: 0vw;
     }
 

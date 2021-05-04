@@ -70,6 +70,9 @@ a {
   &:hover {
     opacity: .5;
   }
+  i{
+    font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+  }
 }
 
 .see-all-insights {
@@ -1163,9 +1166,9 @@ a {
 
 }
 
-//Contact mobile menu stop scale from 600px and higher to 767 - static
+//Contact mobile menu stop scale from 500px and higher to 767 - static
 
-@media only screen and (min-width: 600px) and (max-width: 767px) {
+@media only screen and (min-width: 500px) and (max-width: 767px) {
   //static
   .mobile-content {
     .navigation {
@@ -1221,7 +1224,7 @@ a {
 
 }
 
-//Contact desktop menu stop scale from 600px and higher to 767 - static
+//Contact desktop menu stop scale from 500px and higher to 767 - static
 
 @media only screen and (min-width: 1600px) {
   .desktop-content {

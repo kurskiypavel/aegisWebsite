@@ -8,7 +8,7 @@
     .body {
       padding-left: 11.017vw;
       padding-right: 11.017vw;
-      padding-top: 61.8167px;
+      padding-top: 86px;
     }
 
     .main-statement-wrap {
@@ -20,8 +20,8 @@
         line-height: 5.509vw;
         letter-spacing: -0.169vw;
         position: absolute;
-        z-index: 1;
         width: 38.492vw;
+        top: 20px;
 
         .simple {
           font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -105,7 +105,7 @@
       }
 
       .share {
-        margin-top: 7.754vw;
+        margin-top: 6.780vw;
 
         li {
           display: inline-block;
@@ -118,7 +118,7 @@
     }
 
     .next-insight {
-      margin-top: 16.949vw;
+      margin-top: 14.661vw;
       border-top: 1px solid;
       padding-top: 4.237vw;
 
@@ -159,7 +159,7 @@
     padding: 0 16px;
 
     .body {
-      padding-top: 61.8167px;
+      padding-top: 86px;
       width: 1450px;
       margin: 0 auto;
     }
@@ -173,8 +173,8 @@
         line-height: 104.6px;
         letter-spacing: -3.2px;
         position: absolute;
-        z-index: 1;
         width: 1035.33px;
+        top: 20px;
 
         .simple {
           font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -309,7 +309,7 @@
     padding: 0 10px;
 
     .body {
-      padding-top: 61.8167px;
+      padding-top: 86px;
     }
 
     .main-statement-wrap {
@@ -318,6 +318,7 @@
         line-height: 42.3px;
         letter-spacing: -0.5px;
         padding-right: 11vw;
+        top: 20px;
 
         .simple {
           font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -394,7 +395,7 @@
       }
 
       .share {
-        margin-top: 160px;
+        margin-top: 52.0667px;
 
         li {
           display: inline-block;
@@ -407,7 +408,7 @@
     }
 
     .next-insight {
-      margin-top: 100px;
+      margin-top: 112.583px;
       border-top: 1px solid;
       padding-top: 50px;
 
@@ -454,8 +455,6 @@
     height: 277.967px;
     .main-statement {
       position: absolute;
-      z-index: 1;
-      //width: 61.492vw;
       width: 51.492vw;
       padding-right: 0vw;
     }

@@ -1,1 +1,48 @@
 //sass --watch scss/cases.scss css/cases.css --style compressed
+
+header {
+  position: relative;
+  z-index: 1;
+  padding: 0 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile-content, .mobile-menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1899px) {
+  img,video{
+    max-width: 100%;
+  }
+  .desktop-content {
+    .body {
+      .main-statement-wrap {
+        position: relative;
+        top: -48px;
+        height: 820px;
+        background-image: url("../static/images/desktop/cases/crescent/1_crescentcase_hero.jpg");
+        background-size: cover;
+        background-position: center;
+
+        .main-statement {
+          font-family: Roobert-Bold, sans-serif;
+          font-size: 70px;
+          position: absolute;
+          bottom: 0;
+          top: calc(820px - 76px);
+          z-index: 1;
+          left: 10px;
+        }
+        .num-svg{
+          height: 150px;
+          position: absolute;
+          bottom: 0;
+          top: calc(820px - 168px);
+          right: 40px;
+        }
+      }
+    }
+  }
+}

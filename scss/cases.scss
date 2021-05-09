@@ -22,49 +22,49 @@ header {
       top: 0;
 
       .main-statement-wrap {
-        height: 820px;
+        height: 69.492vw;
         background-image: url("../static/images/desktop/cases/crescent/1_crescentcase_hero.jpg");
         background-size: cover;
         background-position: center;
 
         .main-statement {
           font-family: Roobert-Bold, sans-serif;
-          font-size: 70px;
+          font-size: 5.932vw;
           position: relative;
           bottom: 0;
-          top: calc(820px - 76px);
+          top: calc(69.492vw - 6.441vw);
           z-index: 1;
           padding-left: 10px;
         }
 
         .num-svg {
-          height: 150px;
+          height: 12.712vw;
           position: absolute;
           bottom: 0;
-          top: calc(820px - 168px);
+          top: calc(69.492vw - 14.237vw);
           right: 40px;
         }
       }
 
       .main-content {
-        margin-top: 140px;
+        margin-top: 11.864vw;
         padding: 0 10px;
         max-width: calc(100vw - 20px);
         .head-block {
           position: relative;
-          padding: 0 130px;
+          padding: 0 11.017vw;
 
           .tag {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 15px;
-            letter-spacing: -0.5px;
+            font-size: 1.271vw;
+            letter-spacing: -0.042vw;
           }
 
           .content-head-text {
-            font-size: 65px;
-            line-height: 70px;
+            font-size: 5.508vw;
+            line-height: 5.932vw;
             letter-spacing: -0.169vw;
-            margin-top: 110px;
+            margin-top: 9.322vw;
 
             .simple {
               font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -78,29 +78,29 @@ header {
 
           .case-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 20px;
+            font-size: 1.695vw;
             position: absolute;
             bottom: 0;
           }
 
           .tag-list {
-            margin-top: 110px;
+            margin-top: 9.322vw;
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
-            width: 250px;
+            width: 17.186vw;
 
             .folder-icon {
-              width: 15px;
+              width: 1.271vw;
               height: auto;
             }
 
             ul {
               font-family: GT-Alpina-Standard-Light, sans-serif;
-              font-size: 15px;
-              line-height: 20px;
+              font-size: 1.271vw;
+              line-height: 1.695vw;
               white-space: initial;
-              margin-top: 17px;
+              margin-top: 1.441vw;
             }
           }
         }
@@ -108,17 +108,17 @@ header {
         .content-row {
           display: flex;
           max-width: 100%;
-          padding: 0 130px 50px;
-          margin-top: 113px;
+          padding: 0 11.017vw 4.237vw;
+          margin-top: 9.576vw;
 
           p {
-            font-size: 26px;
-            line-height: 31px;
-            letter-spacing: -0.5px;
+            font-size: 2.203vw;
+            line-height: 2.627vw;
+            letter-spacing: -0.042vw;
             font-family: GT-Alpina-Standard-Light, sans-serif;
 
             &:not(:first-child) {
-              margin-top: 30px;
+              margin-top: 2.542vw;
             }
 
             span.italic {
@@ -127,13 +127,13 @@ header {
           }
 
           .col-3.d-block {
-            max-width: 260px;
+            max-width: 22.034vw;
             width: 100%;
             position: relative;
 
             img {
               display: block;
-              width: 180px;
+              width: 15.254vw;
             }
 
             .img-wrap {
@@ -141,39 +141,39 @@ header {
               bottom: 0;
 
               .sub-image {
-                margin-top: 29px;
+                margin-top: 2.458vw;
               }
             }
           }
 
           .col-7 {
-            width: calc(100% - 260px);
+            width: calc(100% - 22.034vw);
           }
         }
 
         .row {
           .full-row {
             max-width: 100%;
-            width: 923px;
-            margin: 100px auto 0;
+            width: 78.220vw;
+            margin: 8.475vw auto 0;
             display: block;
           }
         }
 
         .quote-block {
-          padding: 0 130px 50px;
-          margin-top: 150px;
+          padding: 0 11.017vw 4.237vw;
+          margin-top: 12.712vw;
           font-family: Roobert-Medium, sans-serif;
 
           .quote {
-            font-size: 48px;
-            line-height: 50px;
-            letter-spacing: -0.15px;
+            font-size: 4.068vw;
+            line-height: 4.237vw;
+            letter-spacing: -0.1271vw;
           }
 
           .quote-by {
-            font-size: 24px;
-            margin-top: 25px;
+            font-size: 2.034vw;
+            margin-top: 2.119vw;
             display: block;
           }
         }
@@ -182,23 +182,23 @@ header {
           position: absolute;
           bottom: 0;
           font-family: GT-Alpina-Standard-Light, sans-serif;
-          width: 160px;
+          width: 13.559vw;
 
           .percentage {
-            font-size: 60px;
-            letter-spacing: -2px;
+            font-size: 5.085vw;
+            letter-spacing: -0.169vw;
           }
 
           .percentage-description {
-            margin-top: 29px;
+            margin-top: 2.458vw;
             font-family: Roobert-Medium, sans-serif;
-            font-size: 15px;
-            line-height: 18px;
+            font-size: 1.271vw;
+            line-height: 1.525vw;
           }
         }
 
         .row-full {
-          margin-top: 100px;
+          margin-top: 8.475vw;
           width: 100vw;
           position: relative;
           left: -10px;
@@ -207,12 +207,13 @@ header {
 
       .next-case{
         .next-case-body{
-          margin: 200px 130px 0;border-top: 1px solid;padding-top: 50px;
+          margin: 16.949vw 11.017vw 0;border-top: 1px solid;padding-top: 4.237vw;
           .ref{
-            font-family: Roobert-Bold,sans-serif;font-size: 16px;line-height: 20px;letter-spacing: -0.5px;
+            font-family: Roobert-Bold,
+            sans-serif;font-size: 1.356vw;line-height: 1.695vw;letter-spacing: -0.042vw;
           }
           .next-title{
-            margin-top: 50px;
+            margin-top: 4.237vw;
             span{
               font-size: 5.508vw;
               line-height: 5.508vw;
@@ -228,9 +229,243 @@ header {
           }
         }
         .row-full {
-          margin-top: 100px;
+          margin-top: 8.475vw;
           width: 100vw;
           position: relative;
+          img{
+            width: 100%;
+          }
+        }
+
+      }
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1900px){
+  img, video {
+    max-width: 100%;
+  }
+  .desktop-content {
+    .body {
+      position: absolute;
+      top: 0;
+
+      .main-statement-wrap {
+        height: 69.492vw;
+        background-image: url("../static/images/desktop/cases/crescent/1_crescentcase_hero.jpg");
+        background-size: cover;
+        background-position: center;
+
+        .main-statement {
+          font-family: Roobert-Bold, sans-serif;
+          font-size: 5.932vw;
+          position: relative;
+          bottom: 0;
+          top: calc(69.492vw - 6.441vw);
+          z-index: 1;
+          padding-left: 10px;
+        }
+
+        .num-svg {
+          height: 12.712vw;
+          position: absolute;
+          bottom: 0;
+          top: calc(69.492vw - 14.237vw);
+          right: 40px;
+        }
+      }
+
+      .main-content {
+        margin-top: 11.864vw;
+        padding: 0 10px;
+        max-width: calc(100vw - 20px);
+        .head-block {
+          position: relative;
+          padding: 0 11.017vw;
+
+          .tag {
+            font-family: Roobert-Bold, sans-serif;
+            font-size: 1.271vw;
+            letter-spacing: -0.042vw;
+          }
+
+          .content-head-text {
+            font-size: 5.508vw;
+            line-height: 5.932vw;
+            letter-spacing: -0.169vw;
+            margin-top: 9.322vw;
+
+            .simple {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+            }
+
+            .italic {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+              display: block;
+            }
+          }
+
+          .case-name {
+            font-family: Roobert-Bold, sans-serif;
+            font-size: 1.695vw;
+            position: absolute;
+            bottom: 0;
+          }
+
+          .tag-list {
+            margin-top: 9.322vw;
+            position: relative;
+            left: calc(100% - 127px);
+            right: 127px;
+            width: 17.186vw;
+
+            .folder-icon {
+              width: 1.271vw;
+              height: auto;
+            }
+
+            ul {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+              font-size: 1.271vw;
+              line-height: 1.695vw;
+              white-space: initial;
+              margin-top: 1.441vw;
+            }
+          }
+        }
+
+        .content-row {
+          display: flex;
+          max-width: 100%;
+          padding: 0 11.017vw 4.237vw;
+          margin-top: 9.576vw;
+
+          p {
+            font-size: 2.203vw;
+            line-height: 2.627vw;
+            letter-spacing: -0.042vw;
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+
+            &:not(:first-child) {
+              margin-top: 2.542vw;
+            }
+
+            span.italic {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+            }
+          }
+
+          .col-3.d-block {
+            max-width: 22.034vw;
+            width: 100%;
+            position: relative;
+
+            img {
+              display: block;
+              width: 15.254vw;
+            }
+
+            .img-wrap {
+              position: absolute;
+              bottom: 0;
+
+              .sub-image {
+                margin-top: 2.458vw;
+              }
+            }
+          }
+
+          .col-7 {
+            width: calc(100% - 22.034vw);
+          }
+        }
+
+        .row {
+          .full-row {
+            max-width: 100%;
+            width: 78.220vw;
+            margin: 8.475vw auto 0;
+            display: block;
+          }
+        }
+
+        .quote-block {
+          padding: 0 11.017vw 4.237vw;
+          margin-top: 12.712vw;
+          font-family: Roobert-Medium, sans-serif;
+
+          .quote {
+            font-size: 4.068vw;
+            line-height: 4.237vw;
+            letter-spacing: -0.1271vw;
+          }
+
+          .quote-by {
+            font-size: 2.034vw;
+            margin-top: 2.119vw;
+            display: block;
+          }
+        }
+
+        .percentage-wrap {
+          position: absolute;
+          bottom: 0;
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+          width: 13.559vw;
+
+          .percentage {
+            font-size: 5.085vw;
+            letter-spacing: -0.169vw;
+          }
+
+          .percentage-description {
+            margin-top: 2.458vw;
+            font-family: Roobert-Medium, sans-serif;
+            font-size: 1.271vw;
+            line-height: 1.525vw;
+          }
+        }
+
+        .row-full {
+          margin-top: 8.475vw;
+          width: 100vw;
+          position: relative;
+          left: -10px;
+        }
+      }
+
+      .next-case{
+        .next-case-body{
+          margin: 16.949vw 11.017vw 0;border-top: 1px solid;padding-top: 4.237vw;
+          .ref{
+            font-family: Roobert-Bold,
+            sans-serif;font-size: 1.356vw;line-height: 1.695vw;letter-spacing: -0.042vw;
+          }
+          .next-title{
+            margin-top: 4.237vw;
+            span{
+              font-size: 5.508vw;
+              line-height: 5.508vw;
+              letter-spacing: -0.169vw;
+              display: block;
+            }
+            .simple{
+              font-family: GT-Alpina-Standard-Light,sans-serif;
+            }
+            .italic{
+              font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+            }
+          }
+        }
+        .row-full {
+          margin-top: 8.475vw;
+          width: 100vw;
+          position: relative;
+          img{
+            width: 100%;
+          }
         }
 
       }

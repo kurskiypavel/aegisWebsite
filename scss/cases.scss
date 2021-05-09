@@ -22,12 +22,286 @@ header {
 
 
 @media only screen and (max-width: 599px) {
+  img, video {
+    max-width: 100%;
+  }
+  .desktop-content .body .main-content .row .full-row.desktop-only-img{
+    display: none;
+  }
+  .desktop-content {
+    .body {
+      position: absolute;
+      top: 0;
 
+      .main-statement-wrap {
+        height: 600px;
+        background-image: url("../static/images/desktop/cases/crescent/1_crescentcase_hero.jpg");
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        .main-statement {
+          font-family: Roobert-Bold, sans-serif;
+          font-size: 35px;
+          position: absolute;
+          bottom: 6px;
+          z-index: 1;
+          padding-left: 10px;
+
+          &.crescent {
+            width: 70%;
+          }
+        }
+
+        .num-svg {
+          height: 102.033px;
+          position: absolute;
+          bottom: 11px;
+          right: 13px;
+        }
+      }
+
+      .main-content {
+        margin-top: 150px;
+        padding: 0 10px;
+        max-width: calc(100vw - 20px);
+
+        .head-block {
+          position: relative;
+
+          .tag {
+            font-family: Roobert-Bold, sans-serif;
+            font-size: 15px;
+            letter-spacing: -0.416667px;
+          }
+
+          .content-head-text {
+            font-size: 43px;
+            line-height: 47px;
+            letter-spacing: -0.25px;
+            margin-top: 85px;
+
+            .simple {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+            }
+
+            .italic {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+            }
+          }
+
+          .case-name {
+            font-family: Roobert-Bold, sans-serif;
+            font-size: 20px;
+            margin-top: 82px;
+          }
+
+          .tag-list {
+            margin-top: 65px;
+
+            .folder-icon {
+              width: 17px;
+              height: auto;
+            }
+
+            ul {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+              font-size: 15px;
+              line-height: 20px;
+              white-space: initial;
+              margin-top: 14.7333px;
+            }
+          }
+        }
+
+        .content-row {
+          display: flex;
+          max-width: 100%;
+          margin-top: 75px;
+          padding-bottom: 24px;
+
+          p {
+            font-size: 22px;
+            line-height: 26px;
+            letter-spacing: -0.5px;
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+
+            &:not(:first-child) {
+              margin-top: 20px;
+            }
+
+            span.italic {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+            }
+          }
+
+          .col-3.d-block {
+            display: none;
+            max-width: 22.034vw;
+            width: 100%;
+            position: relative;
+
+            img {
+              display: block;
+              width: 156.033px;
+            }
+
+            .img-wrap {
+              position: absolute;
+              bottom: 0;
+
+              .sub-image {
+                margin-top: 25.1333px;
+              }
+            }
+          }
+
+          .col-7 {
+            width: 100%;
+            margin-bottom: 5px;
+
+            .img-mobile-wrap {
+              display: flex;
+              margin-top: 57px;
+              margin-bottom: 50px;
+              justify-content: space-between;
+
+              img {
+                width: 170px;
+              }
+            }
+
+            .percentage-mobile-wrap {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+              max-width: 510px;
+              width: 100%;
+              margin-bottom: 65px;
+
+              .percentage {
+                font-size: 60px;
+                letter-spacing: -1.71667px;
+                padding-bottom: 7px;
+              }
+
+              .percentage-description {
+                font-family: Roobert-Medium, sans-serif;
+                font-size: 15px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
+
+        .row {
+          .full-row {
+            max-width: 100%;
+            margin: 31px auto 0;
+            display: block;
+          }
+        }
+
+        .quote-block {
+          margin-top: 60px;
+          font-family: Roobert-Medium, sans-serif;
+          padding-bottom: 30px;
+
+          .quote {
+            font-size: 31px;
+            line-height: 35px;
+            letter-spacing: -1px;
+          }
+
+          .quote-by {
+            font-size: 18px;
+            margin-top: 21.6667px;
+            display: block;
+          }
+        }
+
+        .percentage-wrap {
+          position: absolute;
+          bottom: 0;
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+          width: 138.7px;
+
+          .percentage {
+            font-size: 52.0167px;
+            letter-spacing: -1.71667px;
+          }
+
+          .percentage-description {
+            margin-top: 25.1333px;
+            font-family: Roobert-Medium, sans-serif;
+            font-size: 13px;
+            line-height: 15.6px;
+          }
+        }
+
+        .row-full {
+          margin-top: 8.475vw;
+          width: 100vw;
+          position: relative;
+          left: -10px;
+        }
+      }
+
+      .next-case {
+        margin-bottom: 40px;
+        .next-case-body {
+          margin: 100px 10px 70px;
+          border-top: 1px solid;
+          padding-top: 50px;
+
+          .ref {
+            font-family: Roobert-Bold,
+            sans-serif;
+            font-size: 13.8667px;
+            line-height: 17.3333px;
+            letter-spacing: -0.416667px;
+          }
+
+          .next-title {
+            margin-top: 50px;
+
+            span {
+              font-size: 45px;
+              line-height: 45px;
+              letter-spacing: -1px;
+              display: block;
+            }
+
+            .simple {
+              font-family: GT-Alpina-Standard-Light, sans-serif;
+            }
+
+            .italic {
+              font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+            }
+          }
+        }
+
+        .row-full {
+          margin-top: 70px;
+          width: 100vw;
+          position: relative;
+
+          img {
+            width: 100%;
+          }
+        }
+
+      }
+
+    }
+  }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
   img, video {
     max-width: 100%;
+  }
+  .mobile-only-set{
+    display: none;
   }
   .desktop-content {
     .body {
@@ -312,7 +586,7 @@ header {
   img, video {
     max-width: 100%;
   }
-  .img-mobile-wrap, .percentage-mobile-wrap {
+  .img-mobile-wrap, .percentage-mobile-wrap,.mobile-only-set {
     display: none;
   }
   .desktop-content {
@@ -559,7 +833,7 @@ header {
   img, video {
     max-width: 100%;
   }
-  .img-mobile-wrap, .percentage-mobile-wrap {
+  .img-mobile-wrap, .percentage-mobile-wrap,.mobile-only-set {
     display: none;
   }
   .desktop-content {

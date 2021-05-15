@@ -575,6 +575,7 @@ a {
       position: fixed;
       top: 0;
       right: -4px;
+      z-index: 999;
 
       &.nav-opened {
         .desktop-menu {
@@ -583,7 +584,7 @@ a {
           }
 
           &.opened {
-            width: calc(100vw - 30px);
+            width: calc(100vw - 54px);
           }
         }
       }
@@ -592,7 +593,7 @@ a {
         height: 100%;
         position: relative;
         display: inline-block;
-        width: 25px;
+        width: 31px;
         transition: .5s;
 
         &.white-back {
@@ -604,7 +605,6 @@ a {
                           calc(-100vw + #{$menuPanelWidth} +
                           calc(var(--case-study-items) * #{$menuItemWidth}))); //6
           background-color: white;
-          right: 5px;
         }
 
         .sideways {
@@ -637,6 +637,7 @@ a {
           .contact-btn {
             position: absolute;
             font-family: Roobert-Bold, sans-serif;
+            padding-bottom: 5px;
           }
 
           .navigation-arrow-up {
@@ -1231,10 +1232,58 @@ a {
           height: 36.15px;
         }
       }
+
+      .insights-content-wrap-parent {
+        .insights-content-wrap {
+          .top-right{
+            right: 10.868vw;
+          }
+          .insights-block .red-square {
+            width: 44.4vw;
+            height: 44.4vw;
+            display: inline-block;
+            margin-top: 1.847vw;
+            margin-right: 1.847vw;
+            padding: unset;
+            .title{
+              position: relative;
+              top: 2vw;
+              left: 2vw;
+            }
+            p{
+              bottom: 2vw;
+              padding: 2vw;
+            }
+          }
+        }
+      }
+
+      .projects-content-wrap-parent {
+        .projects-content-wrap {
+          .top-right{
+            right: 10.868vw;
+          }
+          .projects-block .red-square {
+            width: 44.4vw;
+            height: 44.4vw;
+            display: inline-block;
+            margin-top: 1.847vw;
+            margin-right: 1.847vw;
+            padding: unset;
+            .title{
+              position: relative;
+              top: 2vw;
+              left: 2vw;
+            }
+            p{
+              bottom: 2vw;
+              padding: 2vw;
+            }
+          }
+        }
+      }
     }
   }
-
-
 }
 
 //Contact desktop menu stop scale from 500px and higher to 767 - static

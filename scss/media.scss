@@ -29,7 +29,6 @@
 
             img {
               max-width: calc(100% - 13.559vw);
-              margin: 8.051vw auto 0 auto;
               width: 100%;
               height: 100%;
             }
@@ -137,7 +136,7 @@
 
           #cross-block {
             position: relative;
-            margin-top: 7.627vw;
+            margin-top: 9.9vw;
 
             .cross {
               position: relative;
@@ -161,7 +160,7 @@
           }
 
           #the-team-d {
-            margin-top: 10.763vw;
+            margin-top: 13.4vw;
           }
 
           .body-block {
@@ -171,7 +170,7 @@
             }
 
             .first-image {
-              margin: 7.085vw 0 auto;
+              margin: 10.990vw 0 3.906vw;
               max-width: 100%;
               height: auto;
               max-height: 50.424vw;
@@ -298,6 +297,41 @@
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .body .img-block .desktop-only{
+    display: none;
+  }
+
+  .desktop-content {
+    .containery {
+      .body {
+        .img-block {
+          img {
+            margin: 24.051vw auto 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1025px){
+  .body .img-block .ipad-only{
+    display: none;
+  }
+  .desktop-content {
+    .containery {
+      .body {
+        .img-block {
+          img {
+            margin: 7.051vw auto 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 1180px) {
   .homepage {
     .desktop-content {
@@ -323,7 +357,7 @@
 
           #cross-block {
             position: relative;
-            margin-top: 7.627vw;
+            margin-top: 9.9vw;
 
             .cross {
               position: relative;
@@ -347,7 +381,7 @@
           }
 
           #the-team-d {
-            margin-top: 10.763vw;
+            margin-top: 13.4vw;
           }
 
           .body-block {
@@ -357,7 +391,7 @@
             }
 
             .first-image {
-              margin: 7.085vw 0 auto;
+              margin: 10.990vw 0 3.906vw;
               max-width: 100%;
               height: auto;
               max-height: 50.424vw;

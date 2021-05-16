@@ -297,11 +297,22 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px){
+/*767 ipad
+768 ipad
+    769 desktop*/
+
+@media only screen and (max-width: 768px){
   .body .img-block .desktop-only{
     display: none;
   }
-
+  .body .img-block .ipad-only {
+    margin:  148px 0 auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .body .img-block .ipad-only{
+    display: none;
+  }
   .desktop-content {
     .containery {
       .body {
@@ -324,7 +335,7 @@
       .body {
         .img-block {
           img {
-            margin: 7.051vw auto 0 auto;
+            margin: 10.508vw auto 0 auto;
           }
         }
       }

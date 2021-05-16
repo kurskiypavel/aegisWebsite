@@ -22,9 +22,16 @@ header {
 
 
 @media only screen and (max-width: 599px) {
-  img, video {
+  img{
     max-width: 100%;
   }
+  video {
+    width: 150vw;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+  }
+
   .desktop-content .body .main-content {
     .row .full-row.desktop-only-img,.row-full .desktop-only-img{
       display: none;
@@ -66,6 +73,7 @@ header {
         margin-top: 150px;
         padding: 0 10px;
         max-width: calc(100vw - 20px);
+        overflow-x: hidden;
 
         .head-block {
           position: relative;
@@ -259,7 +267,7 @@ header {
             sans-serif;
             font-size: 13.8667px;
             line-height: 17.3333px;
-            letter-spacing: -0.416667px;
+            letter-spacing: 0.2px;
           }
 
           .next-title {
@@ -298,6 +306,43 @@ header {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .desktop-content {
+    .body {
+      .main-statement-wrap {
+        height: 100vh;
+        .num-svg {
+          top: calc(100vh - 150px);
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .desktop-content {
+    .body {
+      .main-statement-wrap {
+        height: calc(100vh - 42.5px);
+        .num-svg {
+          top: calc(100vh - 188px);
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 599px) {
+  .desktop-content {
+    .body {
+      .main-statement-wrap {
+        height: calc(100vh - 42.5px);
+        .num-svg {
+          top: calc(100vh - 160px);
+        }
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
   img, video {
     max-width: 100%;
@@ -311,7 +356,6 @@ header {
       top: 0;
 
       .main-statement-wrap {
-        height: 710.9px;
         background-image: url("../static/images/desktop/cases/crescent/1_crescentcase_hero.jpg");
         background-size: cover;
         background-position: center;
@@ -334,7 +378,6 @@ header {
           height: 130.033px;
           position: absolute;
           bottom: 0;
-          top: 565.25px;
           right: 40px;
         }
       }
@@ -545,7 +588,7 @@ header {
             sans-serif;
             font-size: 13.8667px;
             line-height: 17.3333px;
-            letter-spacing: -0.416667px;
+            letter-spacing: 0.2px;
           }
 
           .next-title {
@@ -597,7 +640,7 @@ header {
       top: 0;
 
       .main-statement-wrap {
-        height: 69.492vw;
+        height: 100vh;
         background-image: url("../static/images/desktop/cases/crescent/1_crescentcase_hero.jpg");
         background-size: cover;
         background-position: center;
@@ -607,7 +650,7 @@ header {
           font-size: 5.932vw;
           position: relative;
           bottom: 0;
-          top: calc(69.492vw - 6.441vw);
+          top: calc(100vh - 6.441vw);
           z-index: 1;
           padding-left: 10px;
         }
@@ -616,7 +659,7 @@ header {
           height: 12.712vw;
           position: absolute;
           bottom: 0;
-          top: calc(69.492vw - 14.237vw);
+          top: calc(100vh - 14.237vw);
           right: 40px;
         }
       }
@@ -632,8 +675,8 @@ header {
 
           .tag {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 1.271vw;
-            letter-spacing: -0.042vw;
+            font-size: 15px;
+            letter-spacing: 0.2px;
           }
 
           .content-head-text {
@@ -667,16 +710,16 @@ header {
             width: 17.186vw;
 
             .folder-icon {
-              width: 1.271vw;
+              width: 15px;
               height: auto;
             }
 
             ul {
               font-family: GT-Alpina-Standard-Light, sans-serif;
-              font-size: 1.271vw;
-              line-height: 1.695vw;
+              font-size: 15px;
+              line-height: 20px;
               white-space: initial;
-              margin-top: 1.441vw;
+              margin-top: 17px;
             }
           }
         }
@@ -790,9 +833,9 @@ header {
           .ref {
             font-family: Roobert-Bold,
             sans-serif;
-            font-size: 1.356vw;
-            line-height: 1.695vw;
-            letter-spacing: -0.042vw;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.2px;
           }
 
           .next-title {
@@ -844,7 +887,7 @@ header {
       top: 0;
 
       .main-statement-wrap {
-        height: 1320.348px;
+        height: 100vh;
         background-image: url("../static/images/desktop/cases/crescent/1_crescentcase_hero.jpg");
         background-size: cover;
         background-position: center;
@@ -854,7 +897,7 @@ header {
           font-size: 112.708px;
           position: relative;
           bottom: 0;
-          top: calc(1320.348px - 122.379px);
+          top: calc(100vh - 122.379px);
           z-index: 1;
           padding-left: 10px;
         }
@@ -863,7 +906,7 @@ header {
           height: 241.528px;
           position: absolute;
           bottom: 0;
-          top: calc(1320.348px - 270.503px);
+          top: calc(100vh - 270.503px);
           right: 40px;
         }
       }
@@ -880,7 +923,7 @@ header {
           .tag {
             font-family: Roobert-Bold, sans-serif;
             font-size: 24.149px;
-            letter-spacing: -0.798px;
+            letter-spacing: 0.2px;
           }
 
           .content-head-text {
@@ -929,10 +972,11 @@ header {
         }
 
         .content-row {
-          display: flex;
-          max-width: 100%;
+          max-width: 1880px;
           padding: 0 209.323px 80.503px;
-          margin-top: 181.944px;
+          margin: 181.944px auto 0;
+          display: flex;
+          justify-content: center;
 
           p {
             font-size: 41.857px;
@@ -970,7 +1014,7 @@ header {
           }
 
           .col-7 {
-            width: calc(100% - 418.646px);
+            width: 1042.72px;
           }
         }
 
@@ -1025,6 +1069,9 @@ header {
           width: 100vw;
           position: relative;
           left: -10px;
+          img,video{
+            width: 100%;
+          }
         }
       }
 

@@ -45,7 +45,7 @@
 
       li {
         display: block;
-        font-family: Roobert-Medium,sans-serif;
+        font-family: Roobert-Medium, sans-serif;
         font-size: max(1.186vw, 14px);
         line-height: max(1.695vw, 20px);
         margin-top: 0.5vw;
@@ -59,8 +59,8 @@
       margin-top: 2.119vw;
     }
 
-    .job-title{
-      font-family: Roobert-Medium,sans-serif;
+    .job-title {
+      font-family: Roobert-Medium, sans-serif;
       font-size: max(1.186vw, 14px);
       line-height: max(1.695vw, 20px);
       padding-right: 7vw;
@@ -97,10 +97,10 @@
         }
       }
 
-      .italic-notes{
+      .italic-notes {
         font-size: 1.695vw;
         line-height: 2.542vw;
-        font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+        font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
         margin-bottom: 2.119vw;
       }
 
@@ -109,10 +109,10 @@
 
         li {
           display: inline-block;
-          font-family: Roobert-Regular,sans-serif;
-          font-size: max(1.186vw,14px);
+          font-family: Roobert-Regular, sans-serif;
+          font-size: max(1.186vw, 14px);
           margin-right: 1.017vw;
-          line-height: max(2.542vw,30px);
+          line-height: max(2.542vw, 30px);
         }
       }
     }
@@ -131,7 +131,8 @@
       .next-title {
         margin-top: 5.424vw;
         margin-bottom: 16.949vw;
-        &:hover{
+
+        &:hover {
           text-decoration: underline;
         }
 
@@ -212,7 +213,7 @@
       margin-top: 40.25px;
     }
 
-    .job-title{
+    .job-title {
       font-family: Roobert-Medium, sans-serif;
       font-size: 22.5333px;
       margin-right: 19.3167px;
@@ -243,10 +244,10 @@
         }
       }
 
-      .italic-notes{
+      .italic-notes {
         font-size: 39px;
         line-height: 48.2833px;
-        font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+        font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
         margin-bottom: 40.25px;
       }
 
@@ -354,7 +355,8 @@
       line-height: 20px;
       margin-top: 26px;
     }
-    .job-title{
+
+    .job-title {
       font-family: Roobert-Medium, sans-serif;
       font-size: 14px;
       margin-right: 1.017vw;
@@ -386,10 +388,10 @@
         }
       }
 
-      .italic-notes{
+      .italic-notes {
         font-size: 20px;
         line-height: 24px;
-        font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+        font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
         margin-bottom: 25px;
         letter-spacing: -0.5px;
       }
@@ -451,22 +453,23 @@
   .containery {
 
     .main-statement-wrap {
-    position: relative;
-    height: 277.967px;
-    .main-statement {
-      position: absolute;
-      width: 51.492vw;
-      padding-right: 0vw;
-    }
+      position: relative;
+      height: 277.967px;
 
-    img {
-      position: absolute;
-      top: 0;
-      right: 0;
-      margin-top: 0;
-      height: 266.833px;
+      .main-statement {
+        position: absolute;
+        width: 51.492vw;
+        padding-right: 0vw;
+      }
+
+      img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 0;
+        height: 266.833px;
+      }
     }
-  }
   }
 }
 

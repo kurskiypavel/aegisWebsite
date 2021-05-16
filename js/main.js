@@ -18,6 +18,7 @@ function getPreviousSiblings(elem) {
     }
     return siblings;
 }
+
 function getNextSiblings(elem) {
     let siblings = [];
     while (elem = elem.nextElementSibling) {
@@ -56,7 +57,7 @@ function initEvents() {
         showMobileInsightsContent();
     });
 
-    $('#filter-insights-mobile-js').on('click',()=>{
+    $('#filter-insights-mobile-js').on('click', () => {
         slideMobileFilterTags();
     });
 
@@ -82,7 +83,7 @@ function initEvents() {
     $('#menu-item-2-js').on('click', () => {
         showInsightsContent();
     });
-    $('#filter-insights-js').on('click',()=>{
+    $('#filter-insights-js').on('click', () => {
         slideFilterTags();
     });
     $(document).on("click", (e) => {
@@ -135,7 +136,7 @@ function loadInsight(insightToLoad) {
             // readyDOMStyle();
             // readyDOMMain();
             //init events and etc. if required
-            $('.old-html').slideUp( "slow", function() {
+            $('.old-html').slideUp("slow", function () {
                 console.log('// Animation complete.')
                 $('.old-html').remove();
                 $('.new-html.unactive .insight-html').unwrap();

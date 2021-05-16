@@ -99,12 +99,14 @@
         max-width: 100%;
         margin-bottom: 122px;
       }
-      .mobile-only{
+
+      .mobile-only {
         .refs-block {
           .DRUNK-images-1 {
             margin-top: 105px;
           }
-          .DRUNK-images-2{
+
+          .DRUNK-images-2 {
             margin: 80px auto 0;
             display: block;
           }
@@ -167,7 +169,8 @@
         }
 
       }
-      .ipad-only{
+
+      .ipad-only {
         display: none;
       }
     }
@@ -175,7 +178,6 @@
   }
 
 }
-
 
 
 @media only screen and (min-width: 414px) and (max-width: 767px) {
@@ -229,13 +231,16 @@
     display: block;
     width: 100%;
   }
-  .mobile-content  .mobile-only {
+  .mobile-content .mobile-only {
     display: none;
   }
   .mobile-content .ipad-only {
     display: block !important;
     position: relative;
-    max-width: 672.45px;width: 100%;margin: 90px auto 0 ;
+    max-width: 672.45px;
+    width: 100%;
+    margin: 90px auto 0;
+
     .cross {
       position: relative;
       height: 100%;
@@ -255,6 +260,7 @@
           max-width: 159.117px;
         }
       }
+
       .refs-block {
         width: 187.283px;
 
@@ -263,19 +269,20 @@
           line-height: 14.7333px;
           font-size: 11.9833px;
           margin-bottom: 1.119vw;
-          font-family: Roobert-Bold,sans-serif;
+          font-family: Roobert-Bold, sans-serif;
         }
 
         i {
           line-height: 14.7333px;
           font-size: 11.9833px;
-          font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+          font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
         }
 
-        .drunk-1{
+        .drunk-1 {
           max-height: 132.6px;
         }
-        .drunk-2{
+
+        .drunk-2 {
           max-height: 149.817px;
           max-width: 77.9px;
         }
@@ -286,7 +293,7 @@
           margin-bottom: 15px;
           line-height: 1.667vw;
           font-size: 11.9833px;
-          font-family: GT-Alpina-Standard-Light,sans-serif;
+          font-family: GT-Alpina-Standard-Light, sans-serif;
 
 
           &.fake-input {

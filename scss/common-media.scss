@@ -60,6 +60,7 @@
 
 
 }
+
 /*---------+---------+---------+---------*/
 /*          |GENERAL STYLES|             */
 /*---------+---------+---------+---------*/
@@ -227,6 +228,7 @@ a {
 
     .contact-menu {
       display: none;
+
       .contact-wrap {
         position: relative;
         top: calc(50% - 42.5px);
@@ -1235,9 +1237,10 @@ a {
 
       .insights-content-wrap-parent {
         .insights-content-wrap {
-          .top-right{
+          .top-right {
             right: 10.868vw;
           }
+
           .insights-block .red-square {
             width: 44.4vw;
             height: 44.4vw;
@@ -1245,12 +1248,14 @@ a {
             margin-top: 1.847vw;
             margin-right: 1.847vw;
             padding: unset;
-            .title{
+
+            .title {
               position: relative;
               top: 2vw;
               left: 2vw;
             }
-            p{
+
+            p {
               bottom: 2vw;
               padding: 2vw;
             }
@@ -1260,9 +1265,10 @@ a {
 
       .projects-content-wrap-parent {
         .projects-content-wrap {
-          .top-right{
+          .top-right {
             right: 10.868vw;
           }
+
           .projects-block .red-square {
             width: 44.4vw;
             height: 44.4vw;
@@ -1270,12 +1276,14 @@ a {
             margin-top: 1.847vw;
             margin-right: 1.847vw;
             padding: unset;
-            .title{
+
+            .title {
               position: relative;
               top: 2vw;
               left: 2vw;
             }
-            p{
+
+            p {
               bottom: 2vw;
               padding: 2vw;
             }

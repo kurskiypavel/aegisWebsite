@@ -22,7 +22,7 @@ header {
 
 
 @media only screen and (max-width: 599px) {
-  img{
+  img {
     max-width: 100%;
   }
   video {
@@ -33,7 +33,7 @@ header {
   }
 
   .desktop-content .body .main-content {
-    .row .full-row.desktop-only-img,.row-full .desktop-only-img{
+    .row .full-row.desktop-only-img, .row-full .desktop-only-img {
       display: none;
     }
   }
@@ -257,6 +257,7 @@ header {
 
       .next-case {
         margin-bottom: 40px;
+
         .next-case-body {
           margin: 100px 10px 70px;
           border-top: 1px solid;
@@ -311,6 +312,7 @@ header {
     .body {
       .main-statement-wrap {
         height: 100vh;
+
         .num-svg {
           top: calc(100vh - 150px);
         }
@@ -318,11 +320,13 @@ header {
     }
   }
 }
+
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .desktop-content {
     .body {
       .main-statement-wrap {
         height: calc(100vh - 42.5px);
+
         .num-svg {
           top: calc(100vh - 188px);
         }
@@ -330,11 +334,13 @@ header {
     }
   }
 }
+
 @media only screen and (max-width: 599px) {
   .desktop-content {
     .body {
       .main-statement-wrap {
         height: calc(100vh - 42.5px);
+
         .num-svg {
           top: calc(100vh - 160px);
         }
@@ -347,7 +353,7 @@ header {
   img, video {
     max-width: 100%;
   }
-  .mobile-only-set{
+  .mobile-only-set {
     display: none;
   }
   .desktop-content {
@@ -631,7 +637,7 @@ header {
   img, video {
     max-width: 100%;
   }
-  .img-mobile-wrap, .percentage-mobile-wrap,.mobile-only-set {
+  .img-mobile-wrap, .percentage-mobile-wrap, .mobile-only-set {
     display: none;
   }
   .desktop-content {
@@ -878,7 +884,7 @@ header {
   img, video {
     max-width: 100%;
   }
-  .img-mobile-wrap, .percentage-mobile-wrap,.mobile-only-set {
+  .img-mobile-wrap, .percentage-mobile-wrap, .mobile-only-set {
     display: none;
   }
   .desktop-content {
@@ -1069,7 +1075,8 @@ header {
           width: 100vw;
           position: relative;
           left: -10px;
-          img,video{
+
+          img, video {
             width: 100%;
           }
         }

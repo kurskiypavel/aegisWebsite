@@ -180,8 +180,9 @@
               font-size: max(2.222vw, 22px);
               line-height: max(2.5vw, 26px);
               letter-spacing: -0.042vw;
-              .job-title{
-                font-size: max(1.695vw,16px);
+
+              .job-title {
+                font-size: max(1.695vw, 16px);
               }
 
               &:not(:first-child) {
@@ -220,10 +221,11 @@
                 font-size: 1.356vw;
               }
 
-              .drunk-1{
+              .drunk-1 {
                 max-height: 15.000vw;
               }
-              .drunk-2{
+
+              .drunk-2 {
                 max-height: 16.949vw;
                 max-width: 8.814vw;
               }
@@ -301,16 +303,17 @@
 768 ipad
     769 desktop*/
 
-@media only screen and (max-width: 768px){
-  .body .img-block .desktop-only{
+@media only screen and (max-width: 768px) {
+  .body .img-block .desktop-only {
     display: none;
   }
   .body .img-block .ipad-only {
-    margin:  148px 0 auto;
+    margin: 148px 0 auto;
   }
 }
-@media only screen and (min-width: 769px) and (max-width: 1024px){
-  .body .img-block .ipad-only{
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .body .img-block .ipad-only {
     display: none;
   }
   .desktop-content {
@@ -326,8 +329,8 @@
   }
 }
 
-@media only screen and (min-width: 1025px){
-  .body .img-block .ipad-only{
+@media only screen and (min-width: 1025px) {
+  .body .img-block .ipad-only {
     display: none;
   }
   .desktop-content {
@@ -412,7 +415,8 @@
               font-size: 2.222vw;
               line-height: 2.500vw;
               letter-spacing: -0.042vw;
-              .job-title{
+
+              .job-title {
                 font-size: 1.695vw;
               }
 
@@ -452,10 +456,11 @@
                 font-size: 1.356vw;
               }
 
-              .drunk-1{
+              .drunk-1 {
                 max-height: 15.000vw;
               }
-              .drunk-2{
+
+              .drunk-2 {
                 max-height: 16.949vw;
                 max-width: 8.814vw;
               }
@@ -529,7 +534,7 @@
   }
 }
 
-@media only screen and (min-width: 1900px){
+@media only screen and (min-width: 1900px) {
   .homepage .desktop-content .containery .body .img-block img {
     width: 1622.38px;
   }

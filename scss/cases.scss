@@ -173,11 +173,14 @@ header {
               display: flex;
               margin-top: 57px;
               margin-bottom: 50px;
-              justify-content: space-between;
 
               img {
                 width: 170px;
                 height: 228.433px;
+
+                &:first-child{
+                  margin-right: 30px;
+                }
               }
             }
 
@@ -395,7 +398,7 @@ header {
 
         .head-block {
           position: relative;
-          padding: 0 112.7px;
+          padding: 0 11.017vw;
 
           .tag {
             font-family: Roobert-Bold, sans-serif;
@@ -837,8 +840,7 @@ header {
           padding-top: 4.237vw;
 
           .ref {
-            font-family: Roobert-Bold,
-            sans-serif;
+            font-family: Roobert-Bold, sans-serif;
             font-size: 16px;
             line-height: 20px;
             letter-spacing: 0.2px;
@@ -928,7 +930,7 @@ header {
 
           .tag {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 24.149px;
+            font-size: 15px;
             letter-spacing: 0.2px;
           }
 
@@ -963,16 +965,16 @@ header {
             width: 326.534px;
 
             .folder-icon {
-              width: 24.149px;
+              width: 15px;
               height: auto;
             }
 
             ul {
               font-family: GT-Alpina-Standard-Light, sans-serif;
-              font-size: 24.149px;
-              line-height: 32.205px;
+              font-size: 15px;
+              line-height: 20px;
               white-space: initial;
-              margin-top: 27.379px;
+              margin-top: 17px;
             }
           }
         }
@@ -1039,9 +1041,9 @@ header {
           font-family: Roobert-Medium, sans-serif;
 
           .quote {
-            font-size: 77.292px;
-            line-height: 80.503px;
-            letter-spacing: -0.24149px;
+            font-size: 77.25px;
+            line-height: 80.45px;
+            letter-spacing: -2.4px;
           }
 
           .quote-by {
@@ -1089,11 +1091,10 @@ header {
           padding-top: 80.503px;
 
           .ref {
-            font-family: Roobert-Bold,
-            sans-serif;
-            font-size: 25.764px;
-            line-height: 32.205px;
-            letter-spacing: -0.798px;
+            font-family: Roobert-Bold, sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: .2px;
           }
 
           .next-title {

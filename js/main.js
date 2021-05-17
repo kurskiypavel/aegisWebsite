@@ -148,3 +148,10 @@ function loadInsight(insightToLoad) {
         }
     });
 }
+
+function loadCase(caseToLoad) {
+    console.log(caseToLoad);
+    $('.case-study-panel__body').addClass('preventClick');
+    // $('body').addClass('js-page-loading
+    //     todo continue add load case from 3rd menu
+}

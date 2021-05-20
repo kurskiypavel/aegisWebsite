@@ -167,14 +167,6 @@ function closeMobileInsightsContent(e) {
 
 }
 
-function slideMobileFilterTags() {
-    const tagList = $('.tag-list');
-    if (tagList.hasClass('slided')) {
-        tagList.slideDown().toggleClass('slided');
-    } else {
-        tagList.slideUp().toggleClass('slided');
-    }
-}
 
 
 /*---------+---------+---------+--------+-----------*/
@@ -199,7 +191,7 @@ function closeMobileProjectsContent(e) {
 }
 
 function slideMobileFilterTags() {
-    const tagList = $('.tag-list');
+    const tagList = $('.mobile-menu .tag-list');
     if (tagList.hasClass('slided')) {
         tagList.slideDown().toggleClass('slided');
     } else {
@@ -398,7 +390,7 @@ function closeInsightsContent(e) {
 }
 
 function slideFilterTags() {
-    const tagList = $('.tag-list');
+    const tagList = $('.desktop-menu .tag-list');
     if (tagList.hasClass('slided')) {
         tagList.slideDown().toggleClass('slided');
     } else {

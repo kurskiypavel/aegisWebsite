@@ -86,6 +86,9 @@
       }
 
       p {
+        &.numerals{
+          font-size: 2.47vw;
+        }
         font-size: 2.203vw;
         line-height: 2.542vw;
         font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -95,6 +98,12 @@
           font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
 
         }
+      }
+
+      .content-img{
+        width: 100%;
+        margin-top: 2.119vw;
+        margin-bottom: 4.238vw;
       }
 
       .italic-notes {
@@ -176,7 +185,8 @@
         line-height: 104.6px;
         letter-spacing: -3.2px;
         position: absolute;
-        width: 1035.33px;
+        width: 730px;
+        //width: 1035.33px;
         top: 20px;
 
         .simple {
@@ -236,6 +246,9 @@
       }
 
       p {
+        &.numerals{
+          font-size: 47px;
+        }
         font-size: 41.85px;
         line-height: 48.2833px;
         font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -244,6 +257,12 @@
         .italic {
           font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
         }
+      }
+
+      .content-img{
+        width: 100%;
+        margin-top: 40.25px;
+        margin-bottom: 80.5px;
       }
 
       .italic-notes {
@@ -280,6 +299,12 @@
       .next-title {
         margin-top: 103.05px;
         margin-bottom: 322.017px;
+
+        &:hover {
+          text-decoration: underline;
+          text-decoration-thickness: 2px;
+          text-underline-offset: 3px;
+        }
 
         span {
           font-size: 104.583px;

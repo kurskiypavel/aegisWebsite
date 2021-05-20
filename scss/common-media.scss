@@ -576,9 +576,8 @@ a {
       height: 100vh;
       position: fixed;
       top: 0;
-      right: -4px;
+      right: 0;
       z-index: 999;
-
       &.nav-opened {
         .desktop-menu {
           &:not(.opened) {
@@ -586,7 +585,8 @@ a {
           }
 
           &.opened {
-            width: calc(100vw - 35px);
+          width: calc(100vw - 53px);
+            //left: -4px;
           }
         }
       }
@@ -748,7 +748,7 @@ a {
       .contact-menu {
         width: 0;
         transition: 0.5s;
-        left: -4px;
+        //left: -4px;
         z-index: 999;
 
         &.opened {
@@ -923,7 +923,7 @@ a {
 
       li {
         display: inline-block;
-        width: 10.5vw;
+        width: 16.5vw;
       }
     }
 

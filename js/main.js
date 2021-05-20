@@ -155,3 +155,11 @@ function loadCase(caseToLoad) {
     // $('body').addClass('js-page-loading
     //     todo continue add load case from 3rd menu
 }
+
+window.addEventListener('popstate', function (e) {
+    if (e.state && e.state.pageID) {
+        location.href = `${e.state.pageID}.html`
+    } else {
+        location.href = 'index.html';
+    }
+});

@@ -124,7 +124,7 @@ function loadInsight(insightToLoad) {
     $('.next-title').addClass('preventClick');
     $('body').addClass('js-page-loading');
     $('.insight-html').addClass('old-html');
-    $(".desktop-content .containery").append('<div class="new-html unactive"></div>');
+    $(".desktop-content .containery").append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${insightToLoad}.html .insight-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
             $('.js-page-loading').removeClass('js-page-loading');
@@ -139,7 +139,7 @@ function loadInsight(insightToLoad) {
             $('.old-html').slideUp("slow", function () {
                 console.log('// Animation complete.')
                 $('.old-html').remove();
-                $('.new-html.unactive .insight-html').unwrap();
+                $('.new-html.inactive .insight-html').unwrap();
                 window.scrollTo(0, 1);
             })
 
@@ -150,10 +150,33 @@ function loadInsight(insightToLoad) {
 }
 
 function loadCase(caseToLoad) {
-    console.log(caseToLoad);
+    console.log(`loadCase ${caseToLoad}`);
     $('.case-study-panel__body').addClass('preventClick');
-    // $('body').addClass('js-page-loading
-    //     todo continue add load case from 3rd menu
+    $('body').addClass('js-page-loading');
+    $('.body').addClass('old-html'); //TODO test on insight / project / cases / homepage - potentially wont work
+    $('.desktop-content .containery').append('<div class="new-html inactive"></div>');
+    $(".desktop-content .containery .new-html").load(`${caseToLoad}.html .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
+        if (textStatus === "success") {
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=2">');
+            $('.js-page-loading').removeClass('js-page-loading');
+            $('title').load(`${caseToLoad}.html title`, '', function (data) {
+                document.title = $(this).text().toUpperCase();
+            });
+            history.pushState({pageID: caseToLoad}, caseToLoad, `${caseToLoad}.html`);
+            // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
+            // readyDOMStyle();
+            // readyDOMMain();
+            //init events and etc. if required
+            console.log('// Animation start.')
+            //animation here
+            $('.old-html').remove();
+            $('.new-html.inactive .case-study-html').unwrap();
+            console.log('// Animation end.')
+
+        } else {
+            console.log('error  $("body").load');
+        }
+    });
 }
 
 window.addEventListener('popstate', function (e) {

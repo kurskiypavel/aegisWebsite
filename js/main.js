@@ -27,6 +27,19 @@ function getNextSiblings(elem) {
     return siblings;
 }
 
+async function loadImage(imageUrl) {
+    let img;
+    const imageLoadPromise = new Promise(resolve => {
+        img = new Image();
+        img.onload = resolve;
+        img.src = imageUrl;
+    });
+
+    await imageLoadPromise;
+    console.log("image loaded");
+    return img;
+}
+
 /*
 * METHOD REALIZATION
 * */
@@ -158,6 +171,7 @@ function loadCase(caseToLoad) {
     $(".desktop-content .containery .new-html").load(`${caseToLoad}.html .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
             $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=2">');
+            $('link[title="insightCss"]').remove();
             $('.js-page-loading').removeClass('js-page-loading');
             $('title').load(`${caseToLoad}.html title`, '', function (data) {
                 document.title = $(this).text().toUpperCase();
@@ -171,7 +185,13 @@ function loadCase(caseToLoad) {
             //animation here
             $('.old-html').remove();
             $('.new-html.inactive .case-study-html').unwrap();
+            $('.desktop-content .navigation').removeClass('nav-opened');
+            $('.navigation-arrow-up').removeClass('rotated');
+            $('.zeroMenuItemContent').addClass('closed');
+            restoreDefaultMenu();
             console.log('// Animation end.')
+            $('.preventClick').removeClass('preventClick');
+
 
         } else {
             console.log('error  $("body").load');

@@ -6,7 +6,7 @@
     transition: .5s;
 
     &.opened {
-      transform: translateX(calc(-100vw + 30px + calc(var(--case-study-items) * 40px)));
+      transform: translateX(calc(-100vw + 37px + calc(var(--case-study-items) * 40px)));
     }
 
     &:not(.opened) {

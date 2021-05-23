@@ -83,10 +83,6 @@ a {
   transition: .3s;
   color: inherit;
 
-  &:hover {
-    opacity: .5;
-  }
-
   i {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
@@ -113,6 +109,13 @@ a {
 
 .clear-underline {
   text-decoration: unset;
+}
+.underline-on-hover{
+  p{
+    &:hover{
+      text-decoration: underline;
+    }
+  }
 }
 
 * {
@@ -581,7 +584,7 @@ a {
       &.nav-opened {
         .desktop-menu {
           &:not(.opened) {
-            width: calc(var(--menu-items-length) * 40px);
+            width: calc(var(--menu-items-length) * 38px);
           }
 
           &.opened {
@@ -604,7 +607,7 @@ a {
 
         &.menu-content-opened {
           transform: translateX(
-                          calc(-100vw + #{$menuPanelWidth} +
+                          calc(-100vw + 42px +
                           calc(var(--case-study-items) * #{$menuItemWidth}))); //6
           background-color: white;
         }

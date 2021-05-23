@@ -303,16 +303,16 @@
 768 ipad
     769 desktop*/
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 767px) {
   .body .img-block .desktop-only {
     display: none;
   }
   .body .img-block .ipad-only {
     margin: 148px 0 auto;
   }
-}
+}*/
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .body .img-block .ipad-only {
     display: none;
   }

@@ -186,6 +186,7 @@ function loadCase(caseToLoad) {
             $('.old-html').remove();
             $('.new-html.inactive .case-study-html').unwrap();
             $('.desktop-content .navigation').removeClass('nav-opened');
+            $('.homepage').removeClass('homepage');
             $('.navigation-arrow-up').removeClass('rotated');
             $('.zeroMenuItemContent').addClass('closed');
             restoreDefaultMenu();

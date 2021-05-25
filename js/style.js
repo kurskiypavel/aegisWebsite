@@ -168,7 +168,6 @@ function closeMobileInsightsContent(e) {
 }
 
 
-
 /*---------+---------+---------+--------+-----------*/
 /*             |MOBILE PROJECTS MENU|               */
 
@@ -269,6 +268,10 @@ function showCaseStudyContent(menuElementId) {
         const menuItem0Js = $('#menu-item-0-js');
         if (!menuItem0Js.hasClass('touched')) {
             menuItem0Js.addClass('touched');
+            $('.nav-opened').removeClass('fullvw');
+            $('.desktop-menu').addClass('opened-by-cases');
+            $('.desktop-menu>.sections').addClass('displayNone');
+
 
             $('.desktop-menu')
                 .append(htmlLoadZeroMenuItemContent);
@@ -318,6 +321,9 @@ function closeMenuTitlePage() { //todo here 1st
     $('.containery').removeClass('height-0');
     $('.case-study-panel__inner').removeClass('opened');
     $('.menu-content-opened').removeClass('menu-content-opened');
+    $('.opened-by-cases').removeClass('opened-by-cases');
+    $('.desktop-menu>.sections').removeClass('displayNone');
+
     // $('.case-study-arrow').text('↑');
     // hideMenuItemContent();
     // restoreDefaultMenu();
@@ -332,22 +338,31 @@ function closeMenuTitlePage() { //todo here 1st
 /*---------+---------+---------+--------+-----------*/
 
 function toggleDesktopContact() {
-    //menu opened - close
-    // menu closed - skip
-    //opened case study - close cases + close menu
-    console.log('toggleDesktopContact');
     const contactMenu = $('.contact-menu');
-    contactMenu.toggleClass('opened');
 
-    if (contactMenu.hasClass('opened')) {
-        $('.contact-item-arrow').text('↓');
+    if ($('.contact-menu.displayNone').length === 0) {
+        setTimeout(() => {
+            contactMenu.addClass('displayNone');
+        }, 500);
     } else {
-        $('.contact-item-arrow').text('↑');
+        contactMenu.removeClass('displayNone');
     }
-    $('.desktop-content .navigation').removeClass('nav-opened');
-    $('.navigation-arrow-up').removeClass('rotated');
-    $('.zeroMenuItemContent').addClass('closed');
-    restoreDefaultMenu();
+    setTimeout(() => {
+        console.log('toggleDesktopContact');
+        $('.nav-opened').removeClass('fullvw');
+        contactMenu.toggleClass('opened');
+
+        if (contactMenu.hasClass('opened')) {
+            $('.contact-item-arrow').text('↓');
+        } else {
+            $('.contact-item-arrow').text('↑');
+        }
+        $('.desktop-content .navigation').removeClass('nav-opened');
+        $('.navigation-arrow-up').removeClass('rotated');
+        $('.zeroMenuItemContent').addClass('closed');
+        restoreDefaultMenu();
+    }, 100)
+
 }
 
 function closeContactFromMenu() {
@@ -374,6 +389,7 @@ function showInsightsContent() {
     $('.navigation-content').addClass('white-back');
     $('#menu-item-2-js .menu-item-arrow').text('↓');
     $('#menu-item-2-js .menu-item-arrow-bottom').text('↓');
+    $('.nav-opened').addClass('fullvw');
     $('.containery').addClass('height-0');
 
 }
@@ -384,6 +400,7 @@ function closeInsightsContent(e) {
     $('.navigation-content').removeClass('white-back');
     $('#menu-item-2-js .menu-item-arrow').text('↑');
     $('#menu-item-2-js .menu-item-arrow-bottom').text('↑');
+    $('.nav-opened').removeClass('fullvw');
     $('.containery').removeClass('height-0');
     if (e) e.stopPropagation();
 
@@ -407,6 +424,7 @@ function showProjectsContent() {
     console.log('showProjectsContent');
     $('#menu-item-2-js').addClass('closed');
     $('.desktop-menu').addClass('opened');
+    $('.nav-opened').addClass('fullvw');
     $('.navigation-content').addClass('white-back');
     $('#menu-item-1-js .menu-item-arrow').text('↓');
     $('#menu-item-1-js .menu-item-arrow-bottom').text('↓');
@@ -417,6 +435,7 @@ function showProjectsContent() {
 function closeProjectsContent(e) {
     console.log('closeProjectsContent');
     $('.desktop-menu').removeClass('opened');
+    $('.nav-opened').removeClass('fullvw');
     $('.navigation-content').removeClass('white-back');
     $('#menu-item-1-js .menu-item-arrow').text('↑');
     $('#menu-item-1-js .menu-item-arrow-bottom').text('↑');

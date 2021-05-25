@@ -1,13 +1,20 @@
 //sass --watch htmlLoad/scss/zero-menu-item.scss htmlLoad/css/zero-menu-item.css --style compressed
 #htmlLoadZeroMenuItemContent {
-  float: right;
+  width: calc(100vw - 32px);
+  height: 100vh;
 
   .case-study-panel__inner {
-    transition: .5s;
+    //transition: .5s;
 
     &.opened {
-      transform: translateX(calc(-100vw + 37px + calc(var(--case-study-items) * 40px)));
+      //transform: translateX(calc(-100vw + 50px + calc(var(--case-study-items) * 40px)));
+      left: calc(40px * var(--menu-item-index));
     }
+
+    &.html-case-menu-item:not(.opened) {
+      left: calc(100vw - 290px + 40px * var(--menu-item-index));
+    }
+
 
     &:not(.opened) {
       .main-statement {
@@ -127,8 +134,9 @@
   }
 
   .zeroMenuItemContent {
-    transform: translateX(-100%);
+    //transform: translateX(-100%);
     opacity: 1;
+    background: #fff;
 
     &.closed {
       opacity: 0;

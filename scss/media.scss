@@ -28,7 +28,7 @@
             justify-content: center;
 
             img {
-              max-width: calc(100% - 13.559vw);
+              max-width: 1622.38px;
               width: 100%;
               height: 100%;
             }
@@ -303,16 +303,19 @@
 768 ipad
     769 desktop*/
 
-/*@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .body .img-block .desktop-only {
     display: none;
   }
   .body .img-block .ipad-only {
     margin: 148px 0 auto;
   }
-}*/
+  .homepage .desktop-content .containery .body .img-block img.ipad-only {
+    max-width: calc(100% - 23vw);
+  }
+}
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
   .body .img-block .ipad-only {
     display: none;
   }
@@ -321,7 +324,7 @@
       .body {
         .img-block {
           img {
-            margin: 24.051vw auto 0 auto;
+            margin: 14.051vw auto 0 auto;
           }
         }
       }

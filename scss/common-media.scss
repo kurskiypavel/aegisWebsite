@@ -560,6 +560,13 @@ a {
     display: none;
   }
 }
+.fullvw{
+  width: 100vw;
+  left: 0;
+}
+.desktop-content .navigation .contact-menu.displayNone {
+  display: none;
+}
 
 @media only screen and (max-width: 767px) {
   header {
@@ -582,33 +589,39 @@ a {
       right: 0;
       z-index: 999;
       &.nav-opened {
+        //width: 100%;
         .desktop-menu {
-          &:not(.opened) {
+          &:not(.opened),&:not(.opened-by-cases) {
             width: calc(var(--menu-items-length) * 38px);
           }
 
           &.opened {
-          width: calc(100vw - 53px);
+            max-width: calc(100% - 31px);
+            width: 100%;
+            //left: -4px;
+          }
+          &.opened-by-cases {
+            max-width: calc(100% - 31px);
+            width: 100%;
             //left: -4px;
           }
         }
       }
 
       .navigation-content {
+        background: white;
         height: 100%;
         position: relative;
         display: inline-block;
         width: 31px;
-        transition: .5s;
+        //transition: .5s;
 
         &.white-back {
           background: white;
         }
 
         &.menu-content-opened {
-          transform: translateX(
-                          calc(-100vw + 42px +
-                          calc(var(--case-study-items) * #{$menuItemWidth}))); //6
+          //transform: translateX(calc(-100vw + 36px + calc(var(--case-study-items) * 40px))); //6
           background-color: white;
         }
 
@@ -664,7 +677,7 @@ a {
         position: relative;
         display: inline-block;
         width: 0;
-        transition: 0.3s;
+        //transition: 0.3s;
 
         .sections {
           position: absolute;
@@ -673,6 +686,9 @@ a {
           display: inline-block;
           white-space: nowrap;
           width: 100%;
+          &.displayNone{
+            display: none;
+          }
 
           .sideways {
             font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -724,8 +740,8 @@ a {
           }
 
           .section {
-            &.closed {
-              left: calc(100% - 40px);
+            &.closed:not(.html-case-menu-item) {
+              left: calc(100% - 56px);
             }
 
             background: white;
@@ -735,8 +751,12 @@ a {
             pointer-events: auto;
             position: absolute;
             width: calc(100vw - calc(var(--menu-items-length) - var(--menu-item-index)) * 40px + 10px - calc(var(--menu-item-index) * 40px)); // TODO HARDCODED 40*5
-            left: calc(var(--menu-item-index) * 40px);
-            z-index: var(--menu-item-index);
+            &:not(.html-case-menu-item){
+              left: calc(var(--menu-item-index) * 40px);
+            }
+            //width: calc(100% - 220px);
+            //left: calc(100vw - 290px + 40px * var(--menu-item-index));
+            z-index: calc(var(--menu-item-index) + 1);
             top: 10px;
 
             &.contact-section {
@@ -755,6 +775,7 @@ a {
         z-index: 999;
 
         &.opened {
+          display: inline-block;
           width: 33.051vw;
         }
 
@@ -818,7 +839,12 @@ a {
 
       .insights-wrap, .projects-wrap {
         height: inherit;
-        overflow-y: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        overflow-y: scroll;
+        &::-webkit-scrollbar {
+          display: none;
+        }
       }
 
 
@@ -1304,6 +1330,7 @@ a {
     .navigation {
       .contact-menu {
         &.opened {
+          display: inline-block;
           width: 528.8px;
         }
 

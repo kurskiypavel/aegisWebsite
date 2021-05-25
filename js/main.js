@@ -3,7 +3,7 @@
 * */
 const caseStudyItems = 6; //TODO HARDCODED
 const htmlLoadPath = "htmlLoad";
-const htmlLoadZeroMenuItemContent = $('<div style="float: right" id="htmlLoadZeroMenuItemContent">')
+const htmlLoadZeroMenuItemContent = $('<div id="htmlLoadZeroMenuItemContent">')
     .load(`${htmlLoadPath}/zeroMenuItemContent.html #zeroMenuItemContentTarget`);
 
 
@@ -170,28 +170,32 @@ function loadCase(caseToLoad) {
     $('.desktop-content .containery').append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${caseToLoad}.html .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
-            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=2">');
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=3">');
             $('link[title="insightCss"]').remove();
-            $('.js-page-loading').removeClass('js-page-loading');
-            $('title').load(`${caseToLoad}.html title`, '', function (data) {
-                document.title = $(this).text().toUpperCase();
-            });
-            history.pushState({pageID: caseToLoad}, caseToLoad, `${caseToLoad}.html`);
-            // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
-            // readyDOMStyle();
-            // readyDOMMain();
-            //init events and etc. if required
-            console.log('// Animation start.')
-            //animation here
-            $('.old-html').remove();
-            $('.new-html.inactive .case-study-html').unwrap();
-            $('.desktop-content .navigation').removeClass('nav-opened');
-            $('.homepage').removeClass('homepage');
-            $('.navigation-arrow-up').removeClass('rotated');
-            $('.zeroMenuItemContent').addClass('closed');
-            restoreDefaultMenu();
-            console.log('// Animation end.')
-            $('.preventClick').removeClass('preventClick');
+            loadImage($(".case-hero-img:first-child").attr('src')).then(() => {
+                console.log('img loaded');
+                $('.js-page-loading').removeClass('js-page-loading');
+                $('title').load(`${caseToLoad}.html title`, '', function (data) {
+                    document.title = $(this).text().toUpperCase();
+                });
+                history.pushState({pageID: caseToLoad}, caseToLoad, `${caseToLoad}.html`);
+                // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
+                // readyDOMStyle();
+                // readyDOMMain();
+                //init events and etc. if required
+                console.log('// Animation start.')
+                //animation here
+                $('.old-html').remove();
+                $('.new-html.inactive .case-study-html').unwrap();
+                $('.desktop-content .navigation').removeClass('nav-opened');
+                $('.homepage').removeClass('homepage');
+                $('.navigation-arrow-up').removeClass('rotated');
+                $('.zeroMenuItemContent').addClass('closed');
+                restoreDefaultMenu();
+                console.log('// Animation end.')
+                $('.preventClick').removeClass('preventClick');
+            })
+
 
 
         } else {

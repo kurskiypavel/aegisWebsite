@@ -47,8 +47,8 @@
         display: block;
         font-family: Roobert-Medium, sans-serif;
         font-size: 14px;
+        margin-right: 19.3167px;
         line-height: 25px;
-        margin-top: 6px;
       }
     }
 
@@ -62,9 +62,9 @@
     .job-title {
       font-family: Roobert-Medium, sans-serif;
       font-size: 14px;
+      margin-right: 19.3167px;
       line-height: 25px;
-      padding-right: 7vw;
-      margin-top: 1.119vw;
+      margin-top: 3.23px;
     }
 
     .main-content {
@@ -127,9 +127,9 @@
     }
 
     .next-insight {
-      margin-top: 14.661vw;
+      margin-top: 172.983px;
       border-top: 1px solid;
-      padding-top: 4.237vw;
+      padding-top: 50px;
 
       .ref {
         font-family: Roobert-Medium, sans-serif;
@@ -230,7 +230,7 @@
       font-size: 14px;
       margin-right: 19.3167px;
       line-height: 25px;
-      margin-top: 40.25px;
+      margin-top: 3.23px;
     }
 
     .main-content {
@@ -239,9 +239,12 @@
       .row {
         display: flex;
         max-width: 100%;
+        .col-3{
+          width: 418.417px;
+        }
 
         .col-7 {
-          width: 100%;
+          width: 1029.95px;
         }
       }
 
@@ -273,7 +276,7 @@
       }
 
       .share {
-        margin-top: 147.233px;
+        margin-top: 128.75px;
 
         li {
           display: inline-block;
@@ -286,9 +289,9 @@
     }
 
     .next-insight {
-      margin-top: 322.017px;
+      margin-top: 172.983px;
       border-top: 1px solid;
-      padding-top: 80.5px;
+      padding-top: 50px;
 
       .ref {
         font-family: Roobert-Medium, sans-serif;

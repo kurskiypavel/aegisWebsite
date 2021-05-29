@@ -12,7 +12,7 @@
     }
 
     &.html-case-menu-item:not(.opened) {
-      left: calc(100vw - 290px + 40px * var(--menu-item-index));
+      left: calc(100vw - 281px + 40px * var(--menu-item-index));
     }
 
 

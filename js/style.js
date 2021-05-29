@@ -216,6 +216,9 @@ function restoreDefaultMenu() {
 
 function toggleDesktopMenu() {
     const desktopContentNavigation = $('.desktop-content .navigation');
+    $('.opened-by-cases').removeClass('opened-by-cases');
+    $('.desktop-menu>.sections').removeClass('displayNone');
+    $('#zeroMenuItemContentTarget .case-study-arrow').text('↑');
     closeInsightsContent();
     closeProjectsContent();
     closeContactFromMenu();
@@ -318,6 +321,8 @@ function closeCaseStudyMenuJs() {
 }
 
 function closeMenuTitlePage() { //todo here 1st
+    console.log('closeMenuTitlePage');
+    $('#zeroMenuItemContentTarget .case-study-arrow').text('↑');
     $('.containery').removeClass('height-0');
     $('.case-study-panel__inner').removeClass('opened');
     $('.menu-content-opened').removeClass('menu-content-opened');

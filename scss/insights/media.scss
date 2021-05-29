@@ -5,164 +5,165 @@
   .containery {
     padding: 0 0.847vw;
 
-    .body {
+    .body.insight-html {
       padding-left: 11.017vw;
       padding-right: 11.017vw;
       padding-top: 86px;
-    }
+      .main-statement-wrap {
+        position: relative;
+        height: 34.746vw;
 
-    .main-statement-wrap {
-      position: relative;
-      height: 34.746vw;
+        .main-statement {
+          font-size: 5.509vw;
+          line-height: 5.509vw;
+          letter-spacing: -0.169vw;
+          position: absolute;
+          width: 38.492vw;
+          top: 20px;
 
-      .main-statement {
-        font-size: 5.509vw;
-        line-height: 5.509vw;
-        letter-spacing: -0.169vw;
-        position: absolute;
-        width: 38.492vw;
-        top: 20px;
+          .simple {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+          }
 
-        .simple {
-          font-family: GT-Alpina-Standard-Light, sans-serif;
+          .italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
         }
 
-        .italic {
-          font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+        img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          max-height: 34.746vw;
+          max-width: 34.746vw;
         }
       }
 
-      img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        max-height: 34.746vw;
-        max-width: 34.746vw;
+      .tag-list {
+
+        li {
+          display: block;
+          font-family: Roobert-Medium, sans-serif;
+          font-size: 14px;
+          margin-right: 19.3167px;
+          line-height: 25px;
+        }
       }
-    }
 
-    .tag-list {
+      .insight-by {
+        font-family: Roobert-Medium, sans-serif;
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 2.119vw;
+      }
 
-      li {
-        display: block;
+      .job-title {
         font-family: Roobert-Medium, sans-serif;
         font-size: 14px;
         margin-right: 19.3167px;
         line-height: 25px;
-      }
-    }
-
-    .insight-by {
-      font-family: Roobert-Medium, sans-serif;
-      font-size: 14px;
-      line-height: 25px;
-      margin-top: 2.119vw;
-    }
-
-    .job-title {
-      font-family: Roobert-Medium, sans-serif;
-      font-size: 14px;
-      margin-right: 19.3167px;
-      line-height: 25px;
-      margin-top: 3.23px;
-    }
-
-    .main-content {
-      margin-top: 8.475vw;
-
-      .row {
-        display: flex;
-        max-width: 100%;
-
-        .col-3 {
-          max-width: 22.034vw;
-          width: 100%;
-        }
-
-        .col-7 {
-          max-width: 54.237vw;
-          width: 100%;
-        }
+        margin-top: 3.23px;
       }
 
-      p {
-        &.numerals{
-          font-size: 2.47vw;
-        }
-        font-size: 2.203vw;
-        line-height: 2.542vw;
-        font-family: GT-Alpina-Standard-Light, sans-serif;
-        margin-bottom: 2.119vw;
+      .main-content {
+        margin-top: 8.475vw;
 
-        .italic {
-          font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+        .row {
+          display: flex;
+          max-width: 100%;
 
-        }
-      }
+          .col-3 {
+            max-width: 22.034vw;
+            width: 100%;
+          }
 
-      .content-img{
-        width: 100%;
-        margin-top: 2.119vw;
-        margin-bottom: 4.238vw;
-      }
-
-      .italic-notes {
-        font-size: 1.695vw;
-        line-height: 2.542vw;
-        font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
-        margin-bottom: 2.119vw;
-      }
-
-      .share {
-        margin-top: 6.780vw;
-
-        li {
-          display: inline-block;
-          font-family: Roobert-Regular, sans-serif;
-          font-size: 14px;
-          margin-right: 1.017vw;
-          line-height: 30px;
-        }
-      }
-    }
-
-    .next-insight {
-      margin-top: 172.983px;
-      border-top: 1px solid;
-      padding-top: 50px;
-
-      .ref {
-        font-family: Roobert-Medium, sans-serif;
-        font-size: 16px;
-        line-height: 20px;
-      }
-
-      .next-title {
-        margin-top: 5.424vw;
-        margin-bottom: 16.949vw;
-
-        &:hover {
-          text-decoration: underline;
-          text-decoration-thickness: 2px;
-          text-underline-offset: 3px;
+          .col-7 {
+            max-width: 54.237vw;
+            width: 100%;
+          }
         }
 
-        span {
-          font-size: 65px;
-          line-height: 65px;
-          letter-spacing: -0.25px;
-          display: block;
-        }
-
-        .simple {
+        p {
+          &.numerals{
+            font-size: 2.47vw;
+          }
+          font-size: 2.203vw;
+          line-height: 2.542vw;
           font-family: GT-Alpina-Standard-Light, sans-serif;
+          margin-bottom: 2.119vw;
+
+          .italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+
+          }
         }
 
-        .italic {
+        .content-img{
+          width: 100%;
+          margin-top: 2.119vw;
+          margin-bottom: 4.238vw;
+        }
+
+        .italic-notes {
+          font-size: 1.695vw;
+          line-height: 2.542vw;
           font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          margin-bottom: 2.119vw;
+        }
+
+        .share {
+          margin-top: 6.780vw;
+
+          li {
+            display: inline-block;
+            font-family: Roobert-Regular, sans-serif;
+            font-size: 14px;
+            margin-right: 1.017vw;
+            line-height: 30px;
+          }
+        }
+      }
+
+      .next-insight {
+        margin-top: 172.983px;
+        border-top: 1px solid;
+        padding-top: 50px;
+
+        .ref {
+          font-family: Roobert-Medium, sans-serif;
+          font-size: 16px;
+          line-height: 20px;
+        }
+
+        .next-title {
+          margin-top: 5.424vw;
+          margin-bottom: 16.949vw;
+
+          &:hover {
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 3px;
+          }
+
+          span {
+            font-size: 65px;
+            line-height: 65px;
+            letter-spacing: -0.25px;
+            display: block;
+          }
+
+          .simple {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+          }
+
+          .italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
         }
       }
     }
+
+
   }
 }
 
@@ -170,161 +171,162 @@
   .containery {
     padding: 0 16px;
 
-    .body {
+    .body.insight-html {
       padding-top: 86px;
       width: 1450px;
       margin: 0 auto;
-    }
+      .main-statement-wrap {
+        position: relative;
+        height: 660px;
 
-    .main-statement-wrap {
-      position: relative;
-      height: 660px;
+        .main-statement {
+          font-size: 104.6px;
+          line-height: 104.6px;
+          letter-spacing: -3.2px;
+          position: absolute;
+          width: 730px;
+          //width: 1035.33px;
+          top: 20px;
 
-      .main-statement {
-        font-size: 104.6px;
-        line-height: 104.6px;
-        letter-spacing: -3.2px;
-        position: absolute;
-        width: 730px;
-        //width: 1035.33px;
-        top: 20px;
+          .simple {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+          }
 
-        .simple {
-          font-family: GT-Alpina-Standard-Light, sans-serif;
+          .italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
         }
 
-        .italic {
-          font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+        img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          height: 660.167px;
         }
       }
 
-      img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 660.167px;
+      .tag-list {
+
+        li {
+          display: block;
+          font-family: Roobert-Medium, sans-serif;
+          font-size: 14px;
+          margin-right: 19.3167px;
+          line-height: 25px;
+        }
       }
-    }
 
-    .tag-list {
-
-      li {
-        display: block;
+      .insight-by {
         font-family: Roobert-Medium, sans-serif;
         font-size: 14px;
         margin-right: 19.3167px;
         line-height: 25px;
-      }
-    }
-
-    .insight-by {
-      font-family: Roobert-Medium, sans-serif;
-      font-size: 14px;
-      margin-right: 19.3167px;
-      line-height: 25px;
-      margin-top: 40.25px;
-    }
-
-    .job-title {
-      font-family: Roobert-Medium, sans-serif;
-      font-size: 14px;
-      margin-right: 19.3167px;
-      line-height: 25px;
-      margin-top: 3.23px;
-    }
-
-    .main-content {
-      margin-top: 161.017px;
-
-      .row {
-        display: flex;
-        max-width: 100%;
-        .col-3{
-          width: 418.417px;
-        }
-
-        .col-7 {
-          width: 1029.95px;
-        }
-      }
-
-      p {
-        &.numerals{
-          font-size: 47px;
-        }
-        font-size: 41.85px;
-        line-height: 48.2833px;
-        font-family: GT-Alpina-Standard-Light, sans-serif;
-        margin-bottom: 40.25px;
-
-        .italic {
-          font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
-        }
-      }
-
-      .content-img{
-        width: 100%;
         margin-top: 40.25px;
-        margin-bottom: 80.5px;
       }
 
-      .italic-notes {
-        font-size: 39px;
-        line-height: 48.2833px;
-        font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
-        margin-bottom: 40.25px;
-      }
-
-      .share {
-        margin-top: 128.75px;
-
-        li {
-          display: inline-block;
-          font-family: Roobert-Regular, sans-serif;
-          margin-right: 19.3167px;
-          font-size: 14px;
-          line-height: 30px;
-        }
-      }
-    }
-
-    .next-insight {
-      margin-top: 172.983px;
-      border-top: 1px solid;
-      padding-top: 50px;
-
-      .ref {
+      .job-title {
         font-family: Roobert-Medium, sans-serif;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 14px;
+        margin-right: 19.3167px;
+        line-height: 25px;
+        margin-top: 3.23px;
       }
 
-      .next-title {
-        margin-top: 103.05px;
-        margin-bottom: 322.017px;
+      .main-content {
+        margin-top: 161.017px;
 
-        &:hover {
-          text-decoration: underline;
-          text-decoration-thickness: 2px;
-          text-underline-offset: 3px;
+        .row {
+          display: flex;
+          max-width: 100%;
+          .col-3{
+            width: 418.417px;
+          }
+
+          .col-7 {
+            width: 1029.95px;
+          }
         }
 
-        span {
-          font-size: 65px;
-          line-height: 65px;
-          letter-spacing: -0.25px;
-          display: block;
-        }
-
-        .simple {
+        p {
+          &.numerals{
+            font-size: 47px;
+          }
+          font-size: 41.85px;
+          line-height: 48.2833px;
           font-family: GT-Alpina-Standard-Light, sans-serif;
+          margin-bottom: 40.25px;
+
+          .italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
         }
 
-        .italic {
+        .content-img{
+          width: 100%;
+          margin-top: 40.25px;
+          margin-bottom: 80.5px;
+        }
+
+        .italic-notes {
+          font-size: 39px;
+          line-height: 48.2833px;
           font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          margin-bottom: 40.25px;
+        }
+
+        .share {
+          margin-top: 128.75px;
+
+          li {
+            display: inline-block;
+            font-family: Roobert-Regular, sans-serif;
+            margin-right: 19.3167px;
+            font-size: 14px;
+            line-height: 30px;
+          }
+        }
+      }
+
+      .next-insight {
+        margin-top: 172.983px;
+        border-top: 1px solid;
+        padding-top: 50px;
+
+        .ref {
+          font-family: Roobert-Medium, sans-serif;
+          font-size: 16px;
+          line-height: 20px;
+        }
+
+        .next-title {
+          margin-top: 103.05px;
+          margin-bottom: 322.017px;
+
+          &:hover {
+            text-decoration: underline;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 3px;
+          }
+
+          span {
+            font-size: 65px;
+            line-height: 65px;
+            letter-spacing: -0.25px;
+            display: block;
+          }
+
+          .simple {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+          }
+
+          .italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
         }
       }
     }
+
+
   }
 }
 
@@ -339,143 +341,143 @@
   .containery {
     padding: 0 10px;
 
-    .body {
+    .body.insight-html {
       padding-top: 86px;
-    }
+      .main-statement-wrap {
+        .main-statement {
+          font-size: 42.3px;
+          line-height: 42.3px;
+          letter-spacing: -0.5px;
+          padding-right: 11vw;
+          top: 20px;
 
-    .main-statement-wrap {
-      .main-statement {
-        font-size: 42.3px;
-        line-height: 42.3px;
-        letter-spacing: -0.5px;
-        padding-right: 11vw;
-        top: 20px;
+          .simple {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+          }
 
-        .simple {
-          font-family: GT-Alpina-Standard-Light, sans-serif;
+          .italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
         }
 
-        .italic {
-          font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
-        }
-      }
-
-      img {
-        margin-top: 45px;
-        height: 266.833px;
-      }
-    }
-
-    .tag-list {
-      margin-top: 60px;
-
-      li {
-        display: inline-block;
-        font-family: Roobert-Medium, sans-serif;
-        font-size: 14px;
-        margin-right: 1.017vw;
-        line-height: 20px;
-      }
-    }
-
-    .insight-by {
-      font-family: Roobert-Medium, sans-serif;
-      font-size: 14px;
-      margin-right: 1.017vw;
-      line-height: 20px;
-      margin-top: 26px;
-    }
-
-    .job-title {
-      font-family: Roobert-Medium, sans-serif;
-      font-size: 14px;
-      margin-right: 1.017vw;
-      line-height: 20px;
-      margin-bottom: 26px;
-    }
-
-    .main-content {
-      margin-top: 60px;
-
-      .row {
-        max-width: 100%;
-
-        .col-7 {
-          width: 100%;
+        img {
+          margin-top: 45px;
+          height: 266.833px;
         }
       }
 
-      p {
-        font-size: 22px;
-        line-height: 26px;
-        font-family: GT-Alpina-Standard-Light, sans-serif;
-        margin-bottom: 25px;
-        letter-spacing: -0.5px;
-
-        .italic {
-          font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
-
-        }
-      }
-
-      .content-img{
-        width: 100%;
-        margin-top: 2.119vw;
-        margin-bottom: 4.238vw;
-      }
-
-      .italic-notes {
-        font-size: 20px;
-        line-height: 24px;
-        font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
-        margin-bottom: 25px;
-        letter-spacing: -0.5px;
-      }
-
-      .share {
-        margin-top: 52.0667px;
+      .tag-list {
+        margin-top: 60px;
 
         li {
           display: inline-block;
           font-family: Roobert-Medium, sans-serif;
           font-size: 14px;
-          margin-right: 12px;
-          line-height: 30px;
+          margin-right: 1.017vw;
+          line-height: 20px;
         }
       }
-    }
 
-    .next-insight {
-      margin-top: 112.583px;
-      border-top: 1px solid;
-      padding-top: 50px;
-
-      .ref {
+      .insight-by {
         font-family: Roobert-Medium, sans-serif;
-        font-size: 16px;
+        font-size: 14px;
+        margin-right: 1.017vw;
         line-height: 20px;
+        margin-top: 26px;
       }
 
-      .next-title {
-        margin-top: 55px;
-        margin-bottom: 125px;
+      .job-title {
+        font-family: Roobert-Medium, sans-serif;
+        font-size: 14px;
+        margin-right: 1.017vw;
+        line-height: 20px;
+        margin-bottom: 26px;
+      }
 
-        span {
-          font-size: 45px;
-          line-height: 45px;
-          letter-spacing: -2px;
-          display: block;
+      .main-content {
+        margin-top: 60px;
+
+        .row {
+          max-width: 100%;
+
+          .col-7 {
+            width: 100%;
+          }
         }
 
-        .simple {
+        p {
+          font-size: 22px;
+          line-height: 26px;
           font-family: GT-Alpina-Standard-Light, sans-serif;
+          margin-bottom: 25px;
+          letter-spacing: -0.5px;
+
+          .italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+
+          }
         }
 
-        .italic {
+        .content-img{
+          width: 100%;
+          margin-top: 2.119vw;
+          margin-bottom: 4.238vw;
+        }
+
+        .italic-notes {
+          font-size: 20px;
+          line-height: 24px;
           font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          margin-bottom: 25px;
+          letter-spacing: -0.5px;
+        }
+
+        .share {
+          margin-top: 52.0667px;
+
+          li {
+            display: inline-block;
+            font-family: Roobert-Medium, sans-serif;
+            font-size: 14px;
+            margin-right: 12px;
+            line-height: 30px;
+          }
+        }
+      }
+
+      .next-insight {
+        margin-top: 112.583px;
+        border-top: 1px solid;
+        padding-top: 50px;
+
+        .ref {
+          font-family: Roobert-Medium, sans-serif;
+          font-size: 16px;
+          line-height: 20px;
+        }
+
+        .next-title {
+          margin-top: 55px;
+          margin-bottom: 125px;
+
+          span {
+            font-size: 45px;
+            line-height: 45px;
+            letter-spacing: -2px;
+            display: block;
+          }
+
+          .simple {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+          }
+
+          .italic {
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          }
         }
       }
     }
+
   }
   .desktop-content {
     .navigation {
@@ -488,22 +490,24 @@
 @media only screen and (min-width: 500px) and (max-width: 767px) {
   .containery {
 
-    .main-statement-wrap {
-      position: relative;
-      height: 277.967px;
+    .insight-html{
+      .main-statement-wrap {
+        position: relative;
+        height: 277.967px;
 
-      .main-statement {
-        position: absolute;
-        width: 51.492vw;
-        padding-right: 0vw;
-      }
+        .main-statement {
+          position: absolute;
+          width: 51.492vw;
+          padding-right: 0vw;
+        }
 
-      img {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-top: 0;
-        height: 266.833px;
+        img {
+          position: absolute;
+          top: 0;
+          right: 0;
+          margin-top: 0;
+          height: 266.833px;
+        }
       }
     }
   }

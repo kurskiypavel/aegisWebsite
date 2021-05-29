@@ -22,15 +22,18 @@ header {
 
 
 @media only screen and (max-width: 599px) {
-  img {
-    max-width: 100%;
+  .case-study-html{
+    img {
+      max-width: 100%;
+    }
+    video {
+      width: 150vw;
+      transform: translateX(-50%);
+      left: 50%;
+      position: relative;
+    }
   }
-  video {
-    width: 150vw;
-    transform: translateX(-50%);
-    left: 50%;
-    position: relative;
-  }
+
 
   .desktop-content .body .main-content {
     .row .full-row.desktop-only-img, .row-full .desktop-only-img {
@@ -38,7 +41,7 @@ header {
     }
   }
   .desktop-content {
-    .body {
+    .body.case-study-html {
       position: absolute;
       top: 0;
 
@@ -53,18 +56,14 @@ header {
           font-family: Roobert-Bold, sans-serif;
           font-size: 35px;
           position: absolute;
-          bottom: 6px;
+          bottom: 17px;
           padding-left: 10px;
-
-          &.crescent {
-            width: 70%;
-          }
         }
 
         .num-svg {
           height: 102.033px;
           position: absolute;
-          bottom: 11px;
+          bottom: 22px;
           right: 13px;
         }
       }
@@ -85,9 +84,9 @@ header {
           }
 
           .content-head-text {
-            font-size: 43px;
-            line-height: 47px;
-            letter-spacing: -0.25px;
+            font-size: 45px;
+            line-height: 45px;
+            letter-spacing: -1px;
             margin-top: 85px;
 
             .simple {
@@ -178,7 +177,7 @@ header {
                 width: 170px;
                 height: 228.433px;
 
-                &:first-child{
+                &:first-child {
                   margin-right: 30px;
                 }
               }
@@ -312,7 +311,7 @@ header {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .desktop-content {
-    .body {
+    .body.case-study-html {
       .main-statement-wrap {
         height: 100vh;
 
@@ -326,7 +325,7 @@ header {
 
 @media only screen and (min-width: 600px) and (max-width: 767px) {
   .desktop-content {
-    .body {
+    .body.case-study-html {
       .main-statement-wrap {
         height: calc(100vh - 42.5px);
 
@@ -340,12 +339,12 @@ header {
 
 @media only screen and (max-width: 599px) {
   .desktop-content {
-    .body {
+    .body.case-study-html {
       .main-statement-wrap {
         height: calc(100vh - 42.5px);
 
         .num-svg {
-          top: calc(100vh - 160px);
+          top: calc(100vh - 166px);
         }
       }
     }
@@ -353,14 +352,16 @@ header {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
-  img, video {
-    max-width: 100%;
+  .case-study-html{
+    img, video {
+      max-width: 100%;
+    }
   }
   .mobile-only-set {
     display: none;
   }
   .desktop-content {
-    .body {
+    .body.case-study-html {
       position: absolute;
       top: 0;
 
@@ -378,8 +379,8 @@ header {
           z-index: 1;
           padding-left: 10px;
 
-          &.crescent {
-            width: 70%;
+          br {
+            display: none;
           }
         }
 
@@ -637,14 +638,16 @@ header {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1899px) {
-  img, video {
-    max-width: 100%;
+  .case-study-html{
+    img, video {
+      max-width: 100%;
+    }
   }
   .img-mobile-wrap, .percentage-mobile-wrap, .mobile-only-set {
     display: none;
   }
   .desktop-content {
-    .body {
+    .body.case-study-html {
       position: absolute;
       top: 0;
 
@@ -662,6 +665,10 @@ header {
           top: calc(100vh - 6.441vw);
           z-index: 1;
           padding-left: 10px;
+
+          br {
+            display: none;
+          }
         }
 
         .num-svg {
@@ -883,14 +890,16 @@ header {
 }
 
 @media only screen and (min-width: 1900px) {
-  img, video {
-    max-width: 100%;
+  .case-study-html{
+    img, video {
+      max-width: 100%;
+    }
   }
   .img-mobile-wrap, .percentage-mobile-wrap, .mobile-only-set {
     display: none;
   }
   .desktop-content {
-    .body {
+    .body.case-study-html {
       position: absolute;
       top: 0;
 
@@ -908,6 +917,10 @@ header {
           top: calc(100vh - 122.379px);
           z-index: 1;
           padding-left: 10px;
+
+          br {
+            display: none;
+          }
         }
 
         .num-svg {

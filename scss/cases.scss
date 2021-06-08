@@ -37,7 +37,7 @@ header {
 
   .desktop-content .body .main-content {
     .row .full-row.desktop-only-img, .row-full .desktop-only-img {
-      display: none;
+      display: none !important;
     }
   }
   .desktop-content {

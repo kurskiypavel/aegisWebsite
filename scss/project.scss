@@ -20,12 +20,12 @@ header {
   }
 }
 
-
 @media only screen and (max-width: 599px) {
-  .project-html{
+  .project-html {
     img {
       max-width: 100%;
     }
+
     video {
       width: 150vw;
       transform: translateX(-50%);
@@ -37,7 +37,7 @@ header {
 
   .desktop-content .body .main-content {
     .row .full-row.desktop-only-img, .row-full .desktop-only-img {
-      display: none;
+      display: none !important;
     }
   }
   .desktop-content {
@@ -165,7 +165,7 @@ header {
               .percentage {
                 font-size: 60px;
                 letter-spacing: -1.71667px;
-                padding-bottom: 7px;
+                margin-top: 20px;
               }
 
               .percentage-description {
@@ -223,7 +223,7 @@ header {
         }
 
         .row-full {
-          margin-top: 8.475vw;
+          margin-top: 6.780vw;
           width: 100vw;
           position: relative;
           left: -10px;
@@ -282,11 +282,8 @@ header {
   }
 }
 
-
-
-
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
-  .project-html{
+  .project-html {
     img, video {
       max-width: 100%;
     }
@@ -312,7 +309,7 @@ header {
 
           .content-head-text {
             font-size: 56.3333px;
-            line-height: 60.6833px;
+            line-height: 56.4px;
             letter-spacing: -1.71667px;
             margin-top: 95.35px;
 
@@ -328,7 +325,7 @@ header {
 
           .project-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 17.3333px;
+            font-size: 13px;
             position: absolute;
             bottom: 0;
           }
@@ -341,14 +338,14 @@ header {
             width: 175.8px;
 
             .folder-icon {
-              width: 13px;
+              width: 15px;
               height: auto;
             }
 
             ul {
               font-family: GT-Alpina-Standard-Light, sans-serif;
-              font-size: 13px;
-              line-height: 17.3333px;
+              font-size: 15px;
+              line-height: 20px;
               white-space: initial;
               margin-top: 14.7333px;
             }
@@ -417,20 +414,21 @@ header {
             .percentage-mobile-wrap {
               font-family: GT-Alpina-Standard-Light, sans-serif;
               display: flex;
-              max-width: 510px;
+              max-width: calc(100vw - 20px);
               width: 100%;
               margin-bottom: 65px;
 
               .percentage {
                 font-size: 60px;
                 letter-spacing: -1.71667px;
-                margin-right: 40px;
+                margin-right: 20px;
               }
 
               .percentage-description {
                 font-family: Roobert-Medium, sans-serif;
                 font-size: 15px;
                 line-height: 18px;
+                margin-right: 40px;
               }
             }
           }
@@ -457,7 +455,7 @@ header {
           }
 
           .quote-by {
-            font-size: 20.8px;
+            font-size: 18px;
             margin-top: 21.6667px;
             display: block;
           }
@@ -483,7 +481,7 @@ header {
         }
 
         .row-full {
-          margin-top: 8.475vw;
+          margin-top: 6.780vw;
           width: 100vw;
           position: relative;
           left: -10px;
@@ -541,7 +539,7 @@ header {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1899px) {
-  .project-html{
+  .project-html {
     img, video {
       max-width: 100%;
     }
@@ -567,7 +565,7 @@ header {
 
           .content-head-text {
             font-size: 5.508vw;
-            line-height: 5.932vw;
+            line-height:5.508vw;
             letter-spacing: -0.169vw;
             margin-top: 9.322vw;
 
@@ -583,7 +581,7 @@ header {
 
           .project-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 1.695vw;
+            font-size: 1.271vw;
             position: absolute;
             bottom: 0;
           }
@@ -660,7 +658,7 @@ header {
           .full-row {
             max-width: 100%;
             width: 78.220vw;
-            margin: 8.475vw auto 0;
+            margin: 6.780vw auto 0;
             display: block;
           }
         }
@@ -677,7 +675,7 @@ header {
           }
 
           .quote-by {
-            font-size: 2.034vw;
+            font-size: 1.525vw;
             margin-top: 2.119vw;
             display: block;
           }
@@ -692,10 +690,11 @@ header {
           .percentage {
             font-size: 5.085vw;
             letter-spacing: -0.169vw;
+            margin-top: 2.458vw;
           }
 
           .percentage-description {
-            margin-top: 2.458vw;
+            margin-top: 0;
             font-family: Roobert-Medium, sans-serif;
             font-size: 1.271vw;
             line-height: 1.525vw;
@@ -703,7 +702,7 @@ header {
         }
 
         .row-full {
-          margin-top: 8.475vw;
+          margin-top: 6.780vw;
           width: 100vw;
           position: relative;
           left: -10px;
@@ -744,7 +743,7 @@ header {
         }
 
         .row-full {
-          margin-top: 8.475vw;
+          margin-top: 6.780vw;
           width: 100vw;
           position: relative;
 
@@ -760,7 +759,7 @@ header {
 }
 
 @media only screen and (min-width: 1900px) {
-  .project-html{
+  .project-html {
     img, video {
       max-width: 100%;
     }
@@ -912,10 +911,11 @@ header {
           .percentage {
             font-size: 96.615px;
             letter-spacing: -3.211px;
+            margin-top: 46.702px;
           }
 
           .percentage-description {
-            margin-top: 46.702px;
+            margin-top: 0;
             font-family: Roobert-Medium, sans-serif;
             font-size: 24.149px;
             line-height: 28.975px;

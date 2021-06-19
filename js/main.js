@@ -204,6 +204,10 @@ function loadCase(caseToLoad) {
     });
 }
 
+function loadProject(projectToLoad){
+    location.href = `${projectToLoad}.html`
+}
+
 window.addEventListener('popstate', function (e) {
     if (e.state && e.state.pageID) {
         location.href = `${e.state.pageID}.html`

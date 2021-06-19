@@ -67,13 +67,14 @@ header {
             }
 
             .italic {
+              display: block;
               font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
             }
           }
 
           .project-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 20px;
+            font-size: 13px;
             margin-top: 82px;
           }
 
@@ -160,7 +161,7 @@ header {
               font-family: GT-Alpina-Standard-Light, sans-serif;
               max-width: 510px;
               width: 100%;
-              margin-bottom: 65px;
+              margin-bottom: 26px;
 
               .percentage {
                 font-size: 60px;
@@ -182,6 +183,9 @@ header {
             max-width: 100%;
             margin: 31px auto 0;
             display: block;
+            img{
+              width: 100% !important;
+            }
           }
         }
 
@@ -717,7 +721,7 @@ header {
 
           .ref {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 16px;
+            font-size: 15px;
             line-height: 20px;
             letter-spacing: 0.2px;
           }
@@ -942,7 +946,7 @@ header {
 
           .ref {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 16px;
+            font-size: 15px;
             line-height: 20px;
             letter-spacing: .2px;
           }

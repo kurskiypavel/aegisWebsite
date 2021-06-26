@@ -233,7 +233,10 @@ header {
           .iframe-video{
             height: 57.22vw;
           }
-          margin-top: 6.780vw;
+          &.lowermargin{
+            margin-top: 3.136vw;
+          }
+          margin-top: 13vw;
           width: 100vw;
           position: relative;
           left: -10px;
@@ -308,7 +311,7 @@ header {
 
 
       .main-content {
-        margin-top: 121.367px;
+        margin-top: 131.717px;
         padding: 0 10px;
         max-width: calc(100vw - 20px);
 
@@ -341,7 +344,7 @@ header {
           }
 
           .tag-list {
-            margin-top: 95.35px;
+            margin-top: 105.683px;
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
@@ -494,13 +497,16 @@ header {
         }
 
         .row-full {
-          &.iframe-video-back{
+          &.iframe-video-back.withBackground{
             padding: 10vw 0;
           }
           .iframe-video{
             height: 43.220vw;
           }
-          margin-top: 6.780vw;
+          &.lowermargin{
+            margin-top: 3.136vw;
+          }
+          margin-top: 13vw;
           width: 100vw;
           position: relative;
           left: -10px;
@@ -573,7 +579,7 @@ header {
 
 
       .main-content {
-        margin-top: 11.864vw;
+        margin-top: 12.864vw;
         padding: 0 10px;
         max-width: calc(100vw - 20px);
 
@@ -606,7 +612,7 @@ header {
           }
 
           .tag-list {
-            margin-top: 9.322vw;
+            margin-top: 10.322vw;
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
@@ -630,7 +636,7 @@ header {
         .content-row {
           display: flex;
           max-width: 100%;
-          padding: 0 11.017vw 4.237vw;
+          padding: 0 11.017vw 0;
           margin-top: 9.576vw;
 
           p {
@@ -724,13 +730,19 @@ header {
         }
 
         .row-full {
-          &.iframe-video-back{
+          img, video {
+            width: 100%;
+          }
+          &.iframe-video-back.withBackground{
             padding: 10vw 0;
           }
           .iframe-video{
             height: 43.220vw;
           }
-          margin-top: 6.780vw;
+          margin-top: 13vw;
+          &.lowermargin{
+            margin-top: 3.136vw;
+          }
           width: 100vw;
           position: relative;
           left: -10px;
@@ -739,9 +751,9 @@ header {
 
       .next-project {
         .next-project-body {
-          margin: 16.949vw 11.017vw 0;
           border-top: 1px solid;
           padding-top: 4.237vw;
+          margin: 16.949vw 11.017vw -3.390vw;
 
           .ref {
             font-family: Roobert-Bold, sans-serif;
@@ -771,7 +783,10 @@ header {
         }
 
         .row-full {
-          margin-top: 6.780vw;
+          margin-top: 13vw;
+          &.lowermargin{
+            margin-top: 3.136vw;
+          }
           width: 100vw;
           position: relative;
 
@@ -801,7 +816,7 @@ header {
       top: 0;
 
       .main-content {
-        margin-top: 225.416px;
+        margin-top: 244.283px;
         padding: 0 10px;
         max-width: calc(100vw - 20px);
 
@@ -812,7 +827,7 @@ header {
 
           .content-head-text {
             font-size: 104.652px;
-            line-height: 112.708px;
+            line-height: 104.583px;
             letter-spacing: -3.211px;
             margin-top: 177.118px;
 
@@ -828,13 +843,13 @@ header {
 
           .project-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 32.205px;
+            font-size: 24.1333px;
             position: absolute;
             bottom: 0;
           }
 
           .tag-list {
-            margin-top: 177.118px;
+            margin-top: 196px;
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
@@ -951,7 +966,16 @@ header {
         }
 
         .row-full {
-          margin-top: 161.025px;
+          &.iframe-video-back.withBackground{
+            padding: 10vw 0;
+          }
+          .iframe-video{
+            height: 43.220vw;
+          }
+          margin-top: 261.667px;
+          &.lowermargin{
+            margin-top: 59.55px;
+          }
           width: 100vw;
           position: relative;
           left: -10px;

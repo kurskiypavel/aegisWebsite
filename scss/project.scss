@@ -179,6 +179,9 @@ header {
         }
 
         .row {
+          .iframe-video{
+            height: 54.22vw;
+          }
           .full-row {
             max-width: 100%;
             margin: 31px auto 0;
@@ -227,6 +230,9 @@ header {
         }
 
         .row-full {
+          .iframe-video{
+            height: 57.22vw;
+          }
           margin-top: 6.780vw;
           width: 100vw;
           position: relative;
@@ -439,6 +445,9 @@ header {
         }
 
         .row {
+          .iframe-video{
+            height: 43.220vw;
+          }
           .full-row {
             max-width: 100%;
             width: 78.220vw;
@@ -485,6 +494,12 @@ header {
         }
 
         .row-full {
+          &.iframe-video-back{
+            padding: 10vw 0;
+          }
+          .iframe-video{
+            height: 43.220vw;
+          }
           margin-top: 6.780vw;
           width: 100vw;
           position: relative;
@@ -659,6 +674,9 @@ header {
         }
 
         .row {
+          .iframe-video{
+            height: 43.220vw;
+          }
           .full-row {
             max-width: 100%;
             width: 78.220vw;
@@ -706,6 +724,12 @@ header {
         }
 
         .row-full {
+          &.iframe-video-back{
+            padding: 10vw 0;
+          }
+          .iframe-video{
+            height: 43.220vw;
+          }
           margin-top: 6.780vw;
           width: 100vw;
           position: relative;

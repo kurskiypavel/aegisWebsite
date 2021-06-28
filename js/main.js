@@ -170,7 +170,7 @@ function loadCase(caseToLoad) {
     $('.desktop-content .containery').append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${caseToLoad}.html .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
-            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=8">');
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=9">');
             $('link[title="insightCss"]').remove();
             loadImage($(".case-hero-img:first-child").attr('src')).then(() => {
                 console.log('img loaded');

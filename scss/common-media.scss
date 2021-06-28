@@ -744,7 +744,7 @@ a {
 
           .section {
             &.closed:not(.html-case-menu-item) {
-              left: calc(100% - 56px);
+              left: calc(100% - 38px);
             }
 
             background: white;
@@ -755,7 +755,7 @@ a {
             position: absolute;
             width: calc(100vw - calc(var(--menu-items-length) - var(--menu-item-index)) * 40px + 10px - calc(var(--menu-item-index) * 40px)); // TODO HARDCODED 40*5
             &:not(.html-case-menu-item){
-              left: calc(var(--menu-item-index) * 40px);
+              left: calc(var(--menu-item-index) * 38px);
             }
             //width: calc(100% - 220px);
             //left: calc(100vw - 290px + 40px * var(--menu-item-index));

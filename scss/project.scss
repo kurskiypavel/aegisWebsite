@@ -6,6 +6,13 @@ header {
   padding: 0 10px;
 }
 
+.project-html{
+  .next-title:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .mobile-content, .mobile-menu {
     display: none;
@@ -36,7 +43,7 @@ header {
 
 
   .desktop-content .body .main-content {
-    .row .full-row.desktop-only-img, .row-full .desktop-only-img {
+    .desktop-only-img, .row .full-row.desktop-only-img,.row-img .full-row.desktop-only-img, .row-full .desktop-only-img, .row-full-img .desktop-only-img {
       display: none !important;
     }
   }
@@ -67,6 +74,9 @@ header {
             }
 
             .italic {
+              &.bssproject{
+                display: initial;
+              }
               display: block;
               font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
             }
@@ -74,7 +84,7 @@ header {
 
           .project-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 13px;
+            font-size: 15px;
             margin-top: 82px;
           }
 
@@ -99,7 +109,7 @@ header {
         .content-row {
           display: flex;
           max-width: 100%;
-          margin-top: 75px;
+          margin-top: 66.1px;
           padding-bottom: 24px;
 
           p {
@@ -191,6 +201,19 @@ header {
             }
           }
         }
+        .row-img {
+          .iframe-video{
+            height: 54.22vw;
+          }
+          .full-row {
+            max-width: 100%;
+            margin: 30.5px auto 0;
+            display: block;
+            img{
+              width: 100% !important;
+            }
+          }
+        }
 
         .quote-block {
           margin-top: 60px;
@@ -236,7 +259,19 @@ header {
           &.lowermargin{
             margin-top: 3.136vw;
           }
-          margin-top: 13vw;
+          margin-top: 66.1px;
+          width: 100vw;
+          position: relative;
+          left: -10px;
+        }
+        .row-full-img {
+          .iframe-video{
+            height: 57.22vw;
+          }
+          &.lowermargin{
+            margin-top: 3.136vw;
+          }
+          margin-top: 30.5px;
           width: 100vw;
           position: relative;
           left: -10px;
@@ -338,7 +373,7 @@ header {
 
           .project-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 13px;
+            font-size: 15px;
             position: absolute;
             bottom: 0;
           }
@@ -348,7 +383,7 @@ header {
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
-            width: 175.8px;
+            width:186.217px;
 
             .folder-icon {
               width: 15px;
@@ -369,7 +404,7 @@ header {
           display: flex;
           max-width: 100%;
           padding: 0 11.017vw 5px;
-          margin-top: 75px;
+          margin-top: 13.021vw;
 
           p {
             font-size: 26px;
@@ -454,7 +489,18 @@ header {
           .full-row {
             max-width: 100%;
             width: 78.220vw;
-            margin: 70px auto 0;
+            margin: 13.021vw auto 0;
+            display: block;
+          }
+        }
+        .row-img {
+          .iframe-video{
+            height: 43.220vw;
+          }
+          .full-row {
+            max-width: 100%;
+            width: 78.220vw;
+            margin: 6.510vw auto 0;
             display: block;
           }
         }
@@ -506,7 +552,22 @@ header {
           &.lowermargin{
             margin-top: 3.136vw;
           }
-          margin-top: 13vw;
+          margin-top: 13.021vw;
+          width: 100vw;
+          position: relative;
+          left: -10px;
+        }
+        .row-full-img {
+          &.iframe-video-back.withBackground{
+            padding: 10vw 0;
+          }
+          .iframe-video{
+            height: 43.220vw;
+          }
+          &.lowermargin{
+            margin-top: 3.136vw;
+          }
+          margin-top: 5.085vw;
           width: 100vw;
           position: relative;
           left: -10px;
@@ -515,7 +576,7 @@ header {
 
       .next-project {
         .next-project-body {
-          margin: 150px 11.017vw 0;
+          margin: 173.55px 11.017vw 0;
           border-top: 1px solid;
           padding-top: 50px;
 
@@ -548,7 +609,7 @@ header {
         }
 
         .row-full {
-          margin-top: 70px;
+          margin-top:70px;
           width: 100vw;
           position: relative;
 
@@ -606,7 +667,7 @@ header {
 
           .project-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 1.271vw;
+            font-size: 15px;
             position: absolute;
             bottom: 0;
           }
@@ -616,7 +677,7 @@ header {
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
-            width: 17.186vw;
+            width: 18.186vw;
 
             .folder-icon {
               width: 15px;
@@ -637,16 +698,17 @@ header {
           display: flex;
           max-width: 100%;
           padding: 0 11.017vw 0;
-          margin-top: 9.576vw;
+          margin-top: 11.017vw;
 
           p {
             font-size: 2.203vw;
             line-height: 2.627vw;
             letter-spacing: -0.042vw;
             font-family: GT-Alpina-Standard-Light, sans-serif;
+            margin-top: 2.542vw;
 
-            &:not(:first-child) {
-              margin-top: 2.542vw;
+            &:first-of-type {
+              margin-top: 0;
             }
 
             span.italic {
@@ -686,7 +748,18 @@ header {
           .full-row {
             max-width: 100%;
             width: 78.220vw;
-            margin: 6.780vw auto 0;
+            margin: 11.017vw auto 0;
+            display: block;
+          }
+        }
+        .row-img {
+          .iframe-video{
+            height: 43.220vw;
+          }
+          .full-row {
+            max-width: 100%;
+            width: 78.220vw;
+            margin: 5.085vw auto 0;
             display: block;
           }
         }
@@ -739,7 +812,25 @@ header {
           .iframe-video{
             height: 43.220vw;
           }
-          margin-top: 13vw;
+          margin-top: 11.017vw;
+          &.lowermargin{
+            margin-top: 3.136vw;
+          }
+          width: 100vw;
+          position: relative;
+          left: -10px;
+        }
+        .row-full-img {
+          img, video {
+            width: 100%;
+          }
+          &.iframe-video-back.withBackground{
+            padding: 10vw 0;
+          }
+          .iframe-video{
+            height: 43.220vw;
+          }
+          margin-top: 5.085vw;
           &.lowermargin{
             margin-top: 3.136vw;
           }
@@ -753,7 +844,7 @@ header {
         .next-project-body {
           border-top: 1px solid;
           padding-top: 4.237vw;
-          margin: 16.949vw 11.017vw -3.390vw;
+          margin: 16.949vw 11.017vw 0;
 
           .ref {
             font-family: Roobert-Bold, sans-serif;
@@ -783,7 +874,7 @@ header {
         }
 
         .row-full {
-          margin-top: 13vw;
+          margin-top: 6.836vw;
           &.lowermargin{
             margin-top: 3.136vw;
           }
@@ -843,7 +934,7 @@ header {
 
           .project-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 24.1333px;
+            font-size: 15px;
             position: absolute;
             bottom: 0;
           }
@@ -872,8 +963,8 @@ header {
 
         .content-row {
           max-width: 1880px;
-          padding: 0 209.323px 80.503px;
-          margin: 181.944px auto 0;
+          padding: 0 209.323px 0;
+          margin: 209.2px auto 0;
           display: flex;
           justify-content: center;
 
@@ -921,7 +1012,16 @@ header {
           .full-row {
             max-width: 100%;
             width: 1486.18px;
-            margin: 161.025px auto 0;
+            margin: 209.2px auto 0;
+            display: block;
+          }
+        }
+
+        .row-img {
+          .full-row {
+            max-width: 100%;
+            width: 1486.18px;
+            margin: 96.55px auto 0;
             display: block;
           }
         }
@@ -972,7 +1072,27 @@ header {
           .iframe-video{
             height: 43.220vw;
           }
-          margin-top: 261.667px;
+          margin-top: 209.2px;
+          &.lowermargin{
+            margin-top: 59.55px;
+          }
+          width: 100vw;
+          position: relative;
+          left: -10px;
+
+          img, video {
+            width: 100%;
+          }
+        }
+
+        .row-full-img {
+          &.iframe-video-back.withBackground{
+            padding: 10vw 0;
+          }
+          .iframe-video{
+            height: 43.220vw;
+          }
+          margin-top: 96.6px;
           &.lowermargin{
             margin-top: 59.55px;
           }
@@ -1020,7 +1140,7 @@ header {
         }
 
         .row-full {
-          margin-top: 161.025px;
+          margin-top: 129.8px;
           width: 100vw;
           position: relative;
 

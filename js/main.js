@@ -120,6 +120,26 @@ function initEvents() {
             toggleMobileMenu();
         }
     });
+
+    /*VIMEO PLAYER*/
+    $(".playVimeo").on("click", function(e) {
+        let parent = $(this).parent();
+        let iframe = $(parent).find("iframe")[0];
+        iframe.classList.add('activated');
+        let player = new Vimeo.Player(iframe);
+        $(parent).find(".poster").fadeOut();
+        $(this).hide();
+        player.play();
+        player.getVideoTitle().then(function(title) {
+            console.log('title:', title);
+        });
+        player.on('pause', function(data) {
+            console.log('video paused');
+            $(this)[0].element.parentElement.children[0].style.display = "block";
+            $(this)[0].element.parentElement.children[1].style.display = "block";
+        });
+
+    });
 }
 
 function readyDOMMain() {

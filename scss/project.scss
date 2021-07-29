@@ -35,6 +35,10 @@ iframe{
 
 @media only screen and (max-width: 599px) {
   .project-html {
+    .two_goetheopenminds{
+      margin-top: calc(-24px - 30px);
+    }
+
     img {
       max-width: 100%;
     }
@@ -340,6 +344,9 @@ iframe{
 
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
   .project-html {
+    .two_goetheopenminds{
+      margin-top: -6vw;
+    }
     img, video {
       max-width: 100%;
     }
@@ -796,7 +803,7 @@ iframe{
 
         .percentage-wrap {
           position: absolute;
-          top: 0;
+          bottom: 0;
           font-family: GT-Alpina-Standard-Light, sans-serif;
           width: 14vw;
 
@@ -819,6 +826,9 @@ iframe{
         }
 
         .row-full {
+          .two_goetheopenminds{
+            margin-top: -6vw;
+          }
           img, video {
             width: 100%;
           }
@@ -1074,7 +1084,7 @@ iframe{
 
         .percentage-wrap {
           position: absolute;
-          top: 0;
+          bottom: 0;
           font-family: GT-Alpina-Standard-Light, sans-serif;
           width: 265.85px;
 
@@ -1112,6 +1122,9 @@ iframe{
 
           img, video {
             width: 100%;
+          }
+          .two_goetheopenminds{
+            margin-top: -113px;
           }
         }
 

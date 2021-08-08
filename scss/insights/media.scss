@@ -1,5 +1,12 @@
 //sass --watch scss/insights/media.scss css/insights/media.css --style compressed
 
+.insight-html{
+  transition: 0.2s
+}
+.new-html.inactive{
+  transition: 0.3s;
+  opacity: 0;
+}
 @media only screen and (min-width: 768px) and (max-width: 1899px) {
 
   .containery {
@@ -60,7 +67,7 @@
       .job-title {
         font-family: Roobert-Medium, sans-serif;
         font-size: 14px;
-        margin-right: 19.3167px;
+        margin-right: 39.317px;
         line-height: 25px;
         margin-top: 3.23px;
       }

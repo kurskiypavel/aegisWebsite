@@ -122,7 +122,7 @@ function initEvents() {
     });
 
     /*VIMEO PLAYER*/
-    $(".playVimeo").on("click", function(e) {
+    $(".playVimeo").on("click", function (e) {
         let parent = $(this).parent();
         let iframe = $(parent).find("iframe")[0];
         iframe.classList.add('activated');
@@ -130,10 +130,10 @@ function initEvents() {
         $(parent).find(".poster").fadeOut();
         $(this).hide();
         player.play();
-        player.getVideoTitle().then(function(title) {
+        player.getVideoTitle().then(function (title) {
             console.log('title:', title);
         });
-        player.on('pause', function(data) {
+        player.on('pause', function (data) {
             console.log('video paused');
             $(this)[0].element.parentElement.children[0].style.display = "block";
             $(this)[0].element.parentElement.children[1].style.display = "block";
@@ -169,13 +169,23 @@ function loadInsight(insightToLoad) {
             // readyDOMStyle();
             // readyDOMMain();
             //init events and etc. if required
-            $('.old-html').slideUp("slow", function () {
-                console.log('// Animation complete.')
-                $('.old-html').remove();
-                $('.new-html.inactive .insight-html').unwrap();
-                window.scrollTo(0, 1);
-            })
-
+            $('.old-html')
+                .css('opacity', '0')
+            setTimeout(() => {
+                $('.old-html')
+                    .slideToggle("600");
+                $('html, body').animate({
+                    scrollTop: $(this).parent().offset().top
+                }, 500);
+                setTimeout(() => {
+                    $('.new-html.inactive').css('opacity', 1);
+                    setTimeout(() => {
+                        $('.old-html').remove();
+                        $('.new-html.inactive .insight-html').unwrap();
+                    }, 300)
+                    console.log('// Animation complete.');
+                }, 600)
+            }, 300)
         } else {
             console.log('error  $("body").load');
         }
@@ -190,7 +200,7 @@ function loadCase(caseToLoad) {
     $('.desktop-content .containery').append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${caseToLoad}.html .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
-            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=9">');
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=10">');
             $('link[title="insightCss"]').remove();
             loadImage($(".case-hero-img:first-child").attr('src')).then(() => {
                 console.log('img loaded');
@@ -217,15 +227,51 @@ function loadCase(caseToLoad) {
             })
 
 
-
         } else {
             console.log('error  $("body").load');
         }
     });
 }
 
-function loadProject(projectToLoad){
-    location.href = `${projectToLoad}.html`
+function loadProject(projectToLoad) {
+    console.log(projectToLoad);
+    $('.next-title').addClass('preventClick');
+    $('body').addClass('js-page-loading');
+    $('.project-html').addClass('old-html');
+    $(".desktop-content .containery").append('<div class="new-html inactive"></div>');
+    $(".desktop-content .containery .new-html").load(`${projectToLoad}.html .project-html`, function (responseText, textStatus, XMLHttpRequest) {
+        if (textStatus === "success") {
+            $('.js-page-loading').removeClass('js-page-loading');
+            $('title').load(`${projectToLoad}.html title`, '', function (data) {
+                document.title = $(this).text().toUpperCase();
+            });
+            history.pushState({pageID: projectToLoad}, projectToLoad, `${projectToLoad}.html`);
+            // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
+            // readyDOMStyle();
+            // readyDOMMain();
+            //init events and etc. if required
+            $('.old-html')
+                .css('opacity', '0')
+            setTimeout(() => {
+                $('.old-html')
+                    .slideToggle("600");
+                $('html, body').animate({
+                    scrollTop: $(this).parent().offset().top
+                }, 500);
+                setTimeout(() => {
+                    $('.new-html.inactive').css('opacity', 1);
+                    setTimeout(() => {
+                        $('.old-html').remove();
+                        $('.new-html.inactive .project-html').unwrap();
+                    }, 300)
+                    console.log('// Animation complete.');
+                }, 600)
+            }, 300)
+            // window.scrollTo(0, 1);
+        } else {
+            console.log('error  $("body").load');
+        }
+    });
 }
 
 window.addEventListener('popstate', function (e) {

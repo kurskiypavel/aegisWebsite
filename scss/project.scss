@@ -1,5 +1,11 @@
 //sass --watch scss/project.scss css/project.css --style compressed
-
+.project-html{
+  transition: 0.2s
+}
+.new-html.inactive{
+  transition: 0.3s;
+  opacity: 0;
+}
 header {
   position: relative;
   z-index: 1;

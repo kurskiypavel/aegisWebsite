@@ -2,6 +2,10 @@
 .project-html{
   transition: 0.2s
 }
+.limited-next-image{
+  max-height: 29.237vw;
+  overflow: hidden;
+}
 .new-html.inactive{
   transition: 0.3s;
   opacity: 0;

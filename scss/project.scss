@@ -29,6 +29,9 @@ iframe{
     text-underline-offset: 3px;
   }
 }
+.four-videos{
+  background: #f3f9f7;
+}
 @media only screen and (min-width: 768px) {
   .mobile-content, .mobile-menu {
     display: none;
@@ -203,6 +206,21 @@ iframe{
                 font-family: Roobert-Medium, sans-serif;
                 font-size: 15px;
                 line-height: 18px;
+              }
+            }
+          }
+        }
+
+        .four-videos{
+          .full-row.flex{
+            padding-top: 5.932vw;
+            .iframe-square{
+              &.iframe-square-r{
+                margin-top: 3.910vw;
+              }
+              .iframe-square-video{
+                width: 100vw;
+                height: 50vw;
               }
             }
           }
@@ -507,16 +525,39 @@ iframe{
           }
         }
 
+        .four-videos{
+          .full-row.flex{
+            padding-top: 5.932vw;
+            .iframe-square{
+              &.iframe-square-l{
+                //margin-right: 1.695vw;max-width: calc(50% - 1.695vw);
+              }
+              &.iframe-square-r{
+                //margin-left: 1.695vw;max-width: calc(50% - 1.695vw);
+                margin-top: 3.910vw;
+              }
+              .iframe-square-video{
+                width: 78.22vw;
+                height: 43.339vw;
+              }
+            }
+          }
+        }
         .row {
           .iframe-video{
             height: 44.22vw;
             position: relative;
           }
+          .full-row:not(.flex){
+            display: block;
+          }
+          .full-row.flex{
+            //display: flex;
+          }
           .full-row {
             max-width: 100%;
             width: 78.220vw;
             margin: 13.021vw auto 0;
-            display: block;
           }
         }
         .row-img {
@@ -767,17 +808,38 @@ iframe{
             width: calc(100% - 22.034vw);
           }
         }
-
+        .four-videos{
+          .full-row.flex{
+            padding-top: 5.932vw;
+            .iframe-square{
+              &.iframe-square-l{
+                margin-right: 1.695vw;max-width: calc(50% - 1.695vw);
+              }
+              &.iframe-square-r{
+                margin-left: 1.695vw;max-width: calc(50% - 1.695vw);
+              }
+              .iframe-square-video{
+                width: 36.428vw;
+                height: 20.339vw;
+              }
+            }
+          }
+        }
         .row {
           .iframe-video{
             height: 44.22vw;
             position: relative;
           }
+          .full-row:not(.flex){
+            display: block;
+          }
+          .full-row.flex{
+            display: flex;
+          }
           .full-row {
             max-width: 100%;
             width: 78.220vw;
             margin: 11.017vw auto 0;
-            display: block;
           }
         }
         .row-img {
@@ -1047,16 +1109,39 @@ iframe{
           }
         }
 
+        .four-videos{
+          .full-row.flex{
+            padding-top: 5.932vw;
+            .iframe-square{
+              &.iframe-square-l{
+                margin-right: 1.695vw;max-width: calc(50% - 1.695vw);
+              }
+              &.iframe-square-r{
+                margin-left: 1.695vw;max-width: calc(50% - 1.695vw);
+              }
+              .iframe-square-video{
+                width: 36.428vw;
+                height: 20.339vw;
+              }
+            }
+          }
+        }
+
         .row {
           .iframe-video{
             height: 839.733px;
             position: relative;
           }
+          .full-row:not(.flex){
+            display: block;
+          }
+          .full-row.flex{
+            display: flex;
+          }
           .full-row {
             max-width: 100%;
             width: 1486.18px;
             margin: 209.2px auto 0;
-            display: block;
           }
         }
 

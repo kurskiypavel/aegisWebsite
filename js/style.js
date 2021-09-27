@@ -142,6 +142,37 @@ function toggleMobileContact() {
 }
 
 /*---------+---------+---------+--------+-----------*/
+/*             |MOBILE TEAM MENU|               */
+
+/*---------+---------+---------+--------+-----------*/
+
+function toggleMobileTeam() {
+    const mobileContent = $('.mobile-content .team-menu');
+    if (!mobileContent.hasClass('opened')) {
+
+        if ($('#caseStudyMobileContent').hasClass('opened')) {
+            toggleZeroMenuItemMobileContent();
+        }
+
+        console.log('Open menu team');
+        $('.mobile-content .navigation')
+            .addClass('nav-opened')
+            .addClass('nav-opened-by-content');
+        mobileContent.addClass('opened');
+        $('body').css({'overflow': 'hidden', 'height': '0'});
+    } else {
+        console.log('Close menu team');
+        $('.mobile-content .navigation')
+            .removeClass('nav-opened')
+            .removeClass('nav-opened-by-content');
+        mobileContent.removeClass('opened');
+        $('body').css({'overflow': 'unset', 'height': 'initial'});
+
+
+    }
+}
+
+/*---------+---------+---------+--------+-----------*/
 /*             |MOBILE INSIGHTS MENU|            */
 
 /*---------+---------+---------+--------+-----------*/
@@ -222,6 +253,7 @@ function toggleDesktopMenu() {
     closeInsightsContent();
     closeProjectsContent();
     closeContactFromMenu();
+    closeTeamFromMenu();
 
     if (!desktopContentNavigation.hasClass('nav-opened')) {
         console.log('Open 3 menu items')
@@ -373,6 +405,44 @@ function toggleDesktopContact() {
 function closeContactFromMenu() {
     $('.contact-menu').removeClass('opened');
     $('.contact-item-arrow').text('↑');
+}
+
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP TEAM MENU|                  */
+
+/*---------+---------+---------+--------+-----------*/
+
+function toggleDesktopTeam() {
+    const teamMenu = $('.team-menu');
+
+    if ($('.team-menu.displayNone').length === 0) {
+        setTimeout(() => {
+            teamMenu.addClass('displayNone');
+        }, 500);
+    } else {
+        teamMenu.removeClass('displayNone');
+    }
+    setTimeout(() => {
+        console.log('toggleDesktopTeam');
+        $('.nav-opened').removeClass('fullvw');
+        teamMenu.toggleClass('opened');
+
+        if (teamMenu.hasClass('opened')) {
+            $('.team-item-arrow').text('↓');
+        } else {
+            $('.team-item-arrow').text('↑');
+        }
+        $('.desktop-content .navigation').removeClass('nav-opened');
+        $('.navigation-arrow-up').removeClass('rotated');
+        $('.zeroMenuItemContent').addClass('closed');
+        restoreDefaultMenu();
+    }, 100)
+
+}
+
+function closeTeamFromMenu() {
+    $('.team-menu').removeClass('opened');
+    $('.team-item-arrow').text('↑');
 }
 
 

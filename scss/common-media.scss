@@ -305,6 +305,78 @@ a {
       }
     }
 
+    .team-menu {
+      display: none;
+
+      .team-wrap {
+        position: relative;
+        top: calc(50% - 42.5px);
+        transform: translateY(calc(20px - 50%));
+        width: 64vw;
+        margin: 0 auto;
+      }
+
+      &.opened {
+        height: calc(100vh - 42.5px);
+        position: fixed;
+        display: block;
+        overflow: auto;
+      }
+
+      background: white;
+      top: 42.5px;
+      bottom: 0;
+      width: calc(100% - 20px);
+      left: 0;
+      padding: 0 10px;
+
+      .teamImg {
+        max-width: 43.478vw;
+      }
+
+      .team-heading {
+        margin-top: 7.246vw;
+
+        h2 {
+          font-family: Roobert-Bold, sans-serif;
+          font-size: 5.333vw;
+          line-height: 5.333vw;
+        }
+
+        a {
+          font-family: GT-Alpina-Standard-Light, sans-serif;
+          font-size: 4.267vw;
+          line-height: 5.333vw;
+        }
+      }
+
+      .d-block {
+        font-family: GT-Alpina-Standard-Light, sans-serif;
+        font-size: 3.865vw;
+        line-height: 4.831vw;
+      }
+
+      .col-3 {
+        margin-top: 14.493vw;
+      }
+
+      .col-2 {
+        margin-top: 6.039vw;
+
+        .clear-underline {
+          display: block;
+        }
+      }
+
+      .top-right {
+        position: absolute;
+        right: 4.831vw;
+        top: 4.831vw;
+        width: 7.246vw;
+        height: 7.246vw;
+      }
+    }
+
     .insights-content-wrap-parent {
       position: absolute;
       top: 29px;
@@ -571,6 +643,9 @@ a {
 .desktop-content .navigation .contact-menu.displayNone {
   display: none;
 }
+.desktop-content .navigation .team-menu.displayNone {
+  display: none;
+}
 
 @media only screen and (max-width: 767px) {
   header {
@@ -636,7 +711,7 @@ a {
           transform: rotate(-90deg);
           position: absolute;
 
-          #desktop-menu-js, #desktop-contact-js {
+          #desktop-menu-js, #desktop-contact-js, #desktop-team-js {
             display: flex;
           }
 
@@ -646,8 +721,14 @@ a {
             left: 0;
           }
 
-          &.contact-sideway {
+          &.team-sideway {
             top: 50%;
+            right: 0;
+          }
+
+          &.contact-sideway {
+            bottom: 30px;
+            top: auto;
             right: 0;
           }
 
@@ -656,6 +737,12 @@ a {
           }
 
           .contact-btn {
+            position: absolute;
+            font-family: Roobert-Bold, sans-serif;
+            padding-bottom: 5px;
+          }
+
+          .team-btn {
             position: absolute;
             font-family: Roobert-Bold, sans-serif;
             padding-bottom: 5px;
@@ -675,7 +762,7 @@ a {
         }
       }
 
-      .desktop-menu, .contact-menu {
+      .desktop-menu, .contact-menu, .team-menu {
         height: 100%;
         position: relative;
         display: inline-block;
@@ -709,7 +796,7 @@ a {
               top: 140px;
             }
 
-            .menu-item-text, .contact-item-text {
+            .menu-item-text, .contact-item-text, .team-item-text {
               position: absolute;
               left: 0px;
               -webkit-transform: rotate(-90deg);
@@ -719,12 +806,15 @@ a {
               transform: rotate(-90deg);
               right: 100%;
 
-              .menu-item-title, .menu-item-arrow, .contact-item-title, .contact-item-arrow {
+              .menu-item-title, .menu-item-arrow,
+              .contact-item-title, .contact-item-arrow,
+              .team-item-title, .team-item-arrow
+              {
                 position: relative;
                 top: 18px;
               }
 
-              .menu-item-arrow, .contact-item-arrow {
+              .menu-item-arrow, .contact-item-arrow, .team-item-arrow {
                 padding-left: 62px;
               }
             }
@@ -763,6 +853,11 @@ a {
             top: 10px;
 
             &.contact-section {
+              width: 40px;
+              left: 0;
+              z-index: 3;
+            }
+            &.team-section {
               width: 40px;
               left: 0;
               z-index: 3;
@@ -840,6 +935,75 @@ a {
         }
       }
 
+      .team-menu {
+        width: 0;
+        transition: 0.5s;
+        //left: -4px;
+        z-index: 999;
+
+        &.opened {
+          display: inline-block;
+          width: 33.051vw;
+        }
+
+        .team-item-text {
+          top: 138px;
+        }
+
+        .team-line-bottom {
+          position: absolute;
+          bottom: 10px;
+          left: 13px;
+        }
+
+        .team-content {
+          a, p {
+            font-family: GT-Alpina-Standard-Light, sans-serif;
+            font-size: 1.356vw;
+            line-height: 1.695vw;
+          }
+
+          .inner-row {
+            position: relative;
+            padding-left: 6.441vw;
+
+            .teamImg {
+              max-width: 13.136vw;
+              margin-top: 13.559vw;
+            }
+
+            .team-heading {
+              margin-top: 2.119vw;
+
+              h2 {
+                font-family: Roobert-Bold, sans-serif;
+                font-size: 1.695vw;
+                line-height: 2.542vw;
+              }
+            }
+
+            .col-3.d-block {
+              margin-top: 4.915vw;
+            }
+
+            .col-2.d-block {
+              margin-top: 2.373vw;
+
+              a {
+                display: block;
+              }
+            }
+
+            .top-right {
+              position: absolute;
+              right: 0;
+              top: 20px;
+              left: 25.424vw;
+            }
+          }
+        }
+      }
+
       .insights-wrap, .projects-wrap {
         height: inherit;
         -ms-overflow-style: none;
@@ -879,6 +1043,10 @@ a {
             bottom: 50%;
           }
 
+          .team-btn {
+            bottom: 50%;
+          }
+
           .navigation-arrow-up {
             margin-left: 7px;
           }
@@ -898,6 +1066,10 @@ a {
           line-height: 20px;
 
           .contact-btn {
+            bottom: 50%;
+          }
+
+          .team-btn {
             bottom: 50%;
           }
 
@@ -1267,6 +1439,50 @@ a {
         }
       }
 
+      .team-menu {
+
+        .team-wrap {
+          width: 319.35px;
+          margin: 0 auto;
+        }
+
+        .teamImg {
+          max-width: 216.95px;
+        }
+
+        .team-heading {
+          margin-top: 36.15px;
+
+          h2 {
+            font-size: 26.6px;
+            line-height: 26.6px;
+          }
+
+          a {
+            font-size: 21.2833px;
+            line-height: 26.6px;
+          }
+        }
+
+        .d-block {
+          font-size: 19.2833px;
+          line-height: 24.1px;
+        }
+
+        .col-3 {
+          margin-top: 72.3167px;
+        }
+
+        .col-2 {
+          margin-top: 30.1333px;
+        }
+
+        .top-right {
+          width: 36.15px;
+          height: 36.15px;
+        }
+      }
+
       .insights-content-wrap-parent {
         .insights-content-wrap {
           .top-right {
@@ -1326,7 +1542,7 @@ a {
   }
 }
 
-//Contact desktop menu stop scale from 500px and higher to 767 - static
+//Contact + Team desktop menu stop scale from 500px and higher to 767 - static
 
 @media only screen and (min-width: 1600px) {
   .desktop-content {
@@ -1351,6 +1567,39 @@ a {
             }
 
             .contact-heading {
+              h2 {
+                font-size: 27.1167px;
+                line-height: 40.6667px;
+              }
+            }
+
+            .top-right {
+              left: 406.783px;
+            }
+          }
+        }
+      }
+
+      .team-menu {
+        &.opened {
+          display: inline-block;
+          width: 528.8px;
+        }
+
+        .team-content {
+          a, p {
+            font-size: 21.6833px;
+            line-height: 27.1167px;
+          }
+
+          .inner-row {
+            padding-left: 103.05px;
+
+            .teamImg {
+              max-width: 210.167px;
+            }
+
+            .team-heading {
               h2 {
                 font-size: 27.1167px;
                 line-height: 40.6667px;

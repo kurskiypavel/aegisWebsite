@@ -62,6 +62,10 @@ function initEvents() {
         toggleMobileContact();
     });
 
+    $('#mobile-team-menu-js').on('click', () => {
+        toggleMobileTeam();
+    });
+
     $('#menu-item-1-mobile-js').on('click', () => {
         showMobileProjectsContent();
     });
@@ -85,6 +89,10 @@ function initEvents() {
 
     $('#desktop-contact-js').on('click', () => {
         toggleDesktopContact();
+    });
+
+    $('#desktop-team-js').on('click', () => {
+        toggleDesktopTeam();
     });
     $('#menu-item-0-js').on('click', () => {
         showCaseStudyContent('menu-item-0-js');
@@ -111,6 +119,11 @@ function initEvents() {
             && !navigation.is(e.target)
             && navigation.has(e.target).length === 0) {
             toggleDesktopContact();
+        }
+        if ($('.team-menu').hasClass('opened')
+            && !navigation.is(e.target)
+            && navigation.has(e.target).length === 0) {
+            toggleDesktopTeam();
         }
         if ($('.mobile-content .navigation').hasClass('nav-opened')
             && !navigation.is(e.target)

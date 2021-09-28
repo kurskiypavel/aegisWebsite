@@ -397,6 +397,7 @@ function toggleDesktopContact() {
         $('.desktop-content .navigation').removeClass('nav-opened');
         $('.navigation-arrow-up').removeClass('rotated');
         $('.zeroMenuItemContent').addClass('closed');
+        closeTeamFromMenu();
         restoreDefaultMenu();
     }, 100)
 
@@ -435,6 +436,7 @@ function toggleDesktopTeam() {
         $('.desktop-content .navigation').removeClass('nav-opened');
         $('.navigation-arrow-up').removeClass('rotated');
         $('.zeroMenuItemContent').addClass('closed');
+        closeContactFromMenu();
         restoreDefaultMenu();
     }, 100)
 

@@ -94,6 +94,11 @@ function initEvents() {
     $('#desktop-team-js').on('click', () => {
         toggleDesktopTeam();
     });
+
+    $('.team-item-title.active-element ').on('click', (event) => {
+        nextTeamTab(event);
+    });
+
     $('#menu-item-0-js').on('click', () => {
         showCaseStudyContent('menu-item-0-js');
         closeInsightsContent();

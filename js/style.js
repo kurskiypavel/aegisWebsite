@@ -447,6 +447,30 @@ function closeTeamFromMenu() {
     $('.team-item-arrow').text('↑');
 }
 
+function nextTeamTab(e){
+    console.log(e.target);
+    $('.team-item-title.active-element.active').removeClass('active');
+    const target = $(e.target);
+    target.addClass('active');
+    if (target.hasClass('pauls')) {
+        $('.team-member-content.active').removeClass('active');
+        $('.team-member-content.paul').addClass('active');
+    } else if (target.hasClass('pats')) {
+        $('.team-member-content.active').removeClass('active');
+        $('.team-member-content.pat').addClass('active');
+    } else if (target.hasClass('sabrinas')) {
+        $('.team-member-content.active').removeClass('active');
+        $('.team-member-content.sabrina').addClass('active');
+    } else if (target.hasClass('alexs')) {
+        $('.team-member-content.active').removeClass('active');
+        $('.team-member-content.alex').addClass('active');
+    } else if (target.hasClass('gregs')) {
+        $('.team-member-content.active').removeClass('active');
+        $('.team-member-content.greg').addClass('active');
+    }
+
+}
+
 
 /*---------+---------+---------+--------+-----------*/
 /*             |DESKTOP INSIGHTS MENU|            */

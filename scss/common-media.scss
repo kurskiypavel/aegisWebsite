@@ -120,16 +120,25 @@ a {
   }
 }
 .team-content{
+  position: relative;
+  .team-member-content{
+    position: absolute;
+    transition: 0.3s;
+    &:not(.active){
+      opacity: 0;
+    }
+  }
   .team-member-name{
     font-family: GT-Alpina-Standard-Light, sans-serif;
-    font-size: 26px;
-    line-height: 26px;
+    font-size: max(26px,2.222vw);
+    line-height: max(26px,2.5vw);
+    letter-spacing: -0.042vw;
   }
   .team-member-title{
     font-family: Roobert-Medium, sans-serif;
-    font-size: 10px;
-    line-height: 12px;
-    margin-top: 4px;
+    font-size: max(10px,0.847vw);
+    line-height: max(12px,1.017vw);
+    margin-top: max(4px,0.339vw);
   }
   .team-member-copy{
     font-family: GT-Alpina-Standard-Light,sans-serif;
@@ -358,26 +367,6 @@ a {
       left: 0;
       padding: 0 10px;
 
-      //TODO team
-      .teamImg {
-        max-width: 43.478vw;
-      }
-
-      .team-heading {
-        margin-top: 7.246vw;
-
-        h2 {
-          font-family: Roobert-Bold, sans-serif;
-          font-size: 5.333vw;
-          line-height: 5.333vw;
-        }
-
-        a {
-          font-family: GT-Alpina-Standard-Light, sans-serif;
-          font-size: 4.267vw;
-          line-height: 5.333vw;
-        }
-      }
 
       .d-block {
         font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -1020,28 +1009,12 @@ a {
                 }
               }
               .team-member-copy{
-                font-size: 2.222vw;
-                line-height: 2.5vw;
+                font-size: max(2.222vw,22px);
+                line-height: max(2.5vw,26px);
                 letter-spacing: -0.042vw;
                 margin-top: 16px;
                 margin-bottom: 40px;
                 width: 35.593vw;
-              }
-            }
-
-            //TODO team
-            .teamImg {
-              max-width: 13.136vw;
-              margin-top: 13.559vw;
-            }
-
-            .team-heading {
-              margin-top: 2.119vw;
-
-              h2 {
-                font-family: Roobert-Bold, sans-serif;
-                font-size: 1.695vw;
-                line-height: 2.542vw;
               }
             }
 
@@ -1510,25 +1483,6 @@ a {
           margin: 0 auto;
         }
 
-        //TODO team
-        .teamImg {
-          max-width: 216.95px;
-        }
-
-        .team-heading {
-          margin-top: 36.15px;
-
-          h2 {
-            font-size: 26.6px;
-            line-height: 26.6px;
-          }
-
-          a {
-            font-size: 21.2833px;
-            line-height: 26.6px;
-          }
-        }
-
         .d-block {
           font-size: 19.2833px;
           line-height: 24.1px;
@@ -1647,33 +1601,42 @@ a {
 
       .team-menu {
         &.opened {
-          display: inline-block;
-          width: 528.8px;
+          width: 50vw;
         }
 
         .team-content {
           a, p {
-            font-size: 21.6833px;
-            line-height: 27.1167px;
+            font-size: 1.356vw;
+            line-height: 1.695vw;
           }
 
           .inner-row {
-            padding-left: 103.05px;
+            padding-left: 6.441vw;
+            .row-team-block {
+              .col-6 {
 
-            //TODO team
-            .teamImg {
-              max-width: 210.167px;
-            }
-
-            .team-heading {
-              h2 {
-                font-size: 27.1167px;
-                line-height: 40.6667px;
+                img {
+                  height: 23.729vw;
+                }
+              }
+              .team-member-copy{
+                font-size: 2.222vw;
+                line-height: 2.5vw;
+                letter-spacing: -0.042vw;
+                width: 35.593vw;
               }
             }
 
+            .col-3.d-block {
+              margin-top: 4.915vw;
+            }
+
+            .col-2.d-block {
+              margin-top: 2.373vw;
+            }
+
             .top-right {
-              left: 406.783px;
+              left: 45.424vw;
             }
           }
         }

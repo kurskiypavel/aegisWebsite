@@ -11,18 +11,15 @@
   .containery {
     padding: 0 0.847vw;
   }
-
   .containery .body.insight-html {
     padding-left: 11.017vw;
     padding-right: 11.017vw;
     padding-top: 86px;
   }
-
   .containery .body.insight-html .main-statement-wrap {
     position: relative;
     height: 34.746vw;
   }
-
   .containery .body.insight-html .main-statement-wrap .main-statement {
     font-size: 5.509vw;
     line-height: 5.509vw;
@@ -31,15 +28,12 @@
     width: 38.492vw;
     top: 20px;
   }
-
   .containery .body.insight-html .main-statement-wrap .main-statement .simple {
     font-family: GT-Alpina-Standard-Light, sans-serif;
   }
-
   .containery .body.insight-html .main-statement-wrap .main-statement .italic {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
-
   .containery .body.insight-html .main-statement-wrap img {
     position: absolute;
     top: 0;
@@ -47,7 +41,6 @@
     max-height: 34.746vw;
     max-width: 34.746vw;
   }
-
   .containery .body.insight-html .tag-list li {
     display: block;
     font-family: Roobert-Medium, sans-serif;
@@ -55,14 +48,12 @@
     margin-right: 19.3167px;
     line-height: 25px;
   }
-
   .containery .body.insight-html .insight-by {
     font-family: Roobert-Medium, sans-serif;
     font-size: 14px;
     line-height: 25px;
     margin-top: 2.119vw;
   }
-
   .containery .body.insight-html .job-title {
     font-family: Roobert-Medium, sans-serif;
     font-size: 14px;
@@ -70,58 +61,47 @@
     line-height: 25px;
     margin-top: 3.23px;
   }
-
   .containery .body.insight-html .main-content {
     margin-top: 8.475vw;
   }
-
   .containery .body.insight-html .main-content .row {
     display: flex;
     max-width: 100%;
   }
-
   .containery .body.insight-html .main-content .row .col-3 {
     max-width: 22.034vw;
     width: 100%;
   }
-
   .containery .body.insight-html .main-content .row .col-7 {
     max-width: 54.237vw;
     width: 100%;
   }
-
   .containery .body.insight-html .main-content p {
     font-size: 2.203vw;
     line-height: 2.542vw;
     font-family: GT-Alpina-Standard-Light, sans-serif;
     margin-bottom: 2.119vw;
   }
-
   .containery .body.insight-html .main-content p.numerals {
     font-size: 2.47vw;
   }
-
   .containery .body.insight-html .main-content p .italic {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
-
   .containery .body.insight-html .main-content .content-img {
     width: 100%;
     margin-top: 2.119vw;
     margin-bottom: 4.238vw;
   }
-
   .containery .body.insight-html .main-content .italic-notes {
     font-size: 1.695vw;
     line-height: 2.542vw;
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
     margin-bottom: 2.119vw;
   }
-
   .containery .body.insight-html .main-content .share {
     margin-top: 6.78vw;
   }
-
   .containery .body.insight-html .main-content .share li {
     display: inline-block;
     font-family: Roobert-Regular, sans-serif;
@@ -129,41 +109,34 @@
     margin-right: 1.017vw;
     line-height: 30px;
   }
-
   .containery .body.insight-html .next-insight {
     margin-top: 172.983px;
     border-top: 1px solid;
     padding-top: 50px;
   }
-
   .containery .body.insight-html .next-insight .ref {
     font-family: Roobert-Medium, sans-serif;
     font-size: 16px;
     line-height: 20px;
   }
-
   .containery .body.insight-html .next-insight .next-title {
     margin-top: 5.424vw;
     margin-bottom: 16.949vw;
   }
-
   .containery .body.insight-html .next-insight .next-title:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 3px;
   }
-
   .containery .body.insight-html .next-insight .next-title span {
     font-size: 5.509vw;
     line-height: 5.509vw;
     letter-spacing: -0.169vw;
     display: block;
   }
-
   .containery .body.insight-html .next-insight .next-title .simple {
     font-family: GT-Alpina-Standard-Light, sans-serif;
   }
-
   .containery .body.insight-html .next-insight .next-title .italic {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
@@ -172,18 +145,15 @@
   .containery {
     padding: 0 16px;
   }
-
   .containery .body.insight-html {
     padding-top: 86px;
     width: 1450px;
     margin: 0 auto;
   }
-
   .containery .body.insight-html .main-statement-wrap {
     position: relative;
     height: 660px;
   }
-
   .containery .body.insight-html .main-statement-wrap .main-statement {
     font-size: 104.6px;
     line-height: 104.6px;
@@ -192,15 +162,12 @@
     width: 730px;
     top: 20px;
   }
-
   .containery .body.insight-html .main-statement-wrap .main-statement .simple {
     font-family: GT-Alpina-Standard-Light, sans-serif;
   }
-
   .containery .body.insight-html .main-statement-wrap .main-statement .italic {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
-
   .containery .body.insight-html .main-statement-wrap img {
     position: absolute;
     top: 0;
@@ -208,7 +175,6 @@
     max-height: 34.746vw;
     max-width: 34.746vw;
   }
-
   .containery .body.insight-html .tag-list li {
     display: block;
     font-family: Roobert-Medium, sans-serif;
@@ -216,7 +182,6 @@
     margin-right: 19.3167px;
     line-height: 25px;
   }
-
   .containery .body.insight-html .insight-by {
     font-family: Roobert-Medium, sans-serif;
     font-size: 14px;
@@ -224,7 +189,6 @@
     line-height: 25px;
     margin-top: 40.25px;
   }
-
   .containery .body.insight-html .job-title {
     font-family: Roobert-Medium, sans-serif;
     font-size: 14px;
@@ -232,56 +196,45 @@
     line-height: 25px;
     margin-top: 3.23px;
   }
-
   .containery .body.insight-html .main-content {
     margin-top: 161.017px;
   }
-
   .containery .body.insight-html .main-content .row {
     display: flex;
     max-width: 100%;
   }
-
   .containery .body.insight-html .main-content .row .col-3 {
     width: 418.417px;
   }
-
   .containery .body.insight-html .main-content .row .col-7 {
     width: 1029.95px;
   }
-
   .containery .body.insight-html .main-content p {
     font-size: 41.85px;
     line-height: 48.2833px;
     font-family: GT-Alpina-Standard-Light, sans-serif;
     margin-bottom: 40.25px;
   }
-
   .containery .body.insight-html .main-content p.numerals {
     font-size: 47px;
   }
-
   .containery .body.insight-html .main-content p .italic {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
-
   .containery .body.insight-html .main-content .content-img {
     width: 100%;
     margin-top: 40.25px;
     margin-bottom: 80.5px;
   }
-
   .containery .body.insight-html .main-content .italic-notes {
     font-size: 39px;
     line-height: 48.2833px;
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
     margin-bottom: 40.25px;
   }
-
   .containery .body.insight-html .main-content .share {
     margin-top: 128.75px;
   }
-
   .containery .body.insight-html .main-content .share li {
     display: inline-block;
     font-family: Roobert-Regular, sans-serif;
@@ -289,41 +242,34 @@
     font-size: 14px;
     line-height: 30px;
   }
-
   .containery .body.insight-html .next-insight {
     margin-top: 172.983px;
     border-top: 1px solid;
     padding-top: 50px;
   }
-
   .containery .body.insight-html .next-insight .ref {
     font-family: Roobert-Medium, sans-serif;
     font-size: 16px;
     line-height: 20px;
   }
-
   .containery .body.insight-html .next-insight .next-title {
     margin-top: 103.05px;
     margin-bottom: 322.017px;
   }
-
   .containery .body.insight-html .next-insight .next-title:hover {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 3px;
   }
-
   .containery .body.insight-html .next-insight .next-title span {
     font-size: 104.6px;
     line-height: 104.6px;
     letter-spacing: -3.2px;
     display: block;
   }
-
   .containery .body.insight-html .next-insight .next-title .simple {
     font-family: GT-Alpina-Standard-Light, sans-serif;
   }
-
   .containery .body.insight-html .next-insight .next-title .italic {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
@@ -337,11 +283,9 @@
   .containery {
     padding: 0 10px;
   }
-
   .containery .body.insight-html {
     padding-top: 86px;
   }
-
   .containery .body.insight-html .main-statement-wrap .main-statement {
     font-size: 42.3px;
     line-height: 42.3px;
@@ -349,24 +293,19 @@
     padding-right: 11vw;
     top: 20px;
   }
-
   .containery .body.insight-html .main-statement-wrap .main-statement .simple {
     font-family: GT-Alpina-Standard-Light, sans-serif;
   }
-
   .containery .body.insight-html .main-statement-wrap .main-statement .italic {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
-
   .containery .body.insight-html .main-statement-wrap img {
     margin-top: 45px;
     height: 266.833px;
   }
-
   .containery .body.insight-html .tag-list {
     margin-top: 60px;
   }
-
   .containery .body.insight-html .tag-list li {
     display: inline-block;
     font-family: Roobert-Medium, sans-serif;
@@ -374,7 +313,6 @@
     margin-right: 1.017vw;
     line-height: 20px;
   }
-
   .containery .body.insight-html .insight-by {
     font-family: Roobert-Medium, sans-serif;
     font-size: 14px;
@@ -382,7 +320,6 @@
     line-height: 20px;
     margin-top: 26px;
   }
-
   .containery .body.insight-html .job-title {
     font-family: Roobert-Medium, sans-serif;
     font-size: 14px;
@@ -390,23 +327,18 @@
     line-height: 20px;
     margin-bottom: 26px;
   }
-
   .containery .body.insight-html .job-title br {
     display: none;
   }
-
   .containery .body.insight-html .main-content {
     margin-top: 60px;
   }
-
   .containery .body.insight-html .main-content .row {
     max-width: 100%;
   }
-
   .containery .body.insight-html .main-content .row .col-7 {
     width: 100%;
   }
-
   .containery .body.insight-html .main-content p {
     font-size: 22px;
     line-height: 26px;
@@ -414,17 +346,14 @@
     margin-bottom: 25px;
     letter-spacing: -0.5px;
   }
-
   .containery .body.insight-html .main-content p .italic {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
-
   .containery .body.insight-html .main-content .content-img {
     width: 100%;
     margin-top: 2.119vw;
     margin-bottom: 4.238vw;
   }
-
   .containery .body.insight-html .main-content .italic-notes {
     font-size: 20px;
     line-height: 24px;
@@ -432,11 +361,9 @@
     margin-bottom: 25px;
     letter-spacing: -0.5px;
   }
-
   .containery .body.insight-html .main-content .share {
     margin-top: 52.0667px;
   }
-
   .containery .body.insight-html .main-content .share li {
     display: inline-block;
     font-family: Roobert-Medium, sans-serif;
@@ -444,35 +371,29 @@
     margin-right: 12px;
     line-height: 30px;
   }
-
   .containery .body.insight-html .next-insight {
     margin-top: 112.583px;
     border-top: 1px solid;
     padding-top: 50px;
   }
-
   .containery .body.insight-html .next-insight .ref {
     font-family: Roobert-Medium, sans-serif;
     font-size: 16px;
     line-height: 20px;
   }
-
   .containery .body.insight-html .next-insight .next-title {
     margin-top: 55px;
     margin-bottom: 125px;
   }
-
   .containery .body.insight-html .next-insight .next-title span {
     font-size: 45px;
     line-height: 45px;
     letter-spacing: -2px;
     display: block;
   }
-
   .containery .body.insight-html .next-insight .next-title .simple {
     font-family: GT-Alpina-Standard-Light, sans-serif;
   }
-
   .containery .body.insight-html .next-insight .next-title .italic {
     font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
   }
@@ -486,13 +407,11 @@
     position: relative;
     height: 277.967px;
   }
-
   .containery .insight-html .main-statement-wrap .main-statement {
     position: absolute;
     width: 51.492vw;
     padding-right: 0vw;
   }
-
   .containery .insight-html .main-statement-wrap img {
     position: absolute;
     top: 0;
@@ -501,6 +420,5 @@
     height: 266.833px;
   }
 }
-/*# sourceMappingURL=media.css.map */
 
 /*# sourceMappingURL=media.css.map */

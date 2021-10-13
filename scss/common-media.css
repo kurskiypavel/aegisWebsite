@@ -1,5 +1,5 @@
 /*---------+---------+---------+---------*/
-/*          |GENERAL STYLES|             */
+/*          |GENERAL STYLESs|             */
 /*---------+---------+---------+---------*/
 @font-face {
   font-family: GT-Alpina-Standard-Regular;
@@ -117,12 +117,6 @@ a i {
   font-family: GT-Alpina-Standard-Light, sans-serif;
   white-space: initial;
 }
-.desktop-content .navigation-content {
-  transition: 0.3s;
-}
-.desktop-content .navigation-content.toWhite {
-  color: white;
-}
 
 .team-menu.opened .sections {
   overflow-x: scroll;
@@ -160,7 +154,6 @@ a i {
 .mobile-content .navigation.nav-opened-by-content {
   top: 0;
   bottom: auto;
-  z-index: 1;
 }
 .mobile-content .navigation.nav-opened-by-content .mobile-menu {
   display: none;
@@ -553,22 +546,6 @@ a i {
   display: none;
 }
 
-.desktop-content .shadow-menu {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: 988;
-  background: #FF3300;
-  transition: 0.5s;
-  pointer-events: none;
-  opacity: 0;
-}
-.desktop-content .shadow-menu.active {
-  opacity: 0.8;
-}
-
 @media only screen and (max-width: 767px) {
   header .logo {
     margin-top: 10px;
@@ -852,6 +829,14 @@ a i {
   .desktop-content .navigation .team-menu .team-content .inner-row .row-team-block .col-6:nth-child(2) {
     margin-left: 18px;
   }
+  .desktop-content .navigation .team-menu .team-content .inner-row .row-team-block .team-member-copy {
+    font-size: max(2.222vw, 22px);
+    line-height: max(2.5vw, 26px);
+    letter-spacing: -0.042vw;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    width: 35.593vw;
+  }
   .desktop-content .navigation .team-menu .team-content .inner-row .col-3.d-block {
     margin-top: 4.915vw;
   }
@@ -1050,22 +1035,14 @@ a i {
   }
 
   .desktop-content .team-content .team-member-name {
-    font-size: 2.222vw;
-    line-height: 2.5vw;
+    font-size: max(26px, 2.222vw);
+    line-height: max(26px, 2.5vw);
     letter-spacing: -0.042vw;
   }
   .desktop-content .team-content .team-member-title {
-    font-size: 0.847vw;
-    line-height: 1.017vw;
-    margin-top: 0.339vw;
-  }
-  .desktop-content .team-content .team-member-copy {
-    font-size: 2.222vw;
-    line-height: 2.5vw;
-    letter-spacing: -0.042vw;
-    width: 35.593vw;
-    margin-top: 16px;
-    margin-bottom: 40px;
+    font-size: max(10px, 0.847vw);
+    line-height: max(12px, 1.017vw);
+    margin-top: max(4px, 0.339vw);
   }
 }
 @media only screen and (min-width: 1900px) {
@@ -1200,22 +1177,14 @@ a i {
   }
 
   .desktop-content .team-content .team-member-name {
-    font-size: 42.1833px;
-    line-height: 47.4667px;
-    letter-spacing: -0.78px;
+    font-size: max(26px, 2.222vw);
+    line-height: max(26px, 2.5vw);
+    letter-spacing: -0.042vw;
   }
   .desktop-content .team-content .team-member-title {
-    font-size: 16px;
-    line-height: 19.3px;
-    margin-top: 6.433px;
-  }
-  .desktop-content .team-content .team-member-copy {
-    font-size: 42.1833px;
-    line-height: 47.4667px;
-    letter-spacing: -0.78px;
-    width: 35.593vw;
-    margin-top: 16px;
-    margin-bottom: 40px;
+    font-size: max(10px, 0.847vw);
+    line-height: max(12px, 1.017vw);
+    margin-top: max(4px, 0.339vw);
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 767px) {
@@ -1344,6 +1313,12 @@ a i {
   }
   .desktop-content .navigation .team-menu .team-content .inner-row .row-team-block .col-6 img {
     height: 23.729vw;
+  }
+  .desktop-content .navigation .team-menu .team-content .inner-row .row-team-block .team-member-copy {
+    font-size: 2.222vw;
+    line-height: 2.5vw;
+    letter-spacing: -0.042vw;
+    width: 35.593vw;
   }
   .desktop-content .navigation .team-menu .team-content .inner-row .col-3.d-block {
     margin-top: 4.915vw;

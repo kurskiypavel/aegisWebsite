@@ -119,30 +119,32 @@ a {
     text-decoration: 2px underline red;
   }
 }
-.team-content{
-  position: relative;
-  .team-member-content{
-    position: absolute;
-    transition: 0.3s;
-    &:not(.active){
-      opacity: 0;
+.desktop-content{
+  .team-content{
+    position: relative;
+    .team-member-content{
+      position: absolute;
+      transition: 0.3s;
+      &:not(.active){
+        opacity: 0;
+      }
+    }
+    .team-member-name{
+      font-family: GT-Alpina-Standard-Light, sans-serif;
+    }
+    .team-member-title{
+      font-family: Roobert-Medium, sans-serif;
+    }
+    .team-member-copy{
+      font-family: GT-Alpina-Standard-Light,sans-serif;
+      white-space: initial;
     }
   }
-  .team-member-name{
-    font-family: GT-Alpina-Standard-Light, sans-serif;
-    font-size: max(26px,2.222vw);
-    line-height: max(26px,2.5vw);
-    letter-spacing: -0.042vw;
-  }
-  .team-member-title{
-    font-family: Roobert-Medium, sans-serif;
-    font-size: max(10px,0.847vw);
-    line-height: max(12px,1.017vw);
-    margin-top: max(4px,0.339vw);
-  }
-  .team-member-copy{
-    font-family: GT-Alpina-Standard-Light,sans-serif;
-    white-space: initial;
+  .navigation-content{
+    transition: 0.3s;
+    &.toWhite{
+      color: white;
+    }
   }
 }
 .team-menu.opened{
@@ -190,6 +192,7 @@ a {
     &.nav-opened-by-content {
       top: 0;
       bottom: auto;
+      z-index: 1;
 
       .mobile-menu {
         display: none;
@@ -668,6 +671,22 @@ a {
   display: none;
 }
 
+.desktop-content .shadow-menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 988;
+  background: #FF3300;
+  transition: 0.5s;
+  pointer-events: none;
+  opacity: 0;
+  &.active{
+    opacity: 0.8;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   header {
     .logo {
@@ -1008,14 +1027,6 @@ a {
                   margin-left: 18px;
                 }
               }
-              .team-member-copy{
-                font-size: max(2.222vw,22px);
-                line-height: max(2.5vw,26px);
-                letter-spacing: -0.042vw;
-                margin-top: 16px;
-                margin-bottom: 40px;
-                width: 35.593vw;
-              }
             }
 
             .col-3.d-block {
@@ -1270,6 +1281,28 @@ a {
       }
     }
   }
+  .desktop-content{
+    .team-content{
+      .team-member-name{
+        font-size: 2.222vw;
+        line-height: 2.5vw;
+        letter-spacing: -0.042vw;
+      }
+      .team-member-title{
+        font-size: 0.847vw;
+        line-height: 1.017vw;
+        margin-top: 0.339vw;
+      }
+      .team-member-copy{
+        font-size: 2.222vw;
+        line-height: 2.5vw;
+        letter-spacing: -0.042vw;
+        width: 35.593vw;
+        margin-top: 16px;
+        margin-bottom: 40px;
+      }
+    }
+  }
 }
 
 //Static content
@@ -1423,7 +1456,28 @@ a {
       }
     }
   }
-
+  .desktop-content{
+    .team-content{
+      .team-member-name{
+        font-size: 42.1833px;
+        line-height: 47.4667px;
+        letter-spacing: -0.78px;
+      }
+      .team-member-title{
+        font-size: 16px;
+        line-height: 19.3px;
+        margin-top: 6.433px;
+      }
+      .team-member-copy{
+        font-size: 42.1833px;
+        line-height: 47.4667px;
+        letter-spacing: -0.78px;
+        width: 35.593vw;
+        margin-top: 16px;
+        margin-bottom: 40px;
+      }
+    }
+  }
 }
 
 //Contact mobile menu stop scale from 500px and higher to 767 - static
@@ -1618,12 +1672,6 @@ a {
                 img {
                   height: 23.729vw;
                 }
-              }
-              .team-member-copy{
-                font-size: 2.222vw;
-                line-height: 2.5vw;
-                letter-spacing: -0.042vw;
-                width: 35.593vw;
               }
             }
 

@@ -6,6 +6,15 @@ header {
   padding: 0 10px;
 }
 
+.main-statement{
+  display: none;
+}
+.main-statement-wrap{
+  .num-svg{
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .mobile-content, .mobile-menu {
     display: none;
@@ -47,7 +56,9 @@ header {
 
       .main-statement-wrap {
         height: 600px;
-        background-image: url("../static/images/desktop/cases/crescent/1_crescentcase_hero_mobile.jpg");
+        &.crescentHero{
+          background-image: url("../static/images/desktop/cases/crescent/1_crescentcase_hero_mobile.jpg");
+        }
         background-size: cover;
         background-position: center;
         position: relative;
@@ -297,6 +308,8 @@ header {
           margin-top: 70px;
           width: 100vw;
           position: relative;
+          max-height: 350px;
+          overflow: hidden;
 
           img {
             width: 100%;
@@ -408,10 +421,11 @@ header {
           }
 
           .content-head-text {
-            font-size: 56.3333px;
-            line-height: 60.6833px;
+            font-size: 52.0667px;
+            line-height: 52.0667px;
             letter-spacing: -1.71667px;
             margin-top: 95.35px;
+            max-width: 607.45px;
 
             .simple {
               font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -605,10 +619,11 @@ header {
             margin-top: 50px;
 
             span {
-              font-size: 56.3333px;
-              line-height: 56.3333px;
+              font-size: 52.0667px;
+              line-height: 52.0667px;
               letter-spacing: -1.71667px;
               display: block;
+              max-width: 607.45px;
             }
 
             .simple {
@@ -625,6 +640,8 @@ header {
           margin-top: 70px;
           width: 100vw;
           position: relative;
+          max-height: 350px;
+          overflow: hidden;
 
           img {
             width: 100%;
@@ -691,15 +708,16 @@ header {
 
           .tag {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 15px;
+            font-size: 16px;
             letter-spacing: 0.2px;
           }
 
           .content-head-text {
-            font-size: 5.508vw;
-            line-height: 5.932vw;
+            font-size: 5.085vw;
+            line-height: 5.085vw;
             letter-spacing: -0.169vw;
             margin-top: 9.322vw;
+            max-width: 59.322vw;
 
             .simple {
               font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -713,7 +731,7 @@ header {
 
           .case-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 1.695vw;
+            font-size: 20px;
             position: absolute;
             bottom: 0;
           }
@@ -732,7 +750,7 @@ header {
 
             ul {
               font-family: GT-Alpina-Standard-Light, sans-serif;
-              font-size: 15px;
+              font-size: 16px;
               line-height: 20px;
               white-space: initial;
               margin-top: 17px;
@@ -855,12 +873,14 @@ header {
 
           .next-title {
             margin-top: 4.237vw;
+            max-width: 60vw;
 
             span {
-              font-size: 5.508vw;
-              line-height: 5.508vw;
+              font-size: 5.085vw;
+              line-height: 5.085vw;
               letter-spacing: -0.169vw;
               display: block;
+              max-width: 59.322vw;
             }
 
             .simple {
@@ -877,6 +897,8 @@ header {
           margin-top: 8.475vw;
           width: 100vw;
           position: relative;
+          max-height: 350px;
+          overflow: hidden;
 
           img {
             width: 100%;
@@ -943,15 +965,16 @@ header {
 
           .tag {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 15px;
+            font-size: 16px;
             letter-spacing: 0.2px;
           }
 
           .content-head-text {
-            font-size: 104.652px;
-            line-height: 112.708px;
+            font-size: 96.55px;
+            line-height: 96.55px;
             letter-spacing: -3.211px;
             margin-top: 177.118px;
+            max-width: 1126.52px;
 
             .simple {
               font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -965,7 +988,7 @@ header {
 
           .case-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 32.205px;
+            font-size: 20px;
             position: absolute;
             bottom: 0;
           }
@@ -984,7 +1007,7 @@ header {
 
             ul {
               font-family: GT-Alpina-Standard-Light, sans-serif;
-              font-size: 15px;
+              font-size: 16px;
               line-height: 20px;
               white-space: initial;
               margin-top: 17px;
@@ -1113,12 +1136,14 @@ header {
 
           .next-title {
             margin-top: 80.503px;
+            max-width: 1140px;
 
             span {
-              font-size: 104.652px;
-              line-height: 104.652px;
+              font-size: 96.55px;
+              line-height: 96.55px;
               letter-spacing: -3.211px;
               display: block;
+              max-width: 1126.52px;
             }
 
             .simple {
@@ -1135,6 +1160,8 @@ header {
           margin-top: 161.025px;
           width: 100vw;
           position: relative;
+          max-height: 350px;
+          overflow: hidden;
 
           img {
             width: 100%;

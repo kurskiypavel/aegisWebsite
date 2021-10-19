@@ -72,6 +72,9 @@ header {
         &.kandaloreHero{
           background-image: url("../static/images/desktop/cases/kandalore/1 CampKCase Hero.jpg");
         }
+        &.unitedWayHero{
+          background-image: url("../static/images/desktop/cases/unitedway/1 unitedway_hero.jpg");
+        }
         background-size: cover;
         background-position: center;
         position: relative;
@@ -151,6 +154,10 @@ header {
           max-width: 100%;
           margin-top: 75px;
           padding-bottom: 24px;
+
+          &.iframe-video{
+            height: 57.22vw;
+          }
 
           p {
             font-size: 22px;
@@ -275,7 +282,6 @@ header {
           }
 
           .percentage-description {
-            margin-top: 25.1333px;
             font-family: Roobert-Medium, sans-serif;
             font-size: 13px;
             line-height: 15.6px;
@@ -412,6 +418,9 @@ header {
         &.kandaloreHero{
           background-image: url("../static/images/desktop/cases/kandalore/1 CampKCase Hero.jpg");
         }
+        &.unitedWayHero{
+          background-image: url("../static/images/desktop/cases/unitedway/1 unitedway_hero.jpg");
+        }
         background-size: cover;
         background-position: center;
         position: relative;
@@ -504,6 +513,10 @@ header {
           padding: 0 11.017vw 5px;
           margin-top: 75px;
 
+          &.iframe-video{
+            height: 44.22vw;
+          }
+
           p {
             font-size: 26px;
             line-height: 30px;
@@ -565,20 +578,21 @@ header {
             .percentage-mobile-wrap {
               font-family: GT-Alpina-Standard-Light, sans-serif;
               display: flex;
-              max-width: 510px;
+              max-width: calc(100vw - 20px);
               width: 100%;
               margin-bottom: 65px;
 
               .percentage {
                 font-size: 60px;
                 letter-spacing: -1.71667px;
-                margin-right: 40px;
+                margin-right: 20px;
               }
 
               .percentage-description {
                 font-family: Roobert-Medium, sans-serif;
                 font-size: 15px;
                 line-height: 18px;
+                margin-right: 40px;
               }
             }
           }
@@ -631,7 +645,6 @@ header {
           }
 
           .percentage-description {
-            margin-top: 25.1333px;
             font-family: Roobert-Medium, sans-serif;
             font-size: 13px;
             line-height: 15.6px;
@@ -725,6 +738,10 @@ header {
 
         &.kandaloreHero{
           background-image: url("../static/images/desktop/cases/kandalore/1 CampKCase Hero.jpg");
+        }
+
+        &.unitedWayHero{
+          background-image: url("../static/images/desktop/cases/unitedway/1 unitedway_hero.jpg");
         }
         background-size: cover;
         background-position: center;
@@ -924,10 +941,13 @@ header {
           .percentage {
             font-size: 5.085vw;
             letter-spacing: -0.169vw;
+            margin-top: 2.458vw;
+            &:first-of-type{
+              margin-top: 0;
+            }
           }
 
           .percentage-description {
-            margin-top: 2.458vw;
             font-family: Roobert-Medium, sans-serif;
             font-size: 1.271vw;
             line-height: 1.525vw;
@@ -1020,6 +1040,9 @@ header {
 
         &.kandaloreHero{
           background-image: url("../static/images/desktop/cases/kandalore/1 CampKCase Hero.jpg");
+        }
+        &.unitedWayHero{
+          background-image: url("../static/images/desktop/cases/unitedway/1 unitedway_hero.jpg");
         }
         background-size: cover;
         background-position: center;
@@ -1114,6 +1137,9 @@ header {
           margin: 128.75px auto 0;
           display: flex;
           justify-content: center;
+          &.iframe-video{
+            height: 839.733px;
+          }
 
           p {
             font-size: 41.857px;
@@ -1214,10 +1240,13 @@ header {
           .percentage {
             font-size: 96.615px;
             letter-spacing: -3.211px;
+            margin-top: 46.6px;
+            &:first-of-type{
+              margin-top: 0;
+            }
           }
 
           .percentage-description {
-            margin-top: 46.702px;
             font-family: Roobert-Medium, sans-serif;
             font-size: 24.149px;
             line-height: 28.975px;

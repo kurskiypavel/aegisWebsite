@@ -233,6 +233,15 @@ header {
             max-width: 100%;
             margin: 31px auto 0;
             display: block;
+            &.flex{
+              .iframe-square .iframe-square-video {
+                width: 100vw;
+                height: 50vw;
+              }
+              .iframe-square.iframe-square-r {
+                margin-top: 3.91vw;
+              }
+            }
           }
         }
 
@@ -581,6 +590,14 @@ header {
             width: 78.220vw;
             margin: 70px auto 0;
             display: block;
+            &.flex{
+              .iframe-square .iframe-square-video {
+                height: 43.339vw;
+              }
+              .iframe-square.iframe-square-r {
+                margin-top: 3.91vw;
+              }
+            }
           }
         }
 
@@ -859,7 +876,24 @@ header {
             max-width: 100%;
             width: 78.220vw;
             margin: 8.475vw auto 0;
-            display: block;
+            &.flex{
+              display: flex;
+            }
+            &:not(.flex){
+              display: block;
+            }
+            .iframe-square.iframe-square-l {
+              margin-right: 1.695vw;
+              max-width: calc(50% - 1.695vw);
+            }
+            .iframe-square.iframe-square-r {
+              margin-left: 1.695vw;
+              max-width: calc(50% - 1.695vw);
+            }
+            .iframe-square .iframe-square-video {
+              width: 36.428vw;
+              height: 20.339vw;
+            }
           }
         }
 
@@ -1131,7 +1165,24 @@ header {
             max-width: 100%;
             width: 1486.18px;
             margin: 161.025px auto 0;
-            display: block;
+            &.flex{
+              display: flex;
+              .iframe-square.iframe-square-l {
+                margin-right: 1.695vw;
+                max-width: calc(50% - 1.695vw);
+              }
+              .iframe-square.iframe-square-r {
+                margin-left: 1.695vw;
+                max-width: calc(50% - 1.695vw);
+              }
+              .iframe-square .iframe-square-video {
+                width: 36.428vw;
+                height: 20.339vw;
+              }
+            }
+            &:not(.flex){
+              display: block;
+            }
           }
         }
 

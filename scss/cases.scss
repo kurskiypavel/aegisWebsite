@@ -158,8 +158,14 @@ header {
         .content-row {
           display: flex;
           max-width: 100%;
-          margin-top: 75px;
-          padding-bottom: 24px;
+          &:not(.imgSet){
+            margin-top: 30px;
+
+          }
+          &.imgSet{
+            margin-top: 30px;
+
+          }
 
           &.iframe-video{
             height: 57.22vw;
@@ -244,8 +250,13 @@ header {
         .row {
           .full-row {
             max-width: 100%;
-            margin: 31px auto 0;
             display: block;
+            &:not(.imgSet){
+              margin: 30px auto 0;
+            }
+            &.imgSet{
+              margin: 30px auto 0;
+            }
             &.flex{
               .iframe-square .iframe-square-video {
                 width: 100vw;
@@ -470,15 +481,15 @@ header {
 
           .tag {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 13px;
-            letter-spacing: -0.416667px;
+            font-size: 16px;
+            letter-spacing: .2px;
           }
 
           .content-head-text {
             font-size: 52.0667px;
             line-height: 52.0667px;
             letter-spacing: -1.71667px;
-            margin-top: 95.35px;
+            margin-top: 56.4px;
             max-width: 607.45px;
 
             .simple {
@@ -493,27 +504,27 @@ header {
 
           .case-name {
             font-family: Roobert-Bold, sans-serif;
-            font-size: 17.3333px;
+            font-size: 20px;
             position: absolute;
             bottom: 0;
           }
 
           .tag-list {
-            margin-top: 95.35px;
+            margin-top: 195.25px;
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
             width: 175.8px;
 
             .folder-icon {
-              width: 13px;
+              width: 15px;
               height: auto;
             }
 
             ul {
               font-family: GT-Alpina-Standard-Light, sans-serif;
-              font-size: 13px;
-              line-height: 17.3333px;
+              font-size: 16px;
+              line-height: 20px;
               white-space: initial;
               margin-top: 14.7333px;
             }
@@ -524,7 +535,12 @@ header {
           display: flex;
           max-width: 100%;
           padding: 0 11.017vw 5px;
-          margin-top: 75px;
+          &:not(.imgSet){
+            margin-top: 112.8px;
+          }
+          &.imgSet{
+            margin-top: 70px;
+          }
 
           &.iframe-video{
             height: 44.22vw;
@@ -615,8 +631,14 @@ header {
           .full-row {
             max-width: 100%;
             width: 78.220vw;
-            margin: 70px auto 0;
+            margin: 112.8px auto 0;
             display: block;
+            &:not(.imgSet){
+              margin: 112.8px auto 0;
+            }
+            &.imgSet{
+              margin: 70px auto 0;
+            }
             &.flex{
               .iframe-square .iframe-square-video {
                 height: 43.339vw;
@@ -665,10 +687,15 @@ header {
         }
 
         .row-full {
-          margin-top: 8.475vw;
           width: 100vw;
           position: relative;
           left: -10px;
+          &:not(.imgSet){
+            margin-top: 112.8px;
+          }
+          &.imgSet{
+            margin-top: 70px;
+          }
         }
       }
 
@@ -807,7 +834,7 @@ header {
             font-size: 5.085vw;
             line-height: 5.085vw;
             letter-spacing: -0.169vw;
-            margin-top: 9.322vw;
+            margin-top: 5.508vw;
             max-width: 59.322vw;
 
             .simple {
@@ -828,7 +855,7 @@ header {
           }
 
           .tag-list {
-            margin-top: 9.322vw;
+            margin-top: 19.068vw;
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
@@ -852,8 +879,13 @@ header {
         .content-row {
           display: flex;
           max-width: 100%;
-          padding: 0 11.017vw 4.237vw;
-          margin-top: 6.78vw;
+          padding: 0 11.017vw 0;
+          &:not(.imgSet){
+            margin-top: 11.017vw;
+          }
+          &.imgSet{
+            margin-top: 6.780vw;
+          }
 
           p {
             font-size: 2.203vw;
@@ -911,7 +943,12 @@ header {
           .full-row {
             max-width: 100%;
             width: 78.220vw;
-            margin: 8.475vw auto 0;
+            &:not(.imgSet){
+              margin: 11.017vw auto 0;
+            }
+            &.imgSet{
+              margin: 6.780vw auto 0;
+            }
             &.flex{
               display: flex;
             }
@@ -932,6 +969,7 @@ header {
             }
           }
         }
+
 
         .quote-block {
           padding: 0 11.017vw 4.237vw;
@@ -974,10 +1012,15 @@ header {
         }
 
         .row-full {
-          margin-top: 8.475vw;
           width: 100vw;
           position: relative;
           left: -10px;
+          &:not(.imgSet){
+            margin-top: 11.017vw;
+          }
+          &.imgSet{
+            margin-top: 6.780vw;
+          }
         }
       }
 
@@ -1114,7 +1157,7 @@ header {
             font-size: 96.55px;
             line-height: 96.55px;
             letter-spacing: -3.211px;
-            margin-top: 177.118px;
+            margin-top: 104.583px;
             max-width: 1126.52px;
 
             .simple {
@@ -1135,7 +1178,7 @@ header {
           }
 
           .tag-list {
-            margin-top: 177.118px;
+            margin-top: 362.1px;
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
@@ -1158,10 +1201,16 @@ header {
 
         .content-row {
           max-width: 1880px;
-          padding: 0 209.323px 80.503px;
-          margin: 128.75px auto 0;
+          padding: 0 209.323px 0;
+
           display: flex;
           justify-content: center;
+          &:not(.imgSet){
+            margin: 209.2px auto 0;
+          }
+          &.imgSet{
+            margin: 128.75px auto 0;
+          }
           &.iframe-video{
             height: 839.733px;
           }
@@ -1215,7 +1264,12 @@ header {
           .full-row {
             max-width: 100%;
             width: 1486.18px;
-            margin: 161.025px auto 0;
+            &:not(.imgSet){
+              margin: 209.2px auto 0;
+            }
+            &.imgSet{
+              margin: 128.75px auto 0;
+            }
             &.flex{
               display: flex;
               .iframe-square.iframe-square-l {
@@ -1279,10 +1333,15 @@ header {
         }
 
         .row-full {
-          margin-top: 161.025px;
           width: 100vw;
           position: relative;
           left: -10px;
+          &:not(.imgSet){
+            margin-top: 209.2px;
+          }
+          &.imgSet{
+            margin-top: 128.75px;
+          }
 
           img, video {
             width: 100%;

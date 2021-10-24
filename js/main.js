@@ -219,7 +219,7 @@ function loadCase(caseToLoad) {
     $(".desktop-content .containery .new-html").load(`${caseToLoad}.html .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
             deactivateShadow();
-            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=10">');
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=11">');
             $('link[title="insightCss"]').remove();
             loadImage($(".case-hero-img:first-child").attr('src')).then(() => {
                 console.log('img loaded');

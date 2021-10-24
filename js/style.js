@@ -184,6 +184,28 @@ function toggleMobileTeam() {
     }
 }
 
+function teamMobileMenuJs(teamMobileMenuItem) {
+
+    const teamMobileMenuItemClassList = teamMobileMenuItem.parentElement.classList;
+    teamMobileMenuItemClassList.remove('preopened');
+    teamMobileMenuItemClassList.remove('slided');
+    teamMobileMenuItemClassList.add('opened');
+    const previousSiblings = getPreviousSiblings(teamMobileMenuItem.parentElement);
+    previousSiblings.forEach(div => {
+        div.classList.remove('preopened');
+        div.classList.add('opened');
+        div.classList.add('slided');
+        div.scrollTop = 0;
+    });
+
+    const nextSiblings = getNextSiblings(teamMobileMenuItem.parentElement);
+    nextSiblings.forEach(div => {
+        div.classList.remove('opened');
+        div.classList.add('preopened');
+    });
+}
+
+
 /*---------+---------+---------+--------+-----------*/
 /*             |MOBILE INSIGHTS MENU|            */
 

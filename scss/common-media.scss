@@ -668,19 +668,23 @@ a {
       display: block;
     }
 
-    .team-panel__inner {
-      border-top: 1px solid;
-      padding-top: 5px;
-    }
 
     .section.team-panel__inner {
-      overflow-y: scroll;
+      &:not(.slided){
+        &.opened{
+          overflow-y: scroll;
+        }
+      }
+      &.slided.opened{
+        overflow: hidden;
+      }
       position: absolute;
       background: #fff;
       width: calc(100% - 20px);
 
       &.opened {
         height: calc(100vh - 42.5px - 30px * 4);
+        bottom: calc(30px * calc(4 - var(--item-index)));
       }
 
       &.preopened {
@@ -689,8 +693,16 @@ a {
         height: 30px;
       }
 
+      .team-panel__header {
+        border-top: 1px solid;
+        height: 15px;
+        padding-top: 6px;
+      }
+
       .team-member-name {
         font-family: GT-Alpina-Standard-Light, sans-serif;
+        font-size: 16px;
+        letter-spacing: .4px;
       }
 
       .team-member-title {
@@ -698,7 +710,7 @@ a {
         font-family: Roobert-Regular, sans-serif;
         font-size: 11px;
         margin-bottom: 26px;
-        margin-top: 4px;
+        margin-top: 8px;
       }
 
       .team-img-block {

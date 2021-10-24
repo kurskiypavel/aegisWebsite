@@ -6,7 +6,12 @@
 function toggleMobileMenu() {
     const mobileContentNavigation = $('.mobile-content .navigation');
 
-    //close contact from menu code
+    if ($('.contact-menu.opened').length > 0) {
+        toggleMobileContact();
+    }
+    if ($('.team-menu.opened').length > 0) {
+        toggleMobileTeam();
+    }
 
     if (!mobileContentNavigation.hasClass('nav-opened')) {
         console.log('Open 3 menu mobile items')
@@ -117,6 +122,10 @@ function closeMobileMenuTitlePage() {
 
 function toggleMobileContact() {
     const mobileContent = $('.mobile-content .contact-menu');
+    if ($('.team-menu.opened').length > 0) {
+        toggleMobileTeam();
+    }
+
     if (!mobileContent.hasClass('opened')) {
 
         if ($('#caseStudyMobileContent').hasClass('opened')) {
@@ -148,6 +157,9 @@ function toggleMobileContact() {
 
 function toggleMobileTeam() {
     const mobileContent = $('#teamMobileContent');
+    if ($('.contact-menu.opened').length > 0) {
+        toggleMobileContact();
+    }
     if (!mobileContent.hasClass('opened')) {
 
         if ($('#caseStudyMobileContent').hasClass('opened')) {
@@ -452,7 +464,7 @@ function closeTeamFromMenu() {
     $('.team-item-arrow').text('↑');
 }
 
-function nextTeamTab(e){
+function nextTeamTab(e) {
     console.log(e.target);
     $('.team-item-title.active-element.active').removeClass('active');
     const target = $(e.target);
@@ -553,11 +565,12 @@ function closeProjectsContent(e) {
 
 /* Shadow styles */
 
-function activateShadow(){
-        $('.shadow-menu').addClass('active');
-        $('.desktop-content .navigation-content').addClass('toWhite');
+function activateShadow() {
+    $('.shadow-menu').addClass('active');
+    $('.desktop-content .navigation-content').addClass('toWhite');
 }
-function deactivateShadow(){
-        $('.shadow-menu.active').removeClass('active');
-        $('.desktop-content .navigation-content.toWhite').removeClass('toWhite');
+
+function deactivateShadow() {
+    $('.shadow-menu.active').removeClass('active');
+    $('.desktop-content .navigation-content.toWhite').removeClass('toWhite');
 }

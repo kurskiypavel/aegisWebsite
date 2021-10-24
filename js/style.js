@@ -304,8 +304,8 @@ function toggleDesktopMenu() {
             desktopContentNavigation.removeClass('nav-opened');
             $('.navigation-arrow-up').removeClass('rotated');
             restoreDefaultMenu();
+            deactivateShadow();
         }
-        deactivateShadow();
     }
 }
 
@@ -588,11 +588,13 @@ function closeProjectsContent(e) {
 /* Shadow styles */
 
 function activateShadow() {
+    console.log('activateShadow');
     $('.shadow-menu').addClass('active');
     $('.desktop-content .navigation-content').addClass('toWhite');
 }
 
 function deactivateShadow() {
+    console.log('deactivateShadow');
     $('.shadow-menu.active').removeClass('active');
     $('.desktop-content .navigation-content.toWhite').removeClass('toWhite');
 }

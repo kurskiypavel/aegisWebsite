@@ -4,7 +4,7 @@
   height: 100vh;
 
   .case-study-panel__inner {
-    //transition: .5s;
+    transition: .5s;
 
     &.opened {
       //transform: translateX(calc(-100vw + 50px + calc(var(--case-study-items) * 40px)));

@@ -315,6 +315,7 @@ function showMenuItemContent() {
 
 function hideMenuItemContent() {
     console.log('hideMenuItemContent')
+    activateShadow();
     $('.desktop-menu').css('--menu-items-length', 3);//TODO HARDCODED
     setTimeout(() => {
         // $('#htmlLoadZeroMenuItemContent').remove();
@@ -334,6 +335,7 @@ function showCaseStudyContent(menuElementId) {
 
     function toggleZeroMenuItemContent() {
         console.log('Open 6 items')
+        deactivateShadow();
         const menuItem0Js = $('#menu-item-0-js');
         if (!menuItem0Js.hasClass('touched')) {
             menuItem0Js.addClass('touched');
@@ -524,6 +526,7 @@ function showInsightsContentFromHomepage(e) {
 
 function showInsightsContent() {
     console.log('showInsightsContent');
+    deactivateShadow();
     $('#menu-item-2-js').removeClass('closed');
     $('.desktop-menu').addClass('opened');
     $('.navigation-content').addClass('white-back');
@@ -536,6 +539,7 @@ function showInsightsContent() {
 
 function closeInsightsContent(e) {
     console.log('closeInsightsContent');
+    if (!$('.menu-content-opened').length > 0) activateShadow();
     $('.desktop-menu').removeClass('opened');
     $('.navigation-content').removeClass('white-back');
     $('#menu-item-2-js .menu-item-arrow').text('↑');
@@ -562,6 +566,7 @@ function slideFilterTags() {
 
 function showProjectsContent() {
     console.log('showProjectsContent');
+    deactivateShadow();
     $('#menu-item-2-js').addClass('closed');
     $('.desktop-menu').addClass('opened');
     $('.nav-opened').addClass('fullvw');
@@ -574,6 +579,7 @@ function showProjectsContent() {
 
 function closeProjectsContent(e) {
     console.log('closeProjectsContent');
+    activateShadow();
     $('.desktop-menu').removeClass('opened');
     $('.nav-opened').removeClass('fullvw');
     $('.navigation-content').removeClass('white-back');

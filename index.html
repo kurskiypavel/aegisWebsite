@@ -152,8 +152,13 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                                             <img class="drunk-2"  src="static/images/desktop/homepage/DRUNK-images-2.jpg" alt="">
                                             <h2>Want to hear more from us?</h2>
                                             <div class="ref-item space-between fake-input">
-                                                <span><i>Email Address</i></span>
-                                                <span class="enterIcon" >↩</span>
+                                                <form name="subscribe" style="width: 100%;">
+                                                    <div class="input-group" style="display: flex;justify-content: space-between;">
+                                                        <input type="email" class="input-group__input" placeholder="Email Address" required="" value="">
+                                                        <span type="submit" onclick="$('#ddddd').click()"  class="active-element">↩</span>
+                                                        <button id="ddddd" type="submit" style="display: none"></button>
+                                                    </div>
+                                                </form>
                                             </div>
                                             <p class="fake-input__label"><i>Enter your email for updates on
                                                 our thoughts and projects</i>
@@ -729,8 +734,13 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                             <img class="DRUNK-images-2" src="static/images/mobile/homepage/DRUNK-images-2-mobile-only.png" alt="">
                             <h2>Want to hear more from us?</h2>
                             <div class="ref-item space-between fake-input">
-                                <span><i>Email Address</i></span>
-                                <span>↩</span>
+                                <form name="subscribeMobile" style="width: 100%;">
+                                    <div class="input-group" style="display: flex;justify-content: space-between;">
+                                        <input type="email" class="input-group__input" placeholder="Email Address" required="" value="">
+                                        <span type="submit" onclick="$('#dddddM').click()"  class="active-element">↩</span>
+                                        <button id="dddddM" type="submit" style="display: none"></button>
+                                    </div>
+                                </form>
                             </div>
                             <p class="fake-input__label"><i>Enter your email for updates on<br>
                                 our thoughts and projects</i>
@@ -759,8 +769,13 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                                         <img class="drunk-2" src="static/images/desktop/homepage/DRUNK-images-2.jpg" alt="">
                                         <h2>Want to hear more from us?</h2>
                                         <div class="ref-item space-between fake-input">
-                                            <span><i style="">Email Address</i></span>
-                                            <span class="enterIcon">↩</span>
+                                            <form name="subscribeIpad" style="width: 100%;">
+                                                <div class="input-group" style="display: flex;justify-content: space-between;">
+                                                    <input type="email" class="input-group__input" placeholder="Email Address" required="" value="">
+                                                    <span type="submit" onclick="$('#dddddI').click()" class="active-element">↩</span>
+                                                    <button id="dddddI" type="submit" style="display: none"></button>
+                                                </div>
+                                            </form>
                                         </div>
                                         <p class="fake-input__label"><i>Enter your email for updates on
                                             our thoughts and projects</i>
@@ -1317,6 +1332,42 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
         </div>
     </div>
 </div>
+<script type="text/javascript" src="static/js-libs/email.min.js"></script>
+
+<script type="text/javascript">
+
+    (function() {
+        emailjs.init("user_ahZBxkLKljJugZLitAwoa");
+    })();
+    $('form[name="subscribe"]').on("submit",(e)=>{
+        e.preventDefault();
+        commonFormAction(e);
+    });
+    $('form[name="subscribeIpad"]').on("submit",(e)=>{
+        e.preventDefault();
+        commonFormAction(e);
+    });
+    $('form[name="subscribeMobile"]').on("submit",(e)=>{
+        e.preventDefault();
+        commonFormAction(e);
+    });
+
+    function commonFormAction(e) {
+        sendEmail($(e.target).find('input').val());
+        $(e.target).find('span').addClass("disabled")
+        $(e.target).find('input').val("")
+        $(e.target).find('input').attr('placeholder','Thank you!');
+    }
+
+    function sendEmail(email) {
+        console.log(email);
+        emailjs.send("service_t6hrnoo","template_fttkzdc",{
+            message: `${email}`,
+        });
+        // https://dashboard.emailjs.com/admin/history
+
+    }
+</script>
 
 </body>
 </html>

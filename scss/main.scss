@@ -132,6 +132,24 @@
             font-size: 22px;
           }
 
+          .input-group__input::placeholder {
+            font-size: 22px;
+            line-height: 26px;
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+            color: #f30;
+            opacity: 1;
+          }
+          .input-group__input {
+            border: 0;
+            padding: 0;
+            font-size: 22px;
+            line-height: 26px;
+            font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+            color: #f30;
+            max-width: 100%;
+            width: 100%;
+          }
+
           .ref-item {
             margin-top: 25px;
             font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -275,6 +293,24 @@
           margin-bottom: 1.119vw;
           font-family: Roobert-Bold, sans-serif;
         }
+        .input-group__input::placeholder {
+          line-height: 14.7333px;
+          font-size: 11.9833px;
+          font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          color: #f30;
+          opacity: 1;
+        }
+        .input-group__input {
+          border: 0;
+          padding: 0;
+          line-height: 14.7333px;
+          font-size: 11.9833px;
+          font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+          color: #f30;
+          max-width: 100%;
+          width: 100%;
+        }
+
 
         i {
           line-height: 14.7333px;

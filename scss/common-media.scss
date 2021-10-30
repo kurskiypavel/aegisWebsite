@@ -109,6 +109,11 @@ a {
   &:hover {
     opacity: .5;
   }
+
+  &.disabled {
+    opacity: 0;
+    pointer-events: none;
+  }
 }
 
 .clear-underline {
@@ -670,14 +675,16 @@ a {
 
 
     .section.team-panel__inner {
-      &:not(.slided){
-        &.opened{
+      &:not(.slided) {
+        &.opened {
           overflow-y: scroll;
         }
       }
-      &.slided.opened{
+
+      &.slided.opened {
         overflow: hidden;
       }
+
       position: absolute;
       background: #fff;
       width: calc(100% - 20px);

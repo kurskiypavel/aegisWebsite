@@ -236,7 +236,23 @@
                 margin-bottom: 15px;
                 line-height: 1.667vw;
                 font-size: 1.356vw;
-
+                .input-group__input::placeholder {
+                  line-height: 1.667vw;
+                  font-size: 1.356vw;
+                  font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+                  color: #f30;
+                  opacity: 1;
+                }
+                .input-group__input {
+                  border: 0;
+                  padding: 0;
+                  line-height: 1.667vw;
+                  font-size: 1.356vw;
+                  font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+                  color: #f30;
+                  max-width: 100%;
+                  width: 100%;
+                }
 
                 &.fake-input {
                   border-bottom: 1px solid;
@@ -474,7 +490,23 @@
                 margin-bottom: 15px;
                 line-height: 1.667vw;
                 font-size: 1.356vw;
-
+                .input-group__input::placeholder {
+                  line-height: 1.667vw;
+                  font-size: 1.356vw;
+                  font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+                  color: #f30;
+                  opacity: 1;
+                }
+                .input-group__input {
+                  border: 0;
+                  padding: 0;
+                  line-height: 1.667vw;
+                  font-size: 1.356vw;
+                  font-family: GT-Alpina-Standard-Light-Italic, sans-serif;
+                  color: #f30;
+                  max-width: 100%;
+                  width: 100%;
+                }
 
                 &.fake-input {
                   border-bottom: 1px solid;

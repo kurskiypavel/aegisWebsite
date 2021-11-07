@@ -751,6 +751,15 @@ a {
   &.displayNone {
     display: none;
   }
+  &.content-intro{
+    &.active{
+      top: 100vh;
+    }
+    position: absolute;
+    transition: .6s;
+    top: 0;
+    z-index: 1001;
+  }
 }
 
 .fullvw {

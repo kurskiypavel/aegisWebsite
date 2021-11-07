@@ -221,7 +221,7 @@ function loadCase(caseToLoad) {
             deactivateShadow();
             $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=11">');
             $('link[title="insightCss"]').remove();
-            loadImage($(".case-hero-img:first-child").attr('src')).then(() => {
+            loadImage($(".case-hero-img:first-child").attr('src')).then(async () => {
                 console.log('img loaded');
                 $('.js-page-loading').removeClass('js-page-loading');
                 $('title').load(`${caseToLoad}.html title`, '', function (data) {
@@ -236,13 +236,9 @@ function loadCase(caseToLoad) {
                 //animation here
                 $('.old-html').remove();
                 $('.new-html.inactive .case-study-html').unwrap();
-                $('.desktop-content .navigation').removeClass('nav-opened');
                 $('.homepage').removeClass('homepage');
-                $('.navigation-arrow-up').removeClass('rotated');
-                $('.zeroMenuItemContent').addClass('closed');
-                restoreDefaultMenu();
-                console.log('// Animation end.')
-                $('.preventClick').removeClass('preventClick');
+
+                runContentIntroAnimation();
             })
 
 

@@ -315,7 +315,9 @@ function showMenuItemContent() {
 
 function hideMenuItemContent() {
     console.log('hideMenuItemContent')
-    activateShadow();
+    if ($('.new-html.inactive') === 0) {
+        activateShadow();
+    }
     $('.desktop-menu').css('--menu-items-length', 3);//TODO HARDCODED
     $('.nav-opened').removeClass('navig-opened-by-cases');
     setTimeout(() => {
@@ -614,4 +616,35 @@ function deactivateShadow() {
     console.log('deactivateShadow');
     $('.shadow-menu.active').removeClass('active');
     // $('.desktop-content .navigation-content.toWhite').removeClass('toWhite');
+}
+
+/*---------+---------+---------+--------+-----------*/
+/*             |DESKTOP CONTENT INTRO |             */
+
+/*---------+---------+---------+--------+-----------*/
+
+function callBackCompleteCaseLoading() {
+    $('.desktop-content .navigation').removeClass('nav-opened');
+    $('.navigation-arrow-up').removeClass('rotated');
+    $('.zeroMenuItemContent').addClass('closed');
+    restoreDefaultMenu();
+    console.log('// Animation end.')
+    $('.preventClick').removeClass('preventClick');
+    setTimeout(()=>{
+        $('.content-intro').removeClass('content-intro');
+    },600)
+}
+
+function runContentIntroAnimation() {
+    console.log('runContentIntroAnimation runs');
+    $('.desktop-content .containery.height-0')
+        .addClass('content-intro')
+        .addClass('active');
+    setTimeout(() => {
+        $('.desktop-content .containery.height-0')
+            .removeClass('active');
+        console.log('runContentIntroAnimation done')
+        callBackCompleteCaseLoading();
+    }, 1000)
+
 }

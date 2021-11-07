@@ -103,7 +103,7 @@ a {
 }
 
 .active-element {
-  transition: .3s;
+  transition: opacity .3s;
   cursor: pointer;
 
   &:hover {
@@ -773,7 +773,8 @@ a {
   height: 100vh;
   width: 100vw;
   z-index: 988;
-  background: #FF3300;
+  //background: #FF3300;
+  background: #FFF;
   transition: 0.3s;
   pointer-events: none;
   opacity: 0;
@@ -803,17 +804,28 @@ a {
       top: 0;
       right: 0;
       z-index: 999;
+      transition: .3s;
 
       &.nav-opened {
+        &:not(.fullvw){
+          width: 145px;
+        }
+        &.fullvw{
+          left: unset;
+        }
         //width: 100%;
         .desktop-menu {
-          &:not(.opened), &:not(.opened-by-cases) {
+          transition: .3s;
+          /*&:not(.opened), &:not(.opened-by-cases) {
+            width: calc(var(--menu-items-length) * 38px);
+          }*/
+
+          &:not(.opened){
             width: calc(var(--menu-items-length) * 38px);
           }
-
           &.opened {
-            max-width: calc(100% - 31px);
-            width: 100%;
+            width: calc(100% - 31px);
+            max-width: 100%;
             //left: -4px;
           }
 
@@ -821,6 +833,12 @@ a {
             max-width: calc(100% - 31px);
             width: 100%;
             //left: -4px;
+            >.sections{
+              transition: opacity .3s;
+              &.off{
+                opacity : 0;
+              }
+            }
           }
         }
       }
@@ -905,7 +923,7 @@ a {
         position: relative;
         display: inline-block;
         width: 0;
-        //transition: 0.3s;
+        transition: 0.3s;
 
         .sections {
           position: absolute;
@@ -990,7 +1008,7 @@ a {
             //left: calc(100vw - 290px + 40px * var(--menu-item-index));
             z-index: calc(var(--menu-item-index) + 1);
             top: 10px;
-
+            transition: left .4s;
             &.contact-section {
               width: 40px;
               left: 0;

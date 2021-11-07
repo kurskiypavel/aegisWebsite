@@ -282,7 +282,7 @@ function restoreDefaultMenu() {
 function toggleDesktopMenu() {
     const desktopContentNavigation = $('.desktop-content .navigation');
     $('.opened-by-cases').removeClass('opened-by-cases');
-    $('.desktop-menu>.sections').removeClass('displayNone');
+    // $('.desktop-menu>.sections').removeClass('displayNone');
     $('#zeroMenuItemContentTarget .case-study-arrow').text('↑');
     closeInsightsContent();
     closeProjectsContent();
@@ -341,11 +341,12 @@ function showCaseStudyContent(menuElementId) {
             menuItem0Js.addClass('touched');
             $('.nav-opened').removeClass('fullvw');
             $('.desktop-menu').addClass('opened-by-cases');
-            $('.desktop-menu>.sections').addClass('displayNone');
+            // $('.desktop-menu>.sections').addClass('displayNone');
 
 
             $('.desktop-menu')
                 .append(htmlLoadZeroMenuItemContent);
+            $('.desktop-menu.opened-by-cases>.sections').addClass('off');
             $('.zeroMenuItemContent.closed').removeClass('closed');
             $('.desktop-menu').css('--menu-items-length', caseStudyItems);
             caseStudyMenuJs(document.querySelector('.case-study-panel__header.default'));
@@ -395,7 +396,7 @@ function closeMenuTitlePage() { //todo here 1st
     $('.case-study-panel__inner').removeClass('opened');
     $('.menu-content-opened').removeClass('menu-content-opened');
     $('.opened-by-cases').removeClass('opened-by-cases');
-    $('.desktop-menu>.sections').removeClass('displayNone');
+    $('.sections.off').removeClass('off');
 
     // $('.case-study-arrow').text('↑');
     // hideMenuItemContent();
@@ -596,11 +597,11 @@ function closeProjectsContent(e) {
 function activateShadow() {
     console.log('activateShadow');
     $('.shadow-menu').addClass('active');
-    $('.desktop-content .navigation-content').addClass('toWhite');
+    // $('.desktop-content .navigation-content').addClass('toWhite');
 }
 
 function deactivateShadow() {
     console.log('deactivateShadow');
     $('.shadow-menu.active').removeClass('active');
-    $('.desktop-content .navigation-content.toWhite').removeClass('toWhite');
+    // $('.desktop-content .navigation-content.toWhite').removeClass('toWhite');
 }

@@ -6,9 +6,14 @@
   max-height: 350px;
   overflow: hidden;
 }
-.new-html.inactive{
-  transition: 0.3s;
-  opacity: 0;
+.new-html{
+  transition: top 0.8s;
+  top: 0;
+  position: fixed;
+  &.inactive{
+    position: fixed;
+    top: 100vh;
+  }
 }
 header {
   position: relative;
@@ -28,6 +33,7 @@ iframe{
     text-decoration: underline 2px rgba(0, 0, 0, 0);
     transition: text-decoration-color .3s;
     text-underline-offset: 3px;
+    cursor: pointer;
 
 
     &:hover{

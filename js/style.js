@@ -669,3 +669,15 @@ function runNextCaseContentIntroAnimation() {
         },1000)
     }, 1000)
 }
+
+function runNextProjectContentIntroAnimation() {
+    console.log('runNextProjectContentIntroAnimation runs');
+    $('.new-html.inactive').removeClass('inactive');
+    setTimeout(() => {
+        $('.old-html').remove();
+        $('.preventClick').removeClass('preventClick');
+        setTimeout(()=>{
+            $('.new-html .project-html').unwrap();
+        },1000)
+    }, 1000)
+}

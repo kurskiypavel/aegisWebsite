@@ -9,6 +9,19 @@ header {
 .case-study-html .main-statement{
   display: none;
 }
+.next-title{
+  text-decoration: underline 2px rgba(0, 0, 0, 0);
+  transition: text-decoration-color .3s;
+  text-underline-offset: 3px;
+  cursor: pointer;
+
+
+  &:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+}
 .new-html{
   transition: top 0.8s;
   top: 0;

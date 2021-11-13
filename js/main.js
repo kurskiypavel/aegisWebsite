@@ -256,7 +256,7 @@ function runContentArticleIntroAnimation() {
     }, 1000)
 }
 
-function loadProject(projectToLoad) {
+function loadProject(projectToLoad, isNextProject = false) {
     console.log(projectToLoad);
     $('.next-title').addClass('preventClick');
     $('body').addClass('js-page-loading');
@@ -279,11 +279,16 @@ function loadProject(projectToLoad) {
                 // readyDOMMain();
                 //init events and etc. if required
                 console.log('// Animation start.')
-                //animation here
-                $('.old-html').remove();
-                $('.new-html.inactive .project-html').unwrap();
-                $('.homepage').removeClass('homepage');
-                runContentArticleIntroAnimation();
+                if (isNextProject){
+                    console.log('nextProject');
+                    runNextProjectContentIntroAnimation();
+                } else {
+                    //animation here
+                    $('.old-html').remove();
+                    $('.new-html.inactive .project-html').unwrap();
+                    $('.homepage').removeClass('homepage');
+                    runContentArticleIntroAnimation();
+                }
             })
         } else {
             console.log('error  $("body").load');

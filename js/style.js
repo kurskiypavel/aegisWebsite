@@ -657,3 +657,15 @@ function runContentIntroAnimation() {
     }, 1000)
 
 }
+
+function runNextCaseContentIntroAnimation() {
+    console.log('runNextCaseContentIntroAnimation runs');
+    $('.new-html.inactive').removeClass('inactive');
+    setTimeout(() => {
+        $('.old-html').remove();
+        $('.preventClick').removeClass('preventClick');
+        setTimeout(()=>{
+            $('.new-html .case-study-html').unwrap();
+        },1000)
+    }, 1000)
+}

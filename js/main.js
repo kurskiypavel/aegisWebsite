@@ -201,7 +201,7 @@ function loadInsight(insightToLoad) {
     });
 }
 
-function loadCase(caseToLoad) {
+function loadCase(caseToLoad,isNextCase = false) {
     console.log(`loadCase ${caseToLoad}`);
     $('.case-study-panel__body').addClass('preventClick');
     $('body').addClass('js-page-loading');
@@ -224,12 +224,16 @@ function loadCase(caseToLoad) {
                 // readyDOMMain();
                 //init events and etc. if required
                 console.log('// Animation start.')
-                //animation here
-                $('.old-html').remove();
-                $('.new-html.inactive .case-study-html').unwrap();
-                $('.homepage').removeClass('homepage');
-
-                runContentIntroAnimation();
+                if (isNextCase){
+                    console.log('nextCase');
+                    runNextCaseContentIntroAnimation();
+                } else{
+                    //animation here
+                    $('.old-html').remove();
+                    $('.new-html.inactive .case-study-html').unwrap();
+                    $('.homepage').removeClass('homepage');
+                    runContentIntroAnimation();
+                }
             })
 
 

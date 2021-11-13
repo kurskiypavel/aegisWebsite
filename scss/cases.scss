@@ -9,6 +9,15 @@ header {
 .case-study-html .main-statement{
   display: none;
 }
+.new-html{
+  transition: top 0.8s;
+  top: 0;
+  position: fixed;
+  &.inactive{
+    position: fixed;
+    top: 100vh;
+  }
+}
 .main-statement-wrap{
   .num-svg{
     display: none;

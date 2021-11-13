@@ -5,9 +5,14 @@
 
   transition: 0.2s
 }
-.new-html.inactive{
-  transition: 0.3s;
-  opacity: 0;
+.new-html{
+  transition: top 0.8s;
+  top: 0;
+  position: fixed;
+  &.inactive{
+    position: fixed;
+    top: 100vh;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1899px) {
 
@@ -15,6 +20,8 @@
     padding: 0 0.847vw;
 
     .body.insight-html {
+      background: white;
+
       padding-left: 11.017vw;
       padding-right: 11.017vw;
       padding-top: 86px;
@@ -147,6 +154,11 @@
         .next-title {
           margin-top: 5.424vw;
           margin-bottom: 16.949vw;
+          text-decoration: underline 2px rgba(0, 0, 0, 0);
+          transition: text-decoration-color .3s;
+          text-underline-offset: 3px;
+          cursor: pointer;
+
 
           &:hover {
             text-decoration: underline;

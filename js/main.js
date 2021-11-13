@@ -170,11 +170,11 @@ $(function () {
     readyDOMMain();
 });
 
-function loadInsight(insightToLoad) {
+function loadInsight(insightToLoad, isNextInsight = false) {
     console.log(insightToLoad);
     $('.next-title').addClass('preventClick');
     $('body').addClass('js-page-loading');
-    $('.body').addClass('old-html'); //TODO test on insight / project / cases - potentially wont work
+    $('.body').addClass('old-html');
     $(".desktop-content .containery").append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${insightToLoad}.html .insight-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
@@ -190,11 +190,16 @@ function loadInsight(insightToLoad) {
             // readyDOMMain();
             //init events and etc. if required
             console.log('// Animation start.')
-            //animation here
-            $('.old-html').remove();
-            $('.new-html.inactive .insight-html').unwrap();
-            $('.homepage').removeClass('homepage');
-            runContentArticleIntroAnimation();
+            if (isNextInsight){
+                console.log('nextInsight');
+                runNextInsightContentIntroAnimation();
+            } else {
+                //animation here
+                $('.old-html').remove();
+                $('.new-html.inactive .insight-html').unwrap();
+                $('.homepage').removeClass('homepage');
+                runContentArticleIntroAnimation();
+            }
         } else {
             console.log('error  $("body").load');
         }
@@ -205,7 +210,7 @@ function loadCase(caseToLoad,isNextCase = false) {
     console.log(`loadCase ${caseToLoad}`);
     $('.case-study-panel__body').addClass('preventClick');
     $('body').addClass('js-page-loading');
-    $('.body').addClass('old-html'); //TODO test on insight / project / cases - potentially wont work
+    $('.body').addClass('old-html');
     $('.desktop-content .containery').append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${caseToLoad}.html .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
@@ -260,7 +265,7 @@ function loadProject(projectToLoad, isNextProject = false) {
     console.log(projectToLoad);
     $('.next-title').addClass('preventClick');
     $('body').addClass('js-page-loading');
-    $('.body').addClass('old-html'); //TODO test on insight / project / cases - potentially wont work
+    $('.body').addClass('old-html');
     $(".desktop-content .containery").append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${projectToLoad}.html .project-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {

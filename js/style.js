@@ -681,3 +681,15 @@ function runNextProjectContentIntroAnimation() {
         },1000)
     }, 1000)
 }
+
+function runNextInsightContentIntroAnimation() {
+    console.log('runNextInsightContentIntroAnimation runs');
+    $('.new-html.inactive').removeClass('inactive');
+    setTimeout(() => {
+        $('.old-html').remove();
+        $('.preventClick').removeClass('preventClick');
+        setTimeout(()=>{
+            $('.new-html .insight-html').unwrap();
+        },1000)
+    }, 1000)
+}

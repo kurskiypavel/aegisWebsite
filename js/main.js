@@ -174,10 +174,12 @@ function loadInsight(insightToLoad) {
     console.log(insightToLoad);
     $('.next-title').addClass('preventClick');
     $('body').addClass('js-page-loading');
-    $('.insight-html').addClass('old-html');
+    $('.body').addClass('old-html'); //TODO test on insight / project / cases - potentially wont work
     $(".desktop-content .containery").append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${insightToLoad}.html .insight-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
+            deactivateShadow();
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/insights/media.css?v=11">');
             $('.js-page-loading').removeClass('js-page-loading');
             $('title').load(`${insightToLoad}.html title`, '', function (data) {
                 document.title = $(this).text().toUpperCase();
@@ -187,23 +189,12 @@ function loadInsight(insightToLoad) {
             // readyDOMStyle();
             // readyDOMMain();
             //init events and etc. if required
-            $('.old-html')
-                .css('opacity', '0')
-            setTimeout(() => {
-                $('.old-html')
-                    .slideToggle("600");
-                $('html, body').animate({
-                    scrollTop: $(this).parent().offset().top
-                }, 500);
-                setTimeout(() => {
-                    $('.new-html.inactive').css('opacity', 1);
-                    setTimeout(() => {
-                        $('.old-html').remove();
-                        $('.new-html.inactive .insight-html').unwrap();
-                    }, 300)
-                    console.log('// Animation complete.');
-                }, 600)
-            }, 300)
+            console.log('// Animation start.')
+            //animation here
+            $('.old-html').remove();
+            $('.new-html.inactive .insight-html').unwrap();
+            $('.homepage').removeClass('homepage');
+            runContentArticleIntroAnimation();
         } else {
             console.log('error  $("body").load');
         }
@@ -248,7 +239,7 @@ function loadCase(caseToLoad) {
     });
 }
 
-function runContentProjectIntroAnimation() {
+function runContentArticleIntroAnimation() {
     console.log('runContentIntroAnimation runs');
     $('.desktop-content .containery.height-0')
         .addClass('content-intro')
@@ -257,7 +248,7 @@ function runContentProjectIntroAnimation() {
         $('.desktop-content .containery.height-0')
             .removeClass('active');
         console.log('runContentIntroAnimation done')
-        callBackCompleteProjectLoading();
+        callBackCompleteArticleLoading();
     }, 1000)
 }
 
@@ -288,7 +279,7 @@ function loadProject(projectToLoad) {
                 $('.old-html').remove();
                 $('.new-html.inactive .project-html').unwrap();
                 $('.homepage').removeClass('homepage');
-                runContentProjectIntroAnimation();
+                runContentArticleIntroAnimation();
             })
         } else {
             console.log('error  $("body").load');

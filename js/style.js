@@ -635,7 +635,7 @@ function callBackCompleteCaseLoading() {
     },600)
 }
 
-function callBackCompleteProjectLoading() {
+function callBackCompleteArticleLoading() {
     setTimeout(()=>{toggleDesktopMenu();},600)
     console.log('// Animation end.')
     $('.preventClick').removeClass('preventClick');

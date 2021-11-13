@@ -635,6 +635,15 @@ function callBackCompleteCaseLoading() {
     },600)
 }
 
+function callBackCompleteProjectLoading() {
+    setTimeout(()=>{toggleDesktopMenu();},600)
+    console.log('// Animation end.')
+    $('.preventClick').removeClass('preventClick');
+    setTimeout(()=>{
+        $('.content-intro').removeClass('content-intro');
+    },600)
+}
+
 function runContentIntroAnimation() {
     console.log('runContentIntroAnimation runs');
     $('.desktop-content .containery.height-0')

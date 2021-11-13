@@ -103,7 +103,7 @@ a {
 }
 
 .active-element {
-  transition: opacity .3s;
+  transition: opacity .3s !important;
   cursor: pointer;
 
   &:hover {
@@ -169,7 +169,10 @@ a {
 }
 
 .underline-on-hover {
+  cursor: pointer;
   p {
+    text-decoration: underline 1px rgba(0, 0, 0, 0);
+    transition: text-decoration-color .3s;
     &:hover {
       text-decoration: underline;
       text-decoration-thickness: 1px;

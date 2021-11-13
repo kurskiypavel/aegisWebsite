@@ -23,11 +23,20 @@ iframe{
   }
 }
 .project-html{
-  .next-title:hover{
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
+  background: white;
+  .next-title{
+    text-decoration: underline 2px rgba(0, 0, 0, 0);
+    transition: text-decoration-color .3s;
     text-underline-offset: 3px;
+
+
+    &:hover{
+      text-decoration: underline;
+      text-decoration-thickness: 2px;
+      text-underline-offset: 3px;
+    }
   }
+
 }
 .four-videos{
   background: #f3f9f7;

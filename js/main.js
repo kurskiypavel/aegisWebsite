@@ -214,7 +214,7 @@ function loadCase(caseToLoad) {
     console.log(`loadCase ${caseToLoad}`);
     $('.case-study-panel__body').addClass('preventClick');
     $('body').addClass('js-page-loading');
-    $('.body').addClass('old-html'); //TODO test on insight / project / cases / homepage - potentially wont work
+    $('.body').addClass('old-html'); //TODO test on insight / project / cases - potentially wont work
     $('.desktop-content .containery').append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${caseToLoad}.html .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
@@ -248,41 +248,48 @@ function loadCase(caseToLoad) {
     });
 }
 
+function runContentProjectIntroAnimation() {
+    console.log('runContentIntroAnimation runs');
+    $('.desktop-content .containery.height-0')
+        .addClass('content-intro')
+        .addClass('active');
+    setTimeout(() => {
+        $('.desktop-content .containery.height-0')
+            .removeClass('active');
+        console.log('runContentIntroAnimation done')
+        callBackCompleteProjectLoading();
+    }, 1000)
+}
+
 function loadProject(projectToLoad) {
     console.log(projectToLoad);
     $('.next-title').addClass('preventClick');
     $('body').addClass('js-page-loading');
-    $('.project-html').addClass('old-html');
+    $('.body').addClass('old-html'); //TODO test on insight / project / cases - potentially wont work
     $(".desktop-content .containery").append('<div class="new-html inactive"></div>');
     $(".desktop-content .containery .new-html").load(`${projectToLoad}.html .project-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
-            $('.js-page-loading').removeClass('js-page-loading');
-            $('title').load(`${projectToLoad}.html title`, '', function (data) {
-                document.title = $(this).text().toUpperCase();
-            });
-            history.pushState({pageID: projectToLoad}, projectToLoad, `${projectToLoad}.html`);
-            // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
-            // readyDOMStyle();
-            // readyDOMMain();
-            //init events and etc. if required
-            $('.old-html')
-                .css('opacity', '0')
-            setTimeout(() => {
-                $('.old-html')
-                    .slideToggle("600");
-                $('html, body').animate({
-                    scrollTop: $(this).parent().offset().top
-                }, 500);
-                setTimeout(() => {
-                    $('.new-html.inactive').css('opacity', 1);
-                    setTimeout(() => {
-                        $('.old-html').remove();
-                        $('.new-html.inactive .project-html').unwrap();
-                    }, 300)
-                    console.log('// Animation complete.');
-                }, 600)
-            }, 300)
-            // window.scrollTo(0, 1);
+            deactivateShadow();
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/project.css?v=11">');
+            $('link[title="insightCss"]').remove();
+            loadImage($('.desktop-only-img:first-child')[0].src).then(async () => {
+                console.log('img loaded');
+                $('.js-page-loading').removeClass('js-page-loading');
+                $('title').load(`${projectToLoad}.html title`, '', function (data) {
+                    document.title = $(this).text().toUpperCase();
+                });
+                history.pushState({pageID: projectToLoad}, projectToLoad, `${projectToLoad}.html`);
+                // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
+                // readyDOMStyle();
+                // readyDOMMain();
+                //init events and etc. if required
+                console.log('// Animation start.')
+                //animation here
+                $('.old-html').remove();
+                $('.new-html.inactive .project-html').unwrap();
+                $('.homepage').removeClass('homepage');
+                runContentProjectIntroAnimation();
+            })
         } else {
             console.log('error  $("body").load');
         }

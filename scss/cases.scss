@@ -177,6 +177,15 @@ header {
           }
         }
 
+        .withBackground{
+          padding: 6.78vw 0;
+          .iframe-video{
+            .backgroundPlay{
+              height: 57.22vw;
+            }
+          }
+        }
+
         .content-row {
           display: flex;
           max-width: 100%;
@@ -549,6 +558,15 @@ header {
               line-height: 20px;
               white-space: initial;
               margin-top: 14.7333px;
+            }
+          }
+        }
+
+        .withBackground{
+          padding: 6.78vw 0;
+          .iframe-video{
+            .backgroundPlay{
+              height: 44.22vw;
             }
           }
         }
@@ -960,6 +978,14 @@ header {
             }
           }
         }
+        .withBackground{
+          padding: 6.78vw 0;
+          .iframe-video{
+            .backgroundPlay{
+              height: 44.22vw;
+            }
+          }
+        }
 
         .row {
           .full-row {
@@ -1217,6 +1243,15 @@ header {
               line-height: 20px;
               white-space: initial;
               margin-top: 17px;
+            }
+          }
+        }
+
+        .withBackground{
+          padding: 6.78vw 0;
+          .iframe-video{
+            .backgroundPlay{
+              height: 839.733px;
             }
           }
         }

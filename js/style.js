@@ -609,13 +609,13 @@ function closeProjectsContent(e) {
 function activateShadow() {
     console.log('activateShadow');
     $('.shadow-menu').addClass('active');
-    // $('.desktop-content .navigation-content').addClass('toWhite');
+    $('.desktop-content .navigation-content').addClass('toWhite');
 }
 
 function deactivateShadow() {
     console.log('deactivateShadow');
     $('.shadow-menu.active').removeClass('active');
-    // $('.desktop-content .navigation-content.toWhite').removeClass('toWhite');
+    $('.desktop-content .navigation-content.toWhite').removeClass('toWhite');
 }
 
 /*---------+---------+---------+--------+-----------*/

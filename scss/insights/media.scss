@@ -1,19 +1,36 @@
 //sass --watch scss/insights/media.scss css/insights/media.css --style compressed
 
-.insight-html{
+.insight-html {
   background: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
 
   transition: 0.2s
 }
-.new-html{
+
+.new-html {
   transition: top 0.8s;
   top: 0;
   position: fixed;
-  &.inactive{
+  width: 100vw;
+  left: 0;
+  right: 0;
+
+  &.inactive {
     position: fixed;
     top: 100vh;
   }
 }
+
+header {
+  position: relative;
+  z-index: 1;
+  padding: 0 10px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 1899px) {
 
   .containery {
@@ -22,19 +39,19 @@
     .body.insight-html {
       background: white;
 
-      padding-left: 11.017vw;
-      padding-right: 11.017vw;
-      padding-top: 86px;
+      //padding-left: 11.017vw;
+      //padding-right: 11.017vw;
+      //padding-top: 86px;
       .main-statement-wrap {
         position: relative;
-        height: 34.746vw;
+        //height: 34.746vw;
 
         .main-statement {
-          font-size: 5.509vw;
-          line-height: 5.509vw;
+          font-size: 4.661vw;
+          line-height: 4.661vw;
           letter-spacing: -0.169vw;
-          position: absolute;
-          width: 38.492vw;
+          //position: absolute;
+          //width: 38.492vw;
           top: 20px;
 
           .simple {
@@ -76,33 +93,35 @@
       .job-title {
         font-family: Roobert-Medium, sans-serif;
         font-size: 14px;
-        margin-right: 39.317px;
-        line-height: 25px;
-        margin-top: 3.23px;
+        //margin-right: 39.317px;
+        line-height: 20px;
+        margin-top: 7.23px;
       }
 
       .main-content {
-        margin-top: 8.475vw;
+        //margin-top: 8.475vw;
 
         .row {
           display: flex;
           max-width: 100%;
 
           .col-3 {
-            max-width: 22.034vw;
+            max-width: 190px;
             width: 100%;
+            margin-right: 70px;
           }
 
           .col-7 {
-            max-width: 54.237vw;
+            //max-width: 54.237vw;
             width: 100%;
           }
         }
 
         p {
-          &.numerals{
+          &.numerals {
             font-size: 2.47vw;
           }
+
           font-size: 2.203vw;
           line-height: 2.542vw;
           font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -114,7 +133,7 @@
           }
         }
 
-        .content-img{
+        .content-img {
           width: 100%;
           margin-top: 2.119vw;
           margin-bottom: 4.238vw;
@@ -141,7 +160,7 @@
       }
 
       .next-insight {
-        margin-top: 172.983px;
+        //margin-top: 172.983px;
         border-top: 1px solid;
         padding-top: 50px;
 
@@ -167,9 +186,9 @@
           }
 
           span {
-            font-size: 5.509vw;
-line-height: 5.509vw;
-letter-spacing: -0.169vw;
+            font-size: 4.661vw;
+            line-height: 4.661vw;
+            letter-spacing: -0.169vw;
             display: block;
           }
 
@@ -193,21 +212,21 @@ letter-spacing: -0.169vw;
     padding: 0 16px;
 
     .body.insight-html {
-      padding-top: 86px;
-      width: 1450px;
-      margin: 0 auto;
+      //padding-top: 86px;
+      //width: 1450px;
+      //margin: 0 auto;
       .main-statement-wrap {
         position: relative;
-        height: 660px;
+        //height: 660px;
 
         .main-statement {
           font-size: 104.6px;
           line-height: 104.6px;
           letter-spacing: -3.2px;
-          position: absolute;
-          width: 730px;
+          //position: absolute;
+          //width: 730px;
           //width: 1035.33px;
-          top: 20px;
+          //top: 20px;
 
           .simple {
             font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -255,24 +274,28 @@ letter-spacing: -0.169vw;
       }
 
       .main-content {
-        margin-top: 161.017px;
+        //margin-top: 161.017px;
 
         .row {
           display: flex;
           max-width: 100%;
-          .col-3{
-            width: 418.417px;
+
+          .col-3 {
+            max-width: 190px;
+            width: 100%;
+            margin-right: 70px;
           }
 
           .col-7 {
-            width: 1029.95px;
+            //width: 1029.95px;
           }
         }
 
         p {
-          &.numerals{
+          &.numerals {
             font-size: 47px;
           }
+
           font-size: 41.85px;
           line-height: 48.2833px;
           font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -283,7 +306,7 @@ letter-spacing: -0.169vw;
           }
         }
 
-        .content-img{
+        .content-img {
           width: 100%;
           margin-top: 40.25px;
           margin-bottom: 80.5px;
@@ -364,14 +387,12 @@ letter-spacing: -0.169vw;
     padding: 0 10px;
 
     .body.insight-html {
-      padding-top: 86px;
+      //padding-top: 86px;
       .main-statement-wrap {
         .main-statement {
-          font-size: 42.3px;
-          line-height: 42.3px;
-          letter-spacing: -0.5px;
-          padding-right: 11vw;
-          top: 20px;
+          font-size: 56.3333px;
+          line-height: 56.4px;
+          letter-spacing: -1.71667px;
 
           .simple {
             font-family: GT-Alpina-Standard-Light, sans-serif;
@@ -414,13 +435,16 @@ letter-spacing: -0.169vw;
         margin-right: 1.017vw;
         line-height: 20px;
         margin-bottom: 26px;
-        br{
+
+        br {
           display: none;
         }
       }
 
       .main-content {
-        margin-top: 60px;
+        margin-top: 151.783px;
+        padding: 0 10px;
+        max-width: calc(100vw - 20px);
 
         .row {
           max-width: 100%;
@@ -443,7 +467,7 @@ letter-spacing: -0.169vw;
           }
         }
 
-        .content-img{
+        .content-img {
           width: 100%;
           margin-top: 2.119vw;
           margin-bottom: 4.238vw;
@@ -471,7 +495,7 @@ letter-spacing: -0.169vw;
       }
 
       .next-insight {
-        margin-top: 112.583px;
+        margin: 112.583px 10px 0;
         border-top: 1px solid;
         padding-top: 50px;
 
@@ -515,15 +539,15 @@ letter-spacing: -0.169vw;
 @media only screen and (min-width: 500px) and (max-width: 767px) {
   .containery {
 
-    .insight-html{
+    .insight-html {
       .main-statement-wrap {
         position: relative;
-        height: 277.967px;
+        //height: 277.967px;
 
         .main-statement {
-          position: absolute;
-          width: 51.492vw;
-          padding-right: 0vw;
+          //position: absolute;
+          //width: 51.492vw;
+          //padding-right: 0vw;
         }
 
         img {
@@ -537,4 +561,40 @@ letter-spacing: -0.169vw;
     }
   }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1899px) {
+  .containery .body.insight-html .main-content {
+    margin-top: 151.783px;
+    padding: 0 10px;
+    max-width: calc(100vw - 20px);
+  }
+  .main-statement-wrap {
+    margin-bottom: 13.983vw;
+  }
+  .main-statement-wrap, .containery .body.insight-html .main-content .row {
+    padding: 0 11.017vw;
+  }
+  .containery .body.insight-html .next-insight {
+    margin: 170px 11.017vw 0;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .containery .body.insight-html .main-content {
+    margin-top: 12.864vw;
+    padding: 0 10px;
+    max-width: calc(100vw - 20px);
+  }
+  .main-statement-wrap {
+    margin-bottom: 13.983vw;
+  }
+  .main-statement-wrap, .containery .body.insight-html .main-content .row {
+    padding: 0 11.017vw;
+  }
+  .containery .body.insight-html .next-insight {
+    margin: 170px 11.017vw 0;
+  }
+}
+
+
 

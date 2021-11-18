@@ -189,13 +189,14 @@ header {
         .content-row {
           display: flex;
           max-width: 100%;
-          &:not(.imgSet){
+          &:not(.imgSet):not(.no-mt){
             margin-top: 30px;
-
           }
-          &.imgSet{
+          &.imgSet:not(.no-mt){
             margin-top: 30px;
-
+          }
+          &.no-mt{
+            margin-top: 0px !important;
           }
 
           &.iframe-video{
@@ -353,8 +354,7 @@ header {
           padding-top: 50px;
 
           .ref {
-            font-family: Roobert-Bold,
-            sans-serif;
+            font-family: Roobert-Medium,sans-serif;
             font-size: 13.8667px;
             line-height: 17.3333px;
             letter-spacing: 0.2px;
@@ -575,11 +575,14 @@ header {
           display: flex;
           max-width: 100%;
           padding: 0 11.017vw 5px;
-          &:not(.imgSet){
+          &:not(.imgSet):not(.no-mt){
             margin-top: 112.8px;
           }
-          &.imgSet{
+          &.imgSet:not(.no-mt){
             margin-top: 70px;
+          }
+          &.no-mt{
+            margin-top: 0px !important;
           }
 
           &.iframe-video{
@@ -746,8 +749,7 @@ header {
           padding-top: 50px;
 
           .ref {
-            font-family: Roobert-Bold,
-            sans-serif;
+            font-family: Roobert-Medium, sans-serif;
             font-size: 13.8667px;
             line-height: 17.3333px;
             letter-spacing: 0.2px;
@@ -920,11 +922,14 @@ header {
           display: flex;
           max-width: 100%;
           padding: 0 11.017vw 0;
-          &:not(.imgSet){
+          &:not(.imgSet):not(.no-mt){
             margin-top: 11.017vw;
           }
-          &.imgSet{
+          &.imgSet:not(.no-mt){
             margin-top: 6.780vw;
+          }
+          &.no-mt{
+            margin-top: 0px !important;
           }
 
           p {
@@ -1079,7 +1084,7 @@ header {
           padding-top: 4.237vw;
 
           .ref {
-            font-family: Roobert-Bold, sans-serif;
+            font-family: Roobert-Medium, sans-serif;
             font-size: 16px;
             line-height: 20px;
             letter-spacing: 0.2px;
@@ -1393,12 +1398,16 @@ header {
           width: 100vw;
           position: relative;
           left: -10px;
-          &:not(.imgSet){
+          &:not(.imgSet):not(.no-mt){
             margin-top: 209.2px;
           }
-          &.imgSet{
+          &.imgSet:not(.no-mt){
             margin-top: 128.75px;
           }
+          &.no-mt{
+            margin-top: 0px !important;
+          }
+
 
           img, video {
             width: 100%;
@@ -1413,7 +1422,7 @@ header {
           padding-top: 80.503px;
 
           .ref {
-            font-family: Roobert-Bold, sans-serif;
+            font-family: Roobert-Medium, sans-serif;
             font-size: 16px;
             line-height: 20px;
             letter-spacing: .2px;

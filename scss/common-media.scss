@@ -115,6 +115,15 @@ a {
     pointer-events: none;
   }
 }
+.active-menu-item{
+  cursor: pointer;
+  text-decoration: underline 1px rgba(0, 0, 0, 0);
+  transition: text-decoration-color .3s;
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+  }
+}
 
 .clear-underline {
   text-decoration: unset;

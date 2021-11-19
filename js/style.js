@@ -491,6 +491,36 @@ function toggleDesktopTeam() {
 
 
     }
+    else if($('.opened-by-insights').length > 0){
+        closeInsightsContent();
+        setTimeout(()=>{
+            toggleDesktopMenu();
+
+        },300)
+        setTimeout(()=>{
+            teamMenu.removeClass('displayNone');
+        },500)
+
+        setTimeout(()=>{
+            activateShadow();
+
+            $('.team-item-arrow').text('↑');
+            teamMenu.toggleClass('opened');
+        },600)
+    }
+    else if($('.navigation.nav-opened').length > 0){
+        console.log('that case');
+        toggleDesktopMenu();
+        activateShadow();
+        setTimeout(()=>{
+            teamMenu.removeClass('displayNone');
+        },200)
+
+        setTimeout(()=>{
+            $('.team-item-arrow').text('↑');
+            teamMenu.toggleClass('opened');
+        },300)
+    }
     else {
         if ($('.team-menu.displayNone').length === 0) {
             /*simple closing*/
@@ -516,33 +546,7 @@ function toggleDesktopTeam() {
 
     }
 
-/*
-    if ($('.team-menu.displayNone').length === 0) {
-        setTimeout(() => {
-            teamMenu.addClass('displayNone');
-            deactivateShadow();
-        }, 500);
-    } else {
-        teamMenu.removeClass('displayNone');
-        activateShadow();
 
-    }
-    setTimeout(() => {
-        console.log('toggleDesktopTeam');
-        $('.nav-opened').removeClass('fullvw');
-        teamMenu.toggleClass('opened');
-
-        if (teamMenu.hasClass('opened')) {
-            $('.team-item-arrow').text('↓');
-        } else {
-            $('.team-item-arrow').text('↑');
-        }
-        $('.desktop-content .navigation').removeClass('nav-opened');
-        $('.navigation-arrow-up').removeClass('rotated');
-        $('.zeroMenuItemContent').addClass('closed');
-        closeContactFromMenu();
-        restoreDefaultMenu();
-    }, 100)*/
 
 }
 
@@ -598,7 +602,7 @@ function showInsightsContent() {
     $('.navigation-content').addClass('white-back');
     $('#menu-item-2-js .menu-item-arrow').text('↓');
     $('#menu-item-2-js .menu-item-arrow-bottom').text('↓');
-    $('.nav-opened').addClass('fullvw');
+    $('.nav-opened').addClass('fullvw').addClass('opened-by-insights');
     $('.containery').addClass('height-0');
 
 }

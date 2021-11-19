@@ -460,10 +460,63 @@ function closeContactFromMenu() {
 /*---------+---------+---------+--------+-----------*/
 
 function toggleDesktopTeam() {
-    const teamMenu = $('.team-menu');
-    // $('.desktop-content .navigation').toggleClass('team-opened');
-    // $('.desktop-menu').toggleClass('displayNone');
 
+    /*
+    * 1 - check if case studies opened
+    * - close it properly first + activate shadow + open then menu
+    * -- activate shadow + open team menu
+    * */
+    const teamMenu = $('.team-menu');
+    // closeContactFromMenu();
+    console.log('toggleDesktopTeam');
+
+    if ($('.navig-opened-by-cases').length > 0){
+        closeMenuTitlePage();
+
+        setTimeout(()=>{
+            toggleDesktopMenu();
+            activateShadow();
+
+        },400)
+
+
+        setTimeout(()=>{
+            teamMenu.removeClass('displayNone');
+        },600)
+        setTimeout(()=>{
+            $('.team-item-arrow').text('↑');
+            teamMenu.toggleClass('opened');
+        },700)
+
+
+
+    }
+    else {
+        if ($('.team-menu.displayNone').length === 0) {
+            /*simple closing*/
+            deactivateShadow();
+            $('.team-item-arrow').text('↓');
+            teamMenu.toggleClass('opened');
+
+            setTimeout(()=>{
+                teamMenu.addClass('displayNone');
+            },300)
+        } else {
+            /*simple opening*/
+            activateShadow();
+            teamMenu.removeClass('displayNone');
+
+            setTimeout(()=>{
+                $('.team-item-arrow').text('↑');
+                teamMenu.toggleClass('opened');
+            },100)
+
+        }
+
+
+    }
+
+/*
     if ($('.team-menu.displayNone').length === 0) {
         setTimeout(() => {
             teamMenu.addClass('displayNone');
@@ -489,7 +542,7 @@ function toggleDesktopTeam() {
         $('.zeroMenuItemContent').addClass('closed');
         closeContactFromMenu();
         restoreDefaultMenu();
-    }, 100)
+    }, 100)*/
 
 }
 

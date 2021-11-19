@@ -417,32 +417,85 @@ function closeMenuTitlePage() { //todo here 1st
 
 function toggleDesktopContact() {
     const contactMenu = $('.contact-menu');
+    console.log('toggleDesktopContact');
 
-    if ($('.contact-menu.displayNone').length === 0) {
-        setTimeout(() => {
-            contactMenu.addClass('displayNone');
-            deactivateShadow();
-        }, 500);
-    } else {
-        contactMenu.removeClass('displayNone');
-        activateShadow();
-    }
-    setTimeout(() => {
-        console.log('toggleDesktopContact');
-        $('.nav-opened').removeClass('fullvw');
-        contactMenu.toggleClass('opened');
+    closeTeamFromMenu();
 
-        if (contactMenu.hasClass('opened')) {
-            $('.contact-item-arrow').text('↓');
-        } else {
+    if ($('.navig-opened-by-cases').length > 0){
+        closeMenuTitlePage();
+
+        setTimeout(()=>{
+            toggleDesktopMenu();
+            activateShadow();
+
+        },400)
+
+
+        setTimeout(()=>{
+            contactMenu.removeClass('displayNone');
+        },600)
+        setTimeout(()=>{
             $('.contact-item-arrow').text('↑');
+            contactMenu.toggleClass('opened');
+        },700)
+
+
+
+    }
+    else if($('.opened-by-insights').length > 0){
+        closeInsightsContent();
+        setTimeout(()=>{
+            toggleDesktopMenu();
+
+        },300)
+        setTimeout(()=>{
+            contactMenu.removeClass('displayNone');
+        },500)
+
+        setTimeout(()=>{
+            activateShadow();
+
+            $('.contact-item-arrow').text('↑');
+            contactMenu.toggleClass('opened');
+        },600)
+    }
+    else if($('.navigation.nav-opened').length > 0){
+        console.log('that case');
+        toggleDesktopMenu();
+        activateShadow();
+        setTimeout(()=>{
+            contactMenu.removeClass('displayNone');
+        },200)
+
+        setTimeout(()=>{
+            $('.contact-item-arrow').text('↑');
+            contactMenu.toggleClass('opened');
+        },300)
+    }
+    else {
+        if ($('.contact-menu.displayNone').length === 0) {
+            /*simple closing*/
+            deactivateShadow();
+            $('.contact-item-arrow').text('↓');
+            contactMenu.toggleClass('opened');
+
+            setTimeout(()=>{
+                contactMenu.addClass('displayNone');
+            },300)
+        } else {
+            /*simple opening*/
+            activateShadow();
+            contactMenu.removeClass('displayNone');
+
+            setTimeout(()=>{
+                $('.contact-item-arrow').text('↑');
+                contactMenu.toggleClass('opened');
+            },100)
+
         }
-        $('.desktop-content .navigation').removeClass('nav-opened');
-        $('.navigation-arrow-up').removeClass('rotated');
-        $('.zeroMenuItemContent').addClass('closed');
-        closeTeamFromMenu();
-        restoreDefaultMenu();
-    }, 100)
+
+
+    }
 
 }
 
@@ -461,13 +514,8 @@ function closeContactFromMenu() {
 
 function toggleDesktopTeam() {
 
-    /*
-    * 1 - check if case studies opened
-    * - close it properly first + activate shadow + open then menu
-    * -- activate shadow + open team menu
-    * */
     const teamMenu = $('.team-menu');
-    // closeContactFromMenu();
+    closeContactFromMenu();
     console.log('toggleDesktopTeam');
 
     if ($('.navig-opened-by-cases').length > 0){

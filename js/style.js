@@ -355,7 +355,9 @@ function showCaseStudyContent(menuElementId) {
             caseStudyMenuJs(document.querySelector('.case-study-panel__header.default'));
         }
     }
-
+    setTimeout(()=>{
+        window.scrollTo(0, 0);
+    },1000)
 }
 
 
@@ -652,7 +654,9 @@ function showInsightsContent() {
     $('#menu-item-2-js .menu-item-arrow-bottom').text('↓');
     $('.nav-opened').addClass('fullvw').addClass('opened-by-insights');
     $('.containery').addClass('height-0');
-
+    setTimeout(()=>{
+        window.scrollTo(0, 0);
+    },1000)
 }
 
 function closeInsightsContent(e) {
@@ -692,7 +696,9 @@ function showProjectsContent() {
     $('#menu-item-1-js .menu-item-arrow').text('↓');
     $('#menu-item-1-js .menu-item-arrow-bottom').text('↓');
     $('.containery').addClass('height-0');
-
+    setTimeout(()=>{
+        window.scrollTo(0, 0);
+    },1000)
 }
 
 function closeProjectsContent(e) {

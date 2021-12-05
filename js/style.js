@@ -355,9 +355,10 @@ function showCaseStudyContent(menuElementId) {
             caseStudyMenuJs(document.querySelector('.case-study-panel__header.default'));
         }
     }
-    setTimeout(()=>{
+
+    setTimeout(() => {
         window.scrollTo(0, 0);
-    },1000)
+    }, 1000)
 }
 
 
@@ -423,76 +424,72 @@ function toggleDesktopContact() {
 
     closeTeamFromMenu();
 
-    if ($('.navig-opened-by-cases').length > 0){
+    if ($('.navig-opened-by-cases').length > 0) {
         closeMenuTitlePage();
 
-        setTimeout(()=>{
+        setTimeout(() => {
             toggleDesktopMenu();
             activateShadow();
 
-        },400)
+        }, 400)
 
 
-        setTimeout(()=>{
+        setTimeout(() => {
             contactMenu.removeClass('displayNone');
-        },600)
-        setTimeout(()=>{
+        }, 600)
+        setTimeout(() => {
             $('.contact-item-arrow').text('↑');
             contactMenu.toggleClass('opened');
-        },700)
+        }, 700)
 
 
-
-    }
-    else if($('.opened-by-insights').length > 0){
+    } else if ($('.opened-by-insights').length > 0) {
         closeInsightsContent();
-        setTimeout(()=>{
+        setTimeout(() => {
             toggleDesktopMenu();
 
-        },300)
-        setTimeout(()=>{
+        }, 300)
+        setTimeout(() => {
             contactMenu.removeClass('displayNone');
-        },500)
+        }, 500)
 
-        setTimeout(()=>{
+        setTimeout(() => {
             activateShadow();
 
             $('.contact-item-arrow').text('↑');
             contactMenu.toggleClass('opened');
-        },600)
-    }
-    else if($('.navigation.nav-opened').length > 0){
+        }, 600)
+    } else if ($('.navigation.nav-opened').length > 0) {
         console.log('that case');
         toggleDesktopMenu();
         activateShadow();
-        setTimeout(()=>{
+        setTimeout(() => {
             contactMenu.removeClass('displayNone');
-        },200)
+        }, 200)
 
-        setTimeout(()=>{
+        setTimeout(() => {
             $('.contact-item-arrow').text('↑');
             contactMenu.toggleClass('opened');
-        },300)
-    }
-    else {
+        }, 300)
+    } else {
         if ($('.contact-menu.displayNone').length === 0) {
             /*simple closing*/
             deactivateShadow();
             $('.contact-item-arrow').text('↓');
             contactMenu.toggleClass('opened');
 
-            setTimeout(()=>{
+            setTimeout(() => {
                 contactMenu.addClass('displayNone');
-            },300)
+            }, 300)
         } else {
             /*simple opening*/
             activateShadow();
             contactMenu.removeClass('displayNone');
 
-            setTimeout(()=>{
+            setTimeout(() => {
                 $('.contact-item-arrow').text('↑');
                 contactMenu.toggleClass('opened');
-            },100)
+            }, 100)
 
         }
 
@@ -520,56 +517,54 @@ function toggleDesktopTeam() {
     closeContactFromMenu();
     console.log('toggleDesktopTeam');
 
-    if ($('.navig-opened-by-cases').length > 0){
+    if ($('.navig-opened-by-cases').length > 0) {
         closeMenuTitlePage();
 
-        setTimeout(()=>{
+        setTimeout(() => {
             toggleDesktopMenu();
             activateShadow();
 
-        },400)
+        }, 400)
 
 
-        setTimeout(()=>{
+        setTimeout(() => {
             teamMenu.removeClass('displayNone');
-        },600)
-        setTimeout(()=>{
+        }, 600)
+        setTimeout(() => {
             $('.team-item-arrow').text('↑');
             teamMenu.toggleClass('opened');
-        },700)
-
+        }, 700)
 
 
     }
-    else if($('.opened-by-insights').length > 0){
+    else if ($('.opened-by-insights').length > 0) {
         closeInsightsContent();
-        setTimeout(()=>{
+        setTimeout(() => {
             toggleDesktopMenu();
 
-        },300)
-        setTimeout(()=>{
+        }, 300)
+        setTimeout(() => {
             teamMenu.removeClass('displayNone');
-        },500)
-
-        setTimeout(()=>{
+        }, 500)
+        setTimeout(() => {
             activateShadow();
 
             $('.team-item-arrow').text('↑');
             teamMenu.toggleClass('opened');
-        },600)
+        }, 600)
     }
-    else if($('.navigation.nav-opened').length > 0){
+    else if ($('.navigation.nav-opened').length > 0) {
         console.log('that case');
         toggleDesktopMenu();
         activateShadow();
-        setTimeout(()=>{
+        setTimeout(() => {
             teamMenu.removeClass('displayNone');
-        },200)
+        }, 200)
 
-        setTimeout(()=>{
+        setTimeout(() => {
             $('.team-item-arrow').text('↑');
             teamMenu.toggleClass('opened');
-        },300)
+        }, 300)
     }
     else {
         if ($('.team-menu.displayNone').length === 0) {
@@ -578,24 +573,23 @@ function toggleDesktopTeam() {
             $('.team-item-arrow').text('↓');
             teamMenu.toggleClass('opened');
 
-            setTimeout(()=>{
+            setTimeout(() => {
                 teamMenu.addClass('displayNone');
-            },300)
+            }, 300)
         } else {
             /*simple opening*/
             activateShadow();
             teamMenu.removeClass('displayNone');
 
-            setTimeout(()=>{
+            setTimeout(() => {
                 $('.team-item-arrow').text('↑');
                 teamMenu.toggleClass('opened');
-            },100)
+            }, 100)
 
         }
 
 
     }
-
 
 
 }
@@ -654,9 +648,9 @@ function showInsightsContent() {
     $('#menu-item-2-js .menu-item-arrow-bottom').text('↓');
     $('.nav-opened').addClass('fullvw').addClass('opened-by-insights');
     $('.containery').addClass('height-0');
-    setTimeout(()=>{
+    setTimeout(() => {
         window.scrollTo(0, 0);
-    },1000)
+    }, 1000)
 }
 
 function closeInsightsContent(e) {
@@ -667,6 +661,7 @@ function closeInsightsContent(e) {
     $('#menu-item-2-js .menu-item-arrow').text('↑');
     $('#menu-item-2-js .menu-item-arrow-bottom').text('↑');
     $('.nav-opened').removeClass('fullvw');
+    $('.nav-opened').removeClass('opened-by-insights');
     $('.containery').removeClass('height-0');
     if (e) e.stopPropagation();
 
@@ -696,9 +691,9 @@ function showProjectsContent() {
     $('#menu-item-1-js .menu-item-arrow').text('↓');
     $('#menu-item-1-js .menu-item-arrow-bottom').text('↓');
     $('.containery').addClass('height-0');
-    setTimeout(()=>{
+    setTimeout(() => {
         window.scrollTo(0, 0);
-    },1000)
+    }, 1000)
 }
 
 function closeProjectsContent(e) {
@@ -741,18 +736,22 @@ function callBackCompleteCaseLoading() {
     restoreDefaultMenu();
     console.log('// Animation end.')
     $('.preventClick').removeClass('preventClick');
-    setTimeout(()=>{
+    setTimeout(() => {
         $('.content-intro').removeClass('content-intro');
-    },600)
+        vimeoPlayerObserverSet();
+    }, 600)
 }
 
 function callBackCompleteArticleLoading() {
-    setTimeout(()=>{toggleDesktopMenu();},600)
+    setTimeout(() => {
+        toggleDesktopMenu();
+    }, 600)
     console.log('// Animation end.')
     $('.preventClick').removeClass('preventClick');
-    setTimeout(()=>{
+    setTimeout(() => {
         $('.content-intro').removeClass('content-intro');
-    },600)
+        vimeoPlayerObserverSet();
+    }, 600)
 }
 
 function runContentIntroAnimation() {
@@ -775,9 +774,10 @@ function runNextCaseContentIntroAnimation() {
     setTimeout(() => {
         $('.old-html').remove();
         $('.preventClick').removeClass('preventClick');
-        setTimeout(()=>{
+        setTimeout(() => {
             $('.new-html .case-study-html').unwrap();
-        },1000)
+            vimeoPlayerObserverSet();
+        }, 1000)
     }, 1000)
 }
 
@@ -787,9 +787,10 @@ function runNextProjectContentIntroAnimation() {
     setTimeout(() => {
         $('.old-html').remove();
         $('.preventClick').removeClass('preventClick');
-        setTimeout(()=>{
+        setTimeout(() => {
             $('.new-html .project-html').unwrap();
-        },1000)
+            vimeoPlayerObserverSet();
+        }, 1000)
     }, 1000)
 }
 
@@ -799,8 +800,29 @@ function runNextInsightContentIntroAnimation() {
     setTimeout(() => {
         $('.old-html').remove();
         $('.preventClick').removeClass('preventClick');
-        setTimeout(()=>{
+        setTimeout(() => {
             $('.new-html .insight-html').unwrap();
-        },1000)
+        }, 1000)
     }, 1000)
+}
+
+/*VIMEO PLAYER*/
+function vimeoPlayerObserverSet() {
+    $(".playVimeo").on("click", function (e) {
+        let parent = $(this).parent();
+        let iframe = $(parent).find("iframe")[0];
+        iframe.classList.add('activated');
+        let player = new Vimeo.Player(iframe);
+        $(parent).find(".poster").fadeOut();
+        $(this).hide();
+        player.play();
+        player.getVideoTitle().then(function (title) {
+            console.log('title:', title);
+        });
+        player.on('pause', function (data) {
+            console.log('video paused');
+            $(this)[0].element.parentElement.children[0].style.display = "block";
+            $(this)[0].element.parentElement.children[1].style.display = "block";
+        });
+    });
 }

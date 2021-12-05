@@ -8,7 +8,12 @@
   right: 0;
   width: 100vw;
 
-  transition: 0.2s
+  transition: 0.2s;
+  .main-content{
+    .row span i{
+      font-family: GT-Alpina-Standard-Light-Italic,sans-serif;
+    }
+  }
 }
 
 .new-html {
@@ -220,8 +225,8 @@ header {
         //height: 660px;
 
         .main-statement {
-          font-size: 104.6px;
-          line-height: 104.6px;
+          font-size: 88.5px;
+          line-height: 88.5px;
           letter-spacing: -3.2px;
           //position: absolute;
           //width: 730px;
@@ -260,17 +265,15 @@ header {
       .insight-by {
         font-family: Roobert-Medium, sans-serif;
         font-size: 14px;
-        margin-right: 19.3167px;
         line-height: 25px;
         margin-top: 40.25px;
       }
 
       .job-title {
-        font-family: Roobert-Medium, sans-serif;
+        font-family: Roobert-Medium,sans-serif;
         font-size: 14px;
-        margin-right: 19.3167px;
-        line-height: 25px;
-        margin-top: 3.23px;
+        line-height: 20px;
+        margin-top: 7.23px;
       }
 
       .main-content {
@@ -287,7 +290,7 @@ header {
           }
 
           .col-7 {
-            //width: 1029.95px;
+            width: 100%;
           }
         }
 
@@ -354,8 +357,8 @@ header {
           }
 
           span {
-            font-size: 104.6px;
-            line-height: 104.6px;
+            font-size: 88.5px;
+            line-height: 88.5px;
             letter-spacing: -3.2px;
             display: block;
           }
@@ -581,7 +584,7 @@ header {
 
 @media only screen and (min-width: 1900px) {
   .containery .body.insight-html .main-content {
-    margin-top: 12.864vw;
+    margin-top: 151.783px;
     padding: 0 10px;
     max-width: calc(100vw - 20px);
   }

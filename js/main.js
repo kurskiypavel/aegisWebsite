@@ -190,7 +190,7 @@ function loadInsight(insightToLoad, isNextInsight = false) {
             // readyDOMMain();
             //init events and etc. if required
             console.log('// Animation start.')
-            if (isNextInsight){
+            if (isNextInsight) {
                 console.log('nextInsight');
                 runNextInsightContentIntroAnimation();
             } else {
@@ -206,7 +206,7 @@ function loadInsight(insightToLoad, isNextInsight = false) {
     });
 }
 
-function loadCase(caseToLoad,isNextCase = false) {
+function loadCase(caseToLoad, isNextCase = false) {
     console.log(`loadCase ${caseToLoad}`);
     $('.case-study-panel__body').addClass('preventClick');
     $('body').addClass('js-page-loading');
@@ -229,10 +229,10 @@ function loadCase(caseToLoad,isNextCase = false) {
                 // readyDOMMain();
                 //init events and etc. if required
                 console.log('// Animation start.')
-                if (isNextCase){
+                if (isNextCase) {
                     console.log('nextCase');
                     runNextCaseContentIntroAnimation();
-                } else{
+                } else {
                     //animation here
                     $('.old-html').remove();
                     $('.new-html.inactive .case-study-html').unwrap();
@@ -284,7 +284,7 @@ function loadProject(projectToLoad, isNextProject = false) {
                 // readyDOMMain();
                 //init events and etc. if required
                 console.log('// Animation start.')
-                if (isNextProject){
+                if (isNextProject) {
                     console.log('nextProject');
                     runNextProjectContentIntroAnimation();
                 } else {

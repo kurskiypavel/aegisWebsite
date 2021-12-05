@@ -938,7 +938,7 @@ header {
             letter-spacing: -0.042vw;
             font-family: GT-Alpina-Standard-Light, sans-serif;
 
-            &:not(:first-child) {
+            &:not(:first-of-type) {
               margin-top: 2.542vw;
             }
 
@@ -977,9 +977,9 @@ header {
           }
           &.iframe-video{
             .backgroundPlay{
-              height: 44.22vw;
+              height: 43.22vw;
               position: relative;
-              margin-bottom: 10px;
+              //margin-bottom: 10px;
             }
           }
         }
@@ -1267,14 +1267,17 @@ header {
 
           display: flex;
           justify-content: center;
-          &:not(.imgSet){
+          &:not(.imgSet):not(.no-mt){
             margin: 209.2px auto 0;
           }
-          &.imgSet{
+          &.imgSet:not(.no-mt){
             margin: 128.75px auto 0;
           }
           &.iframe-video{
-            height: 839.733px;
+            height: 852px;
+          }
+          &.no-mt{
+            margin-top: 0px !important;
           }
 
           p {

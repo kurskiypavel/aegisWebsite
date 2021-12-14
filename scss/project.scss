@@ -51,6 +51,9 @@ iframe{
   .mobile-content, .mobile-menu {
     display: none;
   }
+  .content-head-text *{
+    display: block;
+  }
 }
 
 @media only screen and (max-width: 767px) {

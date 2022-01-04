@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - The practical value of beauty</title>
+    <title>Aegis - Branding is
+        inherently honest</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,28 +40,24 @@
             <div class="main-content">
                 <div class="main-statement-wrap" >
                     <div class="main-statement" >
-                        <span class="simple">The practical<br> value of beauty</span>
+                        <span class="simple">Branding is <br>inherently honest</span>
                     </div>
                 </div>
                 <div class="row ">
                     <div class="col-3">
                         <ul class="tag-list">
-                            <li>● Design</li>
-                            <li>● Culture</li>
+                            <li>● Branding</li>
                         </ul>
                         <div class="insight-by">By Greg Salmela </div>
                         <div class="job-title">Branding and Design Strategist at Aegis</div>
                     </div>
                     <div class="col-7">
-                        <p>“With design becoming more situated in strategy and problem-solving, is there still a place for beauty?” (Yes, of course there is…)</p>
-                        <p>I notice that current conversations about the value of design may be too limited.</p>
-                        <p>Design provides functional value by creating better fit. For example, better fit between brands, products, services and the people they serve. An essential dimension of this value is cultural fit — of which aesthetics is fundamental.</p>
-                        <p>Therefore, think of style as a set of cultural signals. As such, it is a language designers use to help brands differentiate and find cultural fit with audiences — by signalling currency, credibility and association.</p>
-                        <p>For instance, most of us have experienced how style signals cultural association when we were in high school. One would indicate identity with certain youth cultures—stoners, punks or preppies, for example—through their choice of style in fashion and music.</p>
-                        <p>With aesthetics being linked to cultural identity, it’s natural for style to act as a beacon for people of like values. Designers have an intuitive grasp of this, and therefore draw from culture to help brands achieve better fit with people.</p>
-                        <p>Recently, we helped the United Way revive an aging fundraising event by tapping into the aesthetic vernacular of its cosmopolitan target audience.</p>
-                        <p>Prior to our involvement, any sense of cultural relevance was missing from event branding and marketing, a potential factor leading to declining participation. Once we reframed the event within the aesthetic sensibilities of the target culture, the United Way realized a 27% spike in event participation.</p>
-                        <p>So while design may provide value in strategy and problem solving, its capacity to use beauty to enhance cultural fit is a contribution that cannot be overstated.</p>
+                        <p>You have no control over what people say or think about you. But your actions, consistently executed over time, can either shape or reinforce opinion. This is similar to how one builds brand equity.</p>
+                        <p>While brand strategy is the meaning you want people to associate with your brand, brand equity is how well that association is believed and retained by your market.</p>
+                        <p>Building equity is no different than building a reputation. It is the outcome of action—demonstrating your values with consistency and frequency.</p>
+                        <p>Nonetheless, in their eagerness to shape market sentiment, it is interesting how some companies fail to appreciate the need to align what is said with what is done.</p>
+                        <p>This was illustrated twenty years ago when British Petroleum repositioned itself as a green energy company. In contrast to its aspirational brand strategy, the company’s actions ultimately revealed its truth, with a bungled response to an ecological disaster of its own making.</p>
+                        <p>In the end, it’s hard for a brand to be dishonest and prosper. Those actions repeated consistently over time always reveal one’s true nature.</p>
                         <div class="share">
                             <ul>
                                 <li>Share:</li>
@@ -72,14 +69,15 @@
                     </div>
                 </div>
             </div>
+
             <div class="next-insight">
                 <div class="ref">
                     Next Insight
                 </div>
 
-                <div onclick="loadInsight('expanding-qualitative-research-beyond', true)" class="next-title">
-                    <span class="simple">Expanding qualitative research</span>
-                    <span class="simple"> beyond ‘usability’ and ‘use’</span>
+                <div onclick="loadInsight('design-options-as-cultural-inkblot-tests', true)" class="next-title">
+                    <span class="simple">Design options as</span>
+                    <span class="simple"> cultural inkblot tests</span>
                 </div>
 
             </div>
@@ -302,7 +300,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -469,6 +467,7 @@
         </div>
     </div>
     </div>
+    <div class="shadow-menu"></div>
 
 
 </div>
@@ -686,7 +685,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>

@@ -38,28 +38,27 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">Branding a large</span>
-                        <span class="simple">healthcare community</span>
+                        <span class="simple">Marketing</span>
+                        <span class="simple">the joy of learning</span>
                     </div>
-                    <div class="project-name">Lakeridge Health</div>
+                    <div class="project-name">The York School Campaign</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Branding & Identity</li>
-                            <li>● Way-finding</li>
-                            <li>● Maketing Collateral</li>
-                            <li>● Fundraising Event Naming</li>
-                            <li>● Event Identity</li>
-                            <li>● Social Media</li>
-                            <li>● Event Collateral</li>
+                            <li>● Strategy & Consulting</li>
+                            <li>● Copy Writing</li>
+                            <li>● Photography</li>
+                            <li>● Art Direction</li>
+                            <li>● Advertising Campaign</li>
+                            <li>● Social Media Campaign</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/LakebridgeHealth/1_lakeridgehealth_hero.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/1_tys2019campaign_hero.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/1_lakeridgehealth_mobile_hero.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/1_tys2019campaign_mobile_hero.jpg" alt="">
                     </div>
                 </div>
 
@@ -67,33 +66,37 @@
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Lakeridge Health is one of the largest regional healthcare systems in Ontario. It is the result of a merger of four hospitals and 12 health care clinics. The process of rebranding brought unity to an unwieldy federation of communities and cultures.</p>
-                        <p>We started by mapping the social and organizational terrain—gathering insights that would lead to more targeted communications and a design strategy. Our challenge was to develop a corporate identity that illustrated both the intricacy of Lakeridge’s corporate structure and the common bond between the organization’s various parts. Our work also provided Lakeridge leadership a map of its own complex cultural landscape as it moved forward.</p>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/2_lakeridgehealth.jpg" alt="">
-                </div>
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/3_lakeridgehealth.jpg" alt="">
-                </div>
-
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/4_lakeridgehealth.jpg" alt="">
-                </div>
-
-                <div class="row-img">
-                    <div class="full-row">
-                        <img class="" src="static/images/desktop/projects/LakebridgeHealth/5_lakeridgehealth.jpg" alt="" style="width: 54.153vw;margin: 0 0 0 auto;display: block;">
+                        <p>Over the last decade, we have worked with The York School to strengthen and define its brand, using marketing to build a memorable, differentiated presence. As a campaign, “Take on the World” anchors the School’s status as an IB World School to its value proposition.</p>
+                        <p>Through the seven years the campaign has run, the creative has shifted its approach to the goal (see our previous case studies), but how the brand is delivered remains consistent.</p>
+                        <p>The York School brand reflects a progressive culture that places the student at the centre. As a result, the campaign expresses the brand through the student rather than the institution—resulting in a brand personality that embodies wit, joy and playful curiosity.</p>
                     </div>
                 </div>
 
                 <div class="row-img">
-                    <div class="full-row">
-                        <img class="" style="width: 54.237vw;" src="static/images/desktop/projects/LakebridgeHealth/6_lakeridgehealth.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/2_tys2019campaign.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/2_tys2019campaign.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-img lowermargin">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/3_tys2019campaign.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/3_tys2019campaign.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-img lowermargin">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/4_tys2019campaign.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/4_tys2019campaign.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-img lowermargin">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/5_tys2019campaign.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/5_tys2019campaign.jpg" alt="">
                     </div>
                 </div>
 
@@ -101,63 +104,48 @@
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p><span style="font-weight: bold">Reinvigorating an event brand</span>—The Lakeridge Health Foundation orchestrates a number of fundraising events throughout the year. The Lakeridge Hospital Annual Gala is the cardinal event. It is organized around a different theme every year—resulting in a different look and style to support each successive theme. Unfortunately, this practice created market confusion and undermined any brand equity. We deliberately broke with that tradition. We worked with the Foundation to develop Inspireve—a new event brand. Inspireve offered the Foundation a clean slate and an opportunity to raise the bar and reinvent the event experience. Along with the event brand, Aegis also developed a range of branded communications. ⬤</p>
+                        <p><span style="font-weight: bold">A leader stands out like a leader</span>—Only a brand with confidence can place values over features. Only a brand with a strong reputation can pull off three word ads. The greatest value a campaign can give a brand is positive differentiation. The “Take on the World” campaign delivers a refreshing modern and youthful optimism that stands in stark contrast to a market largely consisting of traditional institutional school brands. ⬤</p>
                     </div>
+                </div>
+
+                <div class="row">
+                    <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/6_tys2019printad.jpg" alt="">
+                </div>
+
+                <div class="row">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/7_tys2019campaign.gif" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/7_tys2019campaign.gif" alt="">
+                    </div>
+                </div>
+
+                <div class="quote-block">
+                    <div class="quote">“Schools often demonstrate their global impact with a graphic of dots, representing grads, scattered across the globe. But that doesn’t tell me much. I’m interested in what they’re actually doing wherever they are, what challenges they face.”</div>
+                    <div class="quote-by">—Philip Lloyd, ’09, Crescent Alumni</div>
                 </div>
 
                 <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/LakebridgeHealth/7_lakeridgehealth.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/8_tys2019campaign.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/7_lakeridgehealth.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/8_tys2019campaign.jpg" alt="">
                     </div>
                 </div>
-
-<!--                two images-->
-                <div class="row-full mobile-only-set">
-                    <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/8_lakeridgehealth.jpg" alt="">
-                </div>
-
-                <div class="row-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/LakebridgeHealth/Group%20178.png" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/9_lakeridgehealth.jpg" alt="">
-                    </div>
-                </div>
-
-<!--                three images-->
-                <div class="row-full-img mobile-only-set">
-                    <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/10_lakeridgehealth.jpg" alt="">
-                </div><div class="row-full mobile-only-set">
-                    <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/11_lakeridgehealth.jpg" alt="">
-                </div>
-
-                <div class="row-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/LakebridgeHealth/Group%20180.png" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/10_lakeridgehealth.jpg" alt="">
-                        <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/11_lakeridgehealth.jpg" alt="">
-                        <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/12_lakeridgehealth.jpg" alt="">
-                    </div>
-                </div>
-
-
-
 
 
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-TYS-2015-Campaign', true)">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-TYS-Fundraising-Website', true)">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / The York School / Campaign
+                        Next Project / The York School / Fundraising Website
                     </div>
                     <div class="next-title">
-                        <span class="simple">Establishing a clear voice</span>
-                        <span class="simple"> in a noisy market</span>
+                        <span class="simple">A campaign</span>
+                        <span class="simple"> revives donor activity</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/LakebridgeHealth/1_TYS2015Campaign_hero.jpg" alt="">
+                    <img src="static/images/desktop/projects/TYSCampaign2019/1_tysfundraisingwebsite_hero.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -361,25 +349,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -391,7 +379,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -546,6 +534,7 @@
         </div>
     </div>
     </div>
+    <div class="shadow-menu"></div>
 
 
 </div>
@@ -744,26 +733,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -775,7 +764,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -871,7 +860,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - The York School Case Study</title>
+    <title>Aegis - Radiant Care</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <script src="js/style.js?v=12"></script>
     <script src="js/main.js?v=12"></script>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/cases.css?v=12">
+    <link rel="stylesheet" href="css/project.css?v=12">
     <link rel="stylesheet" href="css/media.css?v=12">
     <link rel="stylesheet" href="css/common-media.css?v=12">
 
@@ -34,182 +34,74 @@
                      alt="">
             </div>
         </header>
-        <div class="body case-study-html">
-            <div class="main-statement-wrap tysHero">
-                <img src="./static/images/desktop/cases/tys/1%20tyscase%20hero.jpg" class="case-hero-img" style="display: none" alt="">
-                <div class="main-statement crescent">
-                    <span>Crescent<br> School</span>
-                </div>
-                <img class="num-svg" alt="cs-num-svg" src="htmlLoad/static/images/cs-3-num.svg">
-            </div>
-
+        <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
-                    <div class="tag">Case Study</div>
                     <div class="content-head-text">
-                        <span class="simple">“Ten years ago, we were the fallback choice. We had to tell a different story.”</span>
+                        <span class="simple">Contemporary rebrand for</span>
+                        <span class="simple">a faith-based community</span>
                     </div>
-                    <div class="case-name">The York School</div>
+                    <div class="project-name">Radiant Care</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
                             <li>● Research</li>
+                            <li>● Naming</li>
                             <li>● Brand Identity</li>
-                            <li>● Website</li>
-                            <li>● Photography</li>
-                            <li>● Video Production</li>
-                            <li>● Social Media Campaign</li>
+                            <li>● Wayfinding</li>
                         </ul>
                     </div>
                 </div>
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>In 2010, The York School was at a crossroads. The young school, a small institution on one of the busiest streets in the city, had worked for years to hone its academically rigorous curriculum.  Still, the market was dominated by legacy schools with ivy-encrusted walls, hundred-year histories and storied reputations. By contrast, The York School offered a co-ed, non-denominational community in a modern, urban environment. Theirs was an education that could transcend borders. So why were they struggling to grow? “Ten years ago, we were the fallback choice,” says Justin Medved, the school’s associate head of academics. “For those parents to consider a different option, we had to tell a different story.”</p>
-                        <p>The school hired Marika Motiwalla, an alumnae who’d come from abroad and whose parents had chosen The York School precisely for its modernity and international focus. She knew the school wanted to better showcase its values, to become the top choice for students seeking an alternative to the city’s more traditional offerings. “There was no clear path on how to do that,” she says. The school’s branding, with its dark forest green crests and awkward typography, just didn’t fit with its ethos.</p>
-                    </div>
-                </div>
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                        <div class="img-wrap top-wrap" style="top: 0;">
-                            <img class="widerSideImg" src="static/images/desktop/cases/tys/2%20tyscase.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <img src="static/images/desktop/cases/tys/3-tyscase.gif" alt="">
-                    </div>
-                </div>
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>When The York School partnered with us, we knew it was essential to understand where the school wanted to go. “Aegis asked us the right questions,” says Motiwalla, then the school’s marketing and communications officer. Getting both practical and cultural understanding of the York School ensured that their real culture and values informed the communications.</p>
-                        <p>The resulting brand image was unmistakable. Within the open white space of a York School ad, readers find witty wordplay, set in a modern, geometric font, over colourful and lively portraiture of real kids being themselves—an impression that aligns with the school’s modern value proposition.</p>
-                        <p>We recommended that TYS own its streetfront location, and designed banners to prominently display the school’s position on Yonge Street. And, together with the school, we developed the “<span class="alpinaMedium"><u><a
-                                href="project-TYS-2011-Campaign.html" target="_blank" class="clear-underline">Be Yourself. Be Great</a></u></span>” campaign, which introduced the city to six of The York School’s students, defined not just by their academic successes but by their passions and pursuits outside of the classroom.</p>
-                    </div>
-                </div>
-                <div class="row-full" style="text-align: center;">
-                    <a href="project-TYS-2011-Campaign.html" target="_blank" class="clear-underline">
-                        <img style="margin-bottom: 10px;" class="full-row desktop-only-img" src="static/images/desktop/cases/tys/4%20tyscase.jpg" alt="">
-                        <div class="mobile-only-set">
-                            <img class="full-row" src="static/images/desktop/cases/tys/4%20tyscase.jpg" alt="">
-                        </div>
-                    </a>
-                </div>
-                <div class="content-row no-mt">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <a href="project-TYS-2011-Campaign.html" target="_blank" class="clear-underline">
-                            <span class="caption" style="font-family: Roobert-Regular,sans-serif">Read about the “<u style="font-family: Roobert-Medium,sans-serif">Be Yourself. Be Great</u>” campaign</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>The result was an astounding success. Enrollment inquiries rose by 600 per cent. More importantly, the rebrand transformed a hidden gem on Yonge Street into one of the city’s leading co-ed independent schools. “It really changed how the school presented itself,” Motiwalla says. “It felt authentic. It didn’t feel as though we were telling people what we did. It felt like we were showing people what we did.”</p>
-                        <p>These initial projects led to a decade-long partnership between Aegis and The York School. Together, we’ve reimagined how joyful learning can be. We’ve communicated the importance of play in education to donors, and have helped fill kindergarten classrooms with our “<span class="alpinaMedium"><u><a
-                                href="project-TYS-Kindergarten-Campaign.html" target="_blank" class="clear-underline">Start of Something Awesome</a></u></span>” campaign, leading to a waitlist for kindergarten for the first time in the school’s history.</p>
-                    </div>
-                </div>
-                <div style="display: block; text-align: center;" class="content-row iframe-video">
-                    <a href="project-TYS-Kindergarten-Campaign.html" target="_blank" class="clear-underline">
-                        <iframe class="backgroundPlay" src="https://player.vimeo.com/video/258092438?background=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                    </a>
-                </div>
-                <div style="padding-top: 10px;" class="content-row no-mt">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <a href="project-TYS-Kindergarten-Campaign.html" target="_blank" class="clear-underline">
-                            <span class="caption" style="font-family: Roobert-Regular,sans-serif">Read about the “<u style="font-family: Roobert-Medium,sans-serif">Start of Something Awesome</u>” campaign</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>Each subsequent campaign for the school evolved in order to emphasize a specific aspect of the value proposition. The “<span class="alpinaMedium"><u><a
-                                href="project-TYS-2015-Campaign.html" target="_blank" class="clear-underline">Take on the World</a></u></span>” campaign highlighted  The York School’s status as an IB world school as a platform for the aspirations of its students. A second “<span class="alpinaMedium"><u><a
-                                href="project-TYS-2015-Campaign.html" target="_blank" class="clear-underline">Take on the World</a></u></span>” campaign focused directly on The York School’s co-ed offering to differentiate it from single-gender schools in its market.</p>
-                        <p>The responsibility of a branding agency is to make a brand so clear that it helps other people make decisions. We’ve seen the York School grow in their ability to communicate their identity through design, even beyond our involvement. This was the case when they brought on the architecture firm Montgomery Sisam and its principal Robert Davies.</p>
-                    </div>
-                </div>
-                <div style="display: block; text-align: center;" class="content-row iframe-video">
-                    <a href="project-TYS-2015-Campaign.html" target="_blank" class="clear-underline">
-                        <iframe class="backgroundPlay" src="https://player.vimeo.com/video/107191051?background=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                    </a>
-                </div>
-                <div style="padding-top: 10px;" class="content-row no-mt">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <a href="project-TYS-2015-Campaign.html" target="_blank" class="clear-underline">
-                            <span class="caption" style="font-family: Roobert-Regular,sans-serif">Read about the “<u style="font-family: Roobert-Medium,sans-serif">Take On The World</u>” campaign</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>As the school’s presence grew, so too did its need for a physical space that reflected its values. Davies designed a campus filled with daylight, opening up spaces to offer myriad pathways for students to move through. “Part of having a calm state of mind is knowing how to orient yourself within your community, within your space. There’s no anxiety about what’s around the corner,” Davies says. The result was a school environment that was contemporary, open and bright—the same qualities that informed our work with the York School’s brand. </p>
-                        <p>By celebrating the very values that make it unique, The York School has helped students understand that’s exactly what the school can do for them, too. “Education is all about providing a framework of thinking—it’s being pushed, stretched, challenged,” says Praveen Muruganan, the school’s director of admissions. “I see The York School positioning itself for the future, helping its students be prepared for the world. I expect Aegis to be part of that.” ⬤</p>
+
+                <div class="row-full">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/radiant-care/1_radiantcare_hero.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/radiant-care/1_radiantcare_mobile_hero.jpg" alt="">
                     </div>
                 </div>
 
-                <div class="row-full iframe-video-back withBackground" style="background: #005F71;">
-                    <div style="text-align: center" class="full-row iframe-video">
-                        <iframe class="backgroundPlay" src="https://player.vimeo.com/video/564226644?background=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                    </div>
-                </div>
-                <div style="padding-top: 10px;" class="content-row no-mt">
+                <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <a href="project-TYS-Fundraising-Website.html" target="_blank" class="clear-underline">
-                            <span class="caption" style="font-family: Roobert-Regular,sans-serif">Read about the “<u style="font-family: Roobert-Medium,sans-serif">Let’s Reimagine</u>” campaign</span>
-                        </a>
+                        <p>Tabor Manor and Pleasant Manor were established by Mennonites early in the 20th century. They are affiliated through faith, culture and values. Facing new trends in demographics, the Board and management wanted to broaden their appeal. The older generation of Mennonites is shrinking. Their boomer children are rapidly approaching retirement themselves. In many cases, they have built careers, marriages, families and lives outside the community. Today’s retirees are more affluent and have active retirement lifestyle expectations.</p>
+                        <p><span style="font-weight: bold">Signalling inclusivity</span>—While both Tabor Manor and Pleasant Manor welcome applicants from all faiths and ethnicities, a Mennonite faith-based organization does not appeal to non-Mennonite prospects. Through a human-centred, anthropological approach to branding and change management, we helped the organization shift its brand from being aligned around a specific cultural heritage to be more open and inclusive.</p>
                     </div>
                 </div>
 
-
-                <div class="row" style="text-align: center;">
-                    <a href="project-TYS-Campaign2019.html" target="_blank" class="clear-underline">
-                        <img style="margin-bottom: 10px;" class="full-row desktop-only-img imgSet" src="static/images/desktop/cases/tys/8_tyscase.jpg" alt="">
-                        <div class="mobile-only-set">
-                            <img class="full-row" src="static/images/desktop/cases/tys/8_tyscase.jpg" alt="">
-                        </div>
-                    </a>
+                <div class="row">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/radiant-care/2_radiantcare.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/radiant-care/2_radiantcare_mobile.jpg" alt="">
+                    </div>
                 </div>
-                <div class="content-row no-mt">
+
+                <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <a href="project-TYS-Campaign2019.html" target="_blank" class="clear-underline">
-                            <span class="caption" style="font-family: Roobert-Regular,sans-serif">Read about the “<u style="font-family: Roobert-Medium,sans-serif">Co-Ed</u>” campaign</span>
-                        </a>
+                        <p><span style="font-weight: bold">Universality from shared values</span>—After an ethnographic exploration of both the internal and external stakeholder communities, we helped to reposition the organization around its core values of caring, compassion, and community. The result was a refreshed, universally compelling brand and value proposition that the organization already ‘lives’ and can deliver. We created a unifying name, Radiant Care, an identity, and messaging that conveyed the brand’s values of warmth and openness, and set expectations about the resident experience. ⬤</p>
                     </div>
+                </div>
+
+                <div class="row">
+                    <img class="full-row" src="static/images/desktop/projects/radiant-care/3_radiantcare.jpg" alt="">
                 </div>
 
             </div>
 
-            <div class="next-case">
-                <div class="next-case-body">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-council-for-ontario-universities', true)">
+                <div class="next-project-body">
                     <div class="ref">
-                        Next Case Study / Camp Kandalore
+                        Next Project / Council for Ontario Universities
                     </div>
-                    <div onclick="loadCase('case-kandalore', true)" class="next-title">
-                        <span class="simple">“Aegis immersed<br> themselves in our culture.<br> They lived camp in its<br> most authentic way.”</span>
+                    <div class="next-title">
+                        <span class="simple">Designing Information for</span>
+                        <span class="simple">ergonomics and accessibility</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/cases/tys/next.jpg" alt="">
+                    <img src="static/images/desktop/projects/radiant-care/Intersection%201.png" alt="">
                 </div>
             </div>
         </div>
@@ -413,25 +305,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -443,7 +335,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -598,7 +490,6 @@
         </div>
     </div>
     </div>
-    <div class="shadow-menu"></div>
 
 
 </div>
@@ -797,26 +688,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -828,7 +719,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -924,7 +815,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Project page</title>
+    <title>Aegis - TYS 2015 Campaign</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,156 +38,122 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">A magazine redesign</span>
-                        <span class="simple">energizes engagement</span>
+                        <span class="simple">Establishing a clear voice</span>
+                        <span class="simple">in a noisy market</span>
                     </div>
-                    <div class="project-name">Ivey Business School / InTouch Magazine</div>
+                    <div class="project-name">The York School</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Strategy & Consulting</li>
-                            <li>● Editorial Design</li>
-                            <li>● Art Direction</li>
-                            <li>● Photography</li>
-                            <li>● Illustration</li>
+                            <li>● Branding</li>
+                            <li>● Advertising</li>
+                            <li>● Marketing Collateral</li>
+                            <li>● Website</li>
+                            <li>● Video Production</li>
+                            <li>● Social Media Campaign</li>
                         </ul>
                     </div>
                 </div>
 
+
                 <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/1_iveyintouchmagazine_hero.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYS-2015-Campaign/1_TYS2015Campaign_hero.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/1_iveyintouchmagazine_mobile_hero.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/TYS-2015-Campaign/1_TYS2015Campaign_mobile_hero.jpg" alt="">
                     </div>
                 </div>
-
 
                 <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Ivey Business School appreciates the value of its alumni base to its brand and sustainability. With this in mind, its alumni magazine, InTouch, serves a critical function. The magazine maintains a relevant connection with its 25,000 alumni. The previous iteration of the publication was produced internally by the School and it had a very institutional voice. We were invited to help Ivey reconceive the magazine and strengthen its value to its audience.</p>
+                        <p>The York School is a successful and long-standing International Baccalaureate World School in Toronto. It challenges traditional educational approaches and delivers incredible results. We have enjoyed a collaborative relationship with them for over eight years. Generally, most independent schools communicate remarkably similarly, from design to photography to language. The trusting relationship we have enjoyed with The York School permits us to take calculated risks and develop creative authentic and unique to The York School brand.</p>
                     </div>
                 </div>
 
-                <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/2_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/2_iveyintouchmagazine.jpg" alt="">
+                <div class="row-full iframe-video-back">
+                    <div class="full-row iframe-video">
+                        <iframe class="backgroundPlay" src="https://player.vimeo.com/video/107191051?background=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
                     </div>
                 </div>
-
 
                 <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p><span style="font-weight: bold">Re-focusing on the target</span>—To ensure the magazine would maintain strong relevance with alumni, the School established an editorial board with equal representation of both School and alumni. Moving forward, success would be informed by a key metric—how the readership defines relevant. This would manifest in a number of ways. Stories would be about the alumni—their lives and careers, and how the knowledge and values gained at Ivey have helped shape the real world. To ensure it maintained interest and freshness, journalists would write the articles, rather than school staff. Additionally, the design would be photographically driven. With an ever-present eye on relevance, photography connected the magazine with the world of the alumnus.</p>
-                        <p><span style="font-weight: bold">Measuring Success</span>—Publishing and distributing a magazine is expensive. It becomes important to have insight into whether the reader audience values the content. Otherwise any return on investment is not clear. The board instituted regular audience research and readership surveys. Creating a great magazine is an iterative process. Phases of redesign were launched at points where the research highlighted a clear opportunity for improvement. ⬤</p>
+                        <p><span style="font-weight: bold">Trust leads to another success</span>—Over the years, we have produced a range of communications and multimedia brand campaigns shaping the School’s public image. “Take on the World,” our most recent campaign, positions the school as one where students are uniquely prepared to build fulfilling careers and lives. All of our campaigns leverage the voice of York School students. They are bright, well-rounded, articulate and self-reflexive: the best possible spokespeople. In addition to helping meet recruitment goals, the campaigns, over the years, have strengthened the brand’s visibility and market share. ⬤</p>
                     </div>
                 </div>
 
                 <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/3_iveyintouchmagazine.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYS-2015-Campaign/9_TYS2015Campaign.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/3_iveyintouchmagazine.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/TYS-2015-Campaign/9_TYS2015Campaign.jpg" alt="">
                     </div>
                 </div>
+
+                <div class="row-img iframe-video-back">
+                    <div class="full-row iframe-video">
+                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
+                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
+                        </span>
+                        <div class="poster" style="background-image:url('static/images/desktop/projects/TYS-2015-Campaign/bayla-vimeo.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
+                        <iframe src="https://player.vimeo.com/video/107195931" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div class="row-img iframe-video-back">
+                    <div class="full-row iframe-video">
+                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
+                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
+                        </span>
+                        <div class="poster" style="background-image:url('static/images/desktop/projects/TYS-2015-Campaign/5_TYS2015Campaign.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
+                        <iframe src="https://player.vimeo.com/video/107626725" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/TYS-2015-Campaign/8_TYS2015Campaign.jpg" alt="">
+                </div>
+                <div class="row-img iframe-video-back">
+                    <div class="full-row iframe-video">
+                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
+                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
+                        </span>
+                        <div class="poster" style="background-image:url('static/images/desktop/projects/TYS-2015-Campaign/1174158549-vimeo.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
+                        <iframe src="https://player.vimeo.com/video/107858844" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div class="row-img iframe-video-back">
+                    <div class="full-row iframe-video">
+                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
+                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
+                        </span>
+                        <div class="poster" style="background-image:url('static/images/desktop/projects/TYS-2015-Campaign/1174158274-vimeo.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
+                        <iframe src="https://player.vimeo.com/video/107622193" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
+                    </div>
+                </div>
+
 
                 <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/4_iveyintouchmagazine.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYS-2015-Campaign/3_TYS2015Campaign.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/4_iveyintouchmagazine.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/TYS-2015-Campaign/3_TYS2015Campaign.jpg" alt="">
                     </div>
                 </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/5_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/5_iveyintouchmagazine.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/6_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/6_iveyintouchmagazine.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/7_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/7_iveyintouchmagazine.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/8_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/8_iveyintouchmagazine.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/9_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/9_iveyintouchmagazine.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/10_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/10_iveyintouchmagazine.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/11_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/11_iveyintouchmagazine.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/12_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/12_iveyintouchmagazine.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/13_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/13_iveyintouchmagazine.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/14_iveyintouchmagazine.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/14_iveyintouchmagazine_mobile.jpg" alt="">
-                    </div>
-                </div>
-
-
-
 
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-Peeps-Digital', true)">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-kovo', true)">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / Peeps / Digital
+                        Next Project / Kovo
                     </div>
                     <div class="next-title">
-                        <span class="simple">A digital brand for</span>
-                        <span class="simple"> people interested in people</span>
+                        <span class="simple">Branding a digital platform</span>
+                        <span class="simple"> in animal healthcare</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/InTouch-Magazine/1_peepsdigital_hero.jpg" alt="">
+                    <img src="static/images/desktop/projects/TYS-2015-Campaign/1_kovo_hero.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -391,25 +357,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -421,7 +387,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -576,6 +542,7 @@
         </div>
     </div>
     </div>
+    <div class="shadow-menu"></div>
 
 
 </div>
@@ -774,26 +741,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -805,7 +772,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -901,7 +868,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

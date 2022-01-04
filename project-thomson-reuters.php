@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Ryerson University</title>
+    <title>Aegis - Thomson Reuters</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,24 +38,26 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">A magazine establishes a</span>
-                        <span class="simple">young research university</span>
+                        <span class="simple">Aligning brand</span>
+                        <span class="simple"><br>communication with</span>
+                        <span class="simple">corporate culture</span>
                     </div>
-                    <div class="project-name">Ryerson University</div>
+                    <div class="project-name">Thomson Reuters</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Editorial Design</li>
+                            <li>● Branding</li>
                             <li>● Annual Report</li>
-                            <li>● Art Direction</li>
+                            <li>● Website</li>
                         </ul>
                     </div>
                 </div>
 
+
                 <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/ryerson-university/1_ryerson_hero.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/thomson-reuters/1_thomsonreuters_hero.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/ryerson-university/1_ryerson_mobile_hero.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/thomson-reuters/1_thomsonreuters_mobile_hero.jpg" alt="">
                     </div>
                 </div>
 
@@ -63,75 +65,106 @@
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Ryerson partnered with Aegis to create Intersections, a magazine aimed at academia, business, community and government. The magazine features the bright minds that drive the university’s research. It is intended primarily to communicate the unique nature of Ryerson’s research to stakeholders. But the has also become an important tool for recruiting both high calibre research talent and high calibre students.</p>
+                        <p>The year The Thomson Corporation (now Thomson Reuters) was listed on the New York Stock Exchange, they found themselves challenged by a lack of corporate image. Until now, they had merely been a holding company. Going forward they needed a way to showcase themselves as a cohesive brand. Although Thomson was the world’s largest information company, it was also the least known. They didn’t produce a lot of corporate communications materials. And their annual report was the binding document for the company. It served as the only real public face of the corporation.</p>
                     </div>
                 </div>
 
                 <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/2_ryerson.jpg" alt="">
-                </div>
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p><span style="font-weight: bold">Leadership through storytelling</span>—Stories are a powerful way to communicate culture and leadership. We created the magazine as a collection of engaging stories and photography about people of science—Ryerson researchers in their pursuit of ground-breaking work. At its core, Intersections galvanized the notion of Ryerson as an urban campus integrated into the city. ⬤</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/3_ryerson.jpg" alt="">
+                    <img class="full-row" src="static/images/desktop/projects/thomson-reuters/2_thomsonreuters.jpg" alt="">
                 </div>
 
                 <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/4_ryerson.jpg" alt="">
+                    <div class="full-row">
+                        <img class="" src="static/images/desktop/projects/thomson-reuters/3_thomsonreuters.jpg" alt="" style="width: 54.237vw;margin: 0 0 0 auto;display: block;">
+                    </div>
+                </div>
+
+                <div class="row-img">
+                    <div class="full-row">
+                        <img class="" style="width: 65.254vw;" src="static/images/desktop/projects/thomson-reuters/4_thomsonreuters.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/thomson-reuters/5_thomsonreuters.jpg" alt="">
+                </div>
+
+                <div class="content-row">
+                    <div class="col-3 d-block">
+                    </div>
+                    <div class="col-7">
+                        <p><span style="font-weight: bold">Real leaders don’t posture</span>—Our approach, was predicated on anthropological and social research. Thomson understood the power of such a foundation, and were prepared for a report that communicated a very different image. We knew we had to provide a definitive position the stakeholders could find affinity with. Rather than having Thomson talk about themselves, we invited three thought leaders in the field to frame the information in the report. Specifically, they spoke to the coming digitizing of the knowledge economy without speaking directly about Thomson. The result allowed readers to see Thomson in a new light. Readers could use their own judgement to find a place for the company, naturally, in the logical space described by the thought leaders.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="full-row" src="static/images/desktop/projects/thomson-reuters/6_thomsonreuters.jpg" alt="">
                 </div>
 
                 <!--2 images-->
                 <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/Group%20180.png" alt="">
+                    <img class="full-row" src="static/images/desktop/projects/thomson-reuters/Group%20182.png" alt="">
                 </div>
-                <!--2 images end-->
+                <!--2 images-->
 
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/7_ryerson.jpg" alt="">
-                </div>
 
                 <div class="row-full-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/ryerson-university/8_ryerson.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/thomson-reuters/9_thomsonreuters.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/ryerson-university/8_ryerson.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/thomson-reuters/9_thomsonreuters.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/9_ryerson.jpg" alt="">
+                    <img class="full-row" src="static/images/desktop/projects/thomson-reuters/10_thomsonreuters.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <div class="full-row">
+                        <img class="" src="static/images/desktop/projects/thomson-reuters/11_thomsonreuters.jpg" alt="" style="width: 54.237vw;margin: 0 0 0 auto;display: block;">
+                    </div>
+                </div>
+
+                <div class="row-img">
+                    <div class="full-row">
+                        <img class="" style="width: 65.254vw;" src="static/images/desktop/projects/thomson-reuters/12_thomsonreuters.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/thomson-reuters/13_thomsonreuters.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <div class="full-row">
+                        <img class="" src="static/images/desktop/projects/thomson-reuters/14_thomsonreuters.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;display: block;">
+                    </div>
                 </div>
 
                 <!--2 images-->
                 <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/Group%20181.png" alt="">
+                    <img class="full-row" src="static/images/desktop/projects/thomson-reuters/Group%20182-1.png" alt="">
                 </div>
-                <!--2 images end-->
+                <!--2 images-->
 
                 <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/12_ryerson.jpg" alt="">
+                    <img class="full-row" src="static/images/desktop/projects/thomson-reuters/17_thomsonreuters.jpg" alt="">
                 </div>
+
 
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-TYS-2011-Campaign', true)">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-thrive-group', true)">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / The York School
+                        Next Project / Thrive Group
                     </div>
                     <div class="next-title">
-                        <span class="simple"> Creating a campaign</span>
-                        <span class="simple"> that changes perception</span>
+                        <span class="simple">Branding unifies a merger</span>
+                        <span class="simple">of health-care services</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/ryerson-university/1 tys2011campaign hero.jpg" alt="">
+                    <img src="static/images/desktop/projects/thomson-reuters/1_thrivegroup_hero.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -335,25 +368,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -365,7 +398,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -520,6 +553,7 @@
         </div>
     </div>
     </div>
+    <div class="shadow-menu"></div>
 
 
 </div>
@@ -718,26 +752,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -749,7 +783,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -845,7 +879,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

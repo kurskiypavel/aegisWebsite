@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Crescent Case Study</title>
+    <title>Aegis - United Way Case Study</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,7 @@
     <script src="static/js-libs/scrollmagic.min.js"></script>
     <!--    <script src="static/js-libs/debug.addIndicators.js"></script>-->
     <script src="static/js-libs/animation.gsap.min.js"></script>
-<script src="static/js-libs/player.js"></script>
+    <script src="static/js-libs/player.js"></script>
 
     <script src="js/style.js?v=12"></script>
     <script src="js/main.js?v=12"></script>
@@ -35,8 +35,8 @@
             </div>
         </header>
         <div class="body case-study-html">
-            <div class="main-statement-wrap crescentHero">
-                <img src="./static/images/desktop/cases/crescent/1_crescentcase_hero.jpg" class="case-hero-img" style="display: none" alt="">
+            <div class="main-statement-wrap unitedWayHero">
+                <img src="./static/images/desktop/cases/unitedway/1%20unitedway_hero.jpg" class="case-hero-img" style="display: none" alt="">
                 <div class="main-statement crescent">
                     <span>Crescent<br> School</span>
                 </div>
@@ -47,157 +47,147 @@
                 <div class="head-block">
                     <div class="tag">Case Study</div>
                     <div class="content-head-text">
-                        <span class="simple">“The magazine used to present alumni news in little blurbs. Now the stories flesh out real people.”</span>
+                        <span class="simple">“It’s hard to convey the complexity of tackling poverty. But this campaign did that.”</span>
                     </div>
-                    <div class="case-name">Crescent School</div>
+                    <div class="case-name">United Way</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Content Creation</li>
-                            <li>● Editorial Design</li>
+                            <li>● Research</li>
+                            <li>● Brand Identity</li>
+                            <li>● Writing</li>
                             <li>● Photography</li>
-                            <li>● Art Direction</li>
-                            <li>● Anthropological Research</li>
-                            <li>● Strategy &amp; Consulting</li>
+                            <li>● Animation</li>
+                            <li>● Multi-Media Campaign</li>
                         </ul>
                     </div>
                 </div>
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                        <div class="img-wrap">
-                            <img src="static/images/desktop/cases/crescent/2_crescentcase.jpg" alt="">
-                            <img class="sub-image" src="static/images/desktop/cases/crescent/3_crescentcase.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <p>As a student, Philip Lloyd recalls flipping through his school’s alumni magazine with interest, seeing life at his Toronto private school reflected in its glossy pages. But when he graduated from the school, left home for university and launched a career in communications, he found the magazine less and less relevant.</p>
-                        <p>As with most private schools, Crescent’s alumni magazine is an important vehicle. It connects the school with its graduates and nourishes the school’s community. Crescent works hard to keep its biannual alumni publication Past & Present contemporary and fresh. In 2017, the school approached four advertising agencies, of which Aegis was one, about giving the magazine a makeover.</p>
-                        <div class="img-mobile-wrap">
-                                <img src="static/images/desktop/cases/crescent/2_crescentcase.jpg" alt="">
-                                <img class="sub-image" src="static/images/desktop/cases/crescent/3_crescentcase.jpg" alt="">
-                        </div>
-                        <p>Lynda Torneck, Crescent’s director of communications and marketing, admits that she was surprised by our approach. “When advertising companies pitch new projects,” she says, “they usually tell the client what the client wants to hear.  Aegis didn’t do that.  We said we were looking for a new look and they told us that wasn’t enough.”</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/cases/crescent/4_crescentcase.jpg" alt="">
-                </div>
 
                 <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Instead, we proposed a complete re-think of the publication that would involve examining it from the ground up: talking to its readers, redefining its mission, giving it a real editorial focus and placing it not alongside other school magazines of its kind, but alongside high-quality magazines generally.</p>
-                        <p>We had one of our anthropologists conduct interviews with alumni about their relationship with the school and their engagement with Past & Present. The feedback was remarkably consistent; while most graduates took pride in their association with Crescent and considered themselves part of its “imagined community,” they found little personal value in the alumni magazine.</p>
-                        <p>It became clear that what was required was much more profound than a redesign; the school needed to restore its connection with its alumni by directing the magazine explicitly to them. To put the reader in the driver’s seat, we proposed the creation of an editorial board of alumni.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/cases/crescent/Group%20189.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/cases/crescent/6_crescentcase%20copy.jpg" alt="">
-                        <img class="full-row" src="static/images/desktop/cases/crescent/7_crescentcase.jpg" alt="">
-                        <img class="full-row" src="static/images/desktop/cases/crescent/8_crescentcase.jpg" alt="">
-                        <img class="full-row" src="static/images/desktop/cases/crescent/9_crescentcase.jpg" alt="">
-                    </div>
-                </div>
-<!--                <div class="quote-block">
-                    <div class="quote">“Schools often demonstrate their global impact with a graphic of dots, representing grads, scattered across the globe. But that doesn’t tell me much. I’m interested in what they’re actually doing wherever they are, what challenges they face.”</div>
-                    <div class="quote-by">—Philip Lloyd, ’09, Crescent Alumni</div>
-                </div>-->
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>“What we ended up doing with Aegis was way more work,” says Torneck, “but also way more rewarding. The impact has been incredible.” </p>
-                        <p>Philip Lloyd, who graduated from Crescent in 2009, recognized the difference immediately. The first edition of the revamped Past & Present arrived in the winter of 2018, with a cover feature on a group of Crescent alumni who are distinguishing themselves as entrepreneurs in the booming craft beverage market.</p>
-                        <p>“The magazine used to present alumni, news in little blurbs: ‘got married; had a baby; got promoted’. It focussed on credentials,” says Lloyd. “Now the stories flesh out real people and the choices they’ve made.” At times when he is reading the new Past & Present, Lloyd forgets that it’s a Crescent publication. And that, he says, is a good thing.</p>
+                        <p>The moment Geoff Siegel crossed the finish line—144 flights of stairs behind him, beads of sweat pooling at his temples—he felt the energy shift. He looked over at his 15-year-old son, who’d slowed his own pace so the pair could finish together. He was flushed and beaming. They stood, dizzy with fatigue and adrenaline, at the top of the steps of CN Tower, packed in shoulder-to-shoulder with likeminded people climbing toward change. </p>
+                        <p>It was the first time he’d seen his son light up that way. “He felt that he was part of something,” Siegel says. “We felt like we were part of a community, of something bigger.” For 40 years, Climb the CN Tower had been the United Way’s signature event, but attendance was faltering. Siegel brought on Aegis to reverse that trend.</p>
+                        <p>Siegel, a media strategist, felt that same finish-line rush once more when he began to work with our team. “Aegis has a really interesting process. It really aligned with ours,” he says. “It made for a great synergy in reimagining the narrative. We really fed off each other right away.” The most critical asset Aegis brought to the project? The ability to listen, understand, and translate what we heard into a story.</p>
                     </div>
                 </div>
 
-                <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/cases/crescent/9_crescentcase_n.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/cases/crescent/9_crescentcase_n.jpg" alt="">
-                    </div>
+                <div style="display: block; text-align: center;" class="content-row iframe-video">
+                        <iframe class="backgroundPlay" src="https://player.vimeo.com/video/397208403?background=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
                 </div>
 
                 <div class="content-row">
                     <div class="col-3 d-block">
                         <div class="percentage-wrap">
-                            <div class="percentage">90%</div>
+                            <div class="percentage" style="font-size: 3.220vw;">+29%</div>
                             <div class="percentage-description">
-                                of reader survey respondents felt that the new magazine significantly strengthened their connection with alumni culture and the school
+                                increase in participation
+                            </div>
+                            <div class="percentage" style="font-size: 3.220vw;">+27%</div>
+                            <div class="percentage-description">
+                                increase over the previous year with a higher pledge level per participant and a lower attrition rate
                             </div>
                         </div>
                     </div>
                     <div class="col-7">
                         <div class="percentage-mobile-wrap">
-                            <div class="percentage">90%</div>
+                            <div class="percentage">+29%</div>
                             <div class="percentage-description">
-                                of reader survey respondents felt that the new magazine significantly strengthened their connection with alumni culture and the school
+                                increase in participation
+                            </div>
+                            <div class="percentage">+27%</div>
+                            <div class="percentage-description">
+                                increase over the previous year with a higher pledge level per participant and a lower attrition rate
                             </div>
                         </div>
-                        <p>Like many students attending private school, Lloyd felt the weight of expectations: to follow one of a few career paths, to excel in traditional ways. The newly launched magazine broadens the focus, illustrating the diversity of options available to graduates of the school.</p>
-                        <p>“Schools often demonstrate their global impact with a graphic of dots, representing grads, scattered across the globe. But that doesn’t tell me much. I’m interested in what they’re actually doing wherever they are, what challenges they face.” Lloyd recalls reading a piece in Past & Present about a graduate who dropped a job on Wall Street to launch a dog-walking business; another about a grad raising his family in China. One day, Lloyd – who has always lived in Ontario - would himself like to set out into the larger world, so he finds these stories inspirational.</p>
-                        <p>Ultimately, the new Past & Present connects Lloyd less to the bricks and mortar of Crescent, than to the people who have come out of the school, their ideas and aspirations. It shows their place – and that of the school – in a rapidly changing world, instills in him a sense of belonging and pride and ensures that the school remains an important part of who he is and who he becomes. ⬤</p>
+                        <p>Alongside anthropologist Emily Simmons, who works at the intersection of research and strategy, we set out to map the brand’s communication challenges. Simmons spent hours interviewing event participants, analyzing the ways people were engaging with the climb through hashtags online, and drawing out common themes. “You’re really doing a lot of deep listening,” Simmons says. That allowed us to identify which group was most likely to move the needle—natural leaders who encouraged their peers to climb alongside them.</p>
+                        <p>We envisioned a protagonist to guide us: a 25- to 40-something year old urbanite, who works hard, works out, travels, and engages politically in their community. She exhibits high social intelligence, and is a natural leader. She cares deeply about being a good citizen. She, like Geoff and his son, wants to reach new heights—not just for herself and her loved ones, but for the city as a whole.</p>
+                        <p>To get these people out, we had to remind them of the power of personal scale, the way one person’s contribution can inspire a sea change. We created Up, envisioning it as a rallying cry. And we realized that Up didn’t just apply to the climb itself. “It’s about bringing communities up, bringing those who are disadvantaged up from the bottom—from poverty to possibility,” Siegel says.</p>
                     </div>
                 </div>
 
+                <div class="row" style="text-align: center;">
+                        <img style="margin-bottom: 10px;" class="full-row desktop-only-img" src="static/images/desktop/cases/unitedway/3%20unitedway.jpg" alt="">
+                        <div class="mobile-only-set">
+                            <img class="full-row" src="static/images/desktop/cases/unitedway/3%20unitedway.jpg" alt="">
+                        </div>
+                </div>
+
+                <div class="content-row">
+                    <div class="col-3 d-block">
+                        <div class="percentage-wrap">
+                            <div style="font-size: 3.220vw;" class="percentage">$1,688 million</div>
+                            <div class="percentage-description">
+                                participation yielded a record fundraising total
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-7">
+                        <div class="percentage-mobile-wrap">
+                            <div style="font-size: 3.220vw;" class="percentage">$1,688 million</div>
+                            <div class="percentage-description">
+                                participation yielded a record fundraising total
+                            </div>
+                        </div>
+                        <p>It was a powerful idea, and it resonated: more and more climbers have signed up each year since. Using the CN Tower itself as a metaphor, we reached engaged citizens through an advertising campaign illustrated the power of collective action. It led to 29% more people climbing those 1,776 steps in its first year. </p>
+                        <p>“It’s hard to introduce people to the complexity of tackling local poverty at an event like this,” says Adrienne Clark, United Way’s director of donor experience and marketing. “But this campaign did that. It set up a conversation for us.” It told a new story about a mission that’s been the heart of the United Way for decades. “You’re standing in solidarity with your fellow citizens,” Clark says. </p>
+                        <p>The United Way now uses our creative work not just for the CN Tower climb, but as a platform to unify all of the charity’s events. “That was not the goal, but the execution and the framework were so powerful that the work lives on through all of their events now,” Siegel says. “I really do believe that we tried to create what smelled a little bit like a movement.” ⬤</p>
+                    </div>
+                </div>
+
+                <div class="row-full">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/cases/unitedway/4%20unitedway.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/cases/unitedway/4%20unitedway.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row" style="text-align: center;">
+                    <img style="margin-bottom: 10px;" class="full-row desktop-only-img imgSet" src="static/images/desktop/cases/unitedway/Group%20179.png" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/cases/unitedway/Group%20179.png" alt="">
+                    </div>
+                </div>
+                <div class="row" style="text-align: center;">
+                    <img style="margin-bottom: 10px;" class="full-row desktop-only-img imgSet" src="static/images/desktop/cases/unitedway/Group%20180.png" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/cases/unitedway/7%20unitedway.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row" style="text-align: center;">
+                    <img style="margin-bottom: 10px;" class="full-row desktop-only-img imgSet" src="static/images/desktop/cases/unitedway/Group%20181.png" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/cases/unitedway/Group%20181.png" alt="">
+                    </div>
+                </div>
+                <div class="row" style="text-align: center;">
+                    <img style="margin-bottom: 10px;" class="full-row desktop-only-img imgSet" src="static/images/desktop/cases/unitedway/Group%20182.png" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/cases/unitedway/10%20unitedway.jpg" alt="">
+                    </div>
+                </div>
 
                 <div class="row">
-                    <img class="full-row" src="static/images/desktop/cases/crescent/10_crescentcase.jpg" alt="">
+                    <img class="full-row imgSet" src="static/images/desktop/cases/unitedway/11%20unitedway.jpg" alt="">
                 </div>
                 <div class="row">
-                    <img class="full-row desktop-only-img imgSet" src="static/images/desktop/cases/crescent/12_crescentcase.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/cases/crescent/12_crescentcase_mobile1.jpg" alt="">
-                    </div>
+                    <img class="full-row imgSet" src="static/images/desktop/cases/unitedway/12%20unitedway.jpg" alt="">
                 </div>
-                <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/crescent/11_crescentcase.jpg" alt="">
-                </div>
-                <div class="row-full imgSet">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/cases/crescent/19_crescentcase.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/cases/crescent/19_crescentcase_mobile.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/crescent/13_crescentcase.jpg" alt="">
-                </div>
-                <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/crescent/14_crescentcase.jpg" alt="">
-                </div>
-                <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/crescent/15_crescentcase.jpg" alt="">
-                </div>
-                <div class="row-full imgSet">
-                    <img class="full-screen desktop-only-img" src="static/images/desktop/cases/crescent/16_crescentcase.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/cases/crescent/16_crescentcase_mobile.jpg" alt="">
-                    </div>
-                </div>
-                <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/crescent/17_crescentcase.jpg" alt="">
-                </div>
-                <div class="row-full imgSet">
-                    <video class="full-screen" src="static/images/desktop/cases/crescent/18_CrescentCase.mp4" muted="" autoplay="" loop=""></video>
-                </div>
+
             </div>
 
             <div class="next-case">
                 <div class="next-case-body">
                     <div class="ref">
-                        Next Case Study / United Way
+                        Next Case Study / Peeps Magazine
                     </div>
-                    <div onclick="loadCase('case-united-way', true)" class="next-title">
-                        <span class="simple">“It’s hard to convey the complexity of tackling poverty. But this campaign did that.”</span>
+                    <div onclick="loadCase('case-peeps', true)" class="next-title">
+                        <span class="simple">“Peeps is the only magazine <br>I know of that uses an anthropological standpoint to tell its stories.”</span>
                     </div>
                 </div>
-                <div class="row-full">
-                    <img src="static/images/desktop/cases/crescent/Capture.JPG" alt="">
+                <div class="row-full limited-next-image">
+                    <img src="static/images/desktop/cases/unitedway/NextUnit.JPG" alt="">
                 </div>
             </div>
         </div>
@@ -407,7 +397,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
@@ -419,7 +409,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -791,7 +781,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
@@ -804,7 +794,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -912,7 +902,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

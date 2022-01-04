@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Camp Kandalore Case Study</title>
+    <title>Aegis - Ivey Business School</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,12 +15,12 @@
     <script src="static/js-libs/scrollmagic.min.js"></script>
     <!--    <script src="static/js-libs/debug.addIndicators.js"></script>-->
     <script src="static/js-libs/animation.gsap.min.js"></script>
-    <script src="static/js-libs/player.js"></script>
+<script src="static/js-libs/player.js"></script>
 
     <script src="js/style.js?v=12"></script>
     <script src="js/main.js?v=12"></script>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/cases.css?v=12">
+    <link rel="stylesheet" href="css/project.css?v=12">
     <link rel="stylesheet" href="css/media.css?v=12">
     <link rel="stylesheet" href="css/common-media.css?v=12">
 
@@ -34,200 +34,103 @@
                      alt="">
             </div>
         </header>
-        <div class="body case-study-html">
-            <div class="main-statement-wrap kandaloreHero">
-                <img src="./static/images/desktop/cases/kandalore/1%20CampKCase%20Hero.jpg" class="case-hero-img" style="display: none" alt="">
-                <div class="main-statement crescent">
-                    <span>Crescent<br> School</span>
-                </div>
-                <img class="num-svg" alt="cs-num-svg" src="htmlLoad/static/images/cs-3-num.svg">
-            </div>
-
+        <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
-                    <div class="tag">Case Study</div>
                     <div class="content-head-text">
-                        <span class="simple">“Aegis immersed<br> themselves in our culture.<br> They lived camp in its<br> most authentic way.”</span>
+                        <span class="simple">Making a case for support</span>
+                        <span class="simple">through brand storytelling</span>
                     </div>
-                    <div class="case-name">Camp Kandalore</div>
+                    <div class="project-name">Ivey Business School</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Anthropological Research</li>
-                            <li>● Website</li>
-                            <li>● Video Production</li>
-                            <li>● Photography</li>
+                            <li>● Annual Report</li>
                             <li>● Art Direction</li>
-                            <li>● Social Media Campaign</li>
+                            <li>● Photography</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>Colin Leonard stood at the edge of Lake Kabakwa, water lapping at his feet, the heat from a bonfire warming his face. Tea-lights lined the pathway down to the dock, and dozens of campers clustered quietly together, the flames lighting up their faces in the night. Two paddlers in canoes rounded a bend, and one of them broke into song, the words to “Blue Lake and Rocky Shore” floating clear across the water to the campers on the shore. It was the way the camp said goodbye to its campers each session, a long-standing tradition at Camp Kandalore and one Leonard had witnessed for years. It moved him every time.</p>
-                        <p>Leonard knew Kandalore needed a new website, one that showcased its rich culture and camaraderie. To him, Camp Kandalore has always meant family. And he needed an agency that understood that.</p>
-                        <p>When Leonard began to reach out to agencies, he was struck almost immediately by Aegis’s approach. “We could tell that their primary focus off the hop was understanding us,” Leonard says. “Not in a send-us-your-literature kind of way. They immersed themselves in our culture. They lived camp in its most authentic way.”</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="full-row iframe-video" style="position: relative;height: 44.22vw;">
-                        <span style="margin-top: -25px; margin-left: -25px; position: absolute; left: 50%; top: 50%; z-index: 3; cursor: pointer; display: block;" class="playVimeo">
-                            <img src="static/images/desktop/cases/kandalore/play-1.png" style="width: 45px;" alt="">
-                        </span>
-                        <div class="poster" style="background-image: url('static/images/desktop/cases/kandalore/2 CampKCase video image.jpg'); width: 100%; position: absolute; z-index: 2; top: 0px; left: 0px; height: 100%; background-size: cover; display: block; background-position: center center;"></div>
-                        <iframe src="https://player.vimeo.com/video/586900782" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" class="activated" data-ready="true" width="100%" height="100%" frameborder="0"></iframe>
-                    </div>
-                </div>
-
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>We knew that chronicling the spirit of Kandalore meant capturing its nuances from every angle. Our team, alongside photographer Sandy Nicholson, spent stretches of summer days at camp. We spoke for hours with campers, parents, staff and staff-in-training. Here was a place where even the most nervous of kids felt immediately at home away from home, a place where everyone was family and everyone belonged. That research helped to inform our vision and breathe life into Kandalore’s values online. A small crew shot photographs and video simultaneously, and another member of the team walked around excitedly with a microphone, recording birds chirping, campers laughing, and leaves crunching underfoot. “From being challenged to pushing yourself to leading by example, camp is about mental strength,” Nicholson says. “We wanted to show that.”</p>
-                        <p>The camp’s rituals struck Nicholson deeply, the way campers and staffers embraced and built upon its traditions. They returned year after year to ensure the continuity of those rituals, aware of their role in building something greater than themselves. “Even the songs they sing, these are songs that get passed down from person to person. The songs stay in the same place—the people come in and grow all the way through this experience,” he says.</p>
-                    </div>
-                </div>
-
                 <div class="row-full">
-                    <img class="full-screen desktop-only-img" src="static/images/desktop/cases/kandalore/3%20CampKCase.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/ivey/1_iveybusinessschool_hero.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/cases/kandalore/3%20CampKCase.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/ivey/1_iveybusinessschool_mobile_hero.jpg" alt="">
                     </div>
                 </div>
+
                 <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Ultimately, the website reflects what defines Kandalore best: its cultural significance. The camp’s roots are proudly represented, from painted paddles used on past expeditions hanging in the dining hall, to the scraps of paper inscribed with campers’ favourite memories and set alight in the season’s closing campfire. We wanted to illustrate what connects its campers to this community and the nature that surrounds it. To showcase what makes Kandalore a family. “Aegis expressed what a day at camp really feels like on a single webpage,” Leonard says. “It was incredible.” ⬤</p>
+                        <p>The Ivey brand stands for leadership. Its graduates are leaders who bring insight and strategic thinking to everyday business challenges. But more distinctly, they think about business within a larger context. At the critical point, when Ivey’s Business School was launching its $100 million+ capital campaign, they needed an annual report that would inspire a case for support. They invited us to reconceive this vital piece of communication.</p>
                     </div>
                 </div>
-                
+
+                <div class="row">
+                    <img class="full-row" src="static/images/desktop/projects/ivey/2_iveybusinessschool.jpg" alt="">
+                </div>
+
+                <!--2 images for mobile-->
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ivey/3_iveybusinessschool-1.png" alt="">
+                </div>
+                <!--2 images end-->
+
                 <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <img src="static/images/desktop/cases/kandalore/4%20CampKCase.gif" alt="">
+                        <p><span style="font-weight: bold">Reframing a story within a more meaningful context</span>—Our work The Anatomy of Leadership asks four penetrating questions. Each helps reframe leadership for our times. The questions highlight areas of responsibility that challenge global society as well as the future of business. By moving the conversation to a more critical arena, the design brings greater weight and immediacy to the School’s mission. It underscores the importance of the School in the field of business leadership and ultimately makes a stronger case for support. ⬤</p>
                     </div>
                 </div>
 
 
                 <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/kandalore/5%20CampKCase.jpg" alt="">
-                </div>
-                <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/kandalore/6%20CampKCase.jpg" alt="">
-                </div>
-                <div class="row">
-                    <img class="full-row desktop-only-img imgSet" src="static/images/desktop/cases/kandalore/Group%20179.png" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/cases/kandalore/7%20CampKCase.jpg" alt="">
-                        <img class="full-row" src="static/images/desktop/cases/kandalore/8%20CampKCase.jpg" alt="">
-                        <img class="full-row" src="static/images/desktop/cases/kandalore/9%20CampKCase.jpg" alt="">
+                    <div class="full-row">
+                        <img class="" style="width: 65.254vw;" src="static/images/desktop/projects/ivey/6_iveybusinessschool.jpg" alt="">
                     </div>
                 </div>
 
-                <div class="row-full imgSet">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/cases/kandalore/10%20CampKCase.gif" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/cases/kandalore/10%20CampKCase.gif" alt="">
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ivey/7_iveybusinessschool.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <div class="full-row">
+                        <img class="" src="static/images/desktop/projects/ivey/8_iveybusinessschool.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;display: block;">
                     </div>
                 </div>
 
+                <!--2 images for mobile-->
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ivey/Group%20182.png" alt="">
+                </div>
+                <!--2 images end-->
 
-                <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/kandalore/11%20CampKCase.jpg" alt="">
-                </div>
-                <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/kandalore/12%20CampKCase.gif" alt="">
-                </div>
-                <div class="row-full imgSet">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/cases/kandalore/13%20CampKCase.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/cases/kandalore/13%20CampKCase.jpg" alt="">
-                    </div>
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ivey/11_iveybusinessschool.jpg" alt="">
                 </div>
 
-
-                <!--TODO 4 VIDEOS SECTION-->
-                <!--project-TYS-2011-Campaign.html-->
-                <div class="">
-                    <div class="row four-videos">
-                        <div class="full-row flex imgSet">
-                            <div class="col-6 iframe-square iframe-square-l">
-                                <div class="row">
-                                    <div class="full-row iframe-square-video" style="max-width: 100%;display: block;position: relative;margin: 0;">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/cases/kandalore/play-1.png" style="width: 45px;" alt="">
-                        </span>
-                                        <div class="poster" style="background-image:url('static/images/desktop/cases/kandalore/14 CampKCase.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                                        <iframe src="https://player.vimeo.com/video/206328069" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 iframe-square iframe-square-r" >
-                                <div class="row">
-                                    <div class="full-row iframe-square-video" style="max-width: 100%;display: block;position: relative;margin: 0;">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/cases/kandalore/play-1.png" style="width: 45px;" alt="">
-                        </span>
-                                        <div class="poster" style="background-image:url('static/images/desktop/cases/kandalore/15 CampKCase.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                                        <iframe src="https://player.vimeo.com/video/206329079" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="margin-top: 0;padding-top: 3.390vw;" class="full-row flex">
-                            <div class="col-6 iframe-square iframe-square-l">
-                                <div class="row">
-                                    <div class="full-row iframe-square-video" style="max-width: 100%;display: block;position: relative;margin: 0;">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/cases/kandalore/play-1.png" style="width: 45px;" alt="">
-                        </span>
-                                        <div class="poster" style="background-image:url('static/images/desktop/cases/kandalore/16 CampKCase.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                                        <iframe src="https://player.vimeo.com/video/206329058" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 iframe-square iframe-square-r">
-                                <div class="row">
-                                    <div class="full-row iframe-square-video" style="max-width: 100%;display: block;position: relative;margin: 0;">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/cases/kandalore/play-1.png" style="width: 45px;" alt="">
-                        </span>
-                                        <div class="poster" style="background-image:url('static/images/desktop/cases/kandalore/17 CampKCase.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                                        <iframe src="https://player.vimeo.com/video/206328052" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ivey/12_iveybusinessschool.jpg" alt="">
                 </div>
-                <!--TODO 4 VIDEOS SECTION-->
 
-
-                <div class="row">
-                    <img class="full-row imgSet" src="static/images/desktop/cases/kandalore/18%20CampKCase.jpg" alt="">
-                </div>
 
             </div>
 
-            <div class="next-case">
-                <div class="next-case-body">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-greater-toronto-airports-authority', true)">
+                <div class="next-project-body">
                     <div class="ref">
-                        Next Case Study / Crescent School
+                        Next Project / Greater Toronto Airports Authority
                     </div>
-                    <div onclick="loadCase('case-crescent', true)" class="next-title">
-                        <span class="simple">“The magazine used to present alumni news in little blurbs. Now the stories flesh out real people.”</span>
+                    <div class="next-title">
+                        <span class="simple">Design lifts a report</span>
+                        <span class="simple"> to the level of art</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/cases/kandalore/NextKandal.JPG" alt="">
+                    <img src="static/images/desktop/projects/ivey/1_gtaa_hero.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -431,25 +334,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -461,7 +364,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -616,7 +519,6 @@
         </div>
     </div>
     </div>
-    <div class="shadow-menu"></div>
 
 
 </div>
@@ -815,26 +717,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -846,7 +748,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -942,7 +844,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

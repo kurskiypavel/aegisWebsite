@@ -30,7 +30,7 @@
     <div class="containery">
         <header>
             <div class="logo">
-                <img onclick="location.href='index.html'" src="static/images/aegis%20wordmark%20_red%20rgb.svg"
+                <img onclick="location.href='index.php'" src="static/images/aegis%20wordmark%20_red%20rgb.svg"
                      alt="">
             </div>
         </header>
@@ -38,76 +38,37 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">An event for thinkers</span>
-                        <span class="simple">in an ever changing world</span>
+                        <span class="simple">Bridging the distance</span>
+                        <span class="simple">between alumni and the<br> school of their youth</span>
                     </div>
-                    <div class="project-name">Goethe-Institut / Branding</div>
+                    <div class="project-name">Crescent School</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Naming</li>
-                            <li>● Identity Design</li>
-                            <li>● Event Branding</li>
+                            <li>● Content Creation</li>
+                            <li>● Editorial Design</li>
+                            <li>● Photography</li>
+                            <li>● Art Direction</li>
+                            <li>● Anthropological Research</li>
+                            <li>● Strategy &amp; Consulting</li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/Goethe-Openminds/1_goetheopenminds_hero.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/Goethe-Openminds/1_goetheopenminds_mobile_hero.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>The Goethe-Institut is a German cultural association encouraging international cultural exchange and relations. Openminds is a public forum, hosted by the Goethe-Institut, which brings together diverse thinkers to share insights into the current state of culture. It explores questions such as: How is culture adapting to shifting paradigms and a world in flux? We developed the branding and communications to reflect the curious and inquiring nature of the event series. ⬤</p>
-                    </div>
-                </div>
-
-                <div class="row-full">
-                    <img class="two_goetheopenminds full-row desktop-only-img" src="static/images/desktop/projects/Goethe-Openminds/2_goetheopenminds.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row two_goetheopenminds" src="static/images/desktop/projects/Goethe-Openminds/2_goetheopenminds.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/Goethe-Openminds/3_goetheopenminds.jpg" alt="">
-                </div>
-
-<!--                three phones-->
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/Goethe-Openminds/4_goetheopenminds.png" alt="">
-                </div>
-
-<!--                two images-->
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/Goethe-Openminds/5_goetheopenminds.jpg" alt="">
-                </div>
-
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/Goethe-Openminds/6_goetheopenminds.jpg" alt="">
-                </div>
-
-
-
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-Lakeridge-Health', true)">
+            <div class="next-project" style="cursor: pointer;">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / Lakeridge Health
+                        Next Project / *******
                     </div>
-                    <div class="next-title">
-                        <span class="simple">Branding a large</span>
-                        <span class="simple">healthcare community</span>
+                    <div onclick="loadProject('***********')" class="next-title">
+                        <span class="simple">Rebranding a fundraising</span>
+                        <span class="simple"> campaign elevates outcomes</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/Goethe-Openminds/1_lakeridgehealth_hero.jpg" alt="">
+                    <img src="static/images/desktop/cases/crescent/Capture.JPG" alt="">
                 </div>
             </div>
         </div>
@@ -311,37 +272,37 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="when-is-print-still-relevant.html">
+                                            <a class="clear-underline underline-on-hover" href="when-is-print-still-relevant.php">
                                                 <span class="title">Media</span>
                                                 <p>When is print<br> still relevant?</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -694,38 +655,38 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="when-is-print-still-relevant.html">
+                                    <a class="clear-underline" href="when-is-print-still-relevant.php">
                                         <span class="title">Media</span>
                                         <p>When is print still relevant?</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -821,7 +782,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Kovo</title>
+    <title>Aegis - Project page</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,97 +38,113 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">Branding a digital platform</span>
-                        <span class="simple">in animal healthcare</span>
+                        <span class="simple">20 Thoughts on</span>
+                        <span class="simple">cultural entanglement</span>
                     </div>
-                    <div class="project-name">Kovo</div>
+                    <div class="project-name">Goethe-Institut</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Naming</li>
-                            <li>● Brand Identity</li>
-                            <li>● Marketing Collateral</li>
-                            <li>● Website</li>
-                            <li>● Multi-Media Design</li>
-                            <li>● Social Media Campaign</li>
+                            <li>● Book Design</li>
+                            <li>● Writing</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/kovo/1_kovo_hero.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/Goethe-Book/1_goethebook_hero.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/kovo/1_kovo_mobile_hero.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/Goethe-Book/1_goethebook__mobile_hero.jpg" alt="">
                     </div>
                 </div>
-
                 <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Kovo is a new mobile app specially designed for professionals in the world of horse racing and showing. It provides vets, trainers and owners a way to organize, store and access medical information about their four-legged investment. First-of-their-kind digital brands like Kovo enjoy a huge opportunity—a niche market with few tech competitors. But there was a significant challenge in that the market does not adopt new technology easily.</p>
+                        <p>Text is coming soon dui at vehicula blandit, libero neque imperdiet elit, sollicitudin commodo nulla arcu ac erat. Sed diam dui, malesuada id massa ullamcorper, tristique convallis turpis. Nam rhoncus euismod mollis. Nulla feugiat nunc sed venenatis scelerisque. Phasellus massa mi, euismod et bibendum vitae, imperdiet quis tellus. Fusce sit amet posuere nisi. Nulla ac quam nec nibh malesuada auctor ac pharetra lorem. Cras id maximus orci. Proin hendrerit massa in enim sollic itudin sodales. Vestibulum felis nunc, varius sed laoreet ut, cursus nec urna. Cras sit amet felis ac nulla lobortis tincidunt. ⬤</p>
                     </div>
                 </div>
 
                 <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/kovo/2_kovo.jpg" alt="">
+                    <img class="full-row" src="static/images/desktop/projects/Goethe-Book/2_goethebook.jpg" alt="">
                 </div>
 
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p><span style="font-weight: bold">Launching a new brand, within a specific market</span>—We are Kovo’s brand design partner—part of a multi-disciplinary launch team. It was the joint responsibility of Aegis and our marketing partner to bring the brand to market. Our responsibilities included: designing the brand name, creating the brand architecture, including a brand identity ecosystem; communicating the brand character and its benefits in a launch campaign; producing a series of videos; and creating an e-commerce website.</p>
-                        <p><span style="font-weight: bold">Creating a brand character</span>—A brand’s mission, culture and values are what shape its character. Kovo finds itself in the world of the competition horse. So, while the horse is at the root of its value proposition, the brand’s character remains distinctly human. Its mission is to serve the community that surrounds a performance horse—the vets, trainers, farriers, owners, and any others.</p>
-                        <p>For Kovo, this means its integrity and the trust consumers have in it is tied to its credibility within the equestrian professional community. Tonally, the brand mirrors the culture it serves—neighbourly, unpretentious and frank. These characteristics arise from the foundation of cultural values we found was important to our target: Integrity, accountability, diligence, discipline community.</p>
-                    </div>
-                </div>
+                <div class="row-img">
 
-                <!--4 images for mobile-->
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/kovo/Group%20180.png" alt="">
-                </div>
+                    <div class="full-row">
+                        <img class="" style="width: 54.237vw;" src="static/images/desktop/projects/Goethe-Book/3_goethebook.jpg" alt=""></div></div>
 
-
-                <!--4 images end-->
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p><span style="font-weight: bold">Ensuring a good fit</span>—In developing the Kovo brand, several key considerations guided our thinking. The name had to have a natural fit with the equine culture while, at the same time, feeling fresh and differentiated. (The name Kovo echoes European root words for horse.) Also, we wanted the brand to live in the delicate balance between exclusivity and unpretentiousness. And although it’s a digital brand, we knew it was important that Kovo’s character be more organic than technological. Finally, while equine healthcare professionals represent a key market, the tone of the brand had to be more weighted in equine athletics than medicine.</p>
-                        <p>This story is not finished. The ongoing collaboration we have between our client and the marketing team continues to hone the vision we’ve brought to life. Through crisp, concise brand language we continue to solidify Kovo’s success in the market. ⬤</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/kovo/7_kovo.jpg" alt="">
+<!--                add mobile -->
+                <div class="row-full-img mobile-only-set">
+                    <img class="full-row" src="static/images/desktop/projects/Goethe-Book/4_goethebook.jpg" alt="">
                 </div>
                 <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/kovo/8_kovo.jpg" alt="">
-                </div>
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/kovo/9_kovo.jpg" alt="">
-                </div>
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/kovo/10_kovo.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/Goethe-Book/Group%20181.png" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/Goethe-Book/5_goethebook.jpg" alt="">
+                    </div>
                 </div>
 
+<!--                end-->
+
+                <div class="row-img">
+                    <div class="full-row">
+                        <img class="" src="static/images/desktop/projects/Goethe-Book/6_goethebook.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;display: block;">
+                    </div>
+                </div>
+
+
+                <div class="row-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/Goethe-Book/Group%20182.png" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/Goethe-Book/7_goethebook.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/Goethe-Book/8_goethebook.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/Goethe-Book/9_goethebook.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/Goethe-Book/10_goethebook.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/Goethe-Book/11_goethebook.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <div class="full-row">
+                        <img class="" src="static/images/desktop/projects/Goethe-Book/12_goethebook.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;display: block;">
+                    </div>
+                </div>
+
+                <!--                add mobile -->
+                <div class="row-full-img mobile-only-set">
+                    <img class="full-row" src="static/images/desktop/projects/Goethe-Book/13_goethebook.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/Goethe-Book/Group%20183.png" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/Goethe-Book/14_goethebook.jpg" alt="">
+                    </div>
+                </div>
+                <!--                end-->
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/Goethe-Book/15_goethebook.jpg" alt="">
+                </div>
 
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-radiant-care', true)">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-Goethe-Openminds', true)">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / Radiant Care
+                        Next Project / Goethe-Institut / Branding
                     </div>
                     <div class="next-title">
-                        <span class="simple">Contemporary rebrand for</span>
-                        <span class="simple"> a faith-based community</span>
+                        <span class="simple">An event for thinkers</span>
+                        <span class="simple"> in an ever changing world</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/kovo/1_radiantcare_hero.jpg" alt="">
+                    <img src="static/images/desktop/projects/Goethe-Book/1_goetheopenminds_hero.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -332,25 +348,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -362,7 +378,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -715,26 +731,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -746,7 +762,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -842,7 +858,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

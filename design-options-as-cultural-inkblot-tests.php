@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Project page</title>
+    <title>Aegis - Design options as cultural inkblot tests</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <script src="js/style.js?v=12"></script>
     <script src="js/main.js?v=12"></script>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/project.css?v=12">
+    <link rel="stylesheet" title="insightCss" href="css/insights/media.css?v=12">
     <link rel="stylesheet" href="css/media.css?v=12">
     <link rel="stylesheet" href="css/common-media.css?v=12">
 
@@ -34,130 +34,56 @@
                      alt="">
             </div>
         </header>
-        <div class="body project-html">
+        <div class="body insight-html">
             <div class="main-content">
-                <div class="head-block">
-                    <div class="content-head-text">
-                        <span class="simple">A campaign</span>
-                        <span class="simple">revives donor activity</span>
+                <div class="main-statement-wrap" >
+                    <div class="main-statement" >
+                        <span class="simple">Design options as<br>cultural inkblot tests</span>
                     </div>
-                    <div class="project-name">The York School Fundraising Website</div>
-                    <div class="tag-list">
-                        <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
-                        <ul>
-                            <li>● Fundraising Campaign</li>
-                            <li>● Brand Strategy</li>
-                            <li>● Website</li>
-                            <li>● Illustration & Animation</li>
-                            <li>● Art Direction</li>
+                </div>
+                <div class="row ">
+                    <div class="col-3">
+                        <ul class="tag-list">
+                            <li>● Practices</li>
                         </ul>
-                    </div>
-                </div>
-
-                <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYS-Fundraising-Website/1_tysfundraisingwebsite_hero.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYS-Fundraising-Website/1_tysfundraisingwebsite_mobile_hero.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
+                        <div class="insight-by">By Alex Dawson </div>
+                        <div class="job-title">Researcher & Brand Culture<br> Strategist at Aegis</div>
                     </div>
                     <div class="col-7">
-                        <p>At Aegis, we know that transformative design must begin from an understanding of the client’s worldview and expertise. So before we could create a landing page for the York School’s fundraising efforts to build a new playground, we needed to understand why the playground was important to a child’s development.</p>
-                        <p>The school knew an updated playground, featuring contemporary design, wasn’t a luxury or a distraction from the development of their students. Indeed, an updated playground was integral. They were armed with both theory and evidence to prove that play is vital to supporting kids’ development. For starters, it helps them become creative risk takers and confident leaders.</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/TYS-Fundraising-Website/2_tysfundraisingwebsite.jpg" alt="">
-                </div>
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>The challenge then became to help parents consider making a donation—above the tuition and other contributions they already make. The answer would be to create a strong emotional connection to the school’s need for playground funding. So we designed a page where parents could see that the school’s values and their own commitment to their children were the one and the same.</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/TYS-Fundraising-Website/3_tysfundraisingwebsite.gif" alt="">
-                </div>
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                        <div class="percentage-wrap">
-                            <div class="percentage">55%</div>
-                            <div class="percentage-description">
-                                Landing page visitor
-                                conversion rate (donate)
-                            </div>
-                            <div class="percentage">140%</div>
-                            <div class="percentage-description">
-                                Increase in contributions
-                                to the annual campaign
-                            </div>
+                        <p>Lately I’ve been thinking about a common practice in design, advertising, marketing etc. where the creative team presents their client with multiple options or approaches for a given project.</p>
+                        <p>My background and training aren’t in design, but from what I gather from working with and speaking to designers, the practice of presenting options is common and often expected, but not one all designers are fully comfortable with. Some designers make the argument that options, as opposed to a single solution or recommendation, reduces the expertise of the designer to the subjective preference of the client, or represents a refusal by the designer to make a clear decision as to which single approach best addresses the particular task at hand.</p>
+                        <p>In this view, presenting options, or too many options, easily shifts into a conception of design as decorative as opposed to creative or ameliorative. A quick scan revealed what I felt were some really well-articulated expressions of this argument, such as <span class="italic"><u><a
+                                href="https://blog.prototypr.io/presenting-multiple-design-options-to-your-clients-just-dont-5818bb29b6fc" target="_blank" class="clear-underline">this piece</a></u></span> by John Menard and the responses to <span class="italic"><u><a target="_blank" class="clear-underline"
+                                href="https://www.quora.com/When-presenting-designs-to-a-client-is-it-generally-better-to-present-one-option-or-allow-for-choices-Does-allowing-for-more-than-one-choice-water-down-each-of-the-design-options">this Quora post</a></u></span> by Terry Douglas, Nela Dunato, David Pensato, Radu Cristian Vucea, and others.</p>
+                        <p>This seems a very reasonable concern to have. But sidestepping the question entirely, I’m interested in unpacking a feeling I’ve occasionally had that presenting options can actually be generative – not primarily about providing greater ‘choice’ to the client, but somehow leading to deeper understanding of who the client is, and their needs.</p>
+                        <p>We recently presented two very different designs to a client. We felt both were in the spirit of that clients’ culture, but emphasized quite different aspects or values. Intuitively we felt that which one they picked would say something about them - their aspirations, self-perception, who they were and who they wanted to be. And we were actually quite surprised by their preference, though it was also clear that the resulting conversation and thinking would not have been possible without the design as a kind of guiding scaffold for everyone’s thinking. (Riffing on Claude Levi-Strauss, designs may be <span class="italic"><u><a
+                                href="https://fordham.universitypressscholarship.com/view/10.5422/fordham/9780823242047.001.0001/upso-9780823242047-chapter-8" target="_blank" class="clear-underline">“good to think with”</a></u></span>.)</p>
+                        <p>I want to suggest that when there’s a strong working relationship, well-considered design options can function like a kind of cultural or semiotic inkblot test,* presenting clients with prompts or ‘meaningful choices’  to work through and externalize their own implicit understanding of who they are. This can lead to further insight about the client’s identity, for both us and them!</p>
+                        <p>In the design process, and particularly in branding, designers make both intuitive and explicitly-considered choices about feel, tone, culture, atmosphere, appropriateness, and so on, based on their understanding of the client. Whether this understanding comes from formal research or from elsewhere, it doesn’t translate 1:1 to the design process, because the cultural connotations of these design choices are implicit.</p>
+                        <p>The choices designers make are symbolic, which is to say they represent particular qualities indirectly using signs. An extremely simple example is that a sans-serif typeface might be chosen to represent a client perceived to have values of modernness, openness, and directness. Every element of a design – and not just a graphic design, but any design – connects out to these kinds of cultural or symbolic associations.</p>
+                        <div class="italic-notes">In light of this, it’s very interesting to share thoughtful design options back to a client, because when different options connote different symbolic associations, the client’s response can teach us something about how they see themselves. Part of sharing  options can be to give clients a language or structure to express and think about how their aesthetic preferences reflect culture and values.</div>
+                        <div class="share">
+                            <ul>
+                                <li>Share:</li>
+                                <li><a href="">Linkedin</a></li>
+                                <li><a href="">Twitter</a></li>
+                                <li><a href="">Email</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="col-7">
-                        <div class="percentage-mobile-wrap">
-                            <div class="percentage">55%</div>
-                            <div class="percentage-description">
-                                Landing page visitor
-                                conversion rate (donate)
-                            </div>
-                            <div class="percentage">140%</div>
-                            <div class="percentage-description">
-                                Increase in contributions
-                                to the annual campaign
-                            </div>
-                        </div>
-                        <p>We distilled the school’s well-supported, pedagogical arguments into a simple emotion: the joy of play. We brought reimagined joyful possibilities to life with an interactive virtual experience that featured hand-drawn animations. This communicated that the fundamental importance of playfulness is a shared priority of both parents and the school. And therefore it is a common goal. Donations flooded in. ⬤</p>
-                    </div>
                 </div>
-
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/TYS-Fundraising-Website/4_tysfundraisingwebsite.gif" alt="">
-                </div>
-
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/TYS-Fundraising-Website/5_tysfundraisingwebsite.gif" alt="">
-                </div>
-
-                <div class="quote-block">
-                    <div class="quote">“Schools often demonstrate their global impact with a graphic of dots, representing grads, scattered across the globe. But that doesn’t tell me much. I’m interested in what they’re actually doing wherever they are, what challenges they face.”</div>
-                    <div class="quote-by">—Anthony Westenberg, Associate Director of Marketing & Communications, The York School</div>
-                </div>
-                <div class="row-full iframe-video-back withBackground" style="background: #005F71;">
-                    <div class="full-row iframe-video">
-                        <iframe class="backgroundPlay" src="https://player.vimeo.com/video/564226644?background=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/TYS-Fundraising-Website/Screen%20Shot%202021-03-10%20at%2011.53.04%20AM.png" alt="">
-                </div>
-
-
-
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-InTouch-Magazine', true)">
-                <div class="next-project-body">
-                    <div class="ref">
-                        Next Project / Ivey Business School / InTouch Magazine
-                    </div>
-                    <div class="next-title">
-                        <span class="simple">A magazine redesign</span>
-                        <span class="simple"> energizes engagement</span>
-                    </div>
+            <div class="next-insight">
+                <div class="ref">
+                    Next Insight
                 </div>
-                <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/TYS-Fundraising-Website/intouch-_0001s_0003_Layer-49.png" alt="">
+
+                <div onclick="loadInsight('attention-is-voluntary', true)" class="next-title">
+                    <span class="simple">Attention</span>
+                    <span class="simple"> is voluntary</span>
                 </div>
+
             </div>
         </div>
         <!--new content loads here-->
@@ -366,7 +292,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
@@ -378,7 +304,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -750,7 +676,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
@@ -763,7 +689,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -871,7 +797,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

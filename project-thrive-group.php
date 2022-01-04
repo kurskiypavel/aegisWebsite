@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Project page</title>
+    <title>Aegis - Thrive Group</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,27 +38,24 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">Video campaign creates</span>
-                        <span class="simple">a kindergarten brand</span>
+                        <span class="simple">Branding unifies a merger</span>
+                        <span class="simple">of health-care services</span>
                     </div>
-                    <div class="project-name">The York School Kindergarten Campaign</div>
+                    <div class="project-name">Thrive Group</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Brand Strategy</li>
-                            <li>● Art Direction</li>
-                            <li>● Illustration</li>
-                            <li>● Animation</li>
-                            <li>● Video Production</li>
+                            <li>● Research</li>
+                            <li>● Naming</li>
+                            <li>● Identity Design</li>
                         </ul>
                     </div>
                 </div>
-                <div style="display:none;" class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/council-for-ontario-universities/1_cou_hero.jpg" alt="">
-                </div>
-                <div class="row-full iframe-video-back">
-                    <div style="width: 100%;overflow: hidden;padding-top: 56.25%;position: relative;" class="full-row">
-                        <iframe class="backgroundPlay" src="https://player.vimeo.com/video/571350907?background=1" allow="autoplay; muted; fullscreen; picture-in-picture" allowfullscreen="" style="border: 0;height: 100%;left: 0;position: absolute;top: 0;width: 100%;" width="100%" height="100%" frameborder="0"></iframe>
+
+                <div class="row-full">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/thrive-group/1_thrivegroup_hero.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/thrive-group/1_thrivegroup_mobile_hero.jpg" alt="">
                     </div>
                 </div>
 
@@ -66,91 +63,43 @@
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>For independent schools, Junior Kindergarten is an important entry point. Students entering at this age are more likely to continue their education with the same school through to grade 12. However, the market for private junior kindergarten education is relatively small, one significant factor being competition from the public education system. The York School approached Aegis to create a campaign to help fill kindergarten classrooms.</p>
-                        <p><span style="font-weight: bold">Amplifying what’s true and authentic</span>—The York School wasn’t looking to change the conversation around the private-versus-public-education debate. The real opportunity was to gain visibility in a niche market that already knew the value of private kindergarten education. Although independent schools were competing for a limited market, there were few strong brands. This presented an opportunity. We created the “Start of Something Awesome” campaign to help establish The York School as a visible and differentiated brand in the market.</p>
+                        <p>Our work for Thrive was deceptively simple. We were commissioned to design an organizational identity. The challenge was that we were creating a new corporate identity for two merging organizations, each with their own extensive histories and cultures.</p>
+                        <p>Producing the identity was a result of extensive research into the various regional offices that would be servicing the Thrive community. Finding the linking elements between the two communities was the most important task for our team. Once identified, the logo and identity materials were easy to design. Thrive gave us the opportunity to put our research front and centre. They understood that the more we knew, the better our product. The result was a fresh and exciting image for the company as it turns a new leaf in its story. ⬤</p>
                     </div>
                 </div>
 
                 <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/tys-kindergarden/2-TYSKindergartenCampaignAnimation.gif" alt="">
-                </div>
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p>When approaching this anthropologically, differentiation arises from revealing and amplifying what is true and authentic about a brand, its culture and its relevance. As such, our creative intention moving forward was to make the heart and soul of The York School experience the platform from which to build the brand campaign. Capturing the story from a child’s eyes, our filmmaking team led by long-time partner Sandy Nicholson immersed themselves into the colour and energy of a typical York School kindergarten day. The resulting footage became the raw material for the campaign.</p>
-                    </div>
-                </div>
-                <div class="row iframe-video-back">
-                    <div class="full-row iframe-video">
-                        <iframe class="backgroundPlay" src="https://player.vimeo.com/video/571359262?background=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                    </div>
-                </div>
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                        <div class="percentage-wrap">
-                            <div class="percentage">100%</div>
-                            <div class="percentage-description">
-                                Following the campaign launch, the school’s Kindergarten programme experienced 100% enrolment—and even started a waiting list.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-7">
-                        <div class="percentage-mobile-wrap">
-                            <div class="percentage">100%</div>
-                            <div class="percentage-description">
-                                Following the campaign launch, the school’s Kindergarten programme experienced 100% enrolment—and even started a waiting list.
-                            </div>
-                        </div>
-                        <p><span style="font-weight: bold">Animating values</span>—It was also clear to us that the campaign needed an additional quality to strengthen its visual differentiation. We worked with animators to deliver the humour and playfulness of a child’s imagination. Lu Lu & Tomie, a Dutch animation studio, created a trio of delightful three-second cartoon vignettes to lead each video. Great creative needs to marry with great distribution. In order to reach such a select audience, the “Start of Something Awesome’’ campaign was powered through a targeted social media strategy (implemented by partner Prospect Media). It worked. Shortly following the launch of the campaign, The School experienced full kindergarten enrolment. ⬤</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="full-row iframe-video">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
-                        </span>
-                        <div class="poster" style="background-image:url('static/images/desktop/projects/tys-kindergarden/686180810-vimeo.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                        <iframe src="https://player.vimeo.com/video/258092326" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <img class="full-row" src="static/images/desktop/projects/thrive-group/2_thrivegroup.jpg" alt="">
                 </div>
 
                 <div class="row-img">
-                    <div class="full-row iframe-video">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
-                        </span>
-                        <div class="poster" style="background-image:url('static/images/desktop/projects/tys-kindergarden/686180138-vimeo.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                        <iframe src="https://player.vimeo.com/video/258092192" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <img class="full-row" src="static/images/desktop/projects/thrive-group/3_thrivegroup.gif" alt="">
                 </div>
 
                 <div class="row-img">
-                    <div class="full-row iframe-video">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
-                        </span>
-                        <div class="poster" style="background-image:url('static/images/desktop/projects/tys-kindergarden/686178746-vimeo.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                        <iframe src="https://player.vimeo.com/video/258091278" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <img class="full-row" src="static/images/desktop/projects/thrive-group/6_thrivegroup.jpg" alt="">
                 </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/thrive-group/7_thrivegroup.jpg" alt="">
+                </div>
+
+
 
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-Goethe-Book', true)">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-ivey-business-school', true)">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / Goethe-Institut / Book Design
+                        Next Project / Ivey Business School
                     </div>
                     <div class="next-title">
-                        <span class="simple">20 Thoughts on</span>
-                        <span class="simple"> cultural entanglement</span>
+                        <span class="simple">Making a case for support</span>
+                        <span class="simple">through brand storytelling</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/tys-kindergarden/1_goethebook_hero.jpg" alt="">
+                    <img src="static/images/desktop/projects/thrive-group/1_iveybusinessschool_hero.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -354,25 +303,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -384,7 +333,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -738,26 +687,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -769,7 +718,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -865,7 +814,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

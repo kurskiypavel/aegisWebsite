@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Project page</title>
+    <title>Aegis - The Bishop Strachan School / Annual Fund</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,27 +38,26 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">Marketing</span>
-                        <span class="simple">the joy of learning</span>
+                        <span class="simple">Title for annual fund</span>
+                        <span class="simple bssproject">branding and design</span>
                     </div>
-                    <div class="project-name">The York School Campaign</div>
+                    <div class="project-name">The Bishop Strachan School / Annual Fund</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
                             <li>● Strategy & Consulting</li>
-                            <li>● Copy Writing</li>
+                            <li>● Naming & Identity</li>
                             <li>● Photography</li>
                             <li>● Art Direction</li>
-                            <li>● Advertising Campaign</li>
-                            <li>● Social Media Campaign</li>
+                            <li>● Collateral</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/1_tys2019campaign_hero.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/BSS/1_bssannualfund_hero.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/1_tys2019campaign_mobile_hero.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/BSS/1_bssannualfund_mobile_hero.jpg" alt="">
                     </div>
                 </div>
 
@@ -66,86 +65,62 @@
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Over the last decade, we have worked with The York School to strengthen and define its brand, using marketing to build a memorable, differentiated presence. As a campaign, “Take on the World” anchors the School’s status as an IB World School to its value proposition.</p>
-                        <p>Through the seven years the campaign has run, the creative has shifted its approach to the goal (see our previous case studies), but how the brand is delivered remains consistent.</p>
-                        <p>The York School brand reflects a progressive culture that places the student at the centre. As a result, the campaign expresses the brand through the student rather than the institution—resulting in a brand personality that embodies wit, joy and playful curiosity.</p>
+                        <p>Text is coming soon dui at vehicula blandit, libero neque imperdiet elit, sollicitudin commodo nulla arcu ac erat. Sed diam dui, malesuada id massa ullamcorper, tristique convallis turpis. Nam rhoncus euismod mollis. Nulla feugiat nunc sed venenatis scelerisque. Phasellus massa mi, euismod et bibendum vitae, imperdiet quis tellus. Fusce sit amet posuere nisi. Nulla ac quam nec nibh malesuada auctor ac pharetra lorem. Cras id maximus orci. Proin hendrerit massa in enim sollic itudin sodales. Vestibulum felis nunc, varius sed laoreet ut, cursus nec urna. Cras sit amet felis ac nulla lobortis tincidunt. ⬤</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img class="full-row" src="static/images/desktop/projects/BSS/2_bssannualfund.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/BSS/3_bssannualfund.jpg" alt="">
+                </div>
+
+                <div class="row-full-img desktop-only-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/BSS/4_bssannualfund.jpg" alt="">
+
+                </div>
+                <div class="row-full-img mobile-only-set">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/BSS/4_bssannualfund_mobile.jpg" alt="">
                     </div>
                 </div>
 
                 <div class="row-img">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/2_tys2019campaign.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/2_tys2019campaign.jpg" alt="">
-                    </div>
+                    <img class="full-row" src="static/images/desktop/projects/BSS/5_bssannualfund.jpg" alt="">
                 </div>
 
-                <div class="row-img lowermargin">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/3_tys2019campaign.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/3_tys2019campaign.jpg" alt="">
-                    </div>
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/BSS/6_bssannualfund.jpg" alt="">
                 </div>
 
-                <div class="row-img lowermargin">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/4_tys2019campaign.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/4_tys2019campaign.jpg" alt="">
-                    </div>
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/BSS/7_bssannualfund.jpg" alt="">
                 </div>
 
-                <div class="row-img lowermargin">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/5_tys2019campaign.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/5_tys2019campaign.jpg" alt="">
-                    </div>
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/BSS/8_bssannualfund.jpg" alt="">
                 </div>
 
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p><span style="font-weight: bold">A leader stands out like a leader</span>—Only a brand with confidence can place values over features. Only a brand with a strong reputation can pull off three word ads. The greatest value a campaign can give a brand is positive differentiation. The “Take on the World” campaign delivers a refreshing modern and youthful optimism that stands in stark contrast to a market largely consisting of traditional institutional school brands. ⬤</p>
-                    </div>
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/BSS/9_bssannualfun.jpg" alt="">
                 </div>
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/6_tys2019printad.jpg" alt="">
-                </div>
-
-                <div class="row">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/7_tys2019campaign.gif" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/7_tys2019campaign.gif" alt="">
-                    </div>
-                </div>
-
-                <div class="quote-block">
-                    <div class="quote">“Schools often demonstrate their global impact with a graphic of dots, representing grads, scattered across the globe. But that doesn’t tell me much. I’m interested in what they’re actually doing wherever they are, what challenges they face.”</div>
-                    <div class="quote-by">—Philip Lloyd, ’09, Crescent Alumni</div>
-                </div>
-
-                <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYSCampaign2019/8_tys2019campaign.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYSCampaign2019/8_tys2019campaign.jpg" alt="">
-                    </div>
-                </div>
-
 
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-TYS-Fundraising-Website', true)">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-TYS-Campaign2019', true)">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / The York School / Fundraising Website
+                        Next Project / The York School Campaign
                     </div>
                     <div class="next-title">
-                        <span class="simple">A campaign</span>
-                        <span class="simple"> revives donor activity</span>
+                        <span class="simple">Marketing</span>
+                        <span class="simple"> the joy of learning</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/TYSCampaign2019/1_tysfundraisingwebsite_hero.jpg" alt="">
+                    <img src="static/images/desktop/projects/BSS/1_tys2019campaign_hero.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -349,25 +324,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -379,7 +354,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -534,7 +509,6 @@
         </div>
     </div>
     </div>
-    <div class="shadow-menu"></div>
 
 
 </div>
@@ -733,26 +707,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -764,7 +738,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -860,7 +834,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Ivey Business School</title>
+    <title>Aegis - Expanding qualitative research beyond usability and use</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <script src="js/style.js?v=12"></script>
     <script src="js/main.js?v=12"></script>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/project.css?v=12">
+    <link rel="stylesheet" title="insightCss" href="css/insights/media.css?v=12">
     <link rel="stylesheet" href="css/media.css?v=12">
     <link rel="stylesheet" href="css/common-media.css?v=12">
 
@@ -34,104 +34,59 @@
                      alt="">
             </div>
         </header>
-        <div class="body project-html">
+        <div class="body insight-html">
+
             <div class="main-content">
-                <div class="head-block">
-                    <div class="content-head-text">
-                        <span class="simple">Making a case for support</span>
-                        <span class="simple">through brand storytelling</span>
+                <div class="main-statement-wrap" >
+                    <div class="main-statement" >
+                        <span class="simple">Expanding qualitative research<br> beyond ‘usability’ and ‘use’</span>
                     </div>
-                    <div class="project-name">Ivey Business School</div>
-                    <div class="tag-list">
-                        <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
-                        <ul>
-                            <li>● Annual Report</li>
-                            <li>● Art Direction</li>
-                            <li>● Photography</li>
+                </div>
+                <div class="row ">
+                    <div class="col-3">
+                        <ul class="tag-list">
+                            <li>● User Experience</li>
+                            <li>● Practices</li>
+                            <li>● Research</li>
                         </ul>
-                    </div>
-                </div>
-
-                <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/ivey/1_iveybusinessschool_hero.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/ivey/1_iveybusinessschool_mobile_hero.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
+                        <div class="insight-by">By Alex Dawson </div>
+                        <div class="job-title">Researcher & Brand Culture Strategist at Aegis</div>
                     </div>
                     <div class="col-7">
-                        <p>The Ivey brand stands for leadership. Its graduates are leaders who bring insight and strategic thinking to everyday business challenges. But more distinctly, they think about business within a larger context. At the critical point, when Ivey’s Business School was launching its $100 million+ capital campaign, they needed an annual report that would inspire a case for support. They invited us to reconceive this vital piece of communication.</p>
+                        <p>Qualitative research is a varied field. We do our best to keep up with our peers’ work so we can improve our own practice and to see where we fit into the field as a whole. That field often looks to us like many overlapping spaces – service design, user experience research, design anthropology, design research, design thinking, co-design, and other related practices, which makes it hard to generalize. But one trend we’ve noticed is that a lot of qualitative research in business is heavily-focused on usability and use – and that may be a constraint for the field to eventually grow beyond.</p>
+                        <p>Qualitative research in industry developed from a desire to make things – objects, procedures, and services – easier to use. This is a good aim, and it’s work we do as well. But our version of qualitative research often differs from this approach in that it tends to focus not only on use, but on meaning.</p>
+                        <p>We each know that  our experiences extend beyond purely task-oriented behaviour – into affect and emotions, symbolic representation, group norms, individual and collective identities, subjective aesthetic judgements rooted in aspirations and culture, social roles and statuses – in short, the full messiness and complex context of human lives.</p>
+                        <p>It makes sense that qualitative researchers have often focused on use, which in a business context, provides immediate justification of the expense and effort involved in gathering qualitative insight. One of the most common and useful pieces of advice I received as a beginning researcher was to limit my focus to only the most pressing questions, or risk becoming adrift in a sea of qualitative data.</p>
+                        <p>However, we think that the current emphasis on use has marked drawbacks for the field. It contributes to the falsely-universalized, context-avoidant image of design critiqued by designers and researchers like <span class="italic"><u><a
+                                href="https://uxplanet.org/an-overdue-conversation-the-ux-research-industrys-achilles-heel-3524b1c6f908" target="_blank" class="clear-underline">Vivianne Castillo</a></u></span>, <span class="italic"><u><a
+                                href="https://www.ruinedby.design/" target="_blank" class="clear-underline">Mark Monteiro</a></u></span>, <span class="italic"><u><a
+                                href="https://uxdesign.cc/how-design-contributes-to-toxic-individualism-and-what-can-be-done-about-it-4933b47b15cc" target="_blank" class="clear-underline">Jason Brush</a></u></span>, and <span class="italic"><u><a
+                                href="https://uxdesign.cc/design-has-an-empathy-problem-white-men-cant-design-for-everyone-4eef12f0f2bc" target="_blank" class="clear-underline">Jesse Weaver</a></u></span>. It can hide differences in context between groups or conditions that might complicate the assumed goals of a design process, or displace designers as ultimate, unaccountable experts and decision-makers.</p>
+                        <p>And by focusing on the immediate context of use – the interval of time where a person is directly interacting with a product or service – ‘use-focused’ approaches can miss the parts of someone’s life that extend beyond that immediate context of use, or beyond the individual to the broader social reality they’re engaged with. Understanding that broader context impacts the efficacy of design, as well as its potential for harm.</p>
+                        <p>In my experience, most researchers who adhere closely to a use-focused framework are very sensitive to and aware of elements of complex human experience beyond use, but are often constrained by the ways senior decision makers in their organizations understand research. We’ve been fortunate to have buy-in to approach things in the way that we have, and I would be thrilled if these thoughts gave someone else some useful language to champion a broader concept of qualitative research.</p>
+                        <p>By attending to context-rich stories and by advocating for this more holistic concept of design, we really think that researchers and designers can create more meaningful results at the end of their design processes. In addition to strengthening the work, for us this has also proven a more rewarding way to design.</p>
+                        <div class="share">
+                            <ul>
+                                <li>Share:</li>
+                                <li><a href="">Linkedin</a></li>
+                                <li><a href="">Twitter</a></li>
+                                <li><a href="">Email</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/ivey/2_iveybusinessschool.jpg" alt="">
-                </div>
-
-                <!--2 images for mobile-->
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ivey/3_iveybusinessschool-1.png" alt="">
-                </div>
-                <!--2 images end-->
-
-                <div class="content-row">
-                    <div class="col-3 d-block">
-                    </div>
-                    <div class="col-7">
-                        <p><span style="font-weight: bold">Reframing a story within a more meaningful context</span>—Our work The Anatomy of Leadership asks four penetrating questions. Each helps reframe leadership for our times. The questions highlight areas of responsibility that challenge global society as well as the future of business. By moving the conversation to a more critical arena, the design brings greater weight and immediacy to the School’s mission. It underscores the importance of the School in the field of business leadership and ultimately makes a stronger case for support. ⬤</p>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="full-row">
-                        <img class="" style="width: 65.254vw;" src="static/images/desktop/projects/ivey/6_iveybusinessschool.jpg" alt="">
-                    </div>
-                </div>
-
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ivey/7_iveybusinessschool.jpg" alt="">
-                </div>
-
-                <div class="row-img">
-                    <div class="full-row">
-                        <img class="" src="static/images/desktop/projects/ivey/8_iveybusinessschool.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;display: block;">
-                    </div>
-                </div>
-
-                <!--2 images for mobile-->
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ivey/Group%20182.png" alt="">
-                </div>
-                <!--2 images end-->
-
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ivey/11_iveybusinessschool.jpg" alt="">
-                </div>
-
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/ivey/12_iveybusinessschool.jpg" alt="">
-                </div>
-
-
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-greater-toronto-airports-authority', true)">
-                <div class="next-project-body">
-                    <div class="ref">
-                        Next Project / Greater Toronto Airports Authority
-                    </div>
-                    <div class="next-title">
-                        <span class="simple">Design lifts a report</span>
-                        <span class="simple"> to the level of art</span>
-                    </div>
+            <div class="next-insight">
+                <div class="ref">
+                    Next Insight
                 </div>
-                <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/ivey/1_gtaa_hero.jpg" alt="">
+
+                <div onclick="loadInsight('branding-is-inherently-honest', true)" class="next-title">
+                    <span class="simple">Branding is</span>
+                    <span class="simple"> inherently honest</span>
                 </div>
+
             </div>
         </div>
         <!--new content loads here-->
@@ -340,19 +295,19 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -519,6 +474,7 @@
         </div>
     </div>
     </div>
+    <div class="shadow-menu"></div>
 
 
 </div>
@@ -723,20 +679,20 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -844,7 +800,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - When is Print Still Relevant</title>
+    <title>Aegis - Project page</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <script src="js/style.js?v=12"></script>
     <script src="js/main.js?v=12"></script>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" title="insightCss" href="css/insights/media.css?v=12">
+    <link rel="stylesheet" href="css/project.css?v=12">
     <link rel="stylesheet" href="css/media.css?v=12">
     <link rel="stylesheet" href="css/common-media.css?v=12">
 
@@ -34,59 +34,161 @@
                      alt="">
             </div>
         </header>
-        <div class="body insight-html">
+        <div class="body project-html">
             <div class="main-content">
-                <div class="main-statement-wrap" >
-                    <div class="main-statement" >
-                        <span class="simple">When is print <br>still relevant?</span>
+                <div class="head-block">
+                    <div class="content-head-text">
+                        <span class="simple">A magazine redesign</span>
+                        <span class="simple">energizes engagement</span>
+                    </div>
+                    <div class="project-name">Ivey Business School / InTouch Magazine</div>
+                    <div class="tag-list">
+                        <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
+                        <ul>
+                            <li>● Strategy & Consulting</li>
+                            <li>● Editorial Design</li>
+                            <li>● Art Direction</li>
+                            <li>● Photography</li>
+                            <li>● Illustration</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="row ">
-                    <div class="col-3">
-                        <ul class="tag-list">
-                            <li>● Media</li>
-                        </ul>
-                        <div class="insight-by">By Alex Dawson</div>
-                        <div class="job-title">Researcher & Brand Culture Strategist at Aegis</div>
+
+                <div class="row-full">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/1_iveyintouchmagazine_hero.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/1_iveyintouchmagazine_mobile_hero.jpg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="content-row">
+                    <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>When helping clients select between digital and physical tools for a project, we sometimes encounter the perception that digital is always better than print. This isn’t the case, especially when it comes to magazine production. Where building a relationship is the primary goal, we find that print, or print combined with digital, are often more successful than digital alone. We think there are several reasons why:</p>
-                        <p><span>❶ <i>Print can be more enjoyable to read</i></span><br>We may experience reading for pleasure and reading for work differently. Because so much of our work-related media use is online, there’s some evidence that we associate digital reading with work, and print reading with leisure.</p>
-                        <p><span class="italic"><u><a href="https://digitalscholarship.unlv.edu/mib_fac_articles/47/" target="_blank" class="clear-underline">One study</a></u></span> found that while readers perceived digital reading to be more convenient, they also largely preferred not to read “hedonic” (pleasurable, leisurely) media in an online format.</p>
-                        <p><span>❷ <i>Print seems to be remembered better</i></span><br>A number of studies have found higher recall rates for print over digital. <span
-                                class="italic"><u><a href="https://www.jstor.org/stable/23356918?refreqid=excelsior%3Aaa428a264207fca297a04b4dc13f87e4&seq=1" target="_blank" class="clear-underline">In one such</a></u></span> study that’s particularly relevant to Aegis’s work, print and digital editions of a US college’s alumni magazine were compared. The print version was remembered better, but what’s remarkable is that this held true even for those who preferred digital reading! That is, we may sometimes prefer types of media that actually serve us worse – if our intention is to remember what we read.</p>
-
-                        <img class="content-img" src="static/images/desktop/insights/when-is-print-still-relevant/6 graphic_reading retention.jpg">
-                        <p>(For those interested, influential news designer Mario García’s has a great summary of some papers with similar findings on his
-                            <span class="italic"><u><a href="https://garciamedia.com/blog/print-vs-digital-what-studies-tell-us/" target="_blank" class="clear-underline">blog</a></u></span> .)</p>
-                        <p><span>❸ <i>Print can be less crowded</i></span><br>The increased internet media consumption and digital device use may allow the relative rarity or novelty of print media to stand out. Anecdotally, this feels especially cogent for me in COVID-19 lockdown, where an increasing share of my work and leisure has been conducted through screens. </p>
-                        <p>The practical requirement that substantial print publications be intermittent, rather than published continuously (as with some digital media) can heighten the perceived novelty of print media, turning publication into an event that rises above the busy, often digitally-mediated flow of everyday life.</p>
-                        <p>It’s true that communicating digitally has a number of advantages. There’s the potential for multimedia, hypertext, and rapid two-way communication beyond what is possible in print. Print distribution costs are borne by the publisher, but the cost of the devices and infrastructure needed to access digital writing is not. Internet media have greater reach and time spent per week than print media, especially for younger audiences (PHD Media, Canadian Media Usage Trends 2014–2020, available at
-                            <span class="italic"><u><a href="https://iabcanada.com/research/cmust/" target="_blank" class="clear-underline">https://iabcanada.com/research/cmust/</a></u></span>). Ultimately, we see different media as tools that have to be evaluated for a particular context and audience.</p>
-                        <p>The distinction between digital and physical media has been continuously changing over time, and will continue to shift. The development of multi-touch interfaces for smartphones gave digital media an increased tactility. 3D printing has the potential to complicate  the distinction between objects and information, including the distinction between print and digital media. Mario García has noted that his WED approach, which aimed to integrate writing, editing and design in print news production has, decades later, been more fully realized via the designed experience of digital news for mobile devices. </p>
-                        <p>As technological and social forms change, possibilities emerge and vanish for media choices to address different communication needs.</p>
-                        <div class="share">
-                            <ul>
-                                <li>Share:</li>
-                                <li><a href="">Linkedin</a></li>
-                                <li><a href="">Twitter</a></li>
-                                <li><a href="">Email</a></li>
-                            </ul>
-                        </div>
+                        <p>Ivey Business School appreciates the value of its alumni base to its brand and sustainability. With this in mind, its alumni magazine, InTouch, serves a critical function. The magazine maintains a relevant connection with its 25,000 alumni. The previous iteration of the publication was produced internally by the School and it had a very institutional voice. We were invited to help Ivey reconceive the magazine and strengthen its value to its audience.</p>
                     </div>
                 </div>
+
+                <div class="row-full">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/2_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/2_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="content-row">
+                    <div class="col-3 d-block">
+                    </div>
+                    <div class="col-7">
+                        <p><span style="font-weight: bold">Re-focusing on the target</span>—To ensure the magazine would maintain strong relevance with alumni, the School established an editorial board with equal representation of both School and alumni. Moving forward, success would be informed by a key metric—how the readership defines relevant. This would manifest in a number of ways. Stories would be about the alumni—their lives and careers, and how the knowledge and values gained at Ivey have helped shape the real world. To ensure it maintained interest and freshness, journalists would write the articles, rather than school staff. Additionally, the design would be photographically driven. With an ever-present eye on relevance, photography connected the magazine with the world of the alumnus.</p>
+                        <p><span style="font-weight: bold">Measuring Success</span>—Publishing and distributing a magazine is expensive. It becomes important to have insight into whether the reader audience values the content. Otherwise any return on investment is not clear. The board instituted regular audience research and readership surveys. Creating a great magazine is an iterative process. Phases of redesign were launched at points where the research highlighted a clear opportunity for improvement. ⬤</p>
+                    </div>
+                </div>
+
+                <div class="row-full">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/3_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/3_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/4_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/4_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/5_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/5_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/6_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/6_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/7_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/7_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/8_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/8_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/9_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/9_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/10_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/10_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/11_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/11_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/12_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/12_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/13_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/13_iveyintouchmagazine.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/InTouch-Magazine/14_iveyintouchmagazine.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/InTouch-Magazine/14_iveyintouchmagazine_mobile.jpg" alt="">
+                    </div>
+                </div>
+
+
+
+
             </div>
 
-            <div class="next-insight">
-                <div class="ref">
-                    Next Insight
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-Peeps-Digital', true)">
+                <div class="next-project-body">
+                    <div class="ref">
+                        Next Project / Peeps / Digital
+                    </div>
+                    <div class="next-title">
+                        <span class="simple">A digital brand for</span>
+                        <span class="simple"> people interested in people</span>
+                    </div>
                 </div>
-
-                <div onclick="loadInsight('practical-value-of-beauty', true)" class="next-title">
-                    <span class="simple">The practical</span>
-                    <span class="simple"> value of beauty</span>
+                <div class="row-full limited-next-image">
+                    <img src="static/images/desktop/projects/InTouch-Magazine/1_peepsdigital_hero.jpg" alt="">
                 </div>
-
             </div>
         </div>
         <!--new content loads here-->
@@ -289,25 +391,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -319,7 +421,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -474,7 +576,6 @@
         </div>
     </div>
     </div>
-    <div class="shadow-menu"></div>
 
 
 </div>
@@ -673,26 +774,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -704,7 +805,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -800,7 +901,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

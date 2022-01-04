@@ -4,7 +4,7 @@
 const caseStudyItems = 6; //TODO HARDCODED
 const htmlLoadPath = "htmlLoad";
 const htmlLoadZeroMenuItemContent = $('<div id="htmlLoadZeroMenuItemContent">')
-    .load(`${htmlLoadPath}/zeroMenuItemContent.html #zeroMenuItemContentTarget`);
+    .load(`${htmlLoadPath}/zeroMenuItemContent.php #zeroMenuItemContentTarget`);
 
 
 /*
@@ -176,15 +176,15 @@ function loadInsight(insightToLoad, isNextInsight = false) {
     $('body').addClass('js-page-loading');
     $('.body').addClass('old-html');
     $(".desktop-content .containery").append('<div class="new-html inactive"></div>');
-    $(".desktop-content .containery .new-html").load(`${insightToLoad}.html .insight-html`, function (responseText, textStatus, XMLHttpRequest) {
+    $(".desktop-content .containery .new-html").load(`${insightToLoad}.php .insight-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
             deactivateShadow();
             $('head').append('<link rel="stylesheet" type="text/css" href="css/insights/media.css?v=12">');
             $('.js-page-loading').removeClass('js-page-loading');
-            $('title').load(`${insightToLoad}.html title`, '', function (data) {
+            $('title').load(`${insightToLoad}.php title`, '', function (data) {
                 document.title = $(this).text().toUpperCase();
             });
-            history.pushState({pageID: insightToLoad}, insightToLoad, `${insightToLoad}.html`);
+            history.pushState({pageID: insightToLoad}, insightToLoad, `${insightToLoad}.php`);
             // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
             // readyDOMStyle();
             // readyDOMMain();
@@ -212,7 +212,7 @@ function loadCase(caseToLoad, isNextCase = false) {
     $('body').addClass('js-page-loading');
     $('.body').addClass('old-html');
     $('.desktop-content .containery').append('<div class="new-html inactive"></div>');
-    $(".desktop-content .containery .new-html").load(`${caseToLoad}.html .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
+    $(".desktop-content .containery .new-html").load(`${caseToLoad}.php .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
             deactivateShadow();
             $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=12">');
@@ -220,10 +220,10 @@ function loadCase(caseToLoad, isNextCase = false) {
             loadImage($(".case-hero-img:first-child").attr('src')).then(async () => {
                 console.log('img loaded');
                 $('.js-page-loading').removeClass('js-page-loading');
-                $('title').load(`${caseToLoad}.html title`, '', function (data) {
+                $('title').load(`${caseToLoad}.php title`, '', function (data) {
                     document.title = $(this).text().toUpperCase();
                 });
-                history.pushState({pageID: caseToLoad}, caseToLoad, `${caseToLoad}.html`);
+                history.pushState({pageID: caseToLoad}, caseToLoad, `${caseToLoad}.php`);
                 // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
                 // readyDOMStyle();
                 // readyDOMMain();
@@ -267,7 +267,7 @@ function loadProject(projectToLoad, isNextProject = false) {
     $('body').addClass('js-page-loading');
     $('.body').addClass('old-html');
     $(".desktop-content .containery").append('<div class="new-html inactive"></div>');
-    $(".desktop-content .containery .new-html").load(`${projectToLoad}.html .project-html`, function (responseText, textStatus, XMLHttpRequest) {
+    $(".desktop-content .containery .new-html").load(`${projectToLoad}.php .project-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
             deactivateShadow();
             $('head').append('<link rel="stylesheet" type="text/css" href="css/project.css?v=12">');
@@ -275,10 +275,10 @@ function loadProject(projectToLoad, isNextProject = false) {
             loadImage($('.desktop-only-img:first-child')[0].src).then(async () => {
                 console.log('img loaded');
                 $('.js-page-loading').removeClass('js-page-loading');
-                $('title').load(`${projectToLoad}.html title`, '', function (data) {
+                $('title').load(`${projectToLoad}.php title`, '', function (data) {
                     document.title = $(this).text().toUpperCase();
                 });
-                history.pushState({pageID: projectToLoad}, projectToLoad, `${projectToLoad}.html`);
+                history.pushState({pageID: projectToLoad}, projectToLoad, `${projectToLoad}.php`);
                 // gtag('config', 'UA-525355-1',{ 'page_title' : document.title, 'page_path': location.pathname, 'page_location': location.href});
                 // readyDOMStyle();
                 // readyDOMMain();
@@ -303,8 +303,8 @@ function loadProject(projectToLoad, isNextProject = false) {
 
 window.addEventListener('popstate', function (e) {
     if (e.state && e.state.pageID) {
-        location.href = `${e.state.pageID}.html`
+        location.href = `${e.state.pageID}.php`
     } else {
-        location.href = 'index.html';
+        location.href = 'index.php';
     }
 });

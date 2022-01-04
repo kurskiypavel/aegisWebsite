@@ -38,26 +38,27 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">Creating a campaign</span>
-                        <span class="simple">that changes perception</span>
+                        <span class="simple">A digital brand for</span>
+                        <span class="simple">people interested in people</span>
                     </div>
-                    <div class="project-name">The York School</div>
+                    <div class="project-name">Peeps / Digital</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Research</li>
-                            <li>● Advertising Campaign</li>
+                            <li>● Event</li>
                             <li>● Website</li>
                             <li>● Photography</li>
                             <li>● Video Production</li>
                             <li>● Social Media Campaign</li>
+                            <li>● Fundraising Campaign</li>
                         </ul>
                     </div>
                 </div>
+
                 <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYS-2011/1%20tys2011campaign%20hero.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/peeps-digital/1_peepsdigital_hero.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYS-2011/1%20tys2011campaign%20hero.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/peeps-digital/1_peepsdigital_mobile_hero.jpg" alt="">
                     </div>
                 </div>
 
@@ -65,127 +66,122 @@
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Research uncovered a curious and somewhat derogatory label left by a teen: “York-dorks.” This seemingly inconsequential insight would later be the inspiration of a campaign that would not only reposition The York School, but also help reduce attrition and expand enrolment. What “York-dorks” revealed was a misconception in the market around what kind of school York was. Even though the School enjoyed a reputation for academic excellence, the target audience—middle-school-aged kids—weren’t so impressed. For this audience, academic excellence translates to imprisonment by homework. Likewise, it was reasonable to believe York School students loved homework, and therefore weren’t very much fun. Unfortunately, this perception also undermined middle and senior school enrolment.</p>
+                        <p>The world is not small. In fact, through the lens of culture, it is vast. We founded Peeps as a multi-channel media brand to deliver stories of culture and context at a time when it matters most. From TED talk-like events to an active and engaged online community to a critically acclaimed print magazine, Peeps showcases our anthropological leanings as well as our expertise in building digital media brands.</p>
                     </div>
                 </div>
 
                 <div class="row">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYS-2011/2%20tys2011campaign.gif" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/TYS-2011/2%20tys2011campaign.gif" alt="">
-                    </div>
+                    <img class="full-row" src="static/images/desktop/projects/peeps-digital/2_peepsdigital.gif" alt="">
                 </div>
 
                 <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p><span style="font-weight: bold">A brand campaign expands enrolment & reverses attrition</span>—It was clear our primary target audience would be middle-school kids, not parents. Unlike the junior school market where parents choose the school, middle-school parents collaborate with their kids, often leaving them to make the final choice.</p>
-                        <p>You can’t build a connection with an audience of teens through an institutional voice. To persuade middle-school kids that The York School offered a positive experience, the only credible voice would be a peer. In fact, the students became both the voice and the content of our campaign. Energized and confident, these kids are proof of a school culture that respected individuals and their potential.</p>
+                        <p><span style="font-weight: bold">Building an audience</span>—One year prior to the release of <span class="italic">Peeps magazine</span>, we started a campaign to build an audience. Our mandate favoured quality over quantity. We launched <span class="italic">Peeps</span> brand on Twitter, Instagram and Facebook, methodically building relations with each relevant community. We also invested in building locally with the launch of TED-style public conferences in Toronto called <span class="italic">Peeps</span> Talk.</p>
                     </div>
                 </div>
 
                 <div class="row-full">
-                    <div class="row four-videos">
-                        <div style="" class="full-row flex">
-                            <div class="col-6 iframe-square iframe-square-l">
-                                <div class="row">
-                                    <div class="full-row iframe-square-video" style="max-width: 100%;display: block;position: relative;margin: 0;">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
-                        </span>
-                                        <div class="poster" style="background-image:url('static/images/desktop/projects/TYS-2011/3 tys2011campaign.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                                        <iframe src="https://player.vimeo.com/video/258090378" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 iframe-square iframe-square-r">
-                                <div class="row">
-                                    <div class="full-row iframe-square-video" style="max-width: 100%;display: block;position: relative;margin: 0;">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
-                        </span>
-                                        <div class="poster" style="background-image:url('static/images/desktop/projects/TYS-2011/4 tys2011campaign.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                                        <iframe src="https://player.vimeo.com/video/258086130" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="margin-top: 0;padding-top: 3.390vw;padding-bottom: 5.932vw;" class="full-row flex">
-                            <div class="col-6 iframe-square iframe-square-l">
-                                <div class="row">
-                                    <div class="full-row iframe-square-video" style="max-width: 100%;display: block;position: relative;margin: 0;">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
-                        </span>
-                                        <div class="poster" style="background-image:url('static/images/desktop/projects/TYS-2011/5 tys2011campaign.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                                        <iframe src="https://player.vimeo.com/video/258086259" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-6 iframe-square iframe-square-r">
-                                <div class="row">
-                                    <div class="full-row iframe-square-video" style="max-width: 100%;display: block;position: relative;margin: 0;">
-                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
-                            <img src="static/images/desktop/projects/play-button.png" style="width: 45px;" alt="">
-                        </span>
-                                        <div class="poster" style="background-image:url('static/images/desktop/projects/TYS-2011/6 tys2011campaign.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
-                                        <iframe src="https://player.vimeo.com/video/258086216" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/peeps-digital/3_peepsdigital.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/peeps-digital/3_peepsdigital.jpg" alt="">
                     </div>
+                </div>
+
+<!--                two images-->
+                <div class="row-full mobile-only-set">
+                    <img class="full-row" src="static/images/desktop/projects/peeps-digital/4_peepsdigital.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/peeps-digital/Group 179.png" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/peeps-digital/5_peepsdigital.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/peeps-digital/6_peepsdigital.jpg" alt="">
                 </div>
 
                 <div class="content-row">
                     <div class="col-3 d-block">
-                        <div class="percentage-wrap">
-                            <div class="percentage">600%</div>
-                            <div class="percentage-description">
-                                Increased in enrollment inquiries after the campaign was launched
-                            </div>
-                        </div>
                     </div>
                     <div class="col-7">
-                        <div class="percentage-mobile-wrap">
-                            <div class="percentage">600%</div>
-                            <div class="percentage-description">
-                                Increased in enrollment inquiries after the campaign was launched
-                            </div>
-                        </div>
-                        <p><span style="font-weight: bold">The power of relatability</span>—The “Be Yourself. Be Great.” campaign was founded on the profiles of six York School students. Each expressed their individuality through a list of their passions—favourite subjects, books, movies, TV shows, music, sports, hobbies and ambitions. Far from being ‘dorks’, these kids were real people. They led engaging lives, sharing passions and interests with their peers. They were relatable.</p>
-                        <p>It was a simple solution that not only spiked requests for prospectuses by 600% after the campaign was launched, but also repositioned the brand forever, helping set the stage for the school’s rise to become a leading independent co-ed school. ⬤</p>
+                        <p><span style="font-weight: bold">Creating a hub</span>—While <span class="italic">Peeps</span> magazine is a print publication, building a digital brand for <span class="italic">Peeps</span> was paramount to its success. The anchor for the digital brand was the creation of the <span class="italic">Peeps</span> website called <span class="italic">Peeps</span> Forum, it featured an ongoing feed of excessive web content.</p>
                     </div>
                 </div>
 
-                <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/TYS-2011/7%20tys2011campaign.jpg" alt="">
+                <div class="row-full">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/peeps-digital/7_peepsdigital.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/peeps-digital/7_peepsdigital.jpg" alt="">
+                    </div>
+                </div>
+
+<!--                three cart images-->
+                <div class="row mobile-only-set">
+                    <img class="full-row" src="static/images/desktop/projects/peeps-digital/9_peepsdigital.jpg" alt="">
+                </div><div class="row mobile-only-set">
+                    <img class="full-row" src="static/images/desktop/projects/peeps-digital/10_peepsdigital.jpg" alt="">
+                </div><div class="row mobile-only-set">
+                    <img class="full-row" src="static/images/desktop/projects/peeps-digital/8_peepsdigital.jpg" alt="">
+                </div>
+
+<!--                one with three joined-->
+                <div class="row-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/peeps-digital/Group 180.png" alt="">
                 </div>
 
                 <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/TYS-2011/camillagroup.png" alt="">
+                    <img class="full-row" src="static/images/desktop/projects/peeps-digital/11_peepsdigital.jpg" alt="">
+                </div>
+
+                <div class="content-row">
+                    <div class="col-3 d-block">
+                    </div>
+                    <div class="col-7">
+                        <p><span style="font-weight: bold">Using social media to amplify the voice</span>—Three moths prior to the public release of both the first and second issues of the magazine, <span class="italic">Peeps</span> launched separate crowdfunding campaigns as catalysts for audience-building. Subsequent to each release, <span class="italic">Peeps</span> social media amplified the swell of media and retailer activity as well as purchaser and community commentary. ⬤</p>
+                    </div>
+                </div>
+
+                <div class="row-full">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/peeps-digital/12_peepsdigital.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/peeps-digital/12_peepsdigital.jpg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/peeps-digital/13_peepsdigital.jpg" alt="">
                 </div>
 
                 <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/TYS-2011/11%20tys2011campaign.jpg" alt="">
+                    <div class="full-row iframe-video">
+                        <span style="margin-top: -25px;margin-left: -25px;position: absolute;left: 50%;top: 50%;z-index: 3;cursor: pointer;" class="playVimeo">
+                            <img src="static/images/desktop/projects/play-button-black.png" style="width: 45px;" alt="">
+                        </span>
+                        <div class="poster" style="background-image:url('static/images/desktop/projects/peeps-digital/vd.jpg');width: 100%;position: absolute;z-index: 2;top: 0px;left: 0px;height: 100%;background-size: cover;display: block;background-position: center;"></div>
+                        <iframe src="https://player.vimeo.com/video/158982719" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
 
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-thrive-group', true)">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-TYS-Kindergarten-Campaign', true)">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / Thrive Group
+                        Next Project / The York School / Junior School Campaign
                     </div>
                     <div class="next-title">
-                        <span class="simple">Branding unifies a merger</span>
-                        <span class="simple">of health-care services</span>
+                        <span class="simple">Video campaign creates</span>
+                        <span class="simple"> a kindergarten brand</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/TYS-2011/1_thrivegroup_hero.jpg" alt="">
+                    <img src="static/images/desktop/projects/peeps-digital/Screen%20Shot%202021-03-11%20at%205.54.21%20PM.png" alt="">
                 </div>
             </div>
         </div>
@@ -389,25 +385,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -419,7 +415,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -574,7 +570,6 @@
         </div>
     </div>
     </div>
-    <div class="shadow-menu"></div>
 
 
 </div>
@@ -773,26 +768,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -804,7 +799,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -900,7 +895,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

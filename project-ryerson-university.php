@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Radiant Care</title>
+    <title>Aegis - Ryerson University</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,25 +38,24 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">Contemporary rebrand for</span>
-                        <span class="simple">a faith-based community</span>
+                        <span class="simple">A magazine establishes a</span>
+                        <span class="simple">young research university</span>
                     </div>
-                    <div class="project-name">Radiant Care</div>
+                    <div class="project-name">Ryerson University</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Research</li>
-                            <li>● Naming</li>
-                            <li>● Brand Identity</li>
-                            <li>● Wayfinding</li>
+                            <li>● Editorial Design</li>
+                            <li>● Annual Report</li>
+                            <li>● Art Direction</li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="row-full">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/radiant-care/1_radiantcare_hero.jpg" alt="">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/ryerson-university/1_ryerson_hero.jpg" alt="">
                     <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/radiant-care/1_radiantcare_mobile_hero.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/ryerson-university/1_ryerson_mobile_hero.jpg" alt="">
                     </div>
                 </div>
 
@@ -64,44 +63,75 @@
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Tabor Manor and Pleasant Manor were established by Mennonites early in the 20th century. They are affiliated through faith, culture and values. Facing new trends in demographics, the Board and management wanted to broaden their appeal. The older generation of Mennonites is shrinking. Their boomer children are rapidly approaching retirement themselves. In many cases, they have built careers, marriages, families and lives outside the community. Today’s retirees are more affluent and have active retirement lifestyle expectations.</p>
-                        <p><span style="font-weight: bold">Signalling inclusivity</span>—While both Tabor Manor and Pleasant Manor welcome applicants from all faiths and ethnicities, a Mennonite faith-based organization does not appeal to non-Mennonite prospects. Through a human-centred, anthropological approach to branding and change management, we helped the organization shift its brand from being aligned around a specific cultural heritage to be more open and inclusive.</p>
+                        <p>Ryerson partnered with Aegis to create Intersections, a magazine aimed at academia, business, community and government. The magazine features the bright minds that drive the university’s research. It is intended primarily to communicate the unique nature of Ryerson’s research to stakeholders. But the has also become an important tool for recruiting both high calibre research talent and high calibre students.</p>
                     </div>
                 </div>
 
                 <div class="row">
-                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/radiant-care/2_radiantcare.jpg" alt="">
-                    <div class="mobile-only-set">
-                        <img class="full-row" src="static/images/desktop/projects/radiant-care/2_radiantcare_mobile.jpg" alt="">
-                    </div>
+                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/2_ryerson.jpg" alt="">
                 </div>
 
                 <div class="content-row">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p><span style="font-weight: bold">Universality from shared values</span>—After an ethnographic exploration of both the internal and external stakeholder communities, we helped to reposition the organization around its core values of caring, compassion, and community. The result was a refreshed, universally compelling brand and value proposition that the organization already ‘lives’ and can deliver. We created a unifying name, Radiant Care, an identity, and messaging that conveyed the brand’s values of warmth and openness, and set expectations about the resident experience. ⬤</p>
+                        <p><span style="font-weight: bold">Leadership through storytelling</span>—Stories are a powerful way to communicate culture and leadership. We created the magazine as a collection of engaging stories and photography about people of science—Ryerson researchers in their pursuit of ground-breaking work. At its core, Intersections galvanized the notion of Ryerson as an urban campus integrated into the city. ⬤</p>
                     </div>
                 </div>
 
                 <div class="row">
-                    <img class="full-row" src="static/images/desktop/projects/radiant-care/3_radiantcare.jpg" alt="">
+                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/3_ryerson.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/4_ryerson.jpg" alt="">
+                </div>
+
+                <!--2 images-->
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/Group%20180.png" alt="">
+                </div>
+                <!--2 images end-->
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/7_ryerson.jpg" alt="">
+                </div>
+
+                <div class="row-full-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/ryerson-university/8_ryerson.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/ryerson-university/8_ryerson.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/9_ryerson.jpg" alt="">
+                </div>
+
+                <!--2 images-->
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/Group%20181.png" alt="">
+                </div>
+                <!--2 images end-->
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/ryerson-university/12_ryerson.jpg" alt="">
                 </div>
 
             </div>
 
-            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-council-for-ontario-universities', true)">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-TYS-2011-Campaign', true)">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / Council for Ontario Universities
+                        Next Project / The York School
                     </div>
                     <div class="next-title">
-                        <span class="simple">Designing Information for</span>
-                        <span class="simple">ergonomics and accessibility</span>
+                        <span class="simple"> Creating a campaign</span>
+                        <span class="simple"> that changes perception</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/projects/radiant-care/Intersection%201.png" alt="">
+                    <img src="static/images/desktop/projects/ryerson-university/1 tys2011campaign hero.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -305,25 +335,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -335,7 +365,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -688,26 +718,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -719,7 +749,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -815,7 +845,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

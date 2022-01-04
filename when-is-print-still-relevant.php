@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Design options as cultural inkblot tests</title>
+    <title>Aegis - When is Print Still Relevant</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,30 +38,33 @@
             <div class="main-content">
                 <div class="main-statement-wrap" >
                     <div class="main-statement" >
-                        <span class="simple">Design options as<br>cultural inkblot tests</span>
+                        <span class="simple">When is print <br>still relevant?</span>
                     </div>
                 </div>
                 <div class="row ">
                     <div class="col-3">
                         <ul class="tag-list">
-                            <li>● Practices</li>
+                            <li>● Media</li>
                         </ul>
-                        <div class="insight-by">By Alex Dawson </div>
-                        <div class="job-title">Researcher & Brand Culture<br> Strategist at Aegis</div>
+                        <div class="insight-by">By Alex Dawson</div>
+                        <div class="job-title">Researcher & Brand Culture Strategist at Aegis</div>
                     </div>
                     <div class="col-7">
-                        <p>Lately I’ve been thinking about a common practice in design, advertising, marketing etc. where the creative team presents their client with multiple options or approaches for a given project.</p>
-                        <p>My background and training aren’t in design, but from what I gather from working with and speaking to designers, the practice of presenting options is common and often expected, but not one all designers are fully comfortable with. Some designers make the argument that options, as opposed to a single solution or recommendation, reduces the expertise of the designer to the subjective preference of the client, or represents a refusal by the designer to make a clear decision as to which single approach best addresses the particular task at hand.</p>
-                        <p>In this view, presenting options, or too many options, easily shifts into a conception of design as decorative as opposed to creative or ameliorative. A quick scan revealed what I felt were some really well-articulated expressions of this argument, such as <span class="italic"><u><a
-                                href="https://blog.prototypr.io/presenting-multiple-design-options-to-your-clients-just-dont-5818bb29b6fc" target="_blank" class="clear-underline">this piece</a></u></span> by John Menard and the responses to <span class="italic"><u><a target="_blank" class="clear-underline"
-                                href="https://www.quora.com/When-presenting-designs-to-a-client-is-it-generally-better-to-present-one-option-or-allow-for-choices-Does-allowing-for-more-than-one-choice-water-down-each-of-the-design-options">this Quora post</a></u></span> by Terry Douglas, Nela Dunato, David Pensato, Radu Cristian Vucea, and others.</p>
-                        <p>This seems a very reasonable concern to have. But sidestepping the question entirely, I’m interested in unpacking a feeling I’ve occasionally had that presenting options can actually be generative – not primarily about providing greater ‘choice’ to the client, but somehow leading to deeper understanding of who the client is, and their needs.</p>
-                        <p>We recently presented two very different designs to a client. We felt both were in the spirit of that clients’ culture, but emphasized quite different aspects or values. Intuitively we felt that which one they picked would say something about them - their aspirations, self-perception, who they were and who they wanted to be. And we were actually quite surprised by their preference, though it was also clear that the resulting conversation and thinking would not have been possible without the design as a kind of guiding scaffold for everyone’s thinking. (Riffing on Claude Levi-Strauss, designs may be <span class="italic"><u><a
-                                href="https://fordham.universitypressscholarship.com/view/10.5422/fordham/9780823242047.001.0001/upso-9780823242047-chapter-8" target="_blank" class="clear-underline">“good to think with”</a></u></span>.)</p>
-                        <p>I want to suggest that when there’s a strong working relationship, well-considered design options can function like a kind of cultural or semiotic inkblot test,* presenting clients with prompts or ‘meaningful choices’  to work through and externalize their own implicit understanding of who they are. This can lead to further insight about the client’s identity, for both us and them!</p>
-                        <p>In the design process, and particularly in branding, designers make both intuitive and explicitly-considered choices about feel, tone, culture, atmosphere, appropriateness, and so on, based on their understanding of the client. Whether this understanding comes from formal research or from elsewhere, it doesn’t translate 1:1 to the design process, because the cultural connotations of these design choices are implicit.</p>
-                        <p>The choices designers make are symbolic, which is to say they represent particular qualities indirectly using signs. An extremely simple example is that a sans-serif typeface might be chosen to represent a client perceived to have values of modernness, openness, and directness. Every element of a design – and not just a graphic design, but any design – connects out to these kinds of cultural or symbolic associations.</p>
-                        <div class="italic-notes">In light of this, it’s very interesting to share thoughtful design options back to a client, because when different options connote different symbolic associations, the client’s response can teach us something about how they see themselves. Part of sharing  options can be to give clients a language or structure to express and think about how their aesthetic preferences reflect culture and values.</div>
+                        <p>When helping clients select between digital and physical tools for a project, we sometimes encounter the perception that digital is always better than print. This isn’t the case, especially when it comes to magazine production. Where building a relationship is the primary goal, we find that print, or print combined with digital, are often more successful than digital alone. We think there are several reasons why:</p>
+                        <p><span>❶ <i>Print can be more enjoyable to read</i></span><br>We may experience reading for pleasure and reading for work differently. Because so much of our work-related media use is online, there’s some evidence that we associate digital reading with work, and print reading with leisure.</p>
+                        <p><span class="italic"><u><a href="https://digitalscholarship.unlv.edu/mib_fac_articles/47/" target="_blank" class="clear-underline">One study</a></u></span> found that while readers perceived digital reading to be more convenient, they also largely preferred not to read “hedonic” (pleasurable, leisurely) media in an online format.</p>
+                        <p><span>❷ <i>Print seems to be remembered better</i></span><br>A number of studies have found higher recall rates for print over digital. <span
+                                class="italic"><u><a href="https://www.jstor.org/stable/23356918?refreqid=excelsior%3Aaa428a264207fca297a04b4dc13f87e4&seq=1" target="_blank" class="clear-underline">In one such</a></u></span> study that’s particularly relevant to Aegis’s work, print and digital editions of a US college’s alumni magazine were compared. The print version was remembered better, but what’s remarkable is that this held true even for those who preferred digital reading! That is, we may sometimes prefer types of media that actually serve us worse – if our intention is to remember what we read.</p>
+
+                        <img class="content-img" src="static/images/desktop/insights/when-is-print-still-relevant/6 graphic_reading retention.jpg">
+                        <p>(For those interested, influential news designer Mario García’s has a great summary of some papers with similar findings on his
+                            <span class="italic"><u><a href="https://garciamedia.com/blog/print-vs-digital-what-studies-tell-us/" target="_blank" class="clear-underline">blog</a></u></span> .)</p>
+                        <p><span>❸ <i>Print can be less crowded</i></span><br>The increased internet media consumption and digital device use may allow the relative rarity or novelty of print media to stand out. Anecdotally, this feels especially cogent for me in COVID-19 lockdown, where an increasing share of my work and leisure has been conducted through screens. </p>
+                        <p>The practical requirement that substantial print publications be intermittent, rather than published continuously (as with some digital media) can heighten the perceived novelty of print media, turning publication into an event that rises above the busy, often digitally-mediated flow of everyday life.</p>
+                        <p>It’s true that communicating digitally has a number of advantages. There’s the potential for multimedia, hypertext, and rapid two-way communication beyond what is possible in print. Print distribution costs are borne by the publisher, but the cost of the devices and infrastructure needed to access digital writing is not. Internet media have greater reach and time spent per week than print media, especially for younger audiences (PHD Media, Canadian Media Usage Trends 2014–2020, available at
+                            <span class="italic"><u><a href="https://iabcanada.com/research/cmust/" target="_blank" class="clear-underline">https://iabcanada.com/research/cmust/</a></u></span>). Ultimately, we see different media as tools that have to be evaluated for a particular context and audience.</p>
+                        <p>The distinction between digital and physical media has been continuously changing over time, and will continue to shift. The development of multi-touch interfaces for smartphones gave digital media an increased tactility. 3D printing has the potential to complicate  the distinction between objects and information, including the distinction between print and digital media. Mario García has noted that his WED approach, which aimed to integrate writing, editing and design in print news production has, decades later, been more fully realized via the designed experience of digital news for mobile devices. </p>
+                        <p>As technological and social forms change, possibilities emerge and vanish for media choices to address different communication needs.</p>
                         <div class="share">
                             <ul>
                                 <li>Share:</li>
@@ -79,9 +82,9 @@
                     Next Insight
                 </div>
 
-                <div onclick="loadInsight('attention-is-voluntary', true)" class="next-title">
-                    <span class="simple">Attention</span>
-                    <span class="simple"> is voluntary</span>
+                <div onclick="loadInsight('practical-value-of-beauty', true)" class="next-title">
+                    <span class="simple">The practical</span>
+                    <span class="simple"> value of beauty</span>
                 </div>
 
             </div>
@@ -286,25 +289,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -316,7 +319,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -670,26 +673,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -701,7 +704,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -797,7 +800,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

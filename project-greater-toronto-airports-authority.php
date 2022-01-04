@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aegis - Project page</title>
+    <title>Aegis - Greater Toronto Airports Authority</title>
 
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,37 +38,76 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">Bridging the distance</span>
-                        <span class="simple">between alumni and the<br> school of their youth</span>
+                        <span class="simple">Design lifts a report</span>
+                        <span class="simple">to the level of art</span>
                     </div>
-                    <div class="project-name">Crescent School</div>
+                    <div class="project-name">Greater Toronto Airports Authority</div>
                     <div class="tag-list">
                         <img alt="folder icon" class="folder-icon" src="static/images/desktop/folder-icon.png">
                         <ul>
-                            <li>● Content Creation</li>
-                            <li>● Editorial Design</li>
-                            <li>● Photography</li>
+                            <li>● Annual Report</li>
                             <li>● Art Direction</li>
-                            <li>● Anthropological Research</li>
-                            <li>● Strategy &amp; Consulting</li>
+                            <li>● Photography</li>
                         </ul>
                     </div>
                 </div>
 
+
+                <div class="row-full">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/gtaa/1_gtaa_hero.jpg" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/gtaa/1_gtaa_mobile_hero.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="content-row">
+                    <div class="col-3 d-block">
+                    </div>
+                    <div class="col-7">
+                        <p>As an ambitious new airport rose out of the bones of the older one, Greater Toronto Airport Authority CEO Lou Turpin saw an opportunity to share the project with stakeholders through the Authority’s annual report. Aegis was invited onboard to not only design a report, but to celebrate the scale and beauty of the new airport by lifting the corporate annual report to the level of art. Not a typical brief for us, but one which became a labour of love. The final design of the annual report won recognition from design juries around the world, including the AR100 and the London Advertising Awards. ⬤</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img class="full-row" src="static/images/desktop/projects/gtaa/2_gtaa.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/gtaa/3_gtaa.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/gtaa/4_gtaa.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/gtaa/5_gtaa.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/gtaa/6_gtaa.jpg" alt="">
+                </div>
+
+                <div class="row-img">
+                    <img class="full-row" src="static/images/desktop/projects/gtaa/7_gtaa.jpg" alt="">
+                </div>
+
+
+
             </div>
 
-            <div class="next-project" style="cursor: pointer;">
+            <div class="next-project" style="cursor: pointer;" onclick="loadProject('project-BSS-Annual-Fund', true)">
                 <div class="next-project-body">
                     <div class="ref">
-                        Next Project / *******
+                        Next Project / The Bishop Strachan School / Annual Fund
                     </div>
-                    <div onclick="loadProject('***********')" class="next-title">
-                        <span class="simple">Rebranding a fundraising</span>
-                        <span class="simple"> campaign elevates outcomes</span>
+                    <div class="next-title">
+                        <span class="simple">Title for annual fund</span>
+                        <span class="simple"> branding and design</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/cases/crescent/Capture.JPG" alt="">
+                    <img src="static/images/desktop/projects/gtaa/1_bssannualfund_hero.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -272,25 +311,25 @@
                                 <div class="insights-block">
                                     <div class="row">
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.html">
+                                            <a class="clear-underline underline-on-hover" href="expanding-qualitative-research-beyond.php">
                                                 <span class="title">User experience, Practices, Research</span>
                                                 <p>Expanding<br> qualitative research <br>beyond ‘usability’<br> and ‘use’</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.html">
+                                            <a class="clear-underline underline-on-hover" href="branding-is-inherently-honest.php">
                                                 <span class="title">Branding</span>
                                                 <p>Branding is<br> inherently honest</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.html">
+                                            <a class="clear-underline underline-on-hover" href="design-options-as-cultural-inkblot-tests.php">
                                                 <span class="title">Practices</span>
                                                 <p>Design options<br> as cultural<br> inkblot tests</p>
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.html">
+                                            <a class="clear-underline underline-on-hover" href="attention-is-voluntary.php">
                                                 <span class="title">Communication, Learning</span>
                                                 <p>Attention is<br> voluntary</p>
                                             </a>
@@ -302,7 +341,7 @@
                                             </a>
                                         </div>
                                         <div class="col-3 red-square">
-                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.html">
+                                            <a class="clear-underline underline-on-hover" href="practical-value-of-beauty.php">
                                                 <span class="title">Design, Culture</span>
                                                 <p>The practical<br> value of beauty</p>
                                             </a>
@@ -655,26 +694,26 @@
                         <div class="insights-block">
                             <div class="">
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.html">
+                                    <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                         <span class="title">User experience, Practices, Research</span>
                                         <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="branding-is-inherently-honest.html">
+                                    <a class="clear-underline" href="branding-is-inherently-honest.php">
                                         <span class="title">Branding</span>
                                         <p>Branding is inherently honest</p>
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.html">
+                                    <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                         <span class="title">Practices</span>
                                         <p>Design options as cultural inkblot tests</p>
 
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="attention-is-voluntary.html">
+                                    <a class="clear-underline" href="attention-is-voluntary.php">
                                         <span class="title">Communication, Learning</span>
                                         <p>Attention is voluntary</p>
                                     </a>
@@ -686,7 +725,7 @@
                                     </a>
                                 </div>
                                 <div class="col-3 red-square">
-                                    <a class="clear-underline" href="practical-value-of-beauty.html">
+                                    <a class="clear-underline" href="practical-value-of-beauty.php">
                                         <span class="title">Design, Culture</span>
                                         <p>The practical value of beauty</p>
                                     </a>
@@ -782,7 +821,7 @@
             </div>
             <section class="case-study-panel__body">
                 <div class="case-study-panel__text">
-                    <a href="case-crescent.html" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
+                    <a href="case-crescent.php" class="clear-underline"><span class="main-statement">More than a <span class="main-statement-italic">magazine</span> redesign, the school needed to restore its connection with its alumni.</span></a>
                 </div>
             </section>
             <img src="static/images/desktop/homepage/close_svg.svg" alt="cross" onclick="closeMobileMenuTitlePage()"

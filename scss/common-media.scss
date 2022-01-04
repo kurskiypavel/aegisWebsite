@@ -854,7 +854,7 @@ a {
       top: 0;
       right: 0;
       z-index: 999;
-      transition: .3s;
+      transition: .5s;
 
       &.nav-opened {
         &:not(.fullvw):not(.navig-opened-by-cases) {

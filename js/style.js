@@ -730,28 +730,30 @@ function deactivateShadow() {
 /*---------+---------+---------+--------+-----------*/
 
 function callBackCompleteCaseLoading() {
-    $('.desktop-content .navigation').removeClass('nav-opened');
-    $('.navigation-arrow-up').removeClass('rotated');
-    $('.zeroMenuItemContent').addClass('closed');
-    restoreDefaultMenu();
+    setTimeout(() => {
+        closeMenuTitlePage();
+    }, 500);
+    setTimeout(() => {
+        toggleDesktopMenu();
+    }, 1000);
     console.log('// Animation end.')
     $('.preventClick').removeClass('preventClick');
     setTimeout(() => {
         $('.content-intro').removeClass('content-intro');
         vimeoPlayerObserverSet();
-    }, 600)
+    }, 1600)
 }
 
 function callBackCompleteArticleLoading() {
     setTimeout(() => {
         toggleDesktopMenu();
-    }, 600)
+    }, 500)
     console.log('// Animation end.')
     $('.preventClick').removeClass('preventClick');
     setTimeout(() => {
         $('.content-intro').removeClass('content-intro');
         vimeoPlayerObserverSet();
-    }, 600)
+    }, 1000)
 }
 
 function runContentIntroAnimation() {

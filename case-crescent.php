@@ -197,7 +197,7 @@
                     </div>
                 </div>
                 <div class="row-full">
-                    <img src="static/images/desktop/cases/crescent/Capture.JPG" alt="">
+                    <img src="static/images/desktop/cases/unitedway/1 unitedway_hero.jpg" alt="">
                 </div>
             </div>
         </div>

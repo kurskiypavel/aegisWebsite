@@ -40,115 +40,109 @@
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-BSS-Annual-Fund.php">
                                             <span class="title">The Bishop Strachan School</span>
-                                            <p>Title for annual fund branding and design</p>
+                                            <p>Title for annual fund<br> branding and design</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-TYS-Campaign2019.php">
                                             <span class="title">The York School</span>
-                                            <p>Marketing
-                                                the joy of learning</p>
+                                            <p>Marketing the<br> joy of learning</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-TYS-Fundraising-Website.php">
                                             <span class="title">The York School</span>
-                                            <p>A campaign revives donor activity</p>
+                                            <p>A campaign revives<br> donor activity</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-InTouch-Magazine.php">
                                             <span class="title">Ivey Business School</span>
-                                            <p>A magazine redesign energizes engagement</p>
+                                            <p>A magazine redesign<br> energizes engagement</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-Peeps-Digital.php">
                                             <span class="title">Peeps</span>
-                                            <p>A digital brand for people interested in people</p>
+                                            <p>A digital brand for people<br> interested in people</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-TYS-Kindergarten-Campaign.php">
                                             <span class="title">The York School</span>
-                                            <p>Video campaign creates a kinder-garten brand</p>
+                                            <p>Video campaign creates <br>a kinder-garten brand</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-Goethe-Book.php">
                                             <span class="title">Goethe-Book</span>
-                                            <p>20 thoughts
-                                                on cultural entanglement</p>
+                                            <p>20 thoughts on<br> cultural entanglement</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-Goethe-Openminds.php">
                                             <span class="title">Goethe-Institut</span>
-                                            <p>An event for thinkers in an ever changing world</p>
+                                            <p>An event for thinkers<br> in an ever changing world</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-Lakeridge-Health.php">
                                             <span class="title">Lakeridge Health</span>
-                                            <p>Branding a
-                                                large healthcare community</p>
+                                            <p>Branding a large<br> healthcare community</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-TYS-2015-Campaign.php">
                                             <span class="title">The York School</span>
-                                            <p>Establishing a clear voice in a noisy market</p>
+                                            <p>Establishing a clear voice<br> in a noisy market</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-kovo.php">
                                             <span class="title">Kovo</span>
-                                            <p>Branding a new digital platform in
-                                                animal healthcare</p>
+                                            <p>Branding a new digital<br> platform in animal healthcare</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-radiant-care.php">
                                             <span class="title">Radiant Care</span>
-                                            <p>A contemporary rebrand for a faith-based community</p>
+                                            <p>A contemporary rebrand<br> for a faith-based community</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-council-for-ontario-universities.php">
                                             <span class="title">Council of Ontario Universities</span>
-                                            <p>Designing Information for ergonomics and accessibility</p>
+                                            <p>Designing Information for<br> ergonomics and accessibility</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-ryerson-university.php">
                                             <span class="title">Ryerson University</span>
-                                            <p>A magazine establishes a
-                                                young research university</p>
+                                            <p>A magazine establishes<br> a young research university</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-TYS-2011-Campaign.php">
                                             <span class="title">The York School</span>
-                                        <p>Creating a campaign that changes perception</p>
+                                        <p>Creating a campaign<br> that changes perception</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-thrive-group.php">
                                             <span class="title">Thrive Group</span>
-                                            <p>Branding unifies
-                                                a merger of health-care services</p>
+                                            <p>Branding unifies a merger<br> of health-care services</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-ivey-business-school.php">
                                             <span class="title">Ivey Business School</span>
-                                            <p>Making a case for support through brand storytelling</p>
+                                            <p>Making a case for support<br> through brand storytelling</p>
                                         </a>
                                     </div>
-                                    <div class="col-3 red-square">
+                                    <div style="margin-bottom: 25px;" class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-greater-toronto-airports-authority.php">
                                             <span class="title">Greater Toronto Airports Authority</span>
-                                            <p>Design lifts a report to the level of art</p>
+                                            <p>Design lifts a report<br> to the level of art</p>
                                         </a>
                                     </div>
                                 </div>
@@ -191,38 +185,38 @@
                                     <div class="col-3 red-square">
                                         <a class="clear-underline" href="expanding-qualitative-research-beyond.php">
                                             <span class="title">User experience, Practices, Research</span>
-                                                <p>Expanding qualitative research beyond ‘usability’ and ‘use’</p>
+                                                <p>Expanding qualitative<br> research beyond<br> ‘usability’ and ‘use’</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline" href="branding-is-inherently-honest.php">
                                             <span class="title">Branding</span>
-                                                                <p>Branding is inherently honest</p>
+                                                                <p>Branding is<br> inherently honest</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline" href="design-options-as-cultural-inkblot-tests.php">
                                             <span class="title">Practices</span>
-                                            <p>Design options as cultural inkblot tests</p>
+                                            <p>Design options<br> as cultural inkblot tests</p>
 
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline" href="attention-is-voluntary.php">
                                             <span class="title">Communication, Learning</span>
-                                            <p>Attention is voluntary</p>
+                                            <p>Attention<br> is voluntary</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
                                         <a class="clear-underline" href="when-is-print-still-relevant.php">
                                             <span class="title">Media</span>
-                                            <p>When is print still relevant?</p>
+                                            <p>When is print<br> still relevant?</p>
                                         </a>
                                     </div>
-                                    <div class="col-3 red-square">
+                                    <div style="margin-bottom: 25px;" class="col-3 red-square">
                                         <a class="clear-underline" href="practical-value-of-beauty.php">
                                             <span class="title">Design, Culture</span>
-                                            <p>The practical value of beauty</p>
+                                            <p>The practical<br> value of beauty</p>
                                         </a>
                                     </div>
                                 </div>

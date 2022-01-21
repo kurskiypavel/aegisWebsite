@@ -37,6 +37,20 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
+                    <style>
+                       @media only screen and (max-width: 767px) {
+                          .desktop-tys-only-block,.desktop-tys-only{
+                           display:none;
+                          }
+                       }
+                       @media only screen and (min-width: 768px) {
+                          .mobile-tys-only{
+                           display:none;
+                          }.desktop-tys-only-block{
+                           display:block;
+                          }
+                         }
+                      </style>
                     <div class="content-head-text">
                         <span class="simple">Creating a campaign</span>
                         <span class="simple">that changes perception</span>
@@ -179,9 +193,12 @@
                     <div class="ref">
                         Next Project / Thrive Group
                     </div>
-                    <div class="next-title">
+                    <div class="next-title desktop-tys-only">
                         <span class="simple">Branding unifies a merger</span>
                         <span class="simple">of health-care services</span>
+                    </div>
+                    <div class="next-title mobile-tys-only">
+                        <span class="simple">Branding unifies a<br> merger of health-<br>care services</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

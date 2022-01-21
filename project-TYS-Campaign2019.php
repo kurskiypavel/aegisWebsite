@@ -37,9 +37,24 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
-                    <div class="content-head-text">
+                <style>
+                        @media only screen and (max-width: 767px) {
+                            .desktop-tys-only{
+                             display:none;
+                            }
+                        }
+                        @media only screen and (min-width: 768px) {
+                                .mobile-tys-only{
+                                         display:none;
+                                        }
+                        }
+                    </style>
+                    <div class="content-head-text desktop-tys-only">
                         <span class="simple">Marketing</span>
                         <span class="simple">the joy of learning</span>
+                    </div>
+                    <div class="content-head-text mobile-tys-only">
+                        <span class="simple">Marketing <br>the joy of learning</span>
                     </div>
                     <div class="project-name">The York School Campaign</div>
                     <div class="tag-list">

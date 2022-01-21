@@ -431,7 +431,7 @@ Experience has taught us that the best design comes from the bottom up. ⬤ As a
                         <p class="block-copy text">Paul has a beautiful mind. Given his experience as a full stack engineer specializing in complex and complicated websites and his abstruse expertise in software development, plumbing its depths can be dizzying. He uses it to determine the best-fit stacks to develop seamless, elegant solutions based on leading-edge technologies. He’s been a front and back-end developer and acquired a Master’s degree in Computer Science. Not to mention finish three marathons over the past four years.</p>
                     </div>-->
                 </div>
-                <div class="body-block clients-block" id="clients">
+                <div style="display:none;" class="body-block clients-block" id="clients">
                     <img
                          src="static/images/mobile/homepage/3.jpg" alt="">
                     <h1>Clients</h1>

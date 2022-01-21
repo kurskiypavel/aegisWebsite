@@ -146,6 +146,9 @@ header {
 
             .simple {
               font-family: GT-Alpina-Standard-Light, sans-serif;
+              br{
+                display: none;
+              }
             }
 
             .italic {
@@ -372,6 +375,9 @@ header {
 
             .simple {
               font-family: GT-Alpina-Standard-Light, sans-serif;
+              br{
+                display: none;
+              }
             }
 
             .italic {
@@ -384,7 +390,7 @@ header {
           margin-top: 70px;
           width: 100vw;
           position: relative;
-          max-height: 350px;
+          max-height: 100%;
           overflow: hidden;
 
           img {
@@ -437,6 +443,12 @@ header {
         }
       }
     }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 650px){
+  .next-case .next-case-body .next-title .simple br, .content-head-text .simple br{
+    display: none;
   }
 }
 

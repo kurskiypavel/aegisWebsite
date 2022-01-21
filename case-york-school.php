@@ -98,7 +98,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="content-row no-mt">
+                <div style="padding-top: 10px;" class="content-row no-mt">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
@@ -187,7 +187,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="content-row no-mt">
+                <div style="padding-top: 10px;" class="content-row no-mt">
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">

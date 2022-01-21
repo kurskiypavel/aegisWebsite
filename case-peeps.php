@@ -273,7 +273,7 @@
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/cases/peeps/NextUnit.JPG" alt="">
+                    <img src="static/images/desktop/cases/thomson/1_thomsonreuters_hero.jpg" alt="">
                 </div>
             </div>
         </div>

@@ -37,6 +37,20 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
+<style>
+                       @media only screen and (max-width: 767px) {
+                          .desktop-tys-only-block,.desktop-tys-only{
+                           display:none;
+                          }
+                       }
+                       @media only screen and (min-width: 768px) {
+                          .mobile-tys-only{
+                           display:none;
+                          }.desktop-tys-only-block{
+                           display:block;
+                          }
+                         }
+                      </style>
                     <div class="content-head-text">
                         <span class="simple">Designing Information for</span>
                         <span class="simple">ergonomics and accessibility</span>
@@ -106,9 +120,12 @@
                     <div class="ref">
                         Next Project / Ryerson University
                     </div>
-                    <div class="next-title">
+                    <div class="next-title desktop-tys-only">
                         <span class="simple">A magazine establishes a</span>
                         <span class="simple">young research university</span>
+                    </div>
+                    <div class="next-title mobile-tys-only">
+                        <span class="simple">A magazine<br> establishes a young<br> research university</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

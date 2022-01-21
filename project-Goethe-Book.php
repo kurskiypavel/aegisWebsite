@@ -37,9 +37,26 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
-                    <div class="content-head-text">
+                <style>
+                                       @media only screen and (max-width: 767px) {
+                                          .desktop-tys-only-block,.desktop-tys-only{
+                                           display:none;
+                                          }
+                                       }
+                                       @media only screen and (min-width: 768px) {
+                                          .mobile-tys-only{
+                                           display:none;
+                                          }.desktop-tys-only-block{
+                                           display:block;
+                                          }
+                                         }
+                                      </style>
+                    <div class="content-head-text desktop-tys-only">
                         <span class="simple">20 Thoughts on</span>
                         <span class="simple">cultural entanglement</span>
+                    </div>
+                    <div class="content-head-text mobile-tys-only">
+                        <span class="simple">20 Thoughts<br> on cultural<br> entanglement</span>
                     </div>
                     <div class="project-name">Goethe-Institut</div>
                     <div class="tag-list">
@@ -72,7 +89,9 @@
                 <div class="row-img">
 
                     <div class="full-row">
-                        <img class="" style="width: 54.237vw;" src="static/images/desktop/projects/Goethe-Book/3_goethebook.jpg" alt=""></div></div>
+                        <img class="desktop-tys-only" style="width: 54.237vw;" src="static/images/desktop/projects/Goethe-Book/3_goethebook.jpg" alt="">
+                        <img class="mobile-tys-only"  src="static/images/desktop/projects/Goethe-Book/3_goethebook.jpg" alt="">
+                        </div></div>
 
 <!--                add mobile -->
                 <div class="row-full-img mobile-only-set">
@@ -89,7 +108,8 @@
 
                 <div class="row-img">
                     <div class="full-row">
-                        <img class="" src="static/images/desktop/projects/Goethe-Book/6_goethebook.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;display: block;">
+                        <img class="desktop-tys-only-block" src="static/images/desktop/projects/Goethe-Book/6_goethebook.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;">
+                        <img class="mobile-tys-only" src="static/images/desktop/projects/Goethe-Book/6_goethebook.jpg" alt="" style="margin: 0 0 0 auto;">
                     </div>
                 </div>
 
@@ -110,7 +130,8 @@
 
                 <div class="row-img">
                     <div class="full-row">
-                        <img class="" src="static/images/desktop/projects/Goethe-Book/12_goethebook.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;display: block;">
+                        <img class="desktop-tys-only-block" src="static/images/desktop/projects/Goethe-Book/12_goethebook.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;">
+                        <img class="mobile-tys-only" src="static/images/desktop/projects/Goethe-Book/12_goethebook.jpg" alt="" style="margin: 0 0 0 auto">
                     </div>
                 </div>
 
@@ -138,9 +159,12 @@
                     <div class="ref">
                         Next Project / Goethe-Institut / Branding
                     </div>
-                    <div class="next-title">
+                    <div class="next-title desktop-tys-only">
                         <span class="simple">An event for thinkers</span>
                         <span class="simple"> in an ever changing world</span>
+                    </div>
+                    <div class="next-title mobile-tys-only">
+                        <span class="simple">An event for<br> thinkers in an ever<br> changing world</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

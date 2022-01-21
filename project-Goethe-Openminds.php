@@ -37,6 +37,20 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
+                                <style>
+                                                       @media only screen and (max-width: 767px) {
+                                                          .desktop-tys-only-block,.desktop-tys-only{
+                                                           display:none;
+                                                          }
+                                                       }
+                                                       @media only screen and (min-width: 768px) {
+                                                          .mobile-tys-only{
+                                                           display:none;
+                                                          }.desktop-tys-only-block{
+                                                           display:block;
+                                                          }
+                                                         }
+                                                      </style>
                     <div class="content-head-text">
                         <span class="simple">An event for thinkers</span>
                         <span class="simple">in an ever changing world</span>
@@ -101,9 +115,12 @@
                     <div class="ref">
                         Next Project / Lakeridge Health
                     </div>
-                    <div class="next-title">
+                    <div class="next-title desktop-tys-only">
                         <span class="simple">Branding a large</span>
                         <span class="simple">healthcare community</span>
+                    </div>
+                    <div class="next-title mobile-tys-only">
+                        <span class="simple">Branding <br>a large healthcare<br> community</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

@@ -37,7 +37,19 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
-                    <div class="content-head-text">
+                    <style>
+                       @media only screen and (max-width: 767px) {
+                          .desktop-tys-only{
+                           display:none;
+                          }
+                       }
+                       @media only screen and (min-width: 768px) {
+                          .mobile-tys-only{
+                           display:none;
+                          }
+                         }
+                      </style>
+                    <div class="content-head-text desktop-tys-only">
                         <span class="simple">A campaign</span>
                         <span class="simple">revives donor activity</span>
                     </div>
@@ -109,7 +121,7 @@
                                 conversion rate (donate)
                             </div>
                             <div class="percentage">140%</div>
-                            <div class="percentage-description">
+                            <div style="padding-bottom: 18px;" class="percentage-description">
                                 Increase in contributions
                                 to the annual campaign
                             </div>
@@ -150,9 +162,12 @@
                     <div class="ref">
                         Next Project / Ivey Business School / InTouch Magazine
                     </div>
-                    <div class="next-title">
+                    <div class="next-title desktop-tys-only">
                         <span class="simple">A magazine redesign</span>
                         <span class="simple"> energizes engagement</span>
+                    </div>
+                     <div class="next-title mobile-tys-only">
+                        <span class="simple">A magazine<br> redesign energizes<br> engagement</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

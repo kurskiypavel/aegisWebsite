@@ -37,9 +37,26 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
-                    <div class="content-head-text">
-                        <span class="simple">Branding a digital platform</span>
+                <style>
+                 @media only screen and (max-width: 767px) {
+                    .desktop-tys-only-block,.desktop-tys-only{
+                     display:none;
+                    }
+                 }
+                 @media only screen and (min-width: 768px) {
+                    .mobile-tys-only{
+                     display:none;
+                    }.desktop-tys-only-block{
+                     display:block;
+                    }
+                   }
+                   </style>
+                    <div class="content-head-text desktop-tys-only">
+                        <span class="simple">Branding a new digital platform</span>
                         <span class="simple">in animal healthcare</span>
+                    </div>
+                    <div class="content-head-text mobile-tys-only">
+                        <span class="simple">Branding a new<br> digital platform<br> in animal healthcare</span>
                     </div>
                     <div class="project-name">Kovo</div>
                     <div class="tag-list">
@@ -122,9 +139,12 @@
                     <div class="ref">
                         Next Project / Radiant Care
                     </div>
-                    <div class="next-title">
+                    <div class="next-title desktop-tys-only">
                         <span class="simple">Contemporary rebrand for</span>
                         <span class="simple"> a faith-based community</span>
+                    </div>
+                    <div class="next-title mobile-tys-only">
+                        <span class="simple">Contemporary<br> rebrand for  a faith-<br>based community</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

@@ -37,9 +37,26 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
-                    <div class="content-head-text">
+<style>
+ @media only screen and (max-width: 767px) {
+    .desktop-tys-only-block,.desktop-tys-only{
+     display:none;
+    }
+ }
+ @media only screen and (min-width: 768px) {
+    .mobile-tys-only{
+     display:none;
+    }.desktop-tys-only-block{
+     display:block;
+    }
+   }
+   </style>
+                    <div class="content-head-text desktop-tys-only">
                         <span class="simple">Branding a large</span>
                         <span class="simple">healthcare community</span>
+                    </div>
+                    <div class="content-head-text">
+                        <span class="simple mobile-tys-only">Branding<br> a large healthcare<br> community</span>
                     </div>
                     <div class="project-name">Lakeridge Health</div>
                     <div class="tag-list">
@@ -87,13 +104,15 @@
 
                 <div class="row-img">
                     <div class="full-row">
-                        <img class="" src="static/images/desktop/projects/LakebridgeHealth/5_lakeridgehealth.jpg" alt="" style="width: 54.153vw;margin: 0 0 0 auto;display: block;">
+                        <img class=" desktop-tys-only-block" src="static/images/desktop/projects/LakebridgeHealth/5_lakeridgehealth.jpg" alt="" style="width: 54.153vw;margin: 0 0 0 auto;">
+                        <img class=" mobile-tys-only" src="static/images/desktop/projects/LakebridgeHealth/5_lakeridgehealth.jpg" alt="" style="margin: 0 0 0 auto;">
                     </div>
                 </div>
 
                 <div class="row-img">
                     <div class="full-row">
-                        <img class="" style="width: 54.237vw;" src="static/images/desktop/projects/LakebridgeHealth/6_lakeridgehealth.jpg" alt="">
+                        <img class="desktop-tys-only" style="width: 54.237vw;" src="static/images/desktop/projects/LakebridgeHealth/6_lakeridgehealth.jpg" alt="">
+                        <img class="mobile-tys-only"  src="static/images/desktop/projects/LakebridgeHealth/6_lakeridgehealth.jpg" alt="">
                     </div>
                 </div>
 
@@ -125,11 +144,6 @@
                 </div>
 
 <!--                three images-->
-                <div class="row-full-img mobile-only-set">
-                    <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/10_lakeridgehealth.jpg" alt="">
-                </div><div class="row-full mobile-only-set">
-                    <img class="full-row" src="static/images/desktop/projects/LakebridgeHealth/11_lakeridgehealth.jpg" alt="">
-                </div>
 
                 <div class="row-img">
                     <img class="full-row desktop-only-img" src="static/images/desktop/projects/LakebridgeHealth/Group%20180.png" alt="">
@@ -151,9 +165,12 @@
                     <div class="ref">
                         Next Project / The York School / Campaign
                     </div>
-                    <div class="next-title">
+                    <div class="next-title desktop-tys-only">
                         <span class="simple">Establishing a clear voice</span>
                         <span class="simple"> in a noisy market</span>
+                    </div>
+                    <div class="next-title mobile-tys-only">
+                        <span class="simple">Establishing<br> a clear voice in<br> a noisy market</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <div class="row-full limited-next-image">
-                    <img src="static/images/desktop/cases/kandalore/NextKandal.JPG" alt="">
+                    <img src="static/images/desktop/cases/crescent/1_crescentcase_hero.jpg" alt="">
                 </div>
             </div>
         </div>

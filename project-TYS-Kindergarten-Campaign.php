@@ -38,8 +38,8 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">Video campaign creates</span>
-                        <span class="simple">a kindergarten brand</span>
+                        <span class="simple">Video campaign creates a</span>
+                        <span class="simple">kindergarten brand</span>
                     </div>
                     <div class="project-name">The York School Kindergarten Campaign</div>
                     <div class="tag-list">
@@ -100,7 +100,7 @@
                     <div class="col-7">
                         <div class="percentage-mobile-wrap">
                             <div class="percentage">100%</div>
-                            <div class="percentage-description">
+                            <div style="padding-bottom:18px" class="percentage-description">
                                 Following the campaign launch, the school’s Kindergarten programme experienced 100% enrolment—and even started a waiting list.
                             </div>
                         </div>
@@ -145,8 +145,8 @@
                         Next Project / Goethe-Institut / Book Design
                     </div>
                     <div class="next-title">
-                        <span class="simple">20 Thoughts on</span>
-                        <span class="simple"> cultural entanglement</span>
+                        <span class="simple">20 Thoughts </span>
+                        <span class="simple">on cultural entanglement</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

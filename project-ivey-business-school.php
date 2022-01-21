@@ -37,6 +37,20 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
+                                <style>
+                                                       @media only screen and (max-width: 767px) {
+                                                          .desktop-tys-only-block,.desktop-tys-only{
+                                                           display:none;
+                                                          }
+                                                       }
+                                                       @media only screen and (min-width: 768px) {
+                                                          .mobile-tys-only{
+                                                           display:none;
+                                                          }.desktop-tys-only-block{
+                                                           display:block;
+                                                          }
+                                                         }
+                                                      </style>
                     <div class="content-head-text">
                         <span class="simple">Making a case for support</span>
                         <span class="simple">through brand storytelling</span>
@@ -88,7 +102,8 @@
 
                 <div class="row">
                     <div class="full-row">
-                        <img class="" style="width: 65.254vw;" src="static/images/desktop/projects/ivey/6_iveybusinessschool.jpg" alt="">
+                        <img class="desktop-tys-only-block" style="width: 65.254vw;" src="static/images/desktop/projects/ivey/6_iveybusinessschool.jpg" alt="">
+                        <img class="mobile-tys-only" style="" src="static/images/desktop/projects/ivey/6_iveybusinessschool.jpg" alt="">
                     </div>
                 </div>
 
@@ -98,7 +113,8 @@
 
                 <div class="row-img">
                     <div class="full-row">
-                        <img class="" src="static/images/desktop/projects/ivey/8_iveybusinessschool.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;display: block;">
+                        <img class="desktop-tys-only-block" src="static/images/desktop/projects/ivey/8_iveybusinessschool.jpg" alt="" style="width: 65.254vw;margin: 0 0 0 auto;">
+                        <img class="mobile-tys-only" src="static/images/desktop/projects/ivey/8_iveybusinessschool.jpg" alt="" style="margin: 0 0 0 auto;">
                     </div>
                 </div>
 

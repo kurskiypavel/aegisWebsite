@@ -37,9 +37,26 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
-                    <div class="content-head-text">
+                <style>
+                                 @media only screen and (max-width: 767px) {
+                                    .desktop-tys-only-block,.desktop-tys-only{
+                                     display:none;
+                                    }
+                                 }
+                                 @media only screen and (min-width: 768px) {
+                                    .mobile-tys-only{
+                                     display:none;
+                                    }.desktop-tys-only-block{
+                                     display:block;
+                                    }
+                                   }
+                                   </style>
+                    <div class="content-head-text desktop-tys-only">
                         <span class="simple">Establishing a clear voice</span>
                         <span class="simple">in a noisy market</span>
+                    </div>
+                    <div class="content-head-text mobile-tys-only">
+                        <span class="simple">Establishing<br> a clear voice in<br> a noisy market</span>
                     </div>
                     <div class="project-name">The York School</div>
                     <div class="tag-list">
@@ -147,9 +164,12 @@
                     <div class="ref">
                         Next Project / Kovo
                     </div>
-                    <div class="next-title">
-                        <span class="simple">Branding a digital platform</span>
+                    <div class="next-title desktop-tys-only">
+                        <span class="simple">Branding a new digital platform</span>
                         <span class="simple"> in animal healthcare</span>
+                    </div>
+                    <div class="next-title mobile-tys-only">
+                        <span class="simple">Branding a new<br> digital platform<br> in animal healthcare</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

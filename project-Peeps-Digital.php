@@ -37,9 +37,24 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
-                    <div class="content-head-text">
+                 <style>
+                                    @media only screen and (max-width: 767px) {
+                                        .desktop-intouch-only{
+                                         display:none;
+                                        }
+                                    }
+                                    @media only screen and (min-width: 768px) {
+                                            .mobile-intouch-only{
+                                                     display:none;
+                                                    }
+                                    }
+                                    </style>
+                    <div class="content-head-text desktop-intouch-only">
                         <span class="simple">A digital brand for</span>
                         <span class="simple">people interested in people</span>
+                    </div>
+                    <div class="content-head-text mobile-intouch-only">
+                        <span class="simple">A digital brand<br> for people interested<br> in people</span>
                     </div>
                     <div class="project-name">Peeps / Digital</div>
                     <div class="tag-list">
@@ -176,8 +191,8 @@
                         Next Project / The York School / Junior School Campaign
                     </div>
                     <div class="next-title">
-                        <span class="simple">Video campaign creates</span>
-                        <span class="simple"> a kindergarten brand</span>
+                        <span class="simple">Video campaign creates a</span>
+                        <span class="simple">  kindergarten brand</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

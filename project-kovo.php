@@ -140,8 +140,8 @@
                         Next Project / Radiant Care
                     </div>
                     <div class="next-title desktop-tys-only">
-                        <span class="simple">Contemporary rebrand for</span>
-                        <span class="simple"> a faith-based community</span>
+                        <span class="simple">Contemporary rebrand </span>
+                        <span class="simple">for a faith-based community</span>
                     </div>
                     <div class="next-title mobile-tys-only">
                         <span class="simple">Contemporary<br> rebrand for  a faith-<br>based community</span>

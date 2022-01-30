@@ -60,9 +60,9 @@
                         <div class="share">
                             <ul>
                                 <li>Share:</li>
-                                <li><a href="">Linkedin</a></li>
-                                <li><a href="">Twitter</a></li>
-                                <li><a href="">Email</a></li>
+                                <li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=AEGISURL-TO-REPLACE/attention-is-voluntary.php&amp;title=Attention+is+voluntary" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" data-target="AEGISURL-TO-REPLACE/attention-is-voluntary.php">Linkedin</a></li>
+                                <li><a href="http://twitter.com/share?text=Attention+is+voluntary&amp;url=AEGISURL-TO-REPLACE/attention-is-voluntary.php" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=255,width=600');return false;" data-target="AEGISURL-TO-REPLACE/attention-is-voluntary.php">Twitter</a></li>
+                                <li><a href="mailto:?subject=Attention is voluntary&amp;body=Attention is voluntary%0D%0AAEGISURL-TO-REPLACE/attention-is-voluntary.php" title="Attention is voluntary - email share">Email</a></li>
                             </ul>
                         </div>
                     </div>

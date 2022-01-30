@@ -105,7 +105,7 @@
                 </div>
 
 <!--                two images-->
-                <div class="row-full mobile-only-set">
+                <div style="margin: 30.5px auto 0;" class="row-full mobile-only-set">
                     <img class="full-row" src="static/images/desktop/projects/peeps-digital/4_peepsdigital.jpg" alt="">
                 </div>
 

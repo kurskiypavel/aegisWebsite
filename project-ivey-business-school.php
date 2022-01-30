@@ -52,8 +52,8 @@
                                                          }
                                                       </style>
                     <div class="content-head-text">
-                        <span class="simple">Making a case for support</span>
-                        <span class="simple">through brand storytelling</span>
+                        <span class="simple">Making a case for </span>
+                        <span class="simple">support through brand storytelling</span>
                     </div>
                     <div class="project-name">Ivey Business School</div>
                     <div class="tag-list">

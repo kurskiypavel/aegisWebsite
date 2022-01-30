@@ -38,6 +38,20 @@
 
             <div class="main-content">
                 <div class="main-statement-wrap" >
+                <style>
+                   @media only screen and (max-width: 767px) {
+                      .desktop-tys-only-block,.desktop-tys-only{
+                       display:none;
+                      }
+                   }
+                   @media only screen and (min-width: 768px) {
+                      .mobile-tys-only{
+                       display:none;
+                      }.desktop-tys-only-block{
+                       display:block;
+                      }
+                     }
+                  </style>
                     <div class="main-statement" >
                         <span class="simple">The practical<br> value of beauty</span>
                     </div>
@@ -63,10 +77,9 @@
                         <p>So while design may provide value in strategy and problem solving, its capacity to use beauty to enhance cultural fit is a contribution that cannot be overstated.</p>
                         <div class="share">
                             <ul>
-                                <li>Share:</li>
-                                <li><a href="">Linkedin</a></li>
-                                <li><a href="">Twitter</a></li>
-                                <li><a href="">Email</a></li>
+                                <li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=AEGISURL-TO-REPLACE/practical-value-of-beauty.php&amp;title=The+practical+value+of+beauty" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" data-target="AEGISURL-TO-REPLACE/practical-value-of-beauty.php">Linkedin</a></li>
+                                <li><a href="http://twitter.com/share?text=The+practical+value+of+beauty&amp;url=AEGISURL-TO-REPLACE/practical-value-of-beauty.php" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=255,width=600');return false;" data-target="AEGISURL-TO-REPLACE/practical-value-of-beauty.php">Twitter</a></li>
+                                <li><a href="mailto:?subject=The practical value of beauty&amp;body=The practical value of beauty%0D%0AAEGISURL-TO-REPLACE/practical-value-of-beauty.php" title="The practical value of beauty - email share">Email</a></li>
                             </ul>
                         </div>
                     </div>
@@ -77,9 +90,12 @@
                     Next Insight
                 </div>
 
-                <div onclick="loadInsight('expanding-qualitative-research-beyond', true)" class="next-title">
+                <div onclick="loadInsight('expanding-qualitative-research-beyond', true)" class="next-title desktop-tys-only">
                     <span class="simple">Expanding qualitative research</span>
                     <span class="simple"> beyond ‘usability’ and ‘use’</span>
+                </div>
+                <div onclick="loadInsight('expanding-qualitative-research-beyond', true)" class="next-title mobile-tys-only">
+                    <span class="simple">Expanding<br> qualitative research  beyond ‘usability’<br> and ‘use’</span>
                 </div>
 
             </div>

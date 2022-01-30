@@ -270,7 +270,6 @@ header {
               .percentage {
                 font-size: 60px;
                 letter-spacing: -1.71667px;
-                padding-bottom: 7px;
               }
 
               .percentage-description {
@@ -557,7 +556,7 @@ header {
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
-            width: 175.8px;
+            width: 198.8px;
 
             .folder-icon {
               width: 15px;
@@ -661,8 +660,7 @@ header {
 
             .percentage-mobile-wrap {
               font-family: GT-Alpina-Standard-Light, sans-serif;
-              display: flex;
-              max-width: calc(100vw - 20px);
+              max-width: 510px;
               width: 100%;
               margin-bottom: 65px;
 
@@ -913,7 +911,7 @@ header {
             position: relative;
             left: calc(100% - 127px);
             right: 127px;
-            width: 17.186vw;
+            width: 19.186vw;
 
             .folder-icon {
               width: 15px;

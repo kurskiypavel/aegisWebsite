@@ -52,8 +52,8 @@
                          }
                       </style>
                     <div class="content-head-text">
-                        <span class="simple">Designing Information for</span>
-                        <span class="simple">ergonomics and accessibility</span>
+                        <span class="simple">Designing Information </span>
+                        <span class="simple">for ergonomics and accessibility</span>
                     </div>
                     <div class="project-name">Council for Ontario Universities</div>
                     <div class="tag-list">

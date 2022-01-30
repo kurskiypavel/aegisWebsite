@@ -102,8 +102,9 @@
                         Next Project / The Bishop Strachan School / Annual Fund
                     </div>
                     <div class="next-title">
-                        <span class="simple">Title for annual fund</span>
-                        <span class="simple"> branding and design</span>
+                        <span class="simple">Charity springs</span>
+                                                <span class="simple">from values, design</span>
+                                                <span class="simple">makes them visible</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

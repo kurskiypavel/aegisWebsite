@@ -38,8 +38,9 @@
             <div class="main-content">
                 <div class="head-block">
                     <div class="content-head-text">
-                        <span class="simple">Title for annual fund</span>
-                        <span class="simple bssproject">branding and design</span>
+                        <span class="simple">Charity springs</span>
+                        <span class="simple">from values, design</span>
+                        <span class="simple">makes them visible</span>
                     </div>
                     <div class="project-name">The Bishop Strachan School / Annual Fund</div>
                     <div class="tag-list">
@@ -65,7 +66,8 @@
                     <div class="col-3 d-block">
                     </div>
                     <div class="col-7">
-                        <p>Text is coming soon dui at vehicula blandit, libero neque imperdiet elit, sollicitudin commodo nulla arcu ac erat. Sed diam dui, malesuada id massa ullamcorper, tristique convallis turpis. Nam rhoncus euismod mollis. Nulla feugiat nunc sed venenatis scelerisque. Phasellus massa mi, euismod et bibendum vitae, imperdiet quis tellus. Fusce sit amet posuere nisi. Nulla ac quam nec nibh malesuada auctor ac pharetra lorem. Cras id maximus orci. Proin hendrerit massa in enim sollic itudin sodales. Vestibulum felis nunc, varius sed laoreet ut, cursus nec urna. Cras sit amet felis ac nulla lobortis tincidunt. ⬤</p>
+                    <p>Giving is an act motivated by what’s personally meaningful, not by a pitch. The best way to appeal to one’s charity is allowing their values to lead. As such, when reaching out to a community of parents, what mattered most was their children’s learning experience.</p>
+                        <p>Our annual fund communications for The Bishop Strachan School found inspiration in the energy and enthusiasm of its students. Spirited portraits of BSS girls were matched with vibrant magenta, an otherwise little-used value from the BSS colour spectrum, helping deliver a youthful vibe of positivity. While the design shares DNA with the school’s Unstoppable campaign, this use of colour helps give the annual fund a little differentiation from the school’s largely burgundy communications. ⬤</p>
                     </div>
                 </div>
 

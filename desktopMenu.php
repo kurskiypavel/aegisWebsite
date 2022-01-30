@@ -42,9 +42,9 @@
                                             <div class="row">
                                                 <div class="col-3 red-square">
                                                     <img class="project-menu-img" onclick="loadProject('project-BSS-Annual-Fund')" src="static/images/desktop/projects-menu/1_bss_annualfund.jpg" alt="">
-                                                    <div class="underline-on-hover" >
+                                                    <div class="underline-on-hover">
                                                         <span class="title">The Bishop Strachan School</span>
-                                                        <p>Title for annual<br> fund branding<br> and design</p>
+                                                        <p>Charity springs from values, design makes them visible</p>
                                                     </div>
                                                 </div>
                                                 <div class="col-3 red-square">

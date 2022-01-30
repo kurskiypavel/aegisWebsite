@@ -61,9 +61,9 @@
                         <div class="share">
                             <ul>
                                 <li>Share:</li>
-                                <li><a href="">Linkedin</a></li>
-                                <li><a href="">Twitter</a></li>
-                                <li><a href="">Email</a></li>
+                                <li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=AEGISURL-TO-REPLACE/branding-is-inherently-honest.php&amp;title=Branding+is+inherently+honest" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" data-target="AEGISURL-TO-REPLACE/branding-is-inherently-honest.php">Linkedin</a></li>
+                                <li><a href="http://twitter.com/share?text=Branding+is+inherently+honest&amp;url=AEGISURL-TO-REPLACE/branding-is-inherently-honest.php" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=255,width=600');return false;" data-target="AEGISURL-TO-REPLACE/branding-is-inherently-honest.php">Twitter</a></li>
+                                <li><a href="mailto:?subject=Branding is inherently honest&amp;body=Branding is inherently honest%0D%0AAEGISURL-TO-REPLACE/branding-is-inherently-honest.php" title="Branding is inherently honest - email share">Email</a></li>
                             </ul>
                         </div>
                     </div>

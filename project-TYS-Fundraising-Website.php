@@ -114,7 +114,7 @@
                         </div>
                     </div>
                     <div class="col-7">
-                        <div class="percentage-mobile-wrap">
+                        <!--<div class="percentage-mobile-wrap">
                             <div class="percentage">55%</div>
                             <div class="percentage-description">
                                 Landing page visitor
@@ -125,7 +125,19 @@
                                 Increase in contributions
                                 to the annual campaign
                             </div>
-                        </div>
+                        </div>-->
+                        <div style="margin-bottom: 15px;" class="percentage-mobile-wrap">
+                                                    <div class="percentage">55%</div>
+                                                    <div style="padding-bottom:18px" class="percentage-description">
+                                                        Landing page visitor conversion rate (donate)
+                                                    </div>
+                                                </div>
+                                                <div class="percentage-mobile-wrap">
+                                                    <div class="percentage">140%</div>
+                                                    <div style="padding-bottom:18px" class="percentage-description">
+                                                        Increase in contributions to the annual campaign
+                                                    </div>
+                                                </div>
                         <p>We distilled the school’s well-supported, pedagogical arguments into a simple emotion: the joy of play. We brought reimagined joyful possibilities to life with an interactive virtual experience that featured hand-drawn animations. This communicated that the fundamental importance of playfulness is a shared priority of both parents and the school. And therefore it is a common goal. Donations flooded in. ⬤</p>
                     </div>
                 </div>
@@ -139,10 +151,7 @@
                     <img class="full-row" src="static/images/desktop/projects/TYS-Fundraising-Website/5_tysfundraisingwebsite.gif" alt="">
                 </div>
 
-                <div class="quote-block">
-                    <div class="quote">“Schools often demonstrate their global impact with a graphic of dots, representing grads, scattered across the globe. But that doesn’t tell me much. I’m interested in what they’re actually doing wherever they are, what challenges they face.”</div>
-                    <div class="quote-by">—Anthony Westenberg, Associate Director of Marketing & Communications, The York School</div>
-                </div>
+
                 <div class="row-full iframe-video-back withBackground" style="background: #005F71;">
                     <div class="full-row iframe-video">
                         <iframe class="backgroundPlay" src="https://player.vimeo.com/video/564226644?background=1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>

@@ -92,15 +92,15 @@
                     </div>
                     <div class="col-7">
                         <div class="percentage-mobile-wrap">
-                            <div class="percentage">+29%</div>
-                            <div class="percentage-description">
-                                increase in participation
-                            </div>
-                            <div class="percentage">+27%</div>
-                            <div class="percentage-description">
-                                increase over the previous year with a higher pledge level per participant and a lower attrition rate
-                            </div>
-                        </div>
+                                                    <div class="percentage">+29%</div>
+                                                    <div class="percentage-description">
+                                                        increase in participation
+                                                    </div>
+                                                    <div class="percentage" style="margin-top: 24px;">+27%</div>
+                                                    <div class="percentage-description">
+                                                        increase over the previous year with a higher pledge level per participant and a lower attrition rate
+                                                    </div>
+                                                </div>
                         <p>Alongside anthropologist Emily Simmons, who works at the intersection of research and strategy, we set out to map the brand’s communication challenges. Simmons spent hours interviewing event participants, analyzing the ways people were engaging with the climb through hashtags online, and drawing out common themes. “You’re really doing a lot of deep listening,” Simmons says. That allowed us to identify which group was most likely to move the needle—natural leaders who encouraged their peers to climb alongside them.</p>
                         <p>We envisioned a protagonist to guide us: a 25- to 40-something year old urbanite, who works hard, works out, travels, and engages politically in their community. She exhibits high social intelligence, and is a natural leader. She cares deeply about being a good citizen. She, like Geoff and his son, wants to reach new heights—not just for herself and her loved ones, but for the city as a whole.</p>
                         <p>To get these people out, we had to remind them of the power of personal scale, the way one person’s contribution can inspire a sea change. We created Up, envisioning it as a rallying cry. And we realized that Up didn’t just apply to the climb itself. “It’s about bringing communities up, bringing those who are disadvantaged up from the bottom—from poverty to possibility,” Siegel says.</p>
@@ -125,7 +125,7 @@
                     </div>
                     <div class="col-7">
                         <div class="percentage-mobile-wrap">
-                            <div style="font-size: 3.220vw;" class="percentage">$1,688 million</div>
+                            <div class="percentage">$1,688 million</div>
                             <div class="percentage-description">
                                 participation yielded a record fundraising total
                             </div>

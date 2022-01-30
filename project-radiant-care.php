@@ -37,9 +37,23 @@
         <div class="body project-html">
             <div class="main-content">
                 <div class="head-block">
+                <style>
+                                 @media only screen and (max-width: 767px) {
+                                    .desktop-tys-only-block,.desktop-tys-only{
+                                     display:none;
+                                    }
+                                 }
+                                 @media only screen and (min-width: 768px) {
+                                    .mobile-tys-only{
+                                     display:none;
+                                    }.desktop-tys-only-block{
+                                     display:block;
+                                    }
+                                   }
+                                   </style>
                     <div class="content-head-text">
-                        <span class="simple">Contemporary rebrand for</span>
-                        <span class="simple">a faith-based community</span>
+                        <span class="simple">Contemporary rebrand </span>
+                        <span class="simple">for a faith-based community</span>
                     </div>
                     <div class="project-name">Radiant Care</div>
                     <div class="tag-list">
@@ -95,9 +109,12 @@
                     <div class="ref">
                         Next Project / Council for Ontario Universities
                     </div>
-                    <div class="next-title">
-                        <span class="simple">Designing Information for</span>
-                        <span class="simple">ergonomics and accessibility</span>
+                    <div class="next-title desktop-tys-only">
+                        <span class="simple">Designing Information </span>
+                        <span class="simple">for ergonomics and accessibility</span>
+                    </div>
+                    <div class="next-title mobile-tys-only">
+                        <span class="simple">Designing Information<br> for ergonomics and<br> accessibility</span>
                     </div>
                 </div>
                 <div class="row-full limited-next-image">

@@ -40,7 +40,7 @@
                                     <div class="col-3 red-square">
                                         <a class="clear-underline underline-on-hover" href="project-BSS-Annual-Fund.php">
                                             <span class="title">The Bishop Strachan School</span>
-                                            <p>Title for annual fund<br> branding and design</p>
+                                            <p>Charity springs from values, design makes them visibl</p>
                                         </a>
                                     </div>
                                     <div class="col-3 red-square">
@@ -353,7 +353,7 @@
         </div>
         <div id="caseStudyMobileContent">
             <div class="section case-study-panel__inner" style="--item-index: 0;">
-                <div onclick="caseStudyMobileMenuJs(this)" class="case-study-panel__header default">
+                <div style="border-top: 4px solid;" onclick="caseStudyMobileMenuJs(this)" class="case-study-panel__header default">
                     <div class="case-study-text">
                         <div class="case-study-text-wrap">
                             <span class="case-study-title">The York School</span>

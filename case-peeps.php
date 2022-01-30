@@ -45,6 +45,20 @@
 
             <div class="main-content">
                 <div class="head-block">
+                <style>
+                    @media only screen and (max-width: 1023px) {
+                       .desktop-tys-only-block,.desktop-tys-only{
+                        display:none;
+                       }
+                    }
+                    @media only screen and (min-width: 1024px) {
+                       .mobile-tys-only{
+                        display:none;
+                       }.desktop-tys-only-block{
+                        display:block;
+                       }
+                      }
+                   </style>
                     <div class="tag">Case Study</div>
                     <div class="content-head-text">
                         <span class="simple">“Peeps is the only magazine<br> I know of that uses an anthropological standpoint to tell its stories.”</span>
@@ -92,8 +106,11 @@
                 </div>
 
                 <div class="row" style="text-align: center;">
-                    <img style="margin-bottom: 10px;" class="full-row desktop-only-img" src="static/images/desktop/cases/peeps/Group%20195.png" alt="">
-                    <div class="mobile-only-set">
+                                    <div class="desktop-tys-only">
+                                                        <img style="margin-bottom: 10px;" class="full-row" src="static/images/desktop/cases/peeps/Group%20195.png" alt="">
+                                    </div>
+
+                    <div class="mobile-tys-only">
                         <img class="full-row" src="static/images/desktop/cases/peeps/3%20peepsmagazine.jpg" alt="">
                     </div>
                 </div>

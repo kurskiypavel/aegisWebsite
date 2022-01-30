@@ -65,9 +65,9 @@
                         <div class="share">
                             <ul>
                                 <li>Share:</li>
-                                <li><a href="">Linkedin</a></li>
-                                <li><a href="">Twitter</a></li>
-                                <li><a href="">Email</a></li>
+                                <li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=AEGISURL-TO-REPLACE/design-options-as-cultural-inkblot-tests.php&amp;title=Design+options+as+cultural+inkblot+tests" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" data-target="AEGISURL-TO-REPLACE/design-options-as-cultural-inkblot-tests.php">Linkedin</a></li>
+                                <li><a href="http://twitter.com/share?text=Design+options+as+cultural+inkblot+tests&amp;url=AEGISURL-TO-REPLACE/design-options-as-cultural-inkblot-tests.php" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=255,width=600');return false;" data-target="AEGISURL-TO-REPLACE/design-options-as-cultural-inkblot-tests.php">Twitter</a></li>
+                                <li><a href="mailto:?subject=Design options as cultural inkblot tests&amp;body=Design options as cultural inkblot tests%0D%0AAEGISURL-TO-REPLACE/design-options-as-cultural-inkblot-tests.php" title="Design options as cultural inkblot tests - email share">Email</a></li>
                             </ul>
                         </div>
                     </div>

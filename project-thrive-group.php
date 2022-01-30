@@ -51,9 +51,10 @@
                           }
                          }
                       </style>
-                    <div class="content-head-text">
-                        <span class="simple">Branding unifies a merger</span>
-                        <span class="simple">of health-care services</span>
+                    <div class="content-head-text desktop-tys-only">
+                        <span class="simple">Branding unifies a<br </span>
+                        <span class="simple">merger of health-care</span>
+                        <span class="simple">services</span>
                     </div>
                     <div class="project-name">Thrive Group</div>
                     <div class="tag-list">

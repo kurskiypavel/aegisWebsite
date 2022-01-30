@@ -135,8 +135,8 @@
                 </div>
 
                 <div class="quote-block">
-                    <div class="quote">“Schools often demonstrate their global impact with a graphic of dots, representing grads, scattered across the globe. But that doesn’t tell me much. I’m interested in what they’re actually doing wherever they are, what challenges they face.”</div>
-                    <div class="quote-by">—Philip Lloyd, ’09, Crescent Alumni</div>
+                    <div class="quote">“Schools often use their ads to tell, where we like our campaigns to show.”</div>
+                    <div class="quote-by">—Antony Westenberg, Associate Director of Marketing & Communications</div>
                 </div>
 
                 <div class="row-full">

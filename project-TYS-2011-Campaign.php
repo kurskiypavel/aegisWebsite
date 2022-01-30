@@ -51,9 +51,12 @@
                           }
                          }
                       </style>
-                    <div class="content-head-text">
+                    <div class="content-head-text desktop-tys-only">
                         <span class="simple">Creating a campaign</span>
                         <span class="simple">that changes perception</span>
+                    </div>
+                    <div class="content-head-text mobile-tys-only">
+                        <span class="simple">Creating a<br> campaign that<br> changes perception</span>
                     </div>
                     <div class="project-name">The York School</div>
                     <div class="tag-list">
@@ -165,8 +168,8 @@
                     <div class="col-7">
                         <div class="percentage-mobile-wrap">
                             <div class="percentage">600%</div>
-                            <div class="percentage-description">
-                                Increased in enrollment inquiries after the campaign was launched
+                            <div style="padding-top:9px" class="percentage-description">
+                                Increased in enrollment<br> inquiries after the campaign was launched
                             </div>
                         </div>
                         <p><span style="font-weight: bold">The power of relatability</span>—The “Be Yourself. Be Great.” campaign was founded on the profiles of six York School students. Each expressed their individuality through a list of their passions—favourite subjects, books, movies, TV shows, music, sports, hobbies and ambitions. Far from being ‘dorks’, these kids were real people. They led engaging lives, sharing passions and interests with their peers. They were relatable.</p>
@@ -178,9 +181,14 @@
                     <img class="full-row" src="static/images/desktop/projects/TYS-2011/7%20tys2011campaign.jpg" alt="">
                 </div>
 
-                <div class="row-img">
-                    <img class="full-row" src="static/images/desktop/projects/TYS-2011/camillagroup.png" alt="">
-                </div>
+                 <div class="row-img">
+                    <img class="full-row desktop-only-img" src="static/images/desktop/projects/TYS-2011/camillagroup.png" alt="">
+                    <div class="mobile-only-set">
+                        <img class="full-row" src="static/images/desktop/projects/TYS-2011/8 tys2011campaign.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/TYS-2011/9 tys2011campaign.jpg" alt="">
+                        <img class="full-row" src="static/images/desktop/projects/TYS-2011/10 tys2011campaign.jpg" alt="">
+                    </div>
+                  </div>
 
                 <div class="row-img">
                     <img class="full-row" src="static/images/desktop/projects/TYS-2011/11%20tys2011campaign.jpg" alt="">

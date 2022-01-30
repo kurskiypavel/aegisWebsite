@@ -38,8 +38,23 @@
 
             <div class="main-content">
                 <div class="main-statement-wrap" >
+                                <style>
+                                   @media only screen and (max-width: 767px) {
+                                      .desktop-tys-only-block,.desktop-tys-only{
+                                       display:none;
+                                      }
+                                   }
+                                   @media only screen and (min-width: 768px) {
+                                      .mobile-tys-only{
+                                       display:none;
+                                      }.desktop-tys-only-block{
+                                       display:block;
+                                      }
+                                     }
+                                  </style>
                     <div class="main-statement" >
-                        <span class="simple">Expanding qualitative research<br> beyond ‘usability’ and ‘use’</span>
+                        <span class="simple desktop-tys-only">Expanding qualitative research<br> beyond ‘usability’ and ‘use’</span>
+                        <span class="simple mobile-tys-only">Expanding<br> qualitative research beyond ‘usability’<br> and ‘use’</span>
                     </div>
                 </div>
                 <div class="row ">
@@ -68,9 +83,9 @@
                         <div class="share">
                             <ul>
                                 <li>Share:</li>
-                                <li><a href="">Linkedin</a></li>
-                                <li><a href="">Twitter</a></li>
-                                <li><a href="">Email</a></li>
+                                <li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=AEGISURL-TO-REPLACE/expanding-qualitative-research-beyond.php&amp;title=Expanding+qualitative+research+beyond" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" data-target="AEGISURL-TO-REPLACE/expanding-qualitative-research-beyond.php">Linkedin</a></li>
+                                <li><a href="http://twitter.com/share?text=Expanding+qualitative+research+beyond&amp;url=AEGISURL-TO-REPLACE/expanding-qualitative-research-beyond.php" rel="nofollow" tabindex="0" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=255,width=600');return false;" data-target="AEGISURL-TO-REPLACE/expanding-qualitative-research-beyond.php">Twitter</a></li>
+                                <li><a href="mailto:?subject=Expanding qualitative research beyond&amp;body=Expanding qualitative research beyond%0D%0AAEGISURL-TO-REPLACE/expanding-qualitative-research-beyond.php" title="Expanding qualitative research beyond - email share">Email</a></li>
                             </ul>
                         </div>
                     </div>

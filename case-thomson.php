@@ -17,12 +17,12 @@
     <script src="static/js-libs/animation.gsap.min.js"></script>
     <script src="static/js-libs/player.js"></script>
 
-    <script src="js/style.js?v=12"></script>
-    <script src="js/main.js?v=12"></script>
+    <script src="js/style.js?v=13"></script>
+    <script src="js/main.js?v=13"></script>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/cases.css?v=12">
-    <link rel="stylesheet" href="css/media.css?v=12">
-    <link rel="stylesheet" href="css/common-media.css?v=12">
+    <link rel="stylesheet" href="css/cases.css?v=13">
+    <link rel="stylesheet" href="css/media.css?v=13">
+    <link rel="stylesheet" href="css/common-media.css?v=13">
 
 </head>
 <body>

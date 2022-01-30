@@ -179,7 +179,7 @@ function loadInsight(insightToLoad, isNextInsight = false) {
     $(".desktop-content .containery .new-html").load(`${insightToLoad}.php .insight-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
             deactivateShadow();
-            $('head').append('<link rel="stylesheet" type="text/css" href="css/insights/media.css?v=12">');
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/insights/media.css?v=13">');
             $('.js-page-loading').removeClass('js-page-loading');
             $('title').load(`${insightToLoad}.php title`, '', function (data) {
                 document.title = $(this).text().toUpperCase();
@@ -215,7 +215,7 @@ function loadCase(caseToLoad, isNextCase = false) {
     $(".desktop-content .containery .new-html").load(`${caseToLoad}.php .case-study-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
             deactivateShadow();
-            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=12">');
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/cases.css?v=13">');
             $('link[title="insightCss"]').remove();
             loadImage($(".case-hero-img:first-child").attr('src')).then(async () => {
                 console.log('img loaded');
@@ -270,7 +270,7 @@ function loadProject(projectToLoad, isNextProject = false) {
     $(".desktop-content .containery .new-html").load(`${projectToLoad}.php .project-html`, function (responseText, textStatus, XMLHttpRequest) {
         if (textStatus === "success") {
             deactivateShadow();
-            $('head').append('<link rel="stylesheet" type="text/css" href="css/project.css?v=12">');
+            $('head').append('<link rel="stylesheet" type="text/css" href="css/project.css?v=13">');
             $('link[title="insightCss"]').remove();
             loadImage($('.desktop-only-img:first-child')[0].src).then(async () => {
                 console.log('img loaded');
